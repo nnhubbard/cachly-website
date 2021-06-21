@@ -8,6 +8,7 @@ ios_app_country                           : us                                  
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 
+#navitems
 navitems
 
   - title                                 : Swag
