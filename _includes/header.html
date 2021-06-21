@@ -25,7 +25,7 @@
 				{% endif %}
 			{% endfor %}
 			
-			{% for navitem in navitems %}
+			{% for navitem in site.navitems %}
 
 				{% if navitem.title %}
 				<li><a href="{{ navitem.link }}">{{navitem.title}}</a></li>
