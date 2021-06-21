@@ -16,6 +16,10 @@ app_description                           : Simple and Powerful Geocaching
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
+link1_title                               : Help
+link1_link                                : https://www.cach.ly/help
+link2_title                               : Forums
+link2_link                                : https://www.cach.ly/support
 
 # Information About Yourself
 your_name                                 : Zed Said Studio LLC                               
