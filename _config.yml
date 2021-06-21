@@ -8,8 +8,8 @@ ios_app_country                           : us                                  
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Cachly - Simple and Powerful Geocaching                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Simple and Powerful Geocaching
 
@@ -20,11 +20,15 @@ link1_title                               : Help
 link1_link                                : https://www.cach.ly/help
 link2_title                               : Forums
 link2_link                                : https://www.cach.ly/support
+link3_title                               : Blog
+link3_link                                : https://medium.com/@cachly
+link4_title                               : Shirts & Swag
+link4_link                                : https://shop.spreadshirt.com/cachly?noCache=true
 
 # Information About Yourself
 your_name                                 : Zed Said Studio LLC                               
 your_link                                 : https://www.zedsaid.com                   
-your_city                                 : Pacific Northwest                             
+your_city                                 : the Pacific Northwest                             
 email_address                             : support@cach.ly
 facebook_username                         : groups/CachlyUserGroup                                          
 twitter_username                          : cachlyapp
