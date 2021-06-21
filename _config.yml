@@ -9,7 +9,7 @@ appstore_link                             :                                     
 playstore_link                            :                                           # Enter Google Play Store URL.
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Cachly - Simple and Powerful Geocaching                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Cachly - Geocaching                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Simple and Powerful Geocaching
 
