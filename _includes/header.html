@@ -25,14 +25,6 @@
 				{% endif %}
 			{% endfor %}
 			
-			{% for navitem in site.navitems %}
-
-				{% if navitem.title %}
-				<li><a href="{{ navitem.link }}">{{navitem.title}}</a></li>
-				{% endif %}
-
-			{% endfor %}
-			
 			{% if site.presskit_download_link %}
 				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
