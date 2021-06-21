@@ -38,7 +38,7 @@ twitter_username                          : cachlyapp
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Official Partner App
+  - title                                 : Authorized Developer
     description                           : As an official partner app of Geocaching HQ we use the API and authenticate with geocaching.com.
     fontawesome_icon_name                 : handshake
     
