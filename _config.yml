@@ -66,6 +66,10 @@ features                                  :
   - title                                 : Highlight
     description                           : Mark caches with various colors for reference.
     fontawesome_icon_name                 : highlighter
+    
+  - title                                 : TB Scanner
+    description                           : Quickly scan trackables using your camera.
+    fontawesome_icon_name                 : barcode
 
   - title                                 : Export GPX
     description                           : Save a GPX for use in Cachly or other apps.
@@ -78,6 +82,14 @@ features                                  :
   - title                                 : Proximity Alert
     description                           : Get alerted when you come close to a geocache.
     fontawesome_icon_name                 : circle
+    
+  - title                                 : Apple Watch App
+    description                           : Search, navigate and log right on your watch.
+    fontawesome_icon_name                 : watch
+    
+  - title                                 : Translate Logs and Descriptions
+    description                           : Options to translate to other languages.
+    fontawesome_icon_name                 : language
 
 
 
