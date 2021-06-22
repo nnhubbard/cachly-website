@@ -38,45 +38,46 @@ twitter_username                          : cachlyapp
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+
   - title                                 : Authorized Developer
     description                           : As an official partner app of Geocaching HQ we use the API and authenticate with geocaching.com.
     fontawesome_icon_name                 : handshake
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Premium Offline Maps
+    description                           : Beautiful OSM source offline maps of the globe.
+    fontawesome_icon_name                 : map
+    
+  - title                                 : Search the Globe
+    description                           : Search for Geocaches across the globe!
+    fontawesome_icon_name                 : search
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Create Log 
+    description                           : Quickly create your log right from the app.
+    fontawesome_icon_name                 : pencil-alt
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Live Search Filtering
+    description                           : Powerful filtering to narrow down your search.
+    fontawesome_icon_name                 : filter
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Save Offline
+    description                           : Add caches to offline lists that include powerful filtering.
+    fontawesome_icon_name                 : times
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Highlight
+    description                           : Mark caches with various colors for reference.
+    fontawesome_icon_name                 : highlighter
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : Export GPX
+    description                           : Save a GPX for use in Cachly or other apps.
+    fontawesome_icon_name                 : share
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Text Templates
+    description                           : Custom log text templates for quick usage.
+    fontawesome_icon_name                 : file-alt
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Proximity Alert
+    description                           : Get alerted when you come close to a geocache.
+    fontawesome_icon_name                 : circle
 
 
 
