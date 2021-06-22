@@ -81,7 +81,7 @@ features                                  :
 
   - title                                 : Proximity Alert
     description                           : Get alerted when you come close to a geocache.
-    fontawesome_icon_name                 : circle
+    fontawesome_icon_name                 : bullseye
     
   - title                                 : Apple Watch App
     description                           : Search, navigate and log right on your watch.
