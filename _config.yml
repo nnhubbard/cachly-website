@@ -7,7 +7,7 @@ ios_app_country                           : us                                  
 
 appstore_link                             : https://apps.apple.com/us/app/cachly-geocaching/id645384141?uo=4                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-geocaching_link                           : https://apidevelopers.geocaching.com/partner-list
+geocaching_link                           : https://partnerships.geocaching.com/api-partners
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Cachly - Geocaching                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
