@@ -70,7 +70,7 @@ This privacy notice for Zed Said Studio LLC ("**we**," "**us**," or "**our**"), 
 
   
 
-**How do you exercise your rights?** The easiest way to exercise your rights is by submitting a [data subject access request](https://app.termly.io/notify/01254239-c9ab-44b9-8f5a-eb85e182cda5), or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+**How do you exercise your rights?** The easiest way to exercise your rights is by submitting a data subject access request to support@cach.ly. We will consider and act upon any request in accordance with applicable data protection laws.
 
   
 
@@ -621,7 +621,7 @@ Other privacy rights
 
 *   You may request to opt out from future selling or sharing of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.
 
-To exercise these rights, you can contact us by submitting a [data subject access request](https://app.termly.io/notify/01254239-c9ab-44b9-8f5a-eb85e182cda5), by email at support@cach.ly, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+To exercise these rights, you can contact us by submitting a data subject access request by email at support@cach.ly, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
 
   
 
@@ -643,7 +643,7 @@ This section applies only to Colorado residents. Under the Colorado Privacy Act 
 
 *   Right to opt out of the processing of your personal data if it is used for targeted advertising, the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ("profiling")
 
-To submit a request to exercise these rights described above, please email support@cach.ly or submit a [data subject access request](https://app.termly.io/notify/01254239-c9ab-44b9-8f5a-eb85e182cda5).
+To submit a request to exercise these rights described above, please email support@cach.ly.
 
   
 
@@ -669,7 +669,7 @@ This section applies only to Connecticut residents. Under the Connecticut Data P
 
 *   Right to opt out of the processing of your personal data if it is used for targeted advertising, the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ("profiling")
 
-To submit a request to exercise these rights described above, please email support@cach.ly or submit a [data subject access request](https://app.termly.io/notify/01254239-c9ab-44b9-8f5a-eb85e182cda5).
+To submit a request to exercise these rights described above, please email support@cach.ly.
 
   
 
@@ -693,7 +693,7 @@ This section applies only to Utah residents. Under the Utah Consumer Privacy Act
 
 *   Right to opt out of the processing of your personal data if it is used for targeted advertising or the sale of personal data
 
-To submit a request to exercise these rights described above, please email support@cach.ly or submit a [data subject access request](https://app.termly.io/notify/01254239-c9ab-44b9-8f5a-eb85e182cda5).
+To submit a request to exercise these rights described above, please email support@cach.ly.
 
   
 
@@ -739,7 +739,7 @@ Exercise your rights provided under the Virginia VCDPA
 
   
 
-You may contact us by email at support@cach.ly or submit a [data subject access request](https://app.termly.io/notify/01254239-c9ab-44b9-8f5a-eb85e182cda5).
+You may contact us by email at support@cach.ly.
 
   
 
