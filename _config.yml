@@ -29,7 +29,7 @@ link4_link                                : https://shop.spreadshirt.com/cachly?
 # Information About Yourself
 your_name                                 : Zed Said Studio LLC                               
 your_link                                 : https://www.zedsaid.com                   
-your_city                                 : the Pacific Northwest                             
+your_city                                 : Pacific Northwest                             
 email_address                             : support@cach.ly
 facebook_username                         : groups/CachlyUserGroup                                          
 twitter_username                          : cachlyapp
@@ -44,9 +44,13 @@ features                                  :
     description                           : As an official partner app of Geocaching HQ we use the API and authenticate with geocaching.com.
     fontawesome_icon_name                 : handshake
     
-  - title                                 : Premium Offline Maps
+  - title                                 : Pro Offline Maps
     description                           : Beautiful OSM source offline maps of the globe.
     fontawesome_icon_name                 : map
+
+  - title                                 : DeLorme Grid
+    description                           : Built-in tracker for each state with a challege.
+    fontawesome_icon_name                 : border-all
     
   - title                                 : Search the Globe
     description                           : Search for Geocaches across the globe!
