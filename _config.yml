@@ -50,7 +50,7 @@ features                                  :
 
   - title                                 : DeLorme Grid
     description                           : Built-in tracker for each state with a challege.
-    fontawesome_icon_name                 : border-all
+    fontawesome_icon_name                 : square
     
   - title                                 : Search the Globe
     description                           : Search for Geocaches across the globe!
