@@ -41,7 +41,7 @@ features                                  :
 
 
   - title                                 : Authorized Developer
-    description                           : As an official partner app of Geocaching HQ we use the API and authenticate with geocaching.com.
+    description                           : As an official partner app of Geocaching HQ Cachly uses the API and authenticates with geocaching.com.
     fontawesome_icon_name                 : handshake
     
   - title                                 : Pro Offline Maps
