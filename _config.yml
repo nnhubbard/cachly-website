@@ -48,6 +48,10 @@ features                                  :
     description                           : Beautiful OSM source offline maps of the globe.
     fontawesome_icon_name                 : map
 
+  - title                                 : CarPlay
+    description                           : Use Cachly including offline maps and lists right in the dashboard of your car.
+    fontawesome_icon_name                 : car
+
   - title                                 : DeLorme Grid
     description                           : Built-in tracker for each state with a challege.
     fontawesome_icon_name                 : square
