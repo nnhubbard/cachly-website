@@ -1,6 +1,6 @@
 # Cachly Website
 
-The official website for [Cachly](https://www.cach.ly) - Premium Geocaching for iOS.
+The official website for [Cachly](https://www.cachly.com) - Premium Geocaching for iOS.
 
 ## About Cachly
 
