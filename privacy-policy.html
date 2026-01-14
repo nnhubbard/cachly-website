@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Cachly - The Ultimate Geocaching App for iOS">
+    <title>Privacy Policy - Cachly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/IconiTunesArtwork@2x-1.png">
+    <style>
+        .privacy-page {
+            padding: 120px 0 80px;
+            min-height: 100vh;
+            background: var(--gray-50);
+        }
+        .privacy-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 60px;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+        .privacy-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+        .privacy-content .last-updated {
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            font-size: 0.95rem;
+        }
+        .privacy-content h2 {
+            font-size: 1.5rem;
+            margin-top: 48px;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--cachly-green);
+        }
+        .privacy-content h3 {
+            font-size: 1.25rem;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        .privacy-content p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+        .privacy-content ul, .privacy-content ol {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        .privacy-content li {
+            margin-bottom: 8px;
+        }
+        .privacy-content strong {
+            color: var(--text-primary);
+        }
+        .privacy-content a {
+            color: var(--cachly-green);
+        }
+        .privacy-content a:hover {
+            color: var(--cachly-green-dark);
+        }
+        .privacy-content .summary-box {
+            background: var(--gray-50);
+            padding: 24px;
+            border-radius: var(--border-radius);
+            margin: 24px 0;
+            border-left: 4px solid var(--cachly-green);
+        }
+        .privacy-content .contact-box {
+            background: var(--gray-50);
+            padding: 24px;
+            border-radius: var(--border-radius);
+            margin: 24px 0;
+        }
+        .privacy-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 24px 0;
+            font-size: 0.9rem;
+        }
+        .privacy-content th, .privacy-content td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid var(--gray-200);
+        }
+        .privacy-content th {
+            background: var(--gray-100);
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .privacy-content td {
+            color: var(--text-secondary);
+        }
+        .toc {
+            background: var(--gray-50);
+            padding: 24px;
+            border-radius: var(--border-radius);
+            margin: 24px 0;
+        }
+        .toc h3 {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        .toc ol {
+            margin-bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .privacy-content {
+                padding: 32px 24px;
+                margin: 0 16px;
+            }
+            .privacy-content h1 {
+                font-size: 1.75rem;
+            }
+            .privacy-content h2 {
+                font-size: 1.25rem;
+            }
+            .privacy-content table {
+                font-size: 0.8rem;
+            }
+            .privacy-content th, .privacy-content td {
+                padding: 8px;
+            }
+        }
+        /* Always show scrolled navbar style on this page */
+        .navbar {
+            background: var(--white) !important;
+            box-shadow: var(--shadow-md) !important;
+        }
+        .nav-menu a {
+            color: var(--text-secondary) !important;
+        }
+        .nav-menu a:hover {
+            color: var(--cachly-green) !important;
+        }
+        .nav-menu .nav-cta, .nav-menu .nav-cta:hover {
+            color: var(--white) !important;
+        }
+        .nav-logo span {
+            color: var(--text-primary) !important;
+        }
+        .nav-toggle span {
+            background: var(--text-primary) !important;
+        }
+        .nav-icon svg {
+            fill: var(--text-secondary) !important;
+        }
+        .nav-icon:hover svg {
+            fill: var(--cachly-green) !important;
+        }
+        .dropdown-arrow {
+            stroke: var(--text-secondary) !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/IconiTunesArtwork@2x-1.png" alt="Cachly Logo" class="logo-icon">
+                <span>Cachly</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#carplay">CarPlay</a></li>
+                <li><a href="index.html#screenshots">Screenshots</a></li>
+                <li><a href="index.html#watch">Apple Watch</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle">Support <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://help.cachly.com" target="_blank" rel="noopener">Help</a></li>
+                        <li><a href="https://www.cach.ly/support/" target="_blank" rel="noopener">Forums</a></li>
+                        <li><a href="https://www.facebook.com/groups/CachlyUserGroup" target="_blank" rel="noopener">Facebook Group</a></li>
+                        <li><a href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Bug Report</a></li>
+                        <li><a href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Feature Request</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://shop.spreadshirt.com/cachly?noCache=true" class="nav-icon" target="_blank" rel="noopener" aria-label="Shop"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path></svg></a></li>
+                <li><a href="index.html#download" class="nav-cta">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Privacy Policy Content -->
+    <section class="privacy-page">
+        <div class="container">
+            <div class="privacy-content">
+                <h1>Privacy Policy</h1>
+                <p class="last-updated"><strong>Last updated January 14, 2026</strong></p>
+
+                <p>This privacy notice for Zed Said Studio LLC ("we," "us," or "our") describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:</p>
+
+                <ul>
+                    <li>Visit our website at www.cachly.com, or any website of ours that links to this privacy notice</li>
+                    <li>Download and use our mobile application (Cachly - Geocaching), or any other application of ours that links to this privacy notice</li>
+                    <li>Engage with us in other related ways, including any sales, marketing, or events</li>
+                </ul>
+
+                <p><strong>Questions or concerns?</strong> Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <div class="summary-box">
+                    <h3>Summary of Key Points</h3>
+                    <p><strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use.</p>
+                    <p><strong>Do we process any sensitive personal information?</strong> We do not process sensitive personal information.</p>
+                    <p><strong>Do we receive any information from third parties?</strong> We do not receive any information from third parties.</p>
+                    <p><strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law.</p>
+                    <p><strong>When and with whom do we share your personal information?</strong> We may share information in specific situations and with specific third parties.</p>
+                    <p><strong>How do we keep your information safe?</strong> We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure.</p>
+                    <p><strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information.</p>
+                    <p><strong>How do you exercise your rights?</strong> The easiest way to exercise your rights is by submitting a data subject access request to <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+                </div>
+
+                <div class="toc">
+                    <h3>Table of Contents</h3>
+                    <ol>
+                        <li><a href="#section1">What Information Do We Collect?</a></li>
+                        <li><a href="#section2">How Do We Process Your Information?</a></li>
+                        <li><a href="#section3">What Legal Bases Do We Rely On?</a></li>
+                        <li><a href="#section4">When and With Whom Do We Share Your Personal Information?</a></li>
+                        <li><a href="#section5">Do We Use Cookies and Other Tracking Technologies?</a></li>
+                        <li><a href="#section6">How Long Do We Keep Your Information?</a></li>
+                        <li><a href="#section7">How Do We Keep Your Information Safe?</a></li>
+                        <li><a href="#section8">Do We Collect Information From Minors?</a></li>
+                        <li><a href="#section9">What Are Your Privacy Rights?</a></li>
+                        <li><a href="#section10">Controls for Do-Not-Track Features</a></li>
+                        <li><a href="#section11">Do United States Residents Have Specific Privacy Rights?</a></li>
+                        <li><a href="#section12">Do We Make Updates to This Notice?</a></li>
+                        <li><a href="#section13">How Can You Contact Us About This Notice?</a></li>
+                        <li><a href="#section14">How Can You Review, Update, or Delete the Data We Collect From You?</a></li>
+                    </ol>
+                </div>
+
+                <h2 id="section1">1. What Information Do We Collect?</h2>
+                <h3>Personal information you disclose to us</h3>
+                <p>We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.</p>
+                <p><strong>Sensitive Information.</strong> We do not process sensitive information.</p>
+                <p><strong>Application Data.</strong> If you use our application(s), we may also collect the following information if you choose to provide us with access or permission:</p>
+                <ul>
+                    <li><strong>Geolocation Information.</strong> We may request access or permission to track location-based information from your mobile device while you are using our mobile application(s), to provide certain location-based services. This information is never sent to our servers or stored anywhere to maintain your privacy. If you wish to change our access or permissions, you may do so in your device's settings.</li>
+                    <li><strong>Mobile Device Access.</strong> We may request access or permission to certain features from your mobile device, including your mobile device's calendar, camera, contacts, and other features. If you wish to change our access or permissions, you may do so in your device's settings.</li>
+                    <li><strong>Push Notifications.</strong> We may request to send you push notifications regarding your account or certain features of the application(s). If you wish to opt out from receiving these types of communications, you may turn them off in your device's settings.</li>
+                    <li><strong>Crash Reports.</strong> We collect crash reports to help improve the stability and performance of our application(s). These crash reports do not contain any personally identifiable information.</li>
+                </ul>
+                <p>This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.</p>
+
+                <h2 id="section2">2. How Do We Process Your Information?</h2>
+                <p>We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent.</p>
+                <p>We process your personal information for a variety of reasons, depending on how you interact with our Services, including:</p>
+                <ul>
+                    <li>To save or protect an individual's vital interest, such as to prevent harm.</li>
+                </ul>
+
+                <h2 id="section3">3. What Legal Bases Do We Rely On to Process Your Information?</h2>
+                <p>We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests.</p>
+
+                <h3>If you are located in the EU or UK</h3>
+                <p>The General Data Protection Regulation (GDPR) and UK GDPR require us to explain the valid legal bases we rely on in order to process your personal information. As such, we may rely on the following legal bases:</p>
+                <ul>
+                    <li><strong>Consent.</strong> We may process your information if you have given us permission to use your personal information for a specific purpose. You can withdraw your consent at any time.</li>
+                    <li><strong>Legal Obligations.</strong> We may process your information where we believe it is necessary for compliance with our legal obligations.</li>
+                    <li><strong>Vital Interests.</strong> We may process your information where we believe it is necessary to protect your vital interests or the vital interests of a third party.</li>
+                </ul>
+
+                <h3>If you are located in Canada</h3>
+                <p>We may process your information if you have given us specific permission (i.e., express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e., implied consent). You can withdraw your consent at any time.</p>
+
+                <h2 id="section4">4. When and With Whom Do We Share Your Personal Information?</h2>
+                <p>We may need to share your personal information in the following situations:</p>
+                <ul>
+                    <li><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
+                    <li><strong>When we use Google Maps Platform APIs.</strong> We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API).</li>
+                </ul>
+
+                <h2 id="section5">5. Do We Use Cookies and Other Tracking Technologies?</h2>
+                <p>We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information.</p>
+
+                <h2 id="section6">6. How Long Do We Keep Your Information?</h2>
+                <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements).</p>
+                <p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
+
+                <h2 id="section7">7. How Do We Keep Your Information Safe?</h2>
+                <p>We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.</p>
+
+                <h2 id="section8">8. Do We Collect Information From Minors?</h2>
+                <p>We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent's use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <h2 id="section9">9. What Are Your Privacy Rights?</h2>
+                <p>In some regions (like the EEA, UK, Switzerland, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; (iv) if applicable, to data portability; and (v) not to be subject to automated decision-making. In certain circumstances, you may also have the right to object to the processing of your personal information.</p>
+                <p>If you are a resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your Member State data protection authority or UK data protection authority.</p>
+                <p>If you are a resident in Switzerland, you may contact the Federal Data Protection and Information Commissioner.</p>
+                <p><strong>Withdrawing your consent:</strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us.</p>
+                <p>If you have questions or comments about your privacy rights, you may email us at <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <h2 id="section10">10. Controls for Do-Not-Track Features</h2>
+                <p>Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.</p>
+
+                <h2 id="section11">11. Do United States Residents Have Specific Privacy Rights?</h2>
+                <p>If you are a resident of California, Colorado, Connecticut, Utah, or Virginia, you are granted specific rights regarding access to your personal information.</p>
+
+                <h3>What categories of personal information do we collect?</h3>
+                <p>We have collected the following categories of personal information in the past twelve (12) months:</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Examples</th>
+                            <th>Collected</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A. Identifiers</td>
+                            <td>Contact details, name, alias, address, phone, unique identifier, online identifier, IP address, email, account name</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>B. Personal information (California Customer Records)</td>
+                            <td>Name, contact info, education, employment, financial information</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>C. Protected classification characteristics</td>
+                            <td>Gender, date of birth</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>D. Commercial information</td>
+                            <td>Transactions, purchase history, financial details, payment information</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>E. Biometric information</td>
+                            <td>Fingerprints, voiceprints</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>F. Internet/network activity</td>
+                            <td>Browsing history, search history, online behavior</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>G. Geolocation data</td>
+                            <td>Device location</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>H. Audio, electronic, visual information</td>
+                            <td>Images, audio, video, call recordings</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>I. Professional/employment information</td>
+                            <td>Business contact details, job title, work history</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>J. Education Information</td>
+                            <td>Student records, directory information</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>K. Inferences from collected information</td>
+                            <td>Profiles/summaries about preferences and characteristics</td>
+                            <td>NO</td>
+                        </tr>
+                        <tr>
+                            <td>L. Sensitive personal Information</td>
+                            <td>-</td>
+                            <td>NO</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. We will not sell or share personal information in the future belonging to website visitors, users, and other consumers.</p>
+
+                <h3>California Residents</h3>
+                <p>California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year.</p>
+                <p>If you are under 18 years of age, reside in California, and have a registered account with Services, you have the right to request removal of unwanted data that you publicly post on the Services. To request removal of such data, please contact us using the contact information provided below.</p>
+
+                <h3>Colorado Residents</h3>
+                <p>This section applies only to Colorado residents. Under the Colorado Privacy Act (CPA), you have the rights listed below. To submit a request to exercise these rights, please email <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <h3>Connecticut Residents</h3>
+                <p>This section applies only to Connecticut residents. Under the Connecticut Data Privacy Act (CTDPA), you have the rights listed below. To submit a request to exercise these rights, please email <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <h3>Utah Residents</h3>
+                <p>This section applies only to Utah residents. Under the Utah Consumer Privacy Act (UCPA), you have the rights listed below. To submit a request to exercise these rights, please email <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <h3>Virginia Residents</h3>
+                <p>Under the Virginia Consumer Data Protection Act (VCDPA), you have the right to be informed whether we are processing your personal data, access your personal data, correct inaccuracies, request deletion, obtain a copy of your data, and opt out of processing for targeted advertising or sale of personal data. To exercise these rights, please contact us at <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+                <h2 id="section12">12. Do We Make Updates to This Notice?</h2>
+                <p>Yes, we will update this notice as necessary to stay compliant with relevant laws. We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.</p>
+
+                <h2 id="section13">13. How Can You Contact Us About This Notice?</h2>
+                <p>If you have questions or comments about this notice, you may email us at <a href="mailto:support@cach.ly">support@cach.ly</a> or contact us by post at:</p>
+                <div class="contact-box">
+                    <strong>Zed Said Studio LLC</strong><br>
+                    21501 NE 399th St #293<br>
+                    Amboy, WA 98601<br>
+                    United States
+                </div>
+
+                <h2 id="section14">14. How Can You Review, Update, or Delete the Data We Collect From You?</h2>
+                <p>Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please contact <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="padding-top: 0; border-top: none;">
+                <p>&copy; <span id="currentYear"></span> Zed Said Studio LLC. All rights reserved.</p>
+                <p>Geocaching is a registered trademark of Groundspeak, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        navToggle.addEventListener('click', function() {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+        navbar.classList.add('scrolled');
+
+        // Set current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile dropdown toggle
+        const dropdownToggle = document.querySelector('.dropdown-toggle');
+        const navDropdown = document.querySelector('.nav-dropdown');
+        if (dropdownToggle && navDropdown) {
+            dropdownToggle.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    e.preventDefault();
+                    navDropdown.classList.toggle('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cachly - The most powerful geocaching app for iOS. Beautiful offline maps, CarPlay support, Apple Watch app, and more. Find geocaches anywhere in the world.">
+    <meta name="keywords" content="geocaching, cachly, iOS, iPhone, iPad, CarPlay, Apple Watch, offline maps, GPS, treasure hunting">
+    <meta name="author" content="Zed Said Studio LLC">
+    <meta property="og:title" content="Cachly - Premium Geocaching for iOS">
+    <meta property="og:description" content="The most powerful geocaching app for iOS with offline maps, CarPlay, and Apple Watch support.">
+    <meta property="og:image" content="images/IconiTunesArtwork@2x-1.png">
+    <meta property="og:type" content="website">
+    <meta name="apple-itunes-app" content="app-id=645384141">
+    <title>Cachly - Premium Geocaching for iOS | Offline Maps &amp; CarPlay</title>
+    <link rel="icon" type="image/png" href="images/IconiTunesArtwork@2x-1.png">
+    <link rel="apple-touch-icon" href="images/IconiTunesArtwork@2x-1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/IconiTunesArtwork@2x-1.png" alt="Cachly Logo" class="logo-icon">
+                <span>Cachly</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#carplay">CarPlay</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#watch">Apple Watch</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle">Support <svg class="dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://help.cachly.com" target="_blank" rel="noopener">Help</a></li>
+                        <li><a href="https://www.cach.ly/support/" target="_blank" rel="noopener">Forums</a></li>
+                        <li><a href="https://www.facebook.com/groups/CachlyUserGroup" target="_blank" rel="noopener">Facebook Group</a></li>
+                        <li><a href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Bug Report</a></li>
+                        <li><a href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Feature Request</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://shop.spreadshirt.com/cachly?noCache=true" class="nav-icon" target="_blank" rel="noopener" aria-label="Shop"><svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path></svg></a></li>
+                <li><a href="#download" class="nav-cta">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-parallax"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>The Ultimate <span class="highlight">Geocaching</span> Experience</h1>
+                <p class="hero-subtitle">Discover millions of geocaches worldwide with beautiful offline maps, CarPlay integration, and powerful search tools. Cachly is the premium geocaching companion for iOS.</p>
+                <div class="hero-buttons">
+                    <a href="https://apps.apple.com/app/cachly/id645384141" class="btn btn-primary" target="_blank" rel="noopener">
+                        <img src="images/appstore.png" alt="Download on the App Store" class="appstore-badge">
+                    </a>
+                    <a href="https://partnerships.geocaching.com/geocachingapi" target="_blank" rel="noopener">
+                        <img src="images/authorized-developer.png" alt="Authorized Geocaching Developer" class="authorized-badge">
+                    </a>
+                </div>
+                <div class="hero-stats" id="heroStats">
+                    <div class="stat">
+                        <span class="stat-number" id="statRating">4.8</span>
+                        <span class="stat-label">App Store Rating</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="statRatingsCount">3,500+</span>
+                        <span class="stat-label">User Ratings</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" id="statVersion">8.1</span>
+                        <span class="stat-label">Current Version</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/screenshots/map-view.png" alt="Cachly App Screenshot" class="hero-screenshot">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Everything You Need to Find Your <span class="highlight">Next Adventure</span></h2>
+                <p>Everything you need to find, track, and log geocaches with ease</p>
+            </div>
+            <div class="features-grid">
+                <!-- Authorized Developer -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            <polyline points="9 12 11 14 15 10"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Authorized Developer</h3>
+                    <p>As an official partner app of Geocaching HQ, Cachly uses the API and authenticates with geocaching.com.</p>
+                </div>
+                <!-- Pro Offline Maps -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Pro Offline Maps</h3>
+                    <p>Beautiful OSM sourced offline maps of the entire globe.</p>
+                </div>
+                <!-- CarPlay -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path>
+                            <circle cx="7" cy="17" r="2"></circle>
+                            <circle cx="17" cy="17" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>CarPlay</h3>
+                    <p>Use Cachly including offline maps and lists right in the dashboard of your car.</p>
+                </div>
+                <!-- DeLorme Grid -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="3" y1="15" x2="21" y2="15"></line>
+                            <line x1="9" y1="3" x2="9" y2="21"></line>
+                            <line x1="15" y1="3" x2="15" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>DeLorme Grid</h3>
+                    <p>Built-in tracker for each state with a challenge.</p>
+                </div>
+                <!-- Search the Globe -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Search the Globe</h3>
+                    <p>Search for Geocaches across the globe!</p>
+                </div>
+                <!-- Create Log -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                        </svg>
+                    </div>
+                    <h3>Create Log</h3>
+                    <p>Quickly create your log right from the app.</p>
+                </div>
+                <!-- Live Search Filtering -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Live Search Filtering</h3>
+                    <p>Powerful filtering to narrow down your search.</p>
+                </div>
+                <!-- Save Offline -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </div>
+                    <h3>Save Offline</h3>
+                    <p>Add caches to offline lists that include powerful filtering.</p>
+                </div>
+                <!-- Highlight -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Highlight</h3>
+                    <p>Mark caches with various colors for reference.</p>
+                </div>
+                <!-- TB Scanner -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                            <circle cx="12" cy="13" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>TB Scanner</h3>
+                    <p>Quickly scan trackables using your camera.</p>
+                </div>
+                <!-- Export GPX -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                    </div>
+                    <h3>Export GPX</h3>
+                    <p>Save a GPX for use in Cachly or other apps.</p>
+                </div>
+                <!-- Text Templates -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3>Text Templates</h3>
+                    <p>Custom log text templates for quick usage.</p>
+                </div>
+                <!-- Proximity Alert -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <h3>Proximity Alert</h3>
+                    <p>Get alerted when you come close to a geocache.</p>
+                </div>
+                <!-- Apple Watch App -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="6" y="2" width="12" height="20" rx="3" ry="3"></rect>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Apple Watch App</h3>
+                    <p>Search, navigate and log right on your watch.</p>
+                </div>
+                <!-- Translate -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 8l6 6"></path>
+                            <path d="M4 14l6-6 2-3"></path>
+                            <path d="M2 5h12"></path>
+                            <path d="M7 2h1"></path>
+                            <path d="M22 22l-5-10-5 10"></path>
+                            <path d="M14 18h6"></path>
+                        </svg>
+                    </div>
+                    <h3>Translate Logs and Descriptions</h3>
+                    <p>Options to translate to other languages.</p>
+                </div>
+            </div>
+            <div class="features-more">
+                <a href="#" class="features-link" id="showAllFeatures">
+                    <span>Full list of features</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Modal -->
+    <div class="modal-overlay" id="featuresModal">
+        <div class="modal">
+            <button class="modal-close" id="closeModal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-header">
+                <h2>All Cachly Features</h2>
+                <p>Everything included in the ultimate geocaching app</p>
+            </div>
+            <div class="modal-content">
+                <div class="modal-section">
+                    <h3>Core Geocaching</h3>
+                    <ul class="feature-list">
+                        <li>Authorized Geocaching API Developer</li>
+                        <li>Full cache details</li>
+                        <li>HTML description rendering</li>
+                        <li>Encrypted hints with ROT13 decoding</li>
+                        <li>Personal cache notes (synced)</li>
+                        <li>Corrected coordinates support</li>
+                        <li>Solution checker verification</li>
+                        <li>Add to favorites/watch/ignore lists</li>
+                        <li>Bookmark list management</li>
+                        <li>Pocket Query import</li>
+                        <li>Adventure Lab support</li>
+                        <li>View earned souvenirs</li>
+						<li>Trackables</li>
+						<li>Waypoints and projetion</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Logging &amp; Field Notes</h3>
+                    <ul class="feature-list">
+                        <li>All log types supported</li>
+                        <li>Photo attachments (multiple per log)</li>
+                        <li>Custom text templates</li>
+						<li>Custom keywords</li>
+                        <li>Field note mode (save for later)</li>
+                        <li>Draft saving and editing</li>
+                        <li>Log upvoting support</li>
+                        <li>Edit and delete own logs</li>
+                        <li>Found But Not Logged tracking</li>
+                        <li>Favorite point assignment</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Trackables</h3>
+                    <ul class="feature-list">
+                        <li>View trackables in cache</li>
+                        <li>Full trackable details</li>
+                        <li>Travel history display</li>
+                        <li>All trackable log types</li>
+                        <li>My inventory management</li>
+                        <li>My owned trackables</li>
+                        <li>Auto-visit with cache logs</li>
+                        <li>TB scanner</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Maps &amp; Navigation</h3>
+                    <ul class="feature-list">
+                        <li>Apple Maps integration</li>
+                        <li>Google Maps support</li>
+                        <li>Pro Offline Vector Maps (Pro)</li>
+                        <li>OpenStreetMap &amp; OpenCycleMap</li>
+                        <li>Custom tile URL support</li>
+                        <li>Cache clustering</li>
+                        <li>FTF indicators</li>
+                        <li>Waypoint display</li>
+                        <li>Compass navigation</li>
+                        <li>Turn-by-turn via 15+ nav apps</li>
+                        <li>Proximity alerts with audio</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Offline Capabilities</h3>
+                    <ul class="feature-list">
+                        <li>Unlimited offline lists</li>
+                        <li>Full GPX import/export</li>
+                        <li>GSAK extensions support</li>
+                        <li>Full cache details offline</li>
+                        <li>Cache images offline</li>
+                        <li>Logs history offline</li>
+                        <li>Background downloading</li>
+                        <li>Region-based map downloads</li>
+                        <li>Offline map searching</li>
+                        <li>Offline list backups</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Search &amp; Filters</h3>
+                    <ul class="feature-list">
+                        <li>63 filter types available</li>
+                        <li>Search by coordinates/GC code</li>
+                        <li>Search by keyword/address</li>
+                        <li>Filter by cache type &amp; size</li>
+                        <li>Filter by difficulty/terrain</li>
+                        <li>Filter by all attributes</li>
+                        <li>Date-based filters</li>
+                        <li>Save filter templates</li>
+                        <li>Quick exclude filters</li>
+                        <li>Regex search support</li>
+                        <li>Map bounds search</li>
+                        <li>Radius search</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Cachly Pro Features</h3>
+                    <ul class="feature-list">
+                        <li>Pro Offline Vector Maps</li>
+                        <li>Contour lines &amp; hillshade</li>
+                        <li>POI &amp; trail layers</li>
+                        <li>County/state boundaries</li>
+                        <li>3D buildings layer</li>
+                        <li>Live cache auto-loading</li>
+                        <li>County/region tracking</li>
+                        <li>DeLorme Grid (US)</li>
+						<li>Live cache loading</li>
+                        <li>Full CarPlay support</li>
+                        <li>Voice-activated logging</li>
+                        <li>7-day free trial</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>CarPlay Integration</h3>
+                    <ul class="feature-list">
+                        <li>Full map display using offline maps</li>
+                        <li>Pan, zoom, rotate gestures</li>
+                        <li>Offline trip display</li>
+                        <li>Navigate to cache</li>
+                        <li>Voice-activated logging</li>
+                        <li>Speech-to-text composition</li>
+                        <li>6 log types supported</li>
+                        <li>Log templates support</li>
+                        <li>Light/Dark/Auto map styles</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Apple Watch</h3>
+                    <ul class="feature-list">
+                        <li>Nearby cache list</li>
+                        <li>Cache details &amp; attributes</li>
+                        <li>Photo gallery</li>
+                        <li>Compass navigation</li>
+                        <li>Log caches from watch</li>
+                        <li>Search filters</li>
+                        <li>Multiple complications</li>
+                        <li>Real-time sync with iPhone</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Integrations</h3>
+                    <ul class="feature-list">
+                        <li>15+ navigation apps</li>
+                        <li>Dropbox, Google Drive, iCloud</li>
+                        <li>Wherigo launch support</li>
+                        <li>Translation services</li>
+                        <li>cachly:// support</li>
+                        <li>Share sheet integration</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Customization</h3>
+                    <ul class="feature-list">
+                        <li>Metric/Imperial units</li>
+                        <li>4 coordinate formats</li>
+                        <li>Custom log templates</li>
+                        <li>Highlight colors (synced)</li>
+                        <li>Custom alert sounds</li>
+                        <li>Dark mode support</li>
+                        <li>17 languages supported</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>All 19 Cache Types</h3>
+                    <ul class="feature-list">
+                        <li>Traditional Cache</li>
+                        <li>Multi-Cache</li>
+                        <li>Virtual Cache</li>
+                        <li>Letterbox Hybrid</li>
+                        <li>Event &amp; Mega/Giga Events</li>
+                        <li>EarthCache</li>
+                        <li>Wherigo Cache</li>
+                        <li>Webcam Cache</li>
+                        <li>Adventure Lab Cache</li>
+                        <li>Geocaching HQ &amp; more</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CarPlay Section -->
+    <section class="carplay" id="carplay">
+        <div class="carplay-parallax"></div>
+        <div class="container">
+            <div class="carplay-content">
+                <div class="carplay-text">
+                    <span class="section-label">CarPlay Integration</span>
+                    <h2>Geocaching on the Road</h2>
+                    <p class="carplay-description">Take your geocaching adventures to the next level with full CarPlay support. Access your offline maps and cache lists directly from your car's dashboard for a seamless, hands-free experience.</p>
+                    <ul class="carplay-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Full offline map support on your car display</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Access saved cache lists while driving</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Quick navigation to your next geocache</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>View cache details, difficulty, and terrain</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Safe, driver-friendly interface design</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="carplay-images">
+                    <div class="carplay-screen carplay-screen-1">
+                        <img src="images/carplay-home.jpg" alt="Cachly CarPlay Home Screen">
+                    </div>
+                    <div class="carplay-screen carplay-screen-2">
+                        <img src="images/carplay-navigation.jpg" alt="Cachly CarPlay Navigation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>See Cachly in <span class="highlight">Action</span></h2>
+                <p>A beautiful, intuitive interface designed for geocachers</p>
+            </div>
+            <div class="carousel-container" id="screenshotCarousel">
+                <!-- Carousel Controls -->
+                <button class="carousel-btn carousel-btn-prev" id="carouselPrev" aria-label="Previous slide">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <button class="carousel-btn carousel-btn-next" id="carouselNext" aria-label="Next slide">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+                <div class="carousel">
+                    <div class="carousel-track">
+                        <!-- Slide 1: Map View -->
+                        <div class="carousel-slide active">
+                            <div class="slide-content">
+                                <img src="images/screenshots/map-view.png" alt="Cachly Map View" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Interactive Map View</h3>
+                                    <p>Browse geocaches on beautiful offline vector maps. Tap any cache for instant details including difficulty, terrain, size, and favorite points.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2: Cache List -->
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <img src="images/screenshots/cache-list.png" alt="Cachly Cache List" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Cache List View</h3>
+                                    <p>View nearby caches in a detailed list format. See distance, difficulty, terrain, size, and favorite points at a glance for quick decision making.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3: Cache Details -->
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <img src="images/screenshots/cache-details.png" alt="Cachly Cache Details" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Detailed Cache Information</h3>
+                                    <p>View complete cache details including description, hints, logs, images, and attributes. Everything you need to find that geocache.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 4: Logs -->
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <img src="images/screenshots/logs.png" alt="Cachly Activity Logs" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Activity Logs</h3>
+                                    <p>Track all your geocaching adventures. View your find history, search through logs, and relive your favorite memories from the trail.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 5: Filters -->
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <img src="images/screenshots/filters.png" alt="Cachly Filters" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Powerful Filters</h3>
+                                    <p>Narrow down your search with 63 filter types. Save filter templates for quick access and find exactly the caches you're looking for.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 6: Map Types -->
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <img src="images/screenshots/map-types.png" alt="Cachly Map Types" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Multiple Map Options</h3>
+                                    <p>Choose from Pro Offline Maps, Apple Maps, Google Maps, and more. Download offline maps for entire regions and geocache anywhere.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 7: Personal Notes -->
+                        <div class="carousel-slide">
+                            <div class="slide-content">
+                                <img src="images/screenshots/personal-notes.png" alt="Cachly Personal Notes" class="carousel-screenshot">
+                                <div class="slide-caption">
+                                    <h3>Personal Notes</h3>
+                                    <p>Add personal notes and photos to any cache. Save puzzle solutions, corrected coordinates, and hints for your next visit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+                    <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+                    <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+                    <button class="indicator" data-slide="3" aria-label="Go to slide 4"></button>
+                    <button class="indicator" data-slide="4" aria-label="Go to slide 5"></button>
+                    <button class="indicator" data-slide="5" aria-label="Go to slide 6"></button>
+                    <button class="indicator" data-slide="6" aria-label="Go to slide 7"></button>
+                </div>
+                <!-- Progress Bar -->
+                <div class="carousel-progress">
+                    <div class="carousel-progress-bar" id="carouselProgress"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apple Watch Section -->
+    <section class="watch" id="watch">
+        <div class="container">
+            <div class="watch-content">
+                <div class="watch-text">
+                    <span class="section-label">Apple Watch App</span>
+                    <h2>Geocaching on Your Wrist</h2>
+                    <p>Navigate to caches, search for nearby finds, and log your discoveries right from your Apple Watch. The perfect companion for hands-free geocaching adventures.</p>
+                    <div class="watch-features">
+                        <div class="watch-feature">
+                            <div class="watch-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Compass Navigation</h4>
+                                <p>Navigate to your target with the built-in compass</p>
+                            </div>
+                        </div>
+                        <div class="watch-feature">
+                            <div class="watch-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.35-4.35"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Nearby Search</h4>
+                                <p>Find caches around you without pulling out your phone</p>
+                            </div>
+                        </div>
+                        <div class="watch-feature">
+                            <div class="watch-feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                                    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Quick Logging</h4>
+                                <p>Log your finds directly from your wrist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="watch-visual">
+                    <img src="images/screenshots/apple-watch.png" alt="Cachly on Apple Watch" class="watch-screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pro Features Section -->
+    <section class="pro" id="pro">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Premium</span>
+                <h2>Upgrade to <span class="highlight">Cachly Pro</span></h2>
+                <p>Unlock powerful features designed for serious geocachers</p>
+            </div>
+            <div class="pro-features-showcase">
+                <!-- Pro Feature Cards -->
+                <div class="pro-feature-card">
+                    <div class="pro-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Pro Offline Maps</h3>
+                    <p>Beautiful OSM sourced vector maps for the entire globe, available offline.</p>
+                </div>
+                <div class="pro-feature-card">
+                    <div class="pro-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path>
+                            <circle cx="7" cy="17" r="2"></circle>
+                            <circle cx="17" cy="17" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>CarPlay</h3>
+                    <p>Access maps and cache lists right from your car's dashboard.</p>
+                </div>
+                <div class="pro-feature-card">
+                    <div class="pro-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Live Cache Loading</h3>
+                    <p>Automatically load caches as you pan the map in real-time.</p>
+                </div>
+                <div class="pro-feature-card">
+                    <div class="pro-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="3" y1="15" x2="21" y2="15"></line>
+                            <line x1="9" y1="3" x2="9" y2="21"></line>
+                            <line x1="15" y1="3" x2="15" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>DeLorme Grid</h3>
+                    <p>Built-in tracker for each state with challenge progress.</p>
+                </div>
+                <div class="pro-feature-card">
+                    <div class="pro-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Counties</h3>
+                    <p>Track your geocaching progress across every county.</p>
+                </div>
+            </div>
+            <!-- Coming Soon -->
+            <div class="pro-coming-soon">
+                <h4>Coming Soon</h4>
+                <div class="coming-soon-items">
+                    <div class="coming-soon-item">
+                        <span class="version-badge">8.2</span>
+                        <span>Multi-User Logging</span>
+                    </div>
+                    <div class="coming-soon-item">
+                        <span class="version-badge">8.3</span>
+                        <span>Track Recording & HealthKit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="download-parallax"></div>
+        <div class="container">
+            <div class="download-content">
+                <img src="images/IconiTunesArtwork@2x-1.png" alt="Cachly App Icon" class="download-icon">
+                <h2>Start Your Geocaching Adventure Today</h2>
+                <p>Join thousands of geocachers who trust Cachly for their outdoor adventures. Available exclusively on iOS.</p>
+                <a href="https://apps.apple.com/app/cachly/id645384141" class="download-button" target="_blank" rel="noopener">
+                    <img src="images/appstore.png" alt="Download on the App Store">
+                </a>
+                <div class="download-platforms">
+                    <span>iPhone</span>
+                    <span>iPad</span>
+                    <span>Apple Watch</span>
+                    <span>CarPlay</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/IconiTunesArtwork@2x-1.png" alt="Cachly Logo">
+                        <span>Cachly</span>
+                    </div>
+                    <p>The premium geocaching app for iOS. Made with care in the Pacific Northwest.</p>
+                    <img src="images/authorized-developer.png" alt="Authorized Geocaching Developer" class="footer-badge">
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#carplay">CarPlay</a></li>
+                            <li><a href="#watch">Apple Watch</a></li>
+                            <li><a href="#pro">Cachly Pro</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="https://help.cachly.com" target="_blank" rel="noopener">Help</a></li>
+                            <li><a href="https://www.cach.ly/support/" target="_blank" rel="noopener">Forums</a></li>
+                            <li><a href="https://www.facebook.com/groups/CachlyUserGroup" target="_blank" rel="noopener">Facebook Group</a></li>
+                            <li><a href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Bug Report</a></li>
+                            <li><a href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Feature Request</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-api">
+                <p><strong>Powered by the Geocaching API.</strong> Made possible through the support of Geocaching Premium Memberships, the API program gives third-party developers the opportunity to work with Geocaching HQ on a full suite of integrated products and services for the community. API developer applications are designed to work with the core services of geocaching.com and provide additional features to the geocaching community.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Zed Said Studio LLC. All rights reserved.</p>
+                <p>Geocaching is a registered trademark of Groundspeak, Inc.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
