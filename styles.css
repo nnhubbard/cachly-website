@@ -1563,7 +1563,9 @@ ul {
     }
 
     .watch-feature {
-        text-align: left;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .footer-content {
