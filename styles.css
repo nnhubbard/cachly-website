@@ -507,12 +507,27 @@ ul {
 }
 
 .feature-card {
+    position: relative;
     background: var(--white);
     padding: 32px;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-normal);
     border: 1px solid transparent;
+}
+
+.pro-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--cachly-green);
+    color: var(--white);
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .feature-card:hover {
