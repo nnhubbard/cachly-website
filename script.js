@@ -481,40 +481,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // ===== Fetch App Store Data =====
-    async function fetchAppStoreData() {
-        try {
-            const response = await fetch('https://itunes.apple.com/US/lookup?bundleId=com.zedsaid.geocaching');
-            const data = await response.json();
-
-            if (data.results && data.results.length > 0) {
-                const app = data.results[0];
-
-                // Update rating
-                const ratingEl = document.getElementById('statRating');
-                if (ratingEl && app.averageUserRating) {
-                    ratingEl.textContent = app.averageUserRating.toFixed(1);
-                }
-
-                // Update ratings count
-                const ratingsCountEl = document.getElementById('statRatingsCount');
-                if (ratingsCountEl && app.userRatingCount) {
-                    ratingsCountEl.textContent = app.userRatingCount.toLocaleString();
-                }
-
-                // Update version
-                const versionEl = document.getElementById('statVersion');
-                if (versionEl && app.version) {
-                    versionEl.textContent = app.version;
-                }
-            }
-        } catch (error) {
-            console.log('Could not fetch App Store data:', error);
-        }
-    }
-
-    fetchAppStoreData();
-
     // ===== Set Current Year =====
     const currentYearEl = document.getElementById('currentYear');
     if (currentYearEl) {
