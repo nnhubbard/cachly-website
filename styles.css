@@ -667,6 +667,172 @@ ul {
     transform: translateX(-20px);
 }
 
+/* ===== Offline Navigation Section ===== */
+.offline-nav {
+    display: none;
+    padding: 120px 0;
+    background: linear-gradient(135deg, #0c4a6e 0%, #075985 50%, #0369a1 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.offline-nav-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="navGrid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0v50M0 50h50" stroke="rgba(255,255,255,0.05)" stroke-width="1" fill="none"/></pattern></defs><rect width="100" height="100" fill="url(%23navGrid)"/></svg>');
+    pointer-events: none;
+}
+
+.offline-nav-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.offline-nav-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.route-animation {
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+
+.route-svg {
+    width: 100%;
+    height: 100%;
+}
+
+.route-path {
+    stroke: rgba(255, 255, 255, 0.3);
+    stroke-dasharray: 8 4;
+    animation: dashMove 20s linear infinite;
+}
+
+.route-dot {
+    fill: var(--cachly-green);
+}
+
+.route-dot-1 {
+    filter: drop-shadow(0 0 8px var(--cachly-green));
+}
+
+.route-dot-3 {
+    fill: #f97316;
+    filter: drop-shadow(0 0 8px #f97316);
+}
+
+.route-indicator {
+    fill: var(--white);
+    filter: drop-shadow(0 0 6px var(--white));
+    animation: moveAlongPath 4s ease-in-out infinite;
+}
+
+.offline-badge {
+    color: var(--cachly-green);
+}
+
+@keyframes dashMove {
+    to {
+        stroke-dashoffset: -100;
+    }
+}
+
+@keyframes moveAlongPath {
+    0% {
+        transform: translate(20px, 180px);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(100px, 100px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(180px, 20px);
+        opacity: 1;
+    }
+}
+
+.offline-nav-text .section-label {
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+
+.offline-nav-text h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.offline-nav-text h2 .highlight {
+    background: linear-gradient(135deg, #38bdf8 0%, #7dd3fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.offline-nav-description {
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.offline-nav-features {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.offline-nav-feature {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.offline-nav-feature-icon {
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--border-radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.offline-nav-feature-icon svg {
+    width: 24px;
+    height: 24px;
+    color: #7dd3fc;
+}
+
+.offline-nav-feature h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: var(--white);
+}
+
+.offline-nav-feature p {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+}
+
 /* ===== Screenshots Section ===== */
 .screenshots {
     padding: 120px 0;
@@ -1057,7 +1223,6 @@ ul {
     height: 300px;
     background: radial-gradient(circle, rgba(139, 92, 246, 0.3) 0%, transparent 70%);
     border-radius: 50%;
-    animation: pulse 4s ease-in-out infinite;
 }
 
 .intelligence-icon-large {
@@ -1694,6 +1859,35 @@ ul {
     .carplay-screen-1,
     .carplay-screen-2 {
         transform: none;
+    }
+
+    .offline-nav-content {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        text-align: center;
+    }
+
+    .offline-nav-visual {
+        order: -1;
+    }
+
+    .offline-nav-text h2 {
+        font-size: 2.25rem;
+    }
+
+    .offline-nav-feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .offline-nav-features {
+        align-items: center;
+    }
+
+    .route-animation {
+        width: 220px;
+        height: 220px;
     }
 
     .watch-content {
