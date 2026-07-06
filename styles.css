@@ -2543,3 +2543,64 @@ body.subpage .nav-toggle span { background: var(--text-primary); }
     .subpage-content { padding: 40px 0 60px; }
     .testimonials { padding: 60px 0; }
 }
+
+/* Changelog (What's New full version history) */
+details.changelog {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--border-radius);
+    margin: 10px 0;
+    background: var(--white);
+}
+
+details.changelog summary {
+    cursor: pointer;
+    padding: 14px 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+details.changelog summary::-webkit-details-marker { display: none; }
+
+details.changelog summary::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid var(--cachly-green);
+    border-bottom: 2px solid var(--cachly-green);
+    transform: rotate(-45deg);
+    transition: transform var(--transition-fast);
+    flex-shrink: 0;
+}
+
+details.changelog[open] summary::before { transform: rotate(45deg); }
+
+details.changelog summary:hover { color: var(--cachly-green-dark); }
+
+.changelog-count {
+    margin-left: auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+details.changelog h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--cachly-green-dark);
+    margin: 14px 18px 4px;
+}
+
+details.changelog ul {
+    list-style: disc;
+    margin: 4px 0 14px;
+    padding-left: 40px;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+details.changelog li { margin: 3px 0; }
