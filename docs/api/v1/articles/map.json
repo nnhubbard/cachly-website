@@ -46,11 +46,6 @@
    "text": "Beyond the default live view, the map can show many different sets of caches. Switch the view type from the map’s controls: View Shows Live Caches near the current map region, fetched on the fly. User’s Found / Hidden Caches you’ve found, or that you own and hid. Bookmarks A bookmark list from your account. Offline Lists Caches saved in an offline set . Favorites Caches with favorite points. Search Results The output of an advanced search . Navigation A route to your selected cache. Trackable Travels The path a trackable has traveled. Counties County boundaries for county challenges PRO . DeLorme Grid DeLorme atlas grid pages for DeLorme challenges PRO ."
   },
   {
-   "anchor": "sync-position",
-   "heading": "Sync Live & offline map position",
-   "text": "The Live map and an offline list ’s map normally remember their own positions. Turn on Settings › Map Options & Navigation › Sync Live & Offline Map Position and the two stay together: pan or zoom one, switch to the other, and it picks up at the same place and zoom. It’s handy when you’re comparing live caches against an offline set in the same area. The shared position lasts for the session and isn’t saved between launches."
-  },
-  {
    "anchor": "compass",
    "heading": "Navigating to a cache",
    "text": "From a cache’s details, choose to navigate. The Navigate to Cache screen draws a direct line to the target and shows distance, bearing and accuracy alongside a compass arrow — ideal for the final approach where street maps run out. Related waypoints (parking, trailheads) appear with distinct symbols, and other caches within 5 miles are shown. You can switch the target, zoom to fit both you and the cache, peek at Google Street View for terrain, or set a proximity alert that fires even with the screen locked. To drive there, hand off to an external app (Apple Maps, Google Maps, Waze and others); the preferred app is set in Settings ."
