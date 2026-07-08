@@ -1,0 +1,6 @@
+220,478  Application  'Cachly'
+42,84  Button  'More'
+220,84  Heading  'Pocket Queries'
+220,186  StaticText  '100, Nortwest Earthcaches, Jun 29, 2026 at 12:37\u202fAM'
+220,256  StaticText  '500, Sunday With Kids, Jun 28, 2026 at 12:39\u202fAM'
+220,914  Group  'Tab Bar'

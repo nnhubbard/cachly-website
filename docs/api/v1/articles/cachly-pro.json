@@ -1,0 +1,35 @@
+{
+ "id": "cachly-pro",
+ "title": "Cachly Pro",
+ "section": "Cachly Pro",
+ "url": "cachly-pro.html",
+ "lead": "Cachly Pro is an optional in-app subscription that unlocks Cachly’s premium capabilities. Everyday geocaching works without it — Pro adds power-user and offline tooling.",
+ "sections": [
+  {
+   "anchor": null,
+   "heading": null,
+   "text": "Cachly Pro is a subscription-based collection of premium features introduced in version 8.0."
+  },
+  {
+   "anchor": "whats-included",
+   "heading": "What’s included",
+   "text": "Feature Details Pro Offline Maps Worldwide offline vector maps from OpenStreetMap, with contours, hillshades, trails, 3D buildings and offline search. See Offline Maps . Counties / Regions Visually track finds across counties/regions in Australia, Austria, France, Germany, the UK and the US. See Counties . DeLorme Grid Track found/unfound caches by DeLorme grid page across US states and select Canadian regions. See DeLorme Grid . Auto Load Live Map Automatically load caches as you move the live map. See Auto Load . CarPlay Browse, route to and voice-log caches from your car. See CarPlay . Multiple User Logging Log a find under several accounts at once (added in 8.2). See Multi-User Logging . Cachly Intelligence AI summaries of logs and descriptions, and AI-drafted logs. See Cachly Intelligence . OSM POI Search Search OpenStreetMap points of interest on the map. See OSM POI Search . ⭐ Throughout this guide, a PRO badge marks features that require a Cachly Pro subscription."
+  },
+  {
+   "anchor": "vs-premium",
+   "heading": "Cachly Pro is not geocaching.com Premium",
+   "text": "They’re different things. Cachly Pro adds features inside the Cachly app. A geocaching.com Premium membership (bought from Groundspeak) unlocks server-side data — more cache types, higher daily cache limits, pocket queries — across all partner apps. A Cachly Pro subscription does not grant extra cache types or higher cache-load limits; those require geocaching.com Premium. See Accounts & Sign In ."
+  },
+  {
+   "anchor": "plans",
+   "heading": "Plans & pricing",
+   "text": "Billed through your Apple ID, with a 7-day free trial . Representative pricing (your local prices are shown live on the More › Cachly Pro screen): Plan USD GBP EUR Monthly $1.99 £1.59 €1.99 Yearly (saves ~37%) $14.99 £11.99 €12.99 Offline Maps only (yearly) $4.99 £3.99 €4.99 Subscriptions support Family Sharing, and you can upgrade, downgrade or crossgrade through your subscription settings."
+  },
+  {
+   "anchor": "restore",
+   "heading": "Restoring purchases",
+   "text": "Already subscribed on another device or after reinstalling? Use Restore Purchases in More › Settings to re-activate — it’s tied to your Apple ID, so there’s no separate Cachly login for it. 📱 Subscriptions are managed in iOS Settings › your name › Subscriptions , where you can change plan or cancel. Cachly can’t change billing on your behalf."
+  }
+ ],
+ "screenshots": []
+}

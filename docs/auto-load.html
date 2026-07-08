@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auto Load Live Map — Cachly Documentation</title>
+  <meta name="description" content="Cachly Pro's Auto Load feature loads geocaches automatically as you move the live map.">
+  <link rel="canonical" href="https://www.cachly.com/docs/auto-load.html">
+  <meta property="og:title" content="Auto Load Live Map — Cachly Documentation">
+  <meta property="og:description" content="Cachly Pro&#x27;s Auto Load feature loads geocaches automatically as you move the live map.">
+  <meta property="og:url" content="https://www.cachly.com/docs/auto-load.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Auto Load Live Map",
+   "description": "Cachly Pro's Auto Load feature loads geocaches automatically as you move the live map.",
+   "url": "https://www.cachly.com/docs/auto-load.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Auto Load Live Map",
+     "item": "https://www.cachly.com/docs/auto-load.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="auto-load">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Auto Load Live Map</div>
+        <h1>Auto Load Live Map</h1>
+        <p class="doc-lead">With Auto Load, the live map fills itself: pan or zoom and Cachly fetches the caches for the new area — no need to tap refresh.</p>
+        <h2 id="how-it-works">How it works</h2>
+        <p>Normally the Live map loads caches when you tap the <strong>refresh</strong> button in the <a href="map.html#map-controls">tool stack</a>. With <strong>Auto Load</strong> enabled, Cachly requests caches automatically whenever you move the map to a new area, so browsing a region feels continuous.</p>
+
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#8505;</span>
+          <div class="callout-body">Every load counts against your geocaching.com <a href="profile.html#usage">API limits</a> like a manual refresh does &mdash; Cachly loads lite cache data to keep usage light, but if you pan across a continent, expect it to add up.</div>
+        </div>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

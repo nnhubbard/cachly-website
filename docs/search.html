@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search & Filters — Cachly Documentation</title>
+  <meta name="description" content="Finding caches in Cachly: advanced search, filters, filter and search templates, highlights, sorting, counties and search history.">
+  <link rel="canonical" href="https://www.cachly.com/docs/search.html">
+  <meta property="og:title" content="Search &amp; Filters — Cachly Documentation">
+  <meta property="og:description" content="Finding caches in Cachly: advanced search, filters, filter and search templates, highlights, sorting, counties and search history.">
+  <meta property="og:url" content="https://www.cachly.com/docs/search.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Search & Filters",
+   "description": "Finding caches in Cachly: advanced search, filters, filter and search templates, highlights, sorting, counties and search history.",
+   "url": "https://www.cachly.com/docs/search.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Search & Filters",
+     "item": "https://www.cachly.com/docs/search.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="search">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Search &amp; Filters</div>
+        <h1>Search &amp; Filters</h1>
+        <p class="doc-lead">Cachly&rsquo;s search and filtering tools let you zero in on exactly the caches you want &mdash; by difficulty, terrain, type, attributes and location &mdash; and save those criteria for reuse.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/filters-main.png" alt="Live Search Filtering &amp;mdash; the Disable Filtering master toggle, name search, exclusion checkboxes and cache types." width="248"><figcaption>Live Search Filtering &mdash; the Disable Filtering master toggle, name search, exclusion checkboxes and cache types.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/filters-3.png" alt="The bottom of the live filter screen &amp;mdash; API Sorting, Other toggles, and the Templates section with Current Template and Save New Template." width="248"><figcaption>The bottom of the live filter screen &mdash; API Sorting, Other toggles, and the Templates section with Current Template and Save New Template.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/offline-filter.png" alt="An offline list&amp;rsquo;s filter screen &amp;mdash; Disable Filters, stackable List Filters and the Filters Template section." width="248"><figcaption>An offline list&rsquo;s filter screen &mdash; Disable Filters, stackable List Filters and the Filters Template section.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/offline-filter-types.png" alt="The Filter Type picker when adding an offline list filter &amp;mdash; dozens of types from Attributes to Distance and beyond." width="248"><figcaption>The Filter Type picker when adding an offline list filter &mdash; dozens of types from Attributes to Distance and beyond.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/offline-filter-config.png" alt="Configuring a filter &amp;mdash; type-specific Filter Details with AND/OR logic, plus the Advanced Invert Filter option." width="248"><figcaption>Configuring a filter &mdash; type-specific Filter Details with AND/OR logic, plus the Advanced Invert Filter option.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/search-template-list.png" alt="Search templates save a whole live-filter configuration for reuse." width="248"><figcaption>Search templates save a whole live-filter configuration for reuse.</figcaption></figure>
+</div>
+
+        <h2 id="advanced-search">Live search &amp; filter options</h2>
+        <p>The search field on the Live tab accepts a <strong>location</strong>, <strong>GC codes</strong> or <strong>coordinates</strong>, and the clock icon beside it re-runs a recent search (see <a href="#history">search history</a>). Results can be shown on the <a href="map.html#view-types">map</a> or as a list, sorted (see <a href="#sorting">below</a>), and saved to a <a href="lists.html">list</a> or <a href="lists.html#offline">offline set</a>.</p>
+        <p>Tapping the <strong>filter</strong> button on the Live tab opens <strong>Live Search Filtering</strong>, which refines what the geocaching.com API returns. At the top, a <strong>Disable Filtering</strong> master toggle turns all live filtering off without changing your individual options &mdash; handy for a quick unfiltered look. The options:</p>
+        <ul>
+          <li><strong>Search by Cache Name</strong> &mdash; find caches by name within a 100-mile radius of the map center.</li>
+          <li><strong>Exclusions</strong> &mdash; checkboxes for <strong>Exclude My Finds</strong>, <strong>Exclude My Hides</strong>, <strong>Exclude Corrected Coordinates</strong>, <strong>Has Corrected Coordinates</strong> and <strong>Exclude Adventures Stages</strong>.</li>
+          <li><strong>Usernames</strong> &mdash; hidden by / not hidden by / found by / not found by specific username(s).</li>
+          <li><strong>Cache types &amp; attributes</strong> &mdash; limit results to particular cache types, container sizes and attributes.</li>
+          <li><strong>Difficulty</strong> and <strong>Terrain</strong> &mdash; range sliders from 1.0 to 5.0.</li>
+          <li><strong>Search Radius</strong> &mdash; how far from the search point to look.</li>
+          <li><strong>Favorites Minimum</strong> &mdash; only caches with at least this many favorite points.</li>
+          <li><strong>Cache Placed Date</strong> and <strong>Cache Published Date</strong> &mdash; start and end date ranges.</li>
+          <li><strong>Sorting</strong> &mdash; how the API returns results (Cache Name, Difficulty, Distance, Favorites, Found Date, Placed Date, Size or Terrain, ascending or descending; the default is distance ascending). This is separate from <a href="#sorting">list sorting</a>.</li>
+          <li><strong>Other</strong> &mdash; Enabled Only, Exclude Enabled, Premium Only, Exclude Premium, Has Cache Note, Exclude Cache Note, <strong>Use Map Bounds in Search</strong> (limit results to the visible screen area) and Ignore Map Location.</li>
+          <li><strong>Limit to State, Province or Country</strong> &mdash; restrict results geographically with the States/Provinces and Country pickers.</li>
+        </ul>
+        <p>A <strong>Templates</strong> section at the bottom shows the <strong>Current Template</strong> and offers <strong>Save New Template</strong> &mdash; a search template saves the entire filter configuration above so you can reapply it in one tap (see <a href="#templates">templates</a>). The <span class="ui-path">Reset</span> button returns everything to defaults.</p>
+
+        <h2 id="filtering">Filtering</h2>
+        <p>Where search <em>fetches</em> caches, <strong>filtering</strong> narrows what you&rsquo;re already looking at &mdash; live map results, a list, or an <a href="lists.html#offline">offline set</a>. Filters apply in real time, and the filter icon shows solid when constraints are active. Live search filtering (above) and <a href="#offline-filters">offline list filters</a> are two separate systems with their own options and templates.</p>
+
+        <h2 id="filter-types">How offline filters match</h2>
+        <p>Offline filtering is far more extensive than live search. Each filter belongs to a kind that sets how you configure it and how a cache is matched:</p>
+        <table>
+          <thead><tr><th>Kind</th><th>How it matches</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Text</strong></td><td>A text field with a matching mode: <strong>Contains</strong>, <strong>Begins with</strong>, <strong>Ends with</strong>, <strong>Matches (Regex)</strong>, or <strong>Contains Multiple</strong>.</td></tr>
+            <tr><td><strong>Number</strong></td><td>A numeric comparison (less than, less than or equal to, greater than, greater than or equal to, equal to, not equal to &mdash; or a range). Difficulty and Terrain accept decimals.</td></tr>
+            <tr><td><strong>Multi-select</strong></td><td>Pick one or more values; a cache passes if it matches <strong>any</strong> selected value.</td></tr>
+            <tr><td><strong>Yes / No</strong></td><td>A true/false condition (e.g. is archived, has images).</td></tr>
+            <tr><td><strong>Date</strong></td><td>Match against a date, such as when the cache was placed, found or downloaded.</td></tr>
+            <tr><td><strong>List</strong></td><td>Membership in one or more other offline lists.</td></tr>
+          </tbody>
+        </table>
+        <p>Most filters can also be <strong>inverted</strong> (match the opposite), and you can combine as many as you like.</p>
+
+        <h2 id="offline-filters">Offline list filters</h2>
+        <p>Offline lists have their own stacked-filter system, separate from live search filtering. In an offline list&rsquo;s <a href="lists.html#map-and-list-modes">list view</a>, tap the <strong>filter</strong> button to open it. At the top, a <strong>Disable Filters</strong> toggle switches all filtering off without losing your setup; below it, <strong>List Filters</strong> holds the filters themselves and <strong>Filters Template</strong> saves and reloads whole filter sets (see <a href="#templates">templates</a>).</p>
+        <p>Tap <span class="ui-path">Add Filter</span> to create a filter:</p>
+        <ul>
+          <li><strong>Filter Type</strong> &mdash; choose from the (searchable) list of filter types below.</li>
+          <li><strong>Filter Details</strong> &mdash; the type-specific options. For example, an Attributes filter lets you pick attributes and set the <strong>Logic</strong> to <strong>AND</strong> or <strong>OR</strong>; a text filter takes a search term and matching mode; a number filter takes a comparison.</li>
+          <li><strong>Advanced &rsaquo; Invert Filter</strong> &mdash; uses the reverse of the options chosen: if you filter to show only Traditional caches, inverting instead shows everything <em>except</em> Traditional caches.</li>
+        </ul>
+        <p>Filters <strong>stack</strong> &mdash; add as many as you like and they apply together, so you can build queries like &ldquo;Traditional caches, D/T under 3, with favorite points, not found by me&rdquo;.</p>
+        <p>The complete set of filter types:</p>
+        <table>
+          <thead><tr><th>Filter</th><th>Kind</th><th>Matches</th></tr></thead>
+          <tbody>
+            <tr><td>Name Text</td><td>Text</td><td>The cache name.</td></tr>
+            <tr><td>GC Code Text</td><td>Text</td><td>The GC code.</td></tr>
+            <tr><td>Owner Text</td><td>Text</td><td>The cache owner&rsquo;s name.</td></tr>
+            <tr><td>Placed By Text</td><td>Text</td><td>The &ldquo;placed by&rdquo; name.</td></tr>
+            <tr><td>Description Text</td><td>Text</td><td>Text within the listing description.</td></tr>
+            <tr><td>Hint Text</td><td>Text</td><td>Text within the hint.</td></tr>
+            <tr><td>Log Text</td><td>Text</td><td>Text within stored logs.</td></tr>
+            <tr><td>Personal Note Text</td><td>Text</td><td>Text within your personal note.</td></tr>
+            <tr><td>Image Text</td><td>Text</td><td>Text in image captions/descriptions.</td></tr>
+            <tr><td>Found By Username</td><td>Text</td><td>A specific finder&rsquo;s username.</td></tr>
+            <tr><td>Location &ndash; Country Text</td><td>Text</td><td>The cache&rsquo;s country.</td></tr>
+            <tr><td>Location &ndash; State Text</td><td>Text</td><td>The cache&rsquo;s state/province.</td></tr>
+            <tr><td>County</td><td>Text</td><td>The cache&rsquo;s county.</td></tr>
+            <tr><td>Difficulty</td><td>Number</td><td>Difficulty rating (decimal).</td></tr>
+            <tr><td>Terrain</td><td>Number</td><td>Terrain rating (decimal).</td></tr>
+            <tr><td>Favorite Count</td><td>Number</td><td>Number of favorite points.</td></tr>
+            <tr><td>Favorite Percentage</td><td>Number</td><td>Favorite-point percentage.</td></tr>
+            <tr><td>Distance</td><td>Number</td><td>Distance from you.</td></tr>
+            <tr><td>Find Count</td><td>Number</td><td>Total times the cache has been found.</td></tr>
+            <tr><td>Size</td><td>Multi-select</td><td>Container size(s).</td></tr>
+            <tr><td>Type</td><td>Multi-select</td><td>Cache type(s).</td></tr>
+            <tr><td>Log Type</td><td>Multi-select</td><td>Log type(s) on the cache.</td></tr>
+            <tr><td>Highlight Color</td><td>Multi-select</td><td><a href="#highlights">Highlight</a> color(s).</td></tr>
+            <tr><td>Attributes</td><td>Multi-select</td><td>Specific cache attribute(s), with AND/OR logic.</td></tr>
+            <tr><td>Date Placed</td><td>Date</td><td>When the cache was placed.</td></tr>
+            <tr><td>Date Published</td><td>Date</td><td>When the cache was published.</td></tr>
+            <tr><td>Date Found By Me</td><td>Date</td><td>When you found it.</td></tr>
+            <tr><td>Date Last Found</td><td>Date</td><td>When it was most recently found.</td></tr>
+            <tr><td>Date Downloaded</td><td>Date</td><td>When you downloaded it offline.</td></tr>
+            <tr><td>Date Last Updated</td><td>Date</td><td>When its data was last refreshed.</td></tr>
+            <tr><td>Date Hidden &ndash; Year / Month / Day</td><td>Date</td><td>The hidden date by year, month or day.</td></tr>
+            <tr><td>Is Archived</td><td>Yes/No</td><td>Cache is archived.</td></tr>
+            <tr><td>Is Available</td><td>Yes/No</td><td>Cache is active/available.</td></tr>
+            <tr><td>Is Premium</td><td>Yes/No</td><td>Premium-member-only cache.</td></tr>
+            <tr><td>Is Highlighted</td><td>Yes/No</td><td>Has any highlight color.</td></tr>
+            <tr><td>Is Found By Me</td><td>Yes/No</td><td>You&rsquo;ve found it.</td></tr>
+            <tr><td>Is DNF By Me</td><td>Yes/No</td><td>You&rsquo;ve logged a DNF.</td></tr>
+            <tr><td>DNFs in Last Logs</td><td>Yes/No</td><td>The cache&rsquo;s most recent stored logs include a run of DNFs &mdash; you choose how many DNFs to look for in how many recent logs (up to 25 each; the default is 5 DNFs in the last 5 logs). Only logs stored offline are checked, matching what you see on the cache&rsquo;s logs screen.</td></tr>
+            <tr><td>Is Event Ended</td><td>Yes/No</td><td>The event&rsquo;s end date has passed. Set it to No (or invert it) to hide past events from a list. Events without a stored end date &mdash; such as some GPX imports &mdash; are never considered ended.</td></tr>
+            <tr><td>Is Owned By Me</td><td>Yes/No</td><td>You own (hid) it.</td></tr>
+            <tr><td>Is Favorite</td><td>Yes/No</td><td>You awarded it a favorite point.</td></tr>
+            <tr><td>Is Lonely</td><td>Yes/No</td><td>Not found in a long time.</td></tr>
+            <tr><td>Is Created Offline</td><td>Yes/No</td><td>A cache you created locally in Cachly.</td></tr>
+            <tr><td>Is FTF Available <span class="pro-badge">PREMIUM</span></td><td>Yes/No</td><td>No found logs yet (first-to-find); shown for geocaching.com Premium members.</td></tr>
+            <tr><td>Has Corrected Coordinates</td><td>Yes/No</td><td>Has corrected coordinates set.</td></tr>
+            <tr><td>Has Trackables</td><td>Yes/No</td><td>Currently holds trackables.</td></tr>
+            <tr><td>Has Personal Note</td><td>Yes/No</td><td>Has a personal note.</td></tr>
+            <tr><td>Has Images</td><td>Yes/No</td><td>Has images.</td></tr>
+            <tr><td>Has Personal Note Images</td><td>Yes/No</td><td>Has photos attached to a personal note.</td></tr>
+            <tr><td>Has Waypoints</td><td>Yes/No</td><td>Has waypoints.</td></tr>
+            <tr><td>Has Attributes</td><td>Yes/No</td><td>Has any attributes.</td></tr>
+            <tr><td>Has Logs</td><td>Yes/No</td><td>Has stored logs.</td></tr>
+            <tr><td>Has Description</td><td>Yes/No</td><td>Has a description.</td></tr>
+            <tr><td>Has Hint</td><td>Yes/No</td><td>Has a hint.</td></tr>
+            <tr><td>Has Solution Checker</td><td>Yes/No</td><td>Has a geocaching.com solution checker.</td></tr>
+            <tr><td>In Other List</td><td>Yes/No</td><td>Belongs to another offline list.</td></tr>
+            <tr><td>In Selected Lists</td><td>List</td><td>Belongs to specific offline lists you choose.</td></tr>
+          </tbody>
+        </table>
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128161;</span>
+          <div class="callout-body">Save a combination you use often as a <a href="#templates">filter template</a> so it&rsquo;s one tap away on any offline list.</div>
+        </div>
+
+        <h2 id="templates">Filter &amp; search templates</h2>
+        <p>Both filtering systems let you save your configuration as a reusable <strong>template</strong> and apply or clear it in one tap &mdash; no reconfiguring each time. In each case the Templates section shows the <strong>Current Template</strong> (tap to load a saved one) and <strong>Save New Template</strong> (name and save the current setup). The two kinds are separate, and they behave differently when it comes to syncing:</p>
+        <ul>
+          <li><strong>Live search templates</strong> &mdash; save the entire Live Search Filtering configuration; <strong>synced via iCloud</strong> across your devices (both iCloud and iCloud Drive must be enabled).</li>
+          <li><strong>Offline list filter templates</strong> &mdash; save a stacked filter set that can be applied to any offline list; stored <strong>locally on the device only</strong>, so they won&rsquo;t appear on your other devices.</li>
+        </ul>
+
+        <h2 id="highlights">Highlights</h2>
+        <p><strong>Highlighting</strong> marks caches with color &mdash; from the cache details, the Live tab, offline map lists and long-press menus. There are <strong>20 colors</strong>, shown as colored bars across interface elements, and you can rename the color labels to suit your workflow (e.g. &ldquo;challenge candidates&rdquo;, &ldquo;revisit&rdquo;). Highlights are stored in <strong>iCloud</strong>, so a deleted cache keeps its highlight when reloaded; if devices get out of sync, use <span class="ui-path">Settings &rsaquo; Highlighting &rsaquo; Manually Sync Highlights</span>.</p>
+
+        <h2 id="sorting">Sorting</h2>
+        <p>The sort button (up/down arrows) in any cache list &mdash; live results or an offline list &mdash; opens a sort sheet: choose a <strong>Direction</strong> (Ascending or Descending), then a <strong>Sort Type</strong>: Date Found, Date Last Found, Date Placed, Difficulty, Distance, FTF, Favorite Count, Favorite Percentage, Found, GC Code, Highlight Color, name, size, premium status, trackable count and more. Trackables have their own sort options too. This local sorting is separate from the live filter&rsquo;s <a href="#advanced-search">API Sorting</a> option, which controls the order caches come back from geocaching.com.</p>
+
+        <h2 id="cache-actions">Cache actions (long-press)</h2>
+        <p>Long-press a cache in any list or search result for a quick-action menu (with a preview of the cache):</p>
+        <ul>
+          <li><strong>Edit Highlight</strong> / <strong>Remove Highlight</strong> &mdash; set or clear its color.</li>
+          <li><strong>Add to List</strong> &mdash; add it to an offline or online list.</li>
+          <li><strong>Watch</strong> / <strong>Ignore</strong> &mdash; add to your geocaching.com watch or ignore list.</li>
+          <li><strong>Navigate to Cache</strong> and <strong>Show on Map</strong>.</li>
+          <li><strong>Copy Cache Code</strong> / <strong>Copy Coordinates</strong>.</li>
+          <li><strong>Delete</strong> &mdash; remove it (offline caches).</li>
+        </ul>
+
+        <h2 id="history">Search history</h2>
+        <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/search-history.png" alt="The search history list with recent coordinate and GC-code searches" width="248"><figcaption>Recent searches &mdash; tap any entry to run it again.</figcaption></figure>
+        <p>Cachly remembers recent searches so you can re-run one without rebuilding it &mdash; tap the clock icon next to the Live tab&rsquo;s search field to pick from your history, or clear it from the same screen.</p>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

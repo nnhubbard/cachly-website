@@ -1,0 +1,195 @@
+{
+ "version": 1,
+ "hash": "8babce297b",
+ "articles": [
+  {
+   "id": "getting-started",
+   "title": "Accounts & Sign In",
+   "section": "Getting Started",
+   "url": "getting-started.html",
+   "lead": "Cachly connects to your Geocaching.com (Groundspeak) account. Here’s how to sign in, what your membership level unlocks, and how that differs from a Cachly Pro subscription."
+  },
+  {
+   "id": "interface",
+   "title": "The Interface",
+   "section": "Getting Started",
+   "url": "interface.html",
+   "lead": "Cachly is organized into five tabs along the bottom of the screen. Knowing what lives where makes everything else in this guide easier to follow."
+  },
+  {
+   "id": "cachly-pro",
+   "title": "Cachly Pro",
+   "section": "Cachly Pro",
+   "url": "cachly-pro.html",
+   "lead": "Cachly Pro is an optional in-app subscription that unlocks Cachly’s premium capabilities. Everyday geocaching works without it — Pro adds power-user and offline tooling."
+  },
+  {
+   "id": "multi-user-logging",
+   "title": "Multi-User Logging",
+   "section": "Cachly Pro",
+   "url": "multi-user-logging.html",
+   "lead": "Cache as a couple, family or team and log everyone’s find in one pass — each account with its own message, favorites and trackables. Added in Cachly 8.2 for Pro subscribers."
+  },
+  {
+   "id": "auto-load",
+   "title": "Auto Load Live Map",
+   "section": "Cachly Pro",
+   "url": "auto-load.html",
+   "lead": "With Auto Load, the live map fills itself: pan or zoom and Cachly fetches the caches for the new area — no need to tap refresh."
+  },
+  {
+   "id": "osm-poi",
+   "title": "OSM POI Search",
+   "section": "Cachly Pro",
+   "url": "osm-poi.html",
+   "lead": "Find parking, bus stops, viewpoints — any OpenStreetMap point of interest — right on Cachly’s map with a q: query."
+  },
+  {
+   "id": "map",
+   "title": "The Map",
+   "section": "Finding & Logging",
+   "url": "map.html",
+   "lead": "The Live tab is where most caching happens. It shows caches around you on a map (or as a list), lets you switch between map sources and view types, and gets you to a cache with the compass or turn-by-turn navigation."
+  },
+  {
+   "id": "geocache-details",
+   "title": "Viewing a Geocache",
+   "section": "Finding & Logging",
+   "url": "geocache-details.html",
+   "lead": "Tap any cache to open its detail screen — the single place that gathers everything you need to find it: the essentials, the full description, the hint, recent logs, photos and waypoints."
+  },
+  {
+   "id": "logging",
+   "title": "Logging a Find",
+   "section": "Finding & Logging",
+   "url": "logging.html",
+   "lead": "Logging records your visit to a cache. Cachly lets you log a single find quickly, log for several accounts at once, save drafts for later, reuse text templates, attach photos, and award a favorite point."
+  },
+  {
+   "id": "logs",
+   "title": "Logs, Drafts & History",
+   "section": "Finding & Logging",
+   "url": "logs.html",
+   "lead": "The Logs tab is mission control for everything you’ve written: logs waiting to upload, ones that hit an error, your saved drafts, and your full logging history."
+  },
+  {
+   "id": "waypoints",
+   "title": "Waypoints & Coordinates",
+   "section": "Finding & Logging",
+   "url": "waypoints.html",
+   "lead": "Waypoints are extra points tied to a cache — parking, trailheads, puzzle stages and your own additions. This page covers entering coordinates, the formats Cachly supports, and projecting a new coordinate from a bearing and distance."
+  },
+  {
+   "id": "trackables",
+   "title": "Trackables",
+   "section": "Finding & Logging",
+   "url": "trackables.html",
+   "lead": "Trackables are Travel Bugs and geocoins that move from cache to cache. The Trackables tab manages the ones in your inventory and the ones you own, and lets you log their movements."
+  },
+  {
+   "id": "lists",
+   "title": "Lists & Offline Sets",
+   "section": "Organize & Search",
+   "url": "lists.html",
+   "lead": "Lists keep caches organized; offline sets take it further by downloading caches (and their photos) to your device so you can cache with no signal."
+  },
+  {
+   "id": "search",
+   "title": "Search & Filters",
+   "section": "Organize & Search",
+   "url": "search.html",
+   "lead": "Cachly’s search and filtering tools let you zero in on exactly the caches you want — by difficulty, terrain, type, attributes and location — and save those criteria for reuse."
+  },
+  {
+   "id": "challenge-tools",
+   "title": "Challenge Tools",
+   "section": "Cachly Pro",
+   "url": "challenge-tools.html",
+   "lead": "Chasing challenge caches? Cachly tracks your progress county by county and DeLorme page by page — with maps that show exactly where you still need a find."
+  },
+  {
+   "id": "dt-grid",
+   "title": "D/T Grid",
+   "section": "Organize & Search",
+   "url": "dt-grid.html",
+   "lead": "Every find plotted on the 9×9 Difficulty/Terrain matrix — see which of the 81 combinations you still need, and search for caches that fill the gaps."
+  },
+  {
+   "id": "profile",
+   "title": "Profile & Social",
+   "section": "Organize & Search",
+   "url": "profile.html",
+   "lead": "The profile area gathers your geocaching identity — your stats and finds, your friends, your souvenirs, notifications, and a look at your API usage."
+  },
+  {
+   "id": "offline-maps",
+   "title": "Offline Maps & Downloads",
+   "section": "Cachly Pro",
+   "url": "offline-maps.html",
+   "lead": "Offline maps let the base map render with no connection — the other half of caching off-grid (the first half being offline cache sets). Most offline map capabilities are part of Cachly Pro."
+  },
+  {
+   "id": "import-export",
+   "title": "Import & Export",
+   "section": "Offline & Data",
+   "url": "import-export.html",
+   "lead": "Cachly speaks GPX, the standard geocaching exchange format, and integrates pocket queries — so you can bring caches in from other tools and take your data with you."
+  },
+  {
+   "id": "sync-backup",
+   "title": "Sync & Backup",
+   "section": "Offline & Data",
+   "url": "sync-backup.html",
+   "lead": "Cachly can sync your data across your devices and back it up to the cloud, so a new phone or a reinstall doesn’t mean starting over."
+  },
+  {
+   "id": "intelligence",
+   "title": "Cachly Intelligence",
+   "section": "Cachly Pro",
+   "url": "intelligence.html",
+   "lead": "Cachly Intelligence helps you write better logs faster and read caches in any language, using on-device or cloud AI. You stay in control: it drafts, you edit and post."
+  },
+  {
+   "id": "settings",
+   "title": "Settings",
+   "section": "Settings & Platforms",
+   "url": "settings.html",
+   "lead": "Settings (in the More tab) is where you tailor Cachly to how you cache. The screen is searchable — type in the search box at the top to jump to an option by name — and is organized into the categories below."
+  },
+  {
+   "id": "apple-watch",
+   "title": "Apple Watch",
+   "section": "Settings & Platforms",
+   "url": "apple-watch.html",
+   "lead": "Cachly’s Apple Watch app puts the essentials on your wrist — find nearby caches, read the details and hint, follow the map or compass to ground zero, and log the find — without reaching for your phone."
+  },
+  {
+   "id": "carplay",
+   "title": "CarPlay",
+   "section": "Cachly Pro",
+   "url": "carplay.html",
+   "lead": "Cachly's CarPlay integration brings the full geocaching experience to your vehicle's dashboard, allowing you to search for caches, navigate to them, and even log your finds — all while keeping your eyes on the road."
+  },
+  {
+   "id": "ipad",
+   "title": "iPad",
+   "section": "Settings & Platforms",
+   "url": "ipad.html",
+   "lead": "Cachly adapts to the bigger iPad screen with a sidebar and split views instead of a bottom tab bar — the same features, arranged to take advantage of the space."
+  },
+  {
+   "id": "faq",
+   "title": "FAQ & Troubleshooting",
+   "section": "Reference & Help",
+   "url": "faq.html",
+   "lead": "Answers to the questions cachers ask most often — from sign-in trouble to GPS accuracy — drawn from the Cachly help site."
+  },
+  {
+   "id": "whats-new",
+   "title": "What's New in 8.x",
+   "section": "Reference & Help",
+   "url": "whats-new.html",
+   "lead": "Highlights of the Cachly 8.x release line. Many of the headline additions are part of Cachly Pro."
+  }
+ ]
+}

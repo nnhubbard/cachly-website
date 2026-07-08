@@ -1,0 +1,7 @@
+220,478  Application  'Cachly'
+220,163  Heading  'Direction'
+220,219  StaticText  'Ascending'
+220,275  StaticText  'Descending'
+220,340  Heading  'Sort Types'
+220,387  StaticText  'Date of Last Log'
+220,443  StaticText  'Name'

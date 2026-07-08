@@ -1,0 +1,5 @@
+220,478  Application  'Cachly'
+138,93  Button  'Add to List'
+138,135  Button  'Highlight'
+138,177  Button  'Export GPX'
+220,478  Button  'Dismiss context menu'

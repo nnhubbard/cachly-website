@@ -1,0 +1,35 @@
+{
+ "id": "import-export",
+ "title": "Import & Export",
+ "section": "Offline & Data",
+ "url": "import-export.html",
+ "lead": "Cachly speaks GPX, the standard geocaching exchange format, and integrates pocket queries — so you can bring caches in from other tools and take your data with you.",
+ "sections": [
+  {
+   "anchor": "gpx-import",
+   "heading": "Importing GPX",
+   "text": "Import from GPX brings caches into Cachly from a .gpx or .zip file (Cachly unzips automatically) — a pocket query, or an export from another app or website. Cachly uses a streaming parser so even very large files import efficiently, and you choose an existing offline list or create a new one on import. You can bring a file in from: Email — download the attachment, long-press it, Share → Cachly. Dropbox / Google Drive — from the app (⋯ → Share/Open in → Cachly) or via the iOS Files app. AirDrop — send a GPX/zip to Cachly from another device or a Mac. Any app offering an iOS Share option for a GPX file."
+  },
+  {
+   "anchor": "pocket-queries",
+   "heading": "Pocket queries",
+   "text": "Pocket Queries are saved searches you set up on Geocaching.com (a premium-membership feature) that the service runs for you. Cachly can download your ready pocket queries directly and load them in — a fast way to bring a curated set of caches onto your device. ℹ Pocket queries are created and scheduled on Geocaching.com and require premium membership. Cachly downloads the results once they’re generated."
+  },
+  {
+   "anchor": "gpx-export",
+   "heading": "Exporting GPX",
+   "text": "Export GPX writes caches back out to a .gpx file — available from the Live tab , an offline list , or a cache’s details . Choose the scope ( All , Visible , or Highlighted caches) and what to include: Include Logs — stored cache logs. Include Waypoints — all associated waypoints. Include GSAK Extensions — GSAK-specific data (needed for favorite-point tracking). Include Private Data — sensitive info such as solved-puzzle coordinates and personal notes (handy for team caching). Cachly also writes your highlight colors into the GPX using its own tags, so a cache you export and later re-import into Cachly keeps the color you gave it. Exports can be shared device-to-device over AirDrop with no internet — the recipient picks an app and an offline list to receive the caches."
+  },
+  {
+   "anchor": "my-finds-gpx",
+   "heading": "My Finds GPX",
+   "text": "For Counties/Regions and DeLorme Grid PRO , import a My Finds pocket query GPX (geocaching.com › Premium Tools › Build pocket queries › My Finds) via the Import Data button. After the first import, new finds logged in Cachly auto-register. Note: Adventure Lab finds aren’t included in GPX files."
+  },
+  {
+   "anchor": "imported-files",
+   "heading": "Managing imported files",
+   "text": "The Imported Files screen lists files you’ve brought in, so you can re-import or remove them. You can also receive GPX files from other apps via the iOS share sheet and open them straight into Cachly."
+  }
+ ],
+ "screenshots": []
+}

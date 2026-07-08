@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waypoints & Coordinates — Cachly Documentation</title>
+  <meta name="description" content="Waypoints and coordinate entry in Cachly: user and cache waypoints, the coordinate picker, formats (DDM/DMS/decimal), coordinate projection, and saving locations.">
+  <link rel="canonical" href="https://www.cachly.com/docs/waypoints.html">
+  <meta property="og:title" content="Waypoints &amp; Coordinates — Cachly Documentation">
+  <meta property="og:description" content="Waypoints and coordinate entry in Cachly: user and cache waypoints, the coordinate picker, formats (DDM/DMS/decimal), coordinate projection, and saving locations.">
+  <meta property="og:url" content="https://www.cachly.com/docs/waypoints.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Waypoints & Coordinates",
+   "description": "Waypoints and coordinate entry in Cachly: user and cache waypoints, the coordinate picker, formats (DDM/DMS/decimal), coordinate projection, and saving locations.",
+   "url": "https://www.cachly.com/docs/waypoints.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Waypoints & Coordinates",
+     "item": "https://www.cachly.com/docs/waypoints.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="waypoints">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Waypoints &amp; Coordinates</div>
+        <h1>Waypoints &amp; Coordinates</h1>
+        <p class="doc-lead">Waypoints are extra points tied to a cache &mdash; parking, trailheads, puzzle stages and your own additions. This page covers entering coordinates, the formats Cachly supports, and projecting a new coordinate from a bearing and distance.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/24-waypoints.png" alt="A cache&amp;rsquo;s waypoints, with the User/Cache toggle and each waypoint&amp;rsquo;s coordinates." width="248"><figcaption>A cache&rsquo;s waypoints, with the User/Cache toggle and each waypoint&rsquo;s coordinates.</figcaption></figure>
+</div>
+
+        <h2 id="kinds">Cache vs. user waypoints</h2>
+        <ul>
+          <li><strong>Cache waypoints</strong> come from the listing &mdash; parking, trailhead, reference points, and the stages of multi-caches.</li>
+          <li><strong>User waypoints</strong> are ones you add yourself: a solved puzzle final, a better parking spot, or where you actually found the container.</li>
+        </ul>
+        <p>Add a user waypoint from a cache&rsquo;s <a href="geocache-details.html#waypoints">Waypoints</a> section (toggle <strong>User</strong>/<strong>Cache</strong> at the top, then tap <strong>+</strong>), then enter its coordinates. The <strong>&#8943;</strong> menu next to any waypoint offers <strong>Duplicate</strong>, <strong>Translate with Google</strong>, <strong>Copy Waypoint Text</strong> and <strong>Copy Coordinates</strong>.</p>
+
+        <h2 id="formats">Coordinate formats</h2>
+        <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/coord-format-menu.png" alt="The coordinate picker with its format menu open" width="248"><figcaption>The coordinate picker&rsquo;s &#8943; menu: five input formats plus Current Location, Copy and Paste.</figcaption></figure>
+        <p>The same point can be written several ways. Cachly&rsquo;s coordinate picker offers <strong>five</strong> input formats, switchable any time from the <strong>&#8943;</strong> menu &mdash; your choice is remembered for next time:</p>
+        <table>
+          <thead><tr><th>Format</th><th>Example</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Degrees Decimal Minutes (DDM)</strong></td><td><code>N 45&deg; 54.595&rsquo;</code></td><td>The geocaching standard, used by Geocaching.com and GPS units. Cachly&rsquo;s default. Type the degrees, then the decimal minutes (to 1/1000).</td></tr>
+            <tr><td>Decimal Degrees (DD)</td><td><code>45.90992</code></td><td>A single signed number per axis; compact and used by many web mapping tools.</td></tr>
+            <tr><td>Degrees Minutes Seconds (DMS)</td><td><code>N 45&deg; 54&rsquo; 35.70&rdquo;</code></td><td>Common on traditional maps. Seconds go to 1/100.</td></tr>
+            <tr><td>DDM Picker</td><td>spinning wheels</td><td>The classic scroll-wheel entry for degrees, whole minutes and decimal minutes &mdash; tactile, no keyboard.</td></tr>
+            <tr><td>Plain Text</td><td>paste anything</td><td>One free-text field: paste a coordinate in almost any format (DDM, DMS or DD) and Cachly parses it. The baseline value is shown beneath for comparison, and unreadable text is flagged in red.</td></tr>
+          </tbody>
+        </table>
+        <p>Your default display format is also set in <a href="settings.html">Settings</a>.</p>
+
+        <h2 id="entering">Entering coordinates</h2>
+        <p>The picker keeps entry fast and unambiguous. In the standard DDM layout you set the hemisphere (N/S, E/W) with a tap, type the whole <strong>degrees</strong>, then type the <strong>decimal minutes</strong> yourself &mdash; so the decimal point lands exactly where you mean it. As soon as you change a value from where it started, a red <strong>Updated</strong> badge appears next to the format label so you can see at a glance that you&rsquo;ve edited the coordinate. The <strong>&#8943;</strong> menu offers <strong>Reset Coordinates</strong>, which returns every field to the value the picker opened with. If you don&rsquo;t touch anything, saving keeps the original coordinate at full precision &mdash; it isn&rsquo;t round-tripped through the display format.</p>
+
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128203;</span>
+          <div class="callout-body">The picker accepts both a period and a comma as the decimal separator, so it works naturally with locale keyboards. When you paste into Plain Text, Cachly reads the geocaching DDM standard first so a loosely-formatted paste doesn&rsquo;t get misread.</div>
+        </div>
+
+        <h2 id="projection">Coordinate projection</h2>
+        <p>Many puzzle and multi-caches give you a starting point plus a <strong>bearing</strong> and <strong>distance</strong> (&ldquo;go 120&deg; for 80&nbsp;m&rdquo;). Cachly&rsquo;s <strong>projection</strong> tool calculates the destination for you. It takes exactly three inputs:</p>
+        <ol>
+          <li>A <strong>starting coordinate</strong> &mdash; the current waypoint or your location.</li>
+          <li>A <strong>direction</strong> in degrees relative to North.</li>
+          <li>A <strong>distance</strong> with a selectable unit: meters, kilometers, feet or miles.</li>
+        </ol>
+        <p>Cachly shows the resulting coordinate so you can review it before tapping <strong>Done</strong> to apply it as a waypoint.</p>
+
+        <div class="screen-fig">
+<pre>
+  Project Waypoint
+  &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;
+  Start     N 45 54.595  W 122 29.070
+  Direction [ 120 ] &deg;
+  Distance  [ 80 ]  [ Meters &#9662; ]
+  &#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;
+  Result    N 45 54.618  W 122 29.014   [Done]
+</pre>
+          <div class="screen-cap">Projection: start point + direction + distance &rarr; calculated coordinate.</div>
+        </div>
+
+        <h2 id="save-location">Saving a location</h2>
+        <p>Cachly can <strong>save locations</strong> &mdash; coordinates you want to keep handy (a parking spot, a campsite, a search center). Saved locations can be reused as search centers or starting points for projection.</p>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

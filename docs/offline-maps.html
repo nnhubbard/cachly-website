@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Offline Maps & Downloads — Cachly Documentation</title>
+  <meta name="description" content="Offline maps and downloads in Cachly: MapLibre vector maps, MBTiles, DeLorme, downloading regions and managing downloads.">
+  <link rel="canonical" href="https://www.cachly.com/docs/offline-maps.html">
+  <meta property="og:title" content="Offline Maps &amp; Downloads — Cachly Documentation">
+  <meta property="og:description" content="Offline maps and downloads in Cachly: MapLibre vector maps, MBTiles, DeLorme, downloading regions and managing downloads.">
+  <meta property="og:url" content="https://www.cachly.com/docs/offline-maps.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Offline Maps & Downloads",
+   "description": "Offline maps and downloads in Cachly: MapLibre vector maps, MBTiles, DeLorme, downloading regions and managing downloads.",
+   "url": "https://www.cachly.com/docs/offline-maps.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Offline Maps & Downloads",
+     "item": "https://www.cachly.com/docs/offline-maps.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="offline-maps">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Offline Maps &amp; Downloads</div>
+        <h1>Offline Maps &amp; Downloads</h1>
+        <p class="doc-lead">Offline maps let the base map render with no connection &mdash; the other half of caching off-grid (the first half being <a href="lists.html#offline">offline cache sets</a>). Most offline map capabilities are part of <a href="cachly-pro.html">Cachly Pro</a>.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/custom-tile-url-add.png" alt="Adding a custom tile source &amp;mdash; URL template in z/x/y format, TMS geometry option and presets like UK OS Maps." width="248"><figcaption>Adding a custom tile source &mdash; URL template in z/x/y format, TMS geometry option and presets like UK OS Maps.</figcaption></figure>
+</div>
+
+        <h2 id="pro-offline-maps">Pro Offline Maps <span class="pro-badge">PRO</span></h2>
+        <p>Cachly Pro&rsquo;s offline maps are <strong>worldwide vector maps</strong> built from OpenStreetMap data and optimized for readability. Download them via the map-layers icon or <span class="ui-path">Settings &rsaquo; Cachly Pro &rsaquo; Download Offline Maps</span>. Maps update <strong>weekly</strong>. Features include:</p>
+        <ul>
+          <li><strong>Contours &amp; hillshades</strong> as supplementary downloads, switching with your metric/imperial units.</li>
+          <li>Customizable <strong>layer visibility</strong> &mdash; trails, 3D buildings, points of interest &mdash; and 3D map rendering.</li>
+          <li><strong>County lines &amp; names</strong> for US states and comparable international regions.</li>
+          <li><strong>Trail symbols &amp; colors</strong> from OpenStreetMap, plus an optional bold scheme matching UK Ordnance Survey styling.</li>
+        </ul>
+
+        <h2 id="offline-search">Offline map searching <span class="pro-badge">PRO</span></h2>
+        <p>When an offline map is active on the Live tab, Cachly can search map features <strong>completely offline</strong>, within your currently visible screen area &mdash; zoom to frame your target region first. Toggle it on under <span class="ui-path">Settings</span>; enable <strong>Allows Partial Words</strong> so searching &ldquo;water&rdquo; matches waterfall and waterway. For structured point-of-interest queries by OpenStreetMap tag (parking, drinking water, bus stops&hellip;), see <a href="osm-poi.html">OSM POI Search</a>.</p>
+
+        <h2 id="downloading">Downloading a region</h2>
+        <p>Choose a region to download; Cachly fetches it in the background (a background session keeps large downloads going even if you leave the app). The <strong>Downloads</strong> screen shows progress and manages what you&rsquo;ve saved.</p>
+
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128246;</span>
+          <div class="callout-body">Download over Wi-Fi before heading out, and pair maps with an <a href="lists.html#offline">offline cache set</a> so both the map <em>and</em> the cache data are on your device.</div>
+        </div>
+
+        <h2 id="custom-tiles">Custom tile URLs</h2>
+        <p>Beyond the built-in sources, Cachly can load tiles from <strong>any tile server</strong> &mdash; specialist commercial maps or free ones (many free servers require your own API key). Open the <a href="map.html#map-sources">Map Types</a> panel, scroll to <strong>Custom Tile URLs</strong> and tap <strong>Add Custom Tile URL</strong>.</p>
+        <p>On the <strong>Tile URL Details</strong> screen, give the source a name and enter its URL template in z/x/y format &mdash; for example <code>https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png</code>:</p>
+        <ul>
+          <li><code>{z}</code>, <code>{x}</code>, <code>{y}</code> &mdash; zoom level and tile coordinates (required).</li>
+          <li><code>{s}</code> &mdash; rotates across the server&rsquo;s subdomains.</li>
+          <li><code>{q}</code> or <code>{quadtree}</code> &mdash; for servers that address tiles with a quadtree key instead of z/x/y.</li>
+        </ul>
+        <p>Under <strong>Geometry</strong>, enable <strong>TMS / Flipped Geometry</strong> for servers whose y-axis runs the other way (TMS layout). A <strong>Presets</strong> section offers ready-made configurations &mdash; such as <strong>UK OS Maps</strong> &mdash; so common services need no manual setup. Saved sources appear in the Map Types panel like any other map, and can be edited or removed later.</p>
+        <p>Other formats Cachly handles include <strong>MBTiles</strong> (with local tile search) and <strong>DeLorme</strong> <span class="pro-badge">PRO</span>.</p>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-User Logging — Cachly Documentation</title>
+  <meta name="description" content="Log a single geocache under several geocaching.com accounts at once with Cachly Pro.">
+  <link rel="canonical" href="https://www.cachly.com/docs/multi-user-logging.html">
+  <meta property="og:title" content="Multi-User Logging — Cachly Documentation">
+  <meta property="og:description" content="Log a single geocache under several geocaching.com accounts at once with Cachly Pro.">
+  <meta property="og:url" content="https://www.cachly.com/docs/multi-user-logging.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Multi-User Logging",
+   "description": "Log a single geocache under several geocaching.com accounts at once with Cachly Pro.",
+   "url": "https://www.cachly.com/docs/multi-user-logging.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Multi-User Logging",
+     "item": "https://www.cachly.com/docs/multi-user-logging.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="multi-user-logging">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Multi-User Logging</div>
+        <h1>Multi-User Logging</h1>
+        <p class="doc-lead">Cache as a couple, family or team and log everyone’s find in one pass — each account with its own message, favorites and trackables. Added in Cachly 8.2 for Pro subscribers.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/settings-users.png" alt="Settings &amp;rsaquo; Users &amp;mdash; the Primary User, additional users for logging, and the Multi-User Logging toggle." width="248"><figcaption>Settings &rsaquo; Users &mdash; the Primary User, additional users for logging, and the Multi-User Logging toggle.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/settings-users-menu.png" alt="Each user&amp;rsquo;s menu: Set as Primary, Text Templates, Auto-Visit Trackables, Delete." width="248"><figcaption>Each user&rsquo;s menu: Set as Primary, Text Templates, Auto-Visit Trackables, Delete.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/log-compose-multi-2.png" alt="The log screen with an Other Users section listing every added account." width="248"><figcaption>The log screen with an Other Users section listing every added account.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/log-compose-multi-expanded.png" alt="Expanding a user reveals their own Message, Favorite Cache, Save as Draft and Trackables." width="248"><figcaption>Expanding a user reveals their own Message, Favorite Cache, Save as Draft and Trackables.</figcaption></figure>
+</div>
+
+        <h2 id="setup">Setting up users</h2>
+        <p>Accounts are managed in <span class="ui-path">Settings &rsaquo; Users</span>:</p>
+        <ul>
+          <li><strong>Primary User</strong> &mdash; the account used for all of Cachly, including searching for caches.</li>
+          <li><strong>Other Users</strong> &mdash; additional accounts used for logging. Tap <strong>+</strong> to add one; each signs in through geocaching.com&rsquo;s own authorization page, so Cachly never sees their password. Each user&rsquo;s <strong>&hellip;</strong> menu offers <strong>Set as Primary</strong>, their own <strong>Text Templates</strong>, <strong>Auto-Visit Trackables</strong>, and <strong>Delete</strong>.</li>
+          <li><strong>Multi-User Logging</strong> toggle &mdash; when enabled, logging a cache lets you submit logs for all added users at once.</li>
+        </ul>
+
+        <h2 id="how-it-works">How it works</h2>
+        <p>Cachly can log a single cache under <strong>multiple geocaching.com accounts at the same time</strong> &mdash; ideal for couples, families or groups who find together. With users added, the log screen gains an <strong>Other Users</strong> section where every account appears with its own controls:</p>
+        <ul>
+          <li><strong>Choose who&rsquo;s logging</strong> &mdash; each additional account has a <strong>checkmark</strong> beside its name; tap to include or exclude that person from this log. Your own account is always logged. Tap an account&rsquo;s row to expand its options.</li>
+          <li><strong>Per-account details</strong> &mdash; every selected account gets its own <strong>message</strong>, <strong>Favorite Cache</strong> toggle, <strong>Save as Draft</strong> toggle and <strong>trackables</strong>, set independently. Each account&rsquo;s own <a href="logging.html#templates">text templates</a> are filled in automatically.</li>
+          <li><strong>Shared settings</strong> &mdash; the <strong>date</strong>, <strong>log type</strong> and (when updating) the <strong>coordinates</strong> apply to everyone at once.</li>
+        </ul>
+        <p>Favorite points are a premium-member feature, so the toggle only appears for accounts that are geocaching.com Premium (and it&rsquo;s hidden entirely on event caches, where it doesn&rsquo;t apply). When you tap Send, Cachly submits a separate, real log for each selected account.</p>
+
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#128101;</span>
+          <div class="callout-body">Multi-user logging applies when you <em>create</em> a log. Editing an existing <a href="logs.html#pending">pending log</a> is single-account. Each added account must stay signed in &mdash; if its session expires, re-add it under <span class="ui-path">Settings &rsaquo; Users</span> before logging.</div>
+        </div>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

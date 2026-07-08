@@ -1,0 +1,37 @@
+{
+ "id": "challenge-tools",
+ "title": "Challenge Tools",
+ "section": "Cachly Pro",
+ "url": "challenge-tools.html",
+ "lead": "Chasing challenge caches? Cachly tracks your progress county by county and DeLorme page by page — with maps that show exactly where you still need a find.",
+ "sections": [
+  {
+   "anchor": "counties",
+   "heading": "Counties / Regions PRO",
+   "text": "For county-challenge cachers, Counties / Regions tracks your finds at the county level. The screen starts empty until you Import Data ; choose a source: Offline List , Dropbox , Google Drive , Files/iCloud or Other . Once imported you get a country-level progress header (say, 948 of 3144 ) above a row per state or region, each showing how many of its counties you’ve found. Open a state for its county list — each county with your find count — or tap View All to see the state as a map: found counties shaded green, missing ones red . Tap a green county to open its panel and view the geocaches you found there, right on the map. The … menu lets you Import Data again or Delete Current Data , and you can filter any offline list by County (see the filter table ). ℹ Not seeing your caches? Tap the Why don’t I see my caches? button on the screen for help — county tracking only counts caches whose data you’ve imported."
+  },
+  {
+   "anchor": "delorme-grid",
+   "heading": "DeLorme Grid PRO",
+   "text": "The DeLorme Grid tracks your finds by DeLorme atlas grid page, for grid-challenge caching. It works just like Counties / Regions: import caches first (same source choices), then browse per-state atlas pages with find counts, or View All to see the page grid drawn over the state map — green pages found, red still needed. Tapping a green page shows the geocaches you’ve found on it."
+  }
+ ],
+ "screenshots": [
+  {
+   "file": "counties-regions.png",
+   "caption": "Counties / Regions (Pro): per-state progress toward finding a cache in every county."
+  },
+  {
+   "file": "counties-map.png",
+   "caption": "View All shows the state map with found counties in green and missing ones in red."
+  },
+  {
+   "file": "counties-detail.png",
+   "caption": "Tapping a green county opens its panel with the geocaches you found there."
+  },
+  {
+   "file": "delorme-map.png",
+   "caption": "The DeLorme Grid draws atlas pages over the state — tap a green page to see your finds there."
+  }
+ ]
+}

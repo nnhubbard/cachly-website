@@ -1,0 +1,35 @@
+{
+ "id": "getting-started",
+ "title": "Accounts & Sign In",
+ "section": "Getting Started",
+ "url": "getting-started.html",
+ "lead": "Cachly connects to your Geocaching.com (Groundspeak) account. Here’s how to sign in, what your membership level unlocks, and how that differs from a Cachly Pro subscription.",
+ "sections": [
+  {
+   "anchor": "signing-in",
+   "heading": "Signing in",
+   "text": "The first time you open Cachly you’ll see the Login screen with three choices: Sign In — authenticate with an existing geocaching.com account. Sign Up — create a new geocaching.com account, then return to sign in. Skip — explore the app first; you can sign in later from More › your profile . Cachly signs you in using OAuth through Geocaching.com’s own secure login page — Cachly never sees or stores your password. You may be asked to authorize Cachly the first time; approve it to continue. You can also authenticate with Facebook credentials, which guides you through initial setup and lets you use Facebook for future logins. 🔐 Because login goes through Geocaching.com directly, your credentials stay between you and Groundspeak. Cachly receives only an access token."
+  },
+  {
+   "anchor": "membership",
+   "heading": "Basic vs. premium membership",
+   "text": "Your geocaching.com membership level is set by Groundspeak, not by Cachly, and it governs what cache data the service returns. These limits come from geocaching.com and apply to every partner app: Basic (free) Premium Full cache downloads / day 3 16,000 Lite cache downloads / day 10,000 10,000 Cache types in live search Traditional & Event only All types, incl. premium-only Favorite points Cannot award Can award Pocket queries & online lists No Yes Lite vs. full downloads: a lite cache includes only basic info (title, D/T, size, coordinates); a full cache adds the hint, description, attributes, waypoints and logs. Cachly downloads lite by default for speed — enable Full Cache Data to load everything up front. If a feature is unavailable due to your membership, Cachly explains and prompts a geocaching.com Premium upgrade."
+  },
+  {
+   "anchor": "vs-pro",
+   "heading": "Membership vs. Cachly Pro",
+   "text": "These are two separate things: Geocaching.com premium — purchased from Groundspeak; unlocks server-side cache data and pocket queries. Cachly Pro — purchased in-app; unlocks Cachly features like offline vector maps and county tools. See Cachly Pro ."
+  },
+  {
+   "anchor": "multiple-accounts",
+   "heading": "Multiple accounts",
+   "text": "Cachly supports more than one geocaching.com identity, which powers multi-user logging — logging a find under several accounts at once (handy for families or shared finds). Additional usernames are managed in settings and used when you choose who to log as."
+  }
+ ],
+ "screenshots": [
+  {
+   "file": "01-login.png",
+   "caption": "The login screen — sign in with your geocaching.com account, sign up, or skip to explore."
+  }
+ ]
+}

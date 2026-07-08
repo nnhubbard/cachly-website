@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lists & Offline Sets — Cachly Documentation</title>
+  <meta name="description" content="Bookmark lists, custom lists and offline sets in Cachly: create lists, add and remove caches, and download caches for offline use.">
+  <link rel="canonical" href="https://www.cachly.com/docs/lists.html">
+  <meta property="og:title" content="Lists &amp; Offline Sets — Cachly Documentation">
+  <meta property="og:description" content="Bookmark lists, custom lists and offline sets in Cachly: create lists, add and remove caches, and download caches for offline use.">
+  <meta property="og:url" content="https://www.cachly.com/docs/lists.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Lists & Offline Sets",
+   "description": "Bookmark lists, custom lists and offline sets in Cachly: create lists, add and remove caches, and download caches for offline use.",
+   "url": "https://www.cachly.com/docs/lists.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Lists & Offline Sets",
+     "item": "https://www.cachly.com/docs/lists.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="lists">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Lists &amp; Offline Sets</div>
+        <h1>Lists &amp; Offline Sets</h1>
+        <p class="doc-lead">Lists keep caches organized; offline sets take it further by downloading caches (and their photos) to your device so you can cache with no signal.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/lists-main.png" alt="The Lists tab on its Offline segment, with the Offline/Online/Trips control and your offline lists." width="248"><figcaption>The Lists tab on its Offline segment, with the Offline/Online/Trips control and your offline lists.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/lists-online.png" alt="The Online segment &amp;mdash; your geocaching.com bookmark lists, including the Ignore List, with cache counts." width="248"><figcaption>The Online segment &mdash; your geocaching.com bookmark lists, including the Ignore List, with cache counts.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/lists-trips.png" alt="The Trips segment holds trip lists for planning a route of caches." width="248"><figcaption>The Trips segment holds trip lists for planning a route of caches.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/add-to-list-options.png" alt="Confirming an Add to List &amp;mdash; how many geocaches will be saved offline, plus Download Images and Show in CarPlay." width="248"><figcaption>Confirming an Add to List &mdash; how many geocaches will be saved offline, plus Download Images and Show in CarPlay.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/offline-list-listview.png" alt="An offline list in List mode &amp;mdash; sortable cache rows with distance, D/T, size and GC code." width="248"><figcaption>An offline list in List mode &mdash; sortable cache rows with distance, D/T, size and GC code.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/offline-list-manage-menu.png" alt="The offline list &amp;hellip; menu &amp;mdash; update caches, download images, highlight, export GPX and more." width="248"><figcaption>The offline list &hellip; menu &mdash; update caches, download images, highlight, export GPX and more.</figcaption></figure>
+</div>
+
+        <h2 id="kinds-of-lists">Kinds of lists</h2>
+        <p>The Lists tab is split into three segments across the top:</p>
+        <ul>
+          <li><strong>Offline</strong> (the default) &mdash; lists whose caches are downloaded to your device for full offline access. Each row shows the cache count, the list name and when it was created.</li>
+          <li><strong>Online</strong> &mdash; the bookmark lists stored on your geocaching.com account, including your <strong>Ignore List</strong>, each with its cache count and a per-row &hellip; menu. Online lists require a geocaching.com Premium membership and stay in sync with the service.</li>
+          <li><strong>Trips</strong> (the car icon) &mdash; trip lists for planning a route of caches, e.g. &ldquo;Trip To Seattle&rdquo;.</li>
+        </ul>
+        <p>Swipe left on any list row to <strong>Delete</strong> it.</p>
+
+        <h2 id="create">Creating a list</h2>
+        <p>Tap <strong>+</strong> at the top of the Lists tab. For an offline list you give it a <strong>title</strong> and can enable <strong>Show in CarPlay</strong>, which makes the list browsable from your car&rsquo;s screen in <a href="carplay.html">CarPlay</a> <span class="pro-badge">PRO</span>. An online list is created with a title and optional description and is saved straight to your geocaching.com account.</p>
+
+        <h2 id="adding-caches">Adding caches to a list</h2>
+        <p>There are two main ways to fill a list:</p>
+        <ul>
+          <li><strong>One cache at a time</strong> &mdash; on a cache&rsquo;s <a href="geocache-details.html">detail screen</a>, tap the <strong>+</strong> button and choose <span class="ui-path">Add to List</span> (the same menu offers Watch and Ignore).</li>
+          <li><strong>In bulk from the map</strong> &mdash; open the map&rsquo;s &hellip; menu, choose <span class="ui-path">Add to List</span>, then pick the scope: <strong>All Caches</strong>, <strong>Visible Caches</strong> or <strong>Highlighted Caches</strong>.</li>
+        </ul>
+        <p>Either way, you then pick the destination list and land on a confirmation screen showing how many geocaches will be saved offline, with two options: <strong>Download Images</strong> (store the caches&rsquo; photos too) and <strong>Show in CarPlay</strong>.</p>
+
+        <h2 id="offline">Offline sets</h2>
+        <p>An <strong>offline set</strong> stores cache information locally &mdash; descriptions, hints, logs, waypoints and (on demand) <strong>photos</strong> &mdash; so everything is available with no internet, perfect for trips without signal. There are three ways to create one:</p>
+        <ul>
+          <li>Add <a href="search.html">search results</a> from the Live tab.</li>
+          <li>Import an existing online list or <a href="import-export.html#pocket-queries">pocket query</a> from geocaching.com.</li>
+          <li>Import a <a href="import-export.html">GPX file</a> received by email or cloud storage.</li>
+        </ul>
+        <p>Browse an offline set on the map using the <a href="map.html#view-types">Offline Lists</a> view type.</p>
+
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128246;</span>
+          <div class="callout-body">Pair offline sets with <a href="offline-maps.html">offline maps</a> <span class="pro-badge">PRO</span> for a completely offline experience &mdash; ideal for remote trails, travel and poor coverage.</div>
+        </div>
+
+        <h2 id="map-and-list-modes">Map mode and List mode</h2>
+        <p>Opening an offline list gives you the same two views as the Live tab. <strong>Map mode</strong> shows the list&rsquo;s caches as pins with the full map toolset, scoped to just that list. <strong>List mode</strong> shows a cache-count heading and one row per cache with its distance, D/T, size and GC code.</p>
+        <p>In list mode, the sort button (up/down arrows) opens the same sort sheet as the live cache list: choose <strong>Ascending</strong> or <strong>Descending</strong>, then a sort type &mdash; Date Found, Date Last Found, Date Placed, Difficulty, Distance, FTF, Favorite Count, Favorite Percentage, Found, GC Code, Highlight Color and more.</p>
+
+        <h2 id="manage">Managing an offline list</h2>
+        <p>In map mode, the &hellip; menu at the top right manages the whole list:</p>
+        <ul>
+          <li><strong>Create Offline Geocache</strong> &mdash; add a cache of your own to the list.</li>
+          <li><strong>Add to List</strong> &mdash; copy caches into another list (All / Visible / Highlighted Caches).</li>
+          <li><strong>Update Caches</strong> &mdash; refresh the stored cache data from geocaching.com.</li>
+          <li><strong>Download Cache Images</strong> &mdash; fetch photos for caches that were saved without them.</li>
+          <li><strong>Highlight</strong> &mdash; apply a <a href="search.html#highlights">highlight color</a> to the caches.</li>
+          <li><strong>Export GPX</strong> &mdash; <a href="import-export.html">export</a> the caches as a GPX file.</li>
+          <li><strong>Delete Visible Caches</strong> &mdash; remove the currently visible caches from the list.</li>
+        </ul>
+
+        <h2 id="membership">List membership</h2>
+        <p>At the bottom of a cache&rsquo;s <a href="geocache-details.html">detail screen</a>, <strong>List Membership</strong> shows when the cache was last saved offline and which offline lists contain it. When a cache is in several lists you can use <strong>Edit</strong> (or swipe left) to remove it from specific lists while keeping it in the one you opened it from. This applies to caches stored offline.</p>
+
+        <h2 id="filter-offline">Filtering offline lists</h2>
+        <p>Offline lists have their own filtering system, far deeper than live search: tap the <strong>filter</strong> button in list view to stack multiple filters, invert them, and save whole sets as templates. The walkthrough and the complete table of filter options are on <a href="search.html#offline-filters">Search &amp; Filters</a>.</p>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

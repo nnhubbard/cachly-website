@@ -1,0 +1,6 @@
+220,478  Application  'Cachly'
+276,361  Button  'Set as Primary'
+276,403  Button  'Text Templates'
+276,455  Button  'Auto-Visit Trackables'
+276,507  Button  'Delete'
+220,478  Button  'Dismiss context menu'

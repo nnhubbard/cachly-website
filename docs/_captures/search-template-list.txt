@@ -1,0 +1,4 @@
+220,478  Application  'Cachly'
+219,114  Heading  'Templates'
+398,114  Button  'Cancel'
+220,541  StaticText  'No templates were found'

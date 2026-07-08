@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logging a Find — Cachly Documentation</title>
+  <meta name="description" content="How to log a geocache in Cachly: log types, multi-user logging, drafts and field notes, templates, favorite points, photos and corrected coordinates.">
+  <link rel="canonical" href="https://www.cachly.com/docs/logging.html">
+  <meta property="og:title" content="Logging a Find — Cachly Documentation">
+  <meta property="og:description" content="How to log a geocache in Cachly: log types, multi-user logging, drafts and field notes, templates, favorite points, photos and corrected coordinates.">
+  <meta property="og:url" content="https://www.cachly.com/docs/logging.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Logging a Find",
+   "description": "How to log a geocache in Cachly: log types, multi-user logging, drafts and field notes, templates, favorite points, photos and corrected coordinates.",
+   "url": "https://www.cachly.com/docs/logging.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Logging a Find",
+     "item": "https://www.cachly.com/docs/logging.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="logging">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Logging a Find</div>
+        <h1>Logging a Find</h1>
+        <p class="doc-lead">Logging records your visit to a cache. Cachly lets you log a single find quickly, log for several accounts at once, save drafts for later, reuse text templates, attach photos, and award a favorite point.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/log-compose.png" alt="The Log Geocache screen with Send Log Now, date and time, Log Type, and a per-user section with Message, Favorite Cache, Save as Draft and Trackables." width="248"><figcaption>The Log Geocache screen with Send Log Now, date and time, Log Type, and a per-user section with Message, Favorite Cache, Save as Draft and Trackables.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/log-type-picker.png" alt="The Log Type picker: Found it, Didn&#x27;t find it, Write note, Reviewer Attention Requested and Owner Attention Requested." width="248"><figcaption>The Log Type picker: Found it, Didn't find it, Write note, Reviewer Attention Requested and Owner Attention Requested.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/log-message-editor.png" alt="The log message editor with its 5,000-character counter and the Cachly Intelligence sparkle button." width="248"><figcaption>The log message editor with its 5,000-character counter and the Cachly Intelligence sparkle button.</figcaption></figure>
+</div>
+
+        <h2 id="log-screen">The Log Geocache screen</h2>
+        <p>From a cache&rsquo;s <a href="geocache-details.html">details</a>, start a log to open the <strong>Log Geocache</strong> screen. Top to bottom it contains:</p>
+        <ul>
+          <li><strong>Send Log Now</strong> &mdash; a switch controlling whether the log posts immediately or is <a href="#send-now">saved for later</a>.</li>
+          <li><strong>Date</strong> and <strong>time</strong> &mdash; tap either to change when the find happened (they default to right now).</li>
+          <li><strong>Log Type</strong> &mdash; opens the <a href="#log-types">type picker</a>. A status line underneath confirms what will happen: <em>Your log will be sent now</em>, or <em>Your log will be saved and you can send it later from the Pending Logs</em>.</li>
+          <li><strong>A section per signed-in user</strong> &mdash; each account gets its own <strong>Message</strong>, <strong>Favorite Cache</strong> toggle, <strong>Save as Draft</strong> toggle and <strong>Trackables</strong> row (see <a href="#multi-user">multi-user logging</a>). The Trackables row selects which of that account&rsquo;s <a href="trackables.html">trackables</a> are dropped or visited with the log.</li>
+        </ul>
+
+        <h2 id="log-types">Choosing a log type</h2>
+        <p>Tap <strong>Log Type</strong> and pick one:</p>
+        <ul>
+          <li><strong>Found it</strong> &mdash; you found the cache.</li>
+          <li><strong>Didn&rsquo;t find it</strong> (DNF) &mdash; you looked but came up empty.</li>
+          <li><strong>Write note</strong> &mdash; a comment without claiming a find.</li>
+          <li><strong>Owner Attention Requested</strong> &mdash; the cache needs maintenance from its owner.</li>
+          <li><strong>Reviewer Attention Requested</strong> &mdash; flag a serious problem to a community reviewer.</li>
+        </ul>
+        <p>Cachly picks a sensible default type for you: on a <strong>webcam</strong> cache a Found It becomes <strong>Webcam Photo Taken</strong>; on a <strong>future event</strong> it defaults to <strong>Will Attend</strong> and on a past one to <strong>Attended</strong>; and <strong>Owner Maintenance</strong> is offered only on caches you own.</p>
+
+        <h2 id="send-now">Send now, or save for later</h2>
+        <p>At the top of the log screen is the <strong>Send Log Now</strong> switch:</p>
+        <ul>
+          <li><strong>On</strong> (the default) &mdash; the action button reads <strong>Send</strong> and posts your log to Geocaching.com right away.</li>
+          <li><strong>Off</strong> &mdash; the button becomes <strong>Save</strong> and your log is kept as a <a href="logs.html#pending">pending log</a> to upload later.</li>
+        </ul>
+        <p>If you tap Send while you&rsquo;re offline, Cachly notices and offers to save the log as pending instead of failing. Likewise, if you cancel a log you&rsquo;ve started, it offers to <strong>Save as Pending</strong> rather than lose your write-up. Editing a pending log reopens this same screen, and pending logs can be submitted or exported in bulk from the Logs tab &mdash; see <a href="logs.html#pending">Pending logs</a>.</p>
+
+        <h2 id="multi-user">Multi-user logging <span class="pro-badge">PRO</span></h2>
+        <p>Cachly can log a single cache under multiple geocaching.com accounts at once &mdash; see the dedicated <a href="multi-user-logging.html">Multi-User Logging</a> page.</p>
+
+        <h2 id="message-editor">Writing the message</h2>
+        <p>Tap <strong>Message</strong> to open the log editor. A counter tracks your length against the <strong>5,000-character</strong> limit, and a <strong>Write / Preview</strong> switch lets you check how formatting will look before you post. From the editor you can also:</p>
+        <ul>
+          <li><strong>Attach photos</strong> &mdash; the image button offers <strong>Take Photo</strong>, <strong>Choose From Library</strong> and <strong>Personal Note Photos</strong>; images upload with your log.</li>
+          <li><strong>Insert a template</strong> &mdash; drop in one of your saved <a href="#templates">text templates</a>, or jump to <strong>Edit Text Templates</strong>. A <strong>Clear Message Text</strong> option starts you over.</li>
+          <li><strong>Insert keywords</strong> &mdash; pick placeholder keywords from the keywords picker instead of typing them by hand; Cachly replaces them with real values when the log is posted.</li>
+          <li><strong>Draft with AI</strong> &mdash; the <strong>sparkle</strong> button opens <a href="intelligence.html">Cachly Intelligence</a>, which can write a log for you using Apple Intelligence, Claude, ChatGPT or Gemini &mdash; you then edit and post it.</li>
+        </ul>
+
+        <h2 id="templates">Log templates</h2>
+        <p>If you write similar logs often, save <strong>text templates</strong> and drop them into a log with one tap. Templates can include keyword placeholders that Cachly fills in (such as the find count or date), so each log still feels personal. Manage them in <span class="ui-path">Settings &rsaquo; Templates</span> or via <strong>Edit Text Templates</strong> in the message editor.</p>
+        <p>Each template can be given a <strong>log type</strong>: when you create a log matching that type, the template&rsquo;s text is <strong>inserted automatically</strong> &mdash; a Found It template for finds, a DNF template for the days that don&rsquo;t go so well. In multi-user logging, each account&rsquo;s own templates are applied to its message.</p>
+
+        <h2 id="drafts">Drafts vs. pending logs</h2>
+        <p>Cachly has two ways to hold a log you&rsquo;re not posting as a finished log &mdash; they sound similar but work differently:</p>
+        <ul>
+          <li><strong>Drafts</strong> (field notes) &mdash; turn on <strong>Save as Draft</strong> and the log is saved to <strong>Geocaching.com as a Draft</strong>. Drafts sync to the website and across your devices, and you can finish them later in Cachly or on the site. The first time you use it, Cachly explains what a Draft is.</li>
+          <li><strong>Pending logs</strong> &mdash; turning <a href="#send-now">Send Log Now</a> off (or saving when offline) keeps a finished log <strong>on your device</strong>, ready to upload. Pending logs upload when you reconnect, and can be edited, bulk-submitted or exported from the Logs tab. See <a href="logs.html#pending">Pending logs</a>.</li>
+        </ul>
+
+        <h2 id="extras">Photos, favorites &amp; corrected coordinates</h2>
+        <ul>
+          <li><strong>Photos</strong> &mdash; attach images to your log from the <a href="#message-editor">message editor</a>.</li>
+          <li><strong>Favorite point</strong> &mdash; if you&rsquo;ve found it and have points available, turn on <strong>Favorite Cache</strong> to award one to a great cache. (On certain cache types, such as events, the option is hidden because it doesn&rsquo;t apply.)</li>
+          <li><strong>Trackables</strong> &mdash; the Trackables row logs drops and visits for the trackables you&rsquo;re carrying; <a href="trackables.html#auto-visit">auto-visit</a> can handle this automatically.</li>
+          <li><strong>Corrected coordinates</strong> &mdash; update the cache&rsquo;s coordinates (for solved puzzles or owner adjustments) as part of the flow. See <a href="waypoints.html">Waypoints &amp; Coordinates</a>.</li>
+        </ul>
+
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#9881;</span>
+          <div class="callout-body">Set your logging defaults &mdash; default log type, favorite prompts, draft behavior and more &mdash; in <span class="ui-path">Settings &rsaquo; Logs</span> so the compose screen opens the way you like it.</div>
+        </div>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

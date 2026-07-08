@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSM POI Search — Cachly Documentation</title>
+  <meta name="description" content="Search OpenStreetMap points of interest on the map with Cachly Pro, using Overpass turbo Wizard syntax.">
+  <link rel="canonical" href="https://www.cachly.com/docs/osm-poi.html">
+  <meta property="og:title" content="OSM POI Search — Cachly Documentation">
+  <meta property="og:description" content="Search OpenStreetMap points of interest on the map with Cachly Pro, using Overpass turbo Wizard syntax.">
+  <meta property="og:url" content="https://www.cachly.com/docs/osm-poi.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "OSM POI Search",
+   "description": "Search OpenStreetMap points of interest on the map with Cachly Pro, using Overpass turbo Wizard syntax.",
+   "url": "https://www.cachly.com/docs/osm-poi.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "OSM POI Search",
+     "item": "https://www.cachly.com/docs/osm-poi.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="osm-poi">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; OSM POI Search</div>
+        <h1>OpenStreetMap POI Search</h1>
+        <p class="doc-lead">Find parking, bus stops, viewpoints — any OpenStreetMap point of interest — right on Cachly’s map with a q: query.</p>
+        <h2 id="how-it-works">How it works</h2>
+        <p>With Pro Offline Maps enabled, you can search OpenStreetMap points of interest right on the map. Start a search with <code>q:</code> followed by a tag query, e.g. <code>q:amenity=parking</code>, and combine conditions with <code>and</code>/<code>or</code> (<code>q:highway=bus_stop and shelter=yes</code>). Queries use the <a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo/Wizard" target="_blank" rel="noopener">Overpass turbo Wizard syntax</a> &mdash; that page documents the full grammar (comparison operators, wildcards, quoting) and is a handy reference for discovering tag names. Results are limited to the visible map area &mdash; tap a placed icon to inspect its tags, create an offline geocache, or navigate.</p>
+
+        <h2 id="examples">Example queries</h2>
+        <p>These are drawn from the Overpass turbo Wizard documentation, with Cachly&rsquo;s <code>q:</code> prefix added &mdash; try them as-is, then swap in your own tags:</p>
+        <table>
+          <thead><tr><th>Query</th><th>Finds</th></tr></thead>
+          <tbody>
+            <tr><td><code>q:tourism=hotel</code></td><td>Hotels &mdash; handy when planning a caching trip.</td></tr>
+            <tr><td><code>q:amenity=drinking_water</code></td><td>Drinking water fountains along the trail.</td></tr>
+            <tr><td><code>q:amenity=parking</code></td><td>Parking &mdash; find a spot near the trailhead.</td></tr>
+            <tr><td><code>q:highway=bus_stop or railway=platform</code></td><td>Bus stops <em>or</em> railway platforms (<code>or</code> matches either).</td></tr>
+            <tr><td><code>q:highway=bus_stop and shelter=yes</code></td><td>Only bus stops that have a shelter (<code>and</code> requires both).</td></tr>
+            <tr><td><code>q:(highway=primary or highway=secondary) and type:way</code></td><td>Primary or secondary roads &mdash; parentheses group conditions, and <code>type:way</code> restricts the element type (<code>node</code>, <code>way</code> or <code>relation</code>).</td></tr>
+            <tr><td><code>q:cycleway:opp</code></td><td>A bare word matches partially &mdash; this finds <code>opposite</code>, <code>opposite_track</code>, <code>opposite_lane</code>&hellip;</td></tr>
+            <tr><td><code>q:name~"^DB0.*"</code></td><td>Regular expressions with <code>~</code> &mdash; here, names starting with &ldquo;DB0&rdquo;.</td></tr>
+          </tbody>
+        </table>
+
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#8505;</span>
+          <div class="callout-body">The Wizard&rsquo;s place-based forms (<code>in Vienna</code>, <code>around &hellip;</code>) aren&rsquo;t needed in Cachly &mdash; the search area is always the map you&rsquo;re looking at. Pan or zoom, then search again.</div>
+        </div>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

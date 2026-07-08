@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CarPlay — Cachly Documentation</title>
+  <meta name="description" content="Cachly's CarPlay integration: search, navigate to and voice-log geocaches from your vehicle's dashboard. A Cachly Pro feature.">
+  <link rel="canonical" href="https://www.cachly.com/docs/carplay.html">
+  <meta property="og:title" content="CarPlay — Cachly Documentation">
+  <meta property="og:description" content="Cachly&#x27;s CarPlay integration: search, navigate to and voice-log geocaches from your vehicle&#x27;s dashboard. A Cachly Pro feature.">
+  <meta property="og:url" content="https://www.cachly.com/docs/carplay.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "CarPlay",
+   "description": "Cachly's CarPlay integration: search, navigate to and voice-log geocaches from your vehicle's dashboard. A Cachly Pro feature.",
+   "url": "https://www.cachly.com/docs/carplay.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "CarPlay",
+     "item": "https://www.cachly.com/docs/carplay.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="carplay">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; CarPlay</div>
+        <h1>Cachly on CarPlay</h1>
+        <p class="doc-lead">Cachly's CarPlay integration brings the full geocaching experience to your vehicle's dashboard, allowing you to search for caches, navigate to them, and even log your finds &mdash; all while keeping your eyes on the road.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-01.jpg" alt="CarPlay screenshot"></figure>
+
+        <div class="callout pro">
+          <span class="callout-icon" aria-hidden="true">&#11088;</span>
+          <div class="callout-body">CarPlay is a <a href="cachly-pro.html">Cachly Pro</a> feature and requires an active Cachly Pro subscription.</div>
+        </div>
+
+        <h2 id="getting-started">Getting started</h2>
+        <p>When you connect your iPhone to a CarPlay-compatible vehicle, Cachly will appear on your CarPlay dashboard. Simply tap the Cachly icon to launch the app.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-02.jpg" alt="CarPlay screenshot"></figure>
+        <p>Upon first launch, you&rsquo;ll see the main map view centered on your current location. The map will automatically begin loading nearby geocaches if you have an active internet connection.</p>
+
+        <h3>Requirements</h3>
+        <ul>
+          <li>iPhone with iOS 14 or later</li>
+          <li>CarPlay-compatible vehicle or head unit</li>
+          <li>Active Cachly Pro subscription</li>
+          <li>Internet connection (for live cache searching) or pre-downloaded Trips (for offline use)</li>
+        </ul>
+
+        <h3>Cachly icon not showing in CarPlay</h3>
+        <p>Cachly should be added automatically to CarPlay, but if you are not seeing the Cachly icon go to <span class="ui-path">iOS Settings &rsaquo; General &rsaquo; CarPlay</span> and choose your car. Next go to <strong>Apps</strong>, scroll to the bottom and <strong>add Cachly</strong> as an included app.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-03.png" alt="CarPlay screenshot"></figure>
+
+        <h2 id="carplay-map">The CarPlay map</h2>
+        <p>The CarPlay map is your primary interface for discovering geocaches while driving. It displays geocache locations as pins with icons indicating the cache type and cache titles at higher zoom levels.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-04.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Map controls</h3>
+        <p>The map includes several control buttons:</p>
+        <table>
+          <thead><tr><th>Button</th><th>Function</th></tr></thead>
+          <tbody>
+            <tr><td><strong>+</strong></td><td>Zoom in one level (see below for screenshots)</td></tr>
+            <tr><td><strong>&minus;</strong></td><td>Zoom out one level (see below for screenshots)</td></tr>
+            <tr><td><strong>Location Arrow</strong></td><td>Center map on your current location</td></tr>
+            <tr><td><strong>Cache Count</strong></td><td>Shows number of visible caches (displays &ldquo;10+&rdquo; when more than 10)</td></tr>
+            <tr><td><strong>Panning</strong></td><td>Shows the CarPlay panning interface (see below for screenshots)</td></tr>
+            <tr><td><strong>X clear</strong></td><td>Clears caches from a loaded trip</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Understanding the map display</h3>
+        <ul>
+          <li><strong>Cache Pins</strong> &mdash; each geocache appears as a pin with an icon representing its cache type (Traditional, Multi, Mystery, etc.)
+            <ul>
+              <li>Favorites: cache pins will show favorites count for caches that have 10 or more favorite points.</li>
+            </ul></li>
+          <li><strong>Cache Labels</strong> &mdash; when zoomed in sufficiently (zoom level 14+), cache names appear next to their pins</li>
+          <li><strong>Your Location</strong> &mdash; a blue dot shows your current position when the map is not following your location, and a direction-of-travel icon when it is.</li>
+        </ul>
+
+        <h3>Zoom in/out and panning the map</h3>
+        <ul>
+          <li>Most CarPlay systems only support panning and zooming by using the UI buttons.</li>
+          <li>Some new CarPlay systems on iOS 26 support zoom and rotating by pinching and zooming.</li>
+        </ul>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-05.jpg" alt="CarPlay screenshot"></figure>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-06.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Map behavior</h3>
+        <ul>
+          <li>The map automatically refreshes and loads new caches as you drive</li>
+          <li>Caches load when you&rsquo;re zoomed in to at least level 12</li>
+          <li>If you&rsquo;re zoomed out too far, you&rsquo;ll see a message asking you to zoom in</li>
+        </ul>
+
+        <h2 id="browsing">Browsing geocaches</h2>
+
+        <h3>Viewing the cache list</h3>
+        <p>Tap the <strong>cache count button</strong> (showing the number of visible caches) to open a list view of all geocaches currently on the map.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-07.jpg" alt="CarPlay screenshot"></figure>
+        <p>Each cache in the list displays:</p>
+        <ul>
+          <li><strong>Cache Name</strong> &mdash; the title of the geocache</li>
+          <li><strong>Distance</strong> &mdash; how far the cache is from your current location</li>
+          <li><strong>D/T Rating</strong> &mdash; Difficulty and Terrain ratings</li>
+          <li><strong>Size</strong> &mdash; container size (Micro, Small, Regular, Large, etc.)</li>
+          <li><strong>GC Code</strong> &mdash; the unique geocache identifier</li>
+          <li><strong>Favorite Points</strong> &mdash; shown with a heart symbol (&#9829;&#65038;)</li>
+          <li><strong>Highlight Color</strong> &mdash; if you&rsquo;ve assigned a highlight color to the cache, it appears as a colored circle</li>
+        </ul>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-08.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Viewing cache details</h3>
+        <p>Tap any cache in the list to view its details:</p>
+        <ul>
+          <li><strong>Difficulty/Terrain/Size</strong> &mdash; core cache attributes</li>
+          <li><strong>Favorite Points</strong> &mdash; community rating</li>
+          <li><strong>GC Code</strong> &mdash; for reference</li>
+          <li><strong>Placed By</strong> &mdash; cache owner&rsquo;s username</li>
+          <li><strong>Placement Date</strong> &mdash; when the cache was published</li>
+          <li><strong>Distance</strong> &mdash; live-updating distance from your location</li>
+        </ul>
+        <p>From the details screen, you can:</p>
+        <ul>
+          <li><strong>Navigate</strong> &mdash; start navigation to this cache</li>
+          <li><strong>Log Cache</strong> &mdash; record your find using voice</li>
+          <li><strong>Hint</strong> &mdash; view the cache hint (if available)</li>
+        </ul>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-09.jpg" alt="CarPlay screenshot"></figure>
+
+        <div class="callout warning">
+          <span class="callout-icon" aria-hidden="true">&#9888;&#65039;</span>
+          <div class="callout-body"><strong>You cannot tap directly on cache pins on the map.</strong> To interact with a geocache, you must use the cache list button. Tap the cache count button to open the list, then select the cache you want to view or navigate to. <strong>This is a limitation of CarPlay itself, imposed by Apple.</strong></div>
+        </div>
+
+        <h2 id="intelligence-summaries">Cachly Intelligence summaries</h2>
+        <p>With <a href="intelligence.html">Cachly Intelligence</a> enabled, the cache details screen gains a <strong>sparkle</strong> button in the top bar. Tap it and choose <strong>Summarize Description</strong> or <strong>Summarize Logs</strong> &mdash; Cachly generates a concise <a href="intelligence.html#summaries">AI summary</a> and <strong>reads it aloud</strong>, so you get the gist of a long description or the latest finder activity without taking your eyes off the road.</p>
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#10024;</span>
+          <div class="callout-body">The sparkle button appears once Cachly Intelligence is turned on in <span class="ui-path">Settings &rsaquo; Cachly Pro</span> on your iPhone and an <a href="intelligence.html#setup">AI provider</a> is set up.</div>
+        </div>
+
+        <h2 id="trips">Using Trips (offline lists)</h2>
+        <p>Trips are offline lists you&rsquo;ve created and saved offline in the Cachly iOS app. They allow you to browse and navigate to geocaches without an internet connection.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-10.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Setting up Trips for CarPlay</h3>
+        <p>Before your Trips appear in CarPlay, you must enable them in the iOS app:</p>
+        <ol>
+          <li>Open Cachly on your iPhone</li>
+          <li>Tap the Trips tab (car icon) in the Lists section of Cachly</li>
+          <li>Tap <strong>+</strong> to create a new Trip list</li>
+          <li>Copy or add caches from the Live tab or other offline lists</li>
+          <li>Optionally, arrange the sort order of your lists</li>
+        </ol>
+
+        <h3>Browsing Trips in CarPlay</h3>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-11.jpg" alt="CarPlay screenshot"></figure>
+        <ol>
+          <li>From the main map, access the menu by tapping the <strong>trips menu button</strong></li>
+          <li>Browse your available offline lists</li>
+          <li>Each Trip shows:
+            <ol>
+              <li>List name</li>
+              <li>Number of geocaches</li>
+              <li>Last updated date</li>
+            </ol></li>
+          <li>Tap a Trip to view its caches</li>
+          <li>Select the <strong>Show on Map</strong> icon to display all caches from that Trip on the map</li>
+        </ol>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-12.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Custom sorting</h3>
+        <p>You can sort caches within a Trip two ways:</p>
+        <ul>
+          <li><strong>By Distance</strong> &mdash; caches sorted by proximity to your current location (default)</li>
+          <li><strong>Custom Order</strong> &mdash; respects the manual sort order you&rsquo;ve set in the iOS app</li>
+        </ul>
+        <p>To change sorting, go to <span class="ui-path">Settings &rsaquo; Sorting</span> in CarPlay.</p>
+
+        <h2 id="navigation">Navigating to geocaches</h2>
+        <p>Cachly supports multiple navigation options to guide you to geocaches.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-13.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Starting navigation</h3>
+        <ol>
+          <li>Select a geocache from the list or cache details</li>
+          <li>Tap <strong>Navigate</strong></li>
+          <li>Choose your preferred navigation app (if not set as default)</li>
+        </ol>
+
+        <h3>Navigation apps</h3>
+        <p>Cachly supports the following navigation options:</p>
+        <ol>
+          <li><strong>Pro Offline Maps</strong> &mdash; Cachly&rsquo;s built-in navigation using downloaded offline maps</li>
+          <li><strong>Apple Maps</strong> &mdash; opens Apple Maps with directions</li>
+          <li><strong>Google Maps</strong> &mdash; opens Google Maps (must be installed)</li>
+          <li><strong>Waze</strong> &mdash; opens Waze (must be installed)</li>
+          <li><strong>TomTom Go</strong> &mdash; opens TomTom Go (must be installed)</li>
+        </ol>
+        <p>You can set your default navigation app in <span class="ui-path">Settings &rsaquo; Navigation</span>. The first time you navigate, Cachly shows the full list of options; after that it uses your saved default.</p>
+
+        <h3>During navigation using Pro Offline Maps</h3>
+        <p>When navigating to a geocache using offline maps:</p>
+        <ul>
+          <li>A navigation line shows the direct route to the cache</li>
+          <li>The map tracks both your location and the destination</li>
+          <li>An information panel shows the cache name and details</li>
+          <li>You can log the cache or proceed to the next cache in your route</li>
+          <li><strong>The geocache will show on your iOS device</strong></li>
+        </ul>
+
+        <h3>Starting navigation from iPhone</h3>
+        <p>You can start navigation from the Cachly iOS app while connected to CarPlay:</p>
+        <ol>
+          <li>Open a geocache in the iOS app and browse to the navigate screen</li>
+          <li>Tap the action <strong>&hellip;</strong> button and choose <strong>Pro Offline Maps</strong></li>
+          <li>CarPlay will automatically begin navigating to that cache</li>
+        </ol>
+
+        <h2 id="routes">Multiple cache routes</h2>
+        <p>Plan a geocaching route with multiple stops directly from CarPlay.</p>
+
+        <h3>Creating a route</h3>
+        <ol>
+          <li>Open the cache list (tap the cache count button)</li>
+          <li>Tap the <strong>route button</strong> to enter selection mode</li>
+          <li>Tap each cache you want to include in your route (checkmarks appear)</li>
+          <li>Tap the navigate button to start your route</li>
+        </ol>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-14.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Following a multiple cache route using Pro Offline Maps</h3>
+        <p>During multiple cache navigation:</p>
+        <ul>
+          <li>The screen shows which cache you&rsquo;re navigating to (e.g., &ldquo;1 of 5&rdquo;)</li>
+          <li>After arriving at or logging a cache, tap <strong>Next</strong> to proceed to the next cache</li>
+          <li>The route automatically cycles back to the first cache when you reach the end</li>
+          <li>You can log each cache as you visit it</li>
+        </ul>
+
+        <h2 id="voice-logging">Voice logging</h2>
+        <p>Log your geocache finds hands-free using voice recognition &mdash; perfect for when you&rsquo;re back in the car after finding a cache.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-15.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>How to log a cache</h3>
+        <ol>
+          <li>While viewing a cache or navigating, tap <strong>Log Cache</strong></li>
+          <li>Select your log type:
+            <ul>
+              <li><strong>Found It</strong> &mdash; you found the cache</li>
+              <li><strong>DNF</strong> &mdash; Did Not Find</li>
+              <li><strong>Write Note</strong> &mdash; add a note without logging a find</li>
+              <li><strong>Attended</strong> &mdash; for Event caches</li>
+              <li><strong>Will Attend</strong> &mdash; for upcoming Event caches</li>
+              <li><strong>Webcam Photo Taken</strong> &mdash; for Webcam caches</li>
+            </ul></li>
+          <li>Speak your log message when prompted</li>
+          <li>Review your message (tap <strong>Review Message</strong> to hear it read back)</li>
+          <li>Tap <strong>Send Log</strong> to submit or <strong>Save Log</strong> to save as a draft</li>
+        </ol>
+
+        <h3>Voice settings</h3>
+        <p>Customize voice logging in <span class="ui-path">Settings &rsaquo; Voice</span>:</p>
+        <ul>
+          <li><strong>Include Voice Before Template</strong> &mdash; adds your spoken text before any log template you&rsquo;ve set up in the iOS app</li>
+          <li><strong>Skip Voice Input</strong> &mdash; quickly log without speaking (uses your template only)</li>
+        </ul>
+
+        <h3>Log templates</h3>
+        <p>CarPlay respects the log templates you&rsquo;ve configured in the iOS Cachly app. Your voice message can be combined with these templates for consistent, detailed logs.</p>
+
+        <h3>Offline logging</h3>
+        <p>If you don&rsquo;t have an internet connection when logging:</p>
+        <ul>
+          <li>Your log is automatically saved as a draft (Field Note)</li>
+          <li>Sync your drafts when you&rsquo;re back online using the iOS app</li>
+        </ul>
+
+        <h2 id="proximity-alerts">Proximity alerts</h2>
+        <p>Cachly can alert you when you&rsquo;re approaching a geocache while driving.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-16.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>How alerts work</h3>
+        <ul>
+          <li>When you come within <strong>300 meters</strong> of a geocache, an alert appears</li>
+          <li>The alert shows the cache name, type, and basic details</li>
+          <li>You can dismiss the alert or tap to navigate</li>
+          <li>Alerts only trigger while your vehicle is moving</li>
+        </ul>
+
+        <h3>Alert settings</h3>
+        <p>Configure alerts in <span class="ui-path">Settings &rsaquo; Alerts</span>:</p>
+        <ul>
+          <li><strong>Show Upcoming Alert</strong> &mdash; enable or disable proximity alerts</li>
+          <li><strong>Alert Only Favorited 2+</strong> &mdash; only show alerts for caches with 2 or more favorite points (helps focus on higher-quality caches)</li>
+        </ul>
+
+        <h3>Alert limitations</h3>
+        <p>Alerts will NOT appear:</p>
+        <ul>
+          <li>For caches you&rsquo;ve already found</li>
+          <li>For caches you own</li>
+          <li>For a cache you&rsquo;ve already been alerted about during this session</li>
+          <li>While actively navigating to a cache</li>
+          <li>When your vehicle is stationary</li>
+        </ul>
+
+        <h2 id="offline-maps">Offline maps</h2>
+        <p>Use downloaded vector maps for navigation without an internet connection.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-17.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Setting up offline maps</h3>
+        <ol>
+          <li>Download offline maps in the Cachly iOS app first</li>
+          <li>In CarPlay, tap the <strong>maps icon</strong> on the top left of the map screen</li>
+          <li>Select the offline map you want to use</li>
+          <li>The map will update to use your selected offline map</li>
+        </ol>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-18.jpg" alt="CarPlay screenshot"></figure>
+
+        <h3>Offline map display</h3>
+        <ul>
+          <li>Shows map name and country/region</li>
+          <li>Use the list to switch between downloaded maps</li>
+          <li>Pro Offline Maps navigation uses these downloaded maps</li>
+        </ul>
+
+        <h2 id="settings">CarPlay settings</h2>
+        <p>Access settings from the main menu to customize your CarPlay experience.</p>
+        <figure class="article-img"><img loading="lazy" src="assets/help-images/carplay-19.jpg" alt="CarPlay screenshot"></figure>
+        <table>
+          <thead><tr><th>Section</th><th>Options</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Filtering</strong></td><td><strong>Use Filter Options From iPhone</strong> &mdash; sync filters with your iOS app settings. <strong>Exclude My Finds</strong> &mdash; hide caches you&rsquo;ve already found. <strong>Exclude My Hides</strong> &mdash; hide caches you own.</td></tr>
+            <tr><td><strong>Voice</strong></td><td><strong>Include Voice Before Template</strong> &mdash; prepend voice input to your log template. <strong>Skip Voice Input</strong> &mdash; log without voice recording.</td></tr>
+            <tr><td><strong>Navigation</strong></td><td><strong>Pro Offline Maps</strong> &mdash; use Cachly&rsquo;s built-in navigation. <strong>Apple Maps</strong> &mdash; use Apple Maps for navigation. <strong>Google Maps</strong> &mdash; use Google Maps (if installed). <strong>Waze</strong> &mdash; use Waze (if installed). <strong>TomTom Go</strong> &mdash; use TomTom Go (if installed).</td></tr>
+            <tr><td><strong>Map Options</strong></td><td><strong>Map Orientation</strong> &mdash; <strong>North Up</strong> keeps north at the top, <strong>Follow Course</strong> rotates the map to your direction of travel. <strong>Show Compass</strong> &mdash; show a compass on the map. <strong>Show Speed and Altitude</strong> &mdash; show a live speed and altitude readout on the map. <strong>Map Style</strong> &mdash; <strong>Automatic</strong>, <strong>Light</strong> or <strong>Dark</strong>; this also switches the whole CarPlay interface between light and dark appearance.</td></tr>
+            <tr><td><strong>Alerts</strong></td><td><strong>Show Upcoming Alert</strong> &mdash; enable proximity alerts. <strong>Alert Only Favorited 2+</strong> &mdash; only alert for highly-favorited caches.</td></tr>
+            <tr><td><strong>Pin Type</strong></td><td><strong>Pin Type 1, 2, or 3</strong> &mdash; choose your preferred visual style for cache pins.</td></tr>
+            <tr><td><strong>Sorting</strong></td><td><strong>Distance</strong> &mdash; sort caches by distance from you. <strong>Custom</strong> &mdash; use your manual sort order from the iOS app.</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="ios-integration">Integration with the iOS app</h2>
+        <p>CarPlay works seamlessly with the Cachly iOS app on your iPhone.</p>
+
+        <h3>Trips synchronization</h3>
+        <ul>
+          <li>Create and manage Trips in the iOS app</li>
+          <li>Arrange Trip order in the iOS app to control CarPlay display order</li>
+          <li>Download caches for offline access before your trip</li>
+        </ul>
+
+        <h3>Custom sort order</h3>
+        <p>To use custom sorting in CarPlay:</p>
+        <ol>
+          <li>Open an offline list in the iOS app</li>
+          <li>View the offline trip, choose the <strong>sorting icon on the lists screen</strong>, then choose <strong>Custom</strong> in sort types and manually arrange caches in your preferred order</li>
+          <li>In CarPlay, go to <span class="ui-path">Settings &rsaquo; Sorting</span> and select <strong>Custom</strong></li>
+          <li>Your caches will now appear in the order you set</li>
+        </ol>
+
+        <h3>Filter synchronization</h3>
+        <p>Enable <strong>Use Filter Options From iPhone</strong> in CarPlay Settings to apply your iOS app&rsquo;s filter settings when searching for live caches.</p>
+
+        <h3>Navigation handoff</h3>
+        <ul>
+          <li>Start navigation in CarPlay using offline maps, and the iOS app knows which cache you&rsquo;re heading to</li>
+          <li>Start navigation in the iOS app using the CarPlay option</li>
+        </ul>
+
+        <h3>Log synchronization</h3>
+        <ul>
+          <li>Logs submitted from CarPlay appear in your iOS app&rsquo;s log history</li>
+          <li>Pending logs saved in CarPlay sync to your Pending Logs on iOS</li>
+          <li>Log templates from the iOS app are used in CarPlay</li>
+        </ul>
+
+        <h2 id="limitations">Limitations</h2>
+        <p>Understanding CarPlay&rsquo;s limitations helps you get the most from the feature.</p>
+
+        <h3>Map interaction</h3>
+        <ul>
+          <li><strong>Cannot tap on cache pins</strong> &mdash; you must use the cache list to select and interact with geocaches. <strong>This is a limitation of CarPlay itself, imposed by Apple.</strong></li>
+          <li><strong>Labels only visible when zoomed in</strong> &mdash; cache names appear at zoom level 14 and higher</li>
+          <li><strong>Maximum 200 caches on live map</strong> &mdash; oldest caches are removed when this limit is exceeded</li>
+        </ul>
+
+        <h3>Cache loading</h3>
+        <ul>
+          <li><strong>Minimum zoom level required</strong> &mdash; caches only load at zoom level 12 or higher</li>
+          <li><strong>Maximum 100 caches per search</strong> &mdash; API limits restrict how many caches load per request</li>
+          <li><strong>Internet required for live search</strong> &mdash; use Trips for offline access</li>
+          <li><strong>Adventure Labs</strong> are not currently loaded on the live map</li>
+        </ul>
+
+        <h3>Voice logging</h3>
+        <ul>
+          <li><strong>Requires permissions</strong> &mdash; speech recognition and microphone permissions must be granted in iOS Settings</li>
+          <li><strong>On-device only</strong> &mdash; speech recognition happens on your device (not sent to servers)</li>
+          <li><strong>May need iOS app setup</strong> &mdash; grant permissions in the iOS app before using in CarPlay</li>
+        </ul>
+
+        <h3>Navigation</h3>
+        <ul>
+          <li><strong>Third-party apps must be installed</strong> &mdash; Google Maps, Waze and TomTom Go only appear if installed on your iPhone</li>
+          <li><strong>Offline navigation requires downloaded maps</strong> &mdash; Pro Offline Maps needs pre-downloaded map regions</li>
+        </ul>
+
+        <h3>General</h3>
+        <ul>
+          <li><strong>Cachly Pro required</strong> &mdash; CarPlay features require an active Cachly Pro subscription</li>
+          <li><strong>Pagination limits</strong> &mdash; lists show a maximum number of items per page (varies by vehicle); use Load More to see additional items</li>
+          <li><strong>No cache descriptions</strong> &mdash; full cache descriptions are not available in CarPlay for safety reasons</li>
+        </ul>
+
+        <h2 id="troubleshooting">Troubleshooting</h2>
+
+        <h3>CarPlay not showing Cachly</h3>
+        <ul>
+          <li>Ensure you have an active Cachly Pro subscription</li>
+          <li>Check that CarPlay is enabled for Cachly in <span class="ui-path">iPhone Settings &rsaquo; General &rsaquo; CarPlay</span></li>
+          <li>Try disconnecting and reconnecting your iPhone</li>
+        </ul>
+
+        <h3>Caches not loading</h3>
+        <ul>
+          <li>Verify you have an internet connection</li>
+          <li>Zoom in to at least level 12 on the map</li>
+          <li>Check that your filters aren&rsquo;t excluding all caches</li>
+          <li>Try disabling &ldquo;Exclude My Finds&rdquo; temporarily</li>
+        </ul>
+
+        <h3>Voice logging not working</h3>
+        <ul>
+          <li>Open the Cachly iOS app</li>
+          <li>Go to <span class="ui-path">More &rsaquo; Settings &rsaquo; Cachly Pro</span></li>
+          <li>Ensure Speech Recognition is enabled</li>
+          <li>Ensure Microphone access is enabled</li>
+        </ul>
+
+        <h3>Trips not appearing</h3>
+        <ul>
+          <li>Open the Cachly iOS app</li>
+          <li>Ensure that you have added offline trips</li>
+        </ul>
+
+        <h3>Navigation app not available</h3>
+        <ul>
+          <li>Google Maps, Waze and TomTom Go only appear if installed on your iPhone</li>
+          <li>Install the desired app from the App Store</li>
+        </ul>
+
+        <h3>Proximity alerts not triggering</h3>
+        <ul>
+          <li>Ensure &ldquo;Show Upcoming Alert&rdquo; is enabled in Settings</li>
+          <li>Alerts only work while moving (not when stationary)</li>
+          <li>Check that you haven&rsquo;t already been alerted for that cache</li>
+          <li>Alerts don&rsquo;t appear during active navigation</li>
+        </ul>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+ "id": "dt-grid",
+ "title": "D/T Grid",
+ "section": "Organize & Search",
+ "url": "dt-grid.html",
+ "lead": "Every find plotted on the 9×9 Difficulty/Terrain matrix — see which of the 81 combinations you still need, and search for caches that fill the gaps.",
+ "sections": [
+  {
+   "anchor": "the-grid",
+   "heading": "The grid",
+   "text": "The D/T Statistics grid plots your finds on the 9×9 Difficulty/Terrain matrix — a must for Fizzy-style challenge caches. Below the grid you’ll see your loop progress (percent complete and combinations remaining), total finds, unique D/T combinations out of 81, and your average difficulty and terrain. Tap any cell to search for caches with that D/T combination and fill the gaps."
+  }
+ ],
+ "screenshots": [
+  {
+   "file": "dt-grid.png",
+   "caption": "The D/T grid: your finds across all 81 Difficulty/Terrain combinations."
+  }
+ ]
+}

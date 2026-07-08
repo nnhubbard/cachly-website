@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Import & Export — Cachly Documentation</title>
+  <meta name="description" content="Moving cache data in and out of Cachly: GPX import and export, pocket queries from Geocaching.com, and managing imported files.">
+  <link rel="canonical" href="https://www.cachly.com/docs/import-export.html">
+  <meta property="og:title" content="Import &amp; Export — Cachly Documentation">
+  <meta property="og:description" content="Moving cache data in and out of Cachly: GPX import and export, pocket queries from Geocaching.com, and managing imported files.">
+  <meta property="og:url" content="https://www.cachly.com/docs/import-export.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Import & Export",
+   "description": "Moving cache data in and out of Cachly: GPX import and export, pocket queries from Geocaching.com, and managing imported files.",
+   "url": "https://www.cachly.com/docs/import-export.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Import & Export",
+     "item": "https://www.cachly.com/docs/import-export.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="import-export">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Import &amp; Export</div>
+        <h1>Import &amp; Export</h1>
+        <p class="doc-lead">Cachly speaks <strong>GPX</strong>, the standard geocaching exchange format, and integrates pocket queries &mdash; so you can bring caches in from other tools and take your data with you.</p>
+        <h2 id="gpx-import">Importing GPX</h2>
+        <p><strong>Import from GPX</strong> brings caches into Cachly from a <code>.gpx</code> or <code>.zip</code> file (Cachly unzips automatically) &mdash; a pocket query, or an export from another app or website. Cachly uses a streaming parser so even very large files import efficiently, and you choose an existing <a href="lists.html#offline">offline list</a> or create a new one on import. You can bring a file in from:</p>
+        <ul>
+          <li><strong>Email</strong> &mdash; download the attachment, long-press it, Share &rarr; Cachly.</li>
+          <li><strong>Dropbox / Google Drive</strong> &mdash; from the app (&#8943; &rarr; Share/Open in &rarr; Cachly) or via the iOS <strong>Files</strong> app.</li>
+          <li><strong>AirDrop</strong> &mdash; send a GPX/zip to Cachly from another device or a Mac.</li>
+          <li>Any app offering an iOS <strong>Share</strong> option for a GPX file.</li>
+        </ul>
+
+        <h2 id="pocket-queries">Pocket queries</h2>
+        <p><strong>Pocket Queries</strong> are saved searches you set up on Geocaching.com (a premium-membership feature) that the service runs for you. Cachly can <strong>download</strong> your ready pocket queries directly and load them in &mdash; a fast way to bring a curated set of caches onto your device.</p>
+
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#8505;</span>
+          <div class="callout-body">Pocket queries are created and scheduled on Geocaching.com and require premium membership. Cachly downloads the results once they&rsquo;re generated.</div>
+        </div>
+
+        <h2 id="gpx-export">Exporting GPX</h2>
+        <p><strong>Export GPX</strong> writes caches back out to a <code>.gpx</code> file &mdash; available from the <a href="map.html">Live tab</a>, an <a href="lists.html#offline">offline list</a>, or a cache&rsquo;s <a href="geocache-details.html">details</a>. Choose the scope (<strong>All</strong>, <strong>Visible</strong>, or <strong>Highlighted</strong> caches) and what to include:</p>
+        <ul>
+          <li><strong>Include Logs</strong> &mdash; stored cache logs.</li>
+          <li><strong>Include Waypoints</strong> &mdash; all associated waypoints.</li>
+          <li><strong>Include GSAK Extensions</strong> &mdash; GSAK-specific data (needed for favorite-point tracking).</li>
+          <li><strong>Include Private Data</strong> &mdash; sensitive info such as solved-puzzle coordinates and personal notes (handy for team caching).</li>
+        </ul>
+        <p>Cachly also writes your <a href="search.html#highlights">highlight colors</a> into the GPX using its own tags, so a cache you export and later re-import into Cachly keeps the color you gave it.</p>
+        <p>Exports can be shared device-to-device over <strong>AirDrop</strong> with no internet &mdash; the recipient picks an app and an offline list to receive the caches.</p>
+
+        <h2 id="my-finds-gpx">My Finds GPX</h2>
+        <p>For <a href="challenge-tools.html#counties">Counties/Regions</a> and DeLorme Grid <span class="pro-badge">PRO</span>, import a <strong>My Finds</strong> pocket query GPX (geocaching.com &rsaquo; Premium Tools &rsaquo; Build pocket queries &rsaquo; My Finds) via the <strong>Import Data</strong> button. After the first import, new finds logged in Cachly auto-register. Note: Adventure Lab finds aren&rsquo;t included in GPX files.</p>
+
+        <h2 id="imported-files">Managing imported files</h2>
+        <p>The <strong>Imported Files</strong> screen lists files you&rsquo;ve brought in, so you can re-import or remove them. You can also receive GPX files from other apps via the iOS share sheet and open them straight into Cachly.</p>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+220,478  Application  'Cachly'
+275,209  Button  'Share'
+275,251  Button  'Copy Coordinates'
+220,478  Button  'Dismiss context menu'

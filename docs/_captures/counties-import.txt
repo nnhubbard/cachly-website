@@ -1,0 +1,8 @@
+220,478  Application  'Cachly'
+220,320  StaticText  'Import Data'
+220,375  Button  'Offline List'
+220,431  Button  'Dropbox'
+220,487  Button  'Google Drive'
+220,543  Button  'Files/iCloud'
+220,599  Button  'Other'
+220,655  Button  'Cancel'

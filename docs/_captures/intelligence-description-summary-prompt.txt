@@ -1,0 +1,5 @@
+220,478  Application  'Cachly'
+220,458  Button  'Sheet Grabber'
+220,478  Group  'dismiss popup'
+220,478  Group  'dismiss popup'
+220,883  StaticText  'Customize the prompt used to summarize geocache descriptions. The cache info and description will be appended to the end of this prompt.'

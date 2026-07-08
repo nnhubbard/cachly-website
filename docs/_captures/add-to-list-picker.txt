@@ -1,0 +1,2 @@
+220,478  Application  'Cachly'
+220,242  StaticText  '0, Docs Screenshots, Today at 11:25\u202fPM'

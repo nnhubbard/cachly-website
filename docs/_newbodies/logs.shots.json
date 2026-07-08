@@ -1,0 +1,7 @@
+[
+  ["logs-main.png", "The Logs tab: your logs in chronological order with type, date, badges and photo counts."],
+  ["pending-geocache-logs.png", "Pending Geocache Logs holding a saved log that is ready to upload."],
+  ["pending-logs-menu.png", "The Pending Logs menu with Select Logs, Export .txt File and Delete All Pending Logs."],
+  ["pending-log-row-menu.png", "A pending log's menu: Post Log, Edit, View Geocache and Delete."],
+  ["pending-log-detail.png", "Editing a pending log reopens the full compose screen with date, type, message and options."]
+]

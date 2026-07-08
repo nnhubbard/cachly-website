@@ -35,3 +35,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://www.cachly.com/sitemap.xml
+Sitemap: https://www.cachly.com/docs/sitemap.xml

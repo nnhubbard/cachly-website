@@ -1,0 +1,8 @@
+220,478  Application  'Cachly'
+220,194  StaticText  "Original Coordinates, N 037° 47.345' W 122° 24.171'"
+220,312  StaticText  "01 Stage 1, Virtual Stage\nAvailable 8am-6pm Monday through Friday. Number of round planters with trees = B\nN 037° 47.345' W 122° 24.171'"
+220,459  StaticText  "02 Stage 2, Virtual Stage\nAvailable 8am-6pm Monday through Friday. Number of sculptures in the atrium = A\nN 037° 47.430' W 122° 24.045'"
+220,616  StaticText  "03 Stage 3, Virtual Stage\nAvailable 8am-5pm Monday through Friday. Number of wall mounted heaters, divide by 2 = F\nN 037° 47.567' W 122° 23.928'"
+220,784  StaticText  "04 Stage 4, Virtual Stage\nAvailable 10am-5pm Monday through Friday. Number of lengthwise beams on the arch sculpture x 2 (last digit) = D\nN 037° 47.609' W 122° 23.911'"
+220,942  StaticText  "05 Stage 5, Virtual Stage\nAvailable 8am-5pm Monday through Friday. Number of butterflies on the obelisk = C\nN 037° 47.619' W 122° 24.083'"
+220,914  Group  'Tab Bar'

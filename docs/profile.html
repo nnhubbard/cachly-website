@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile & Social — Cachly Documentation</title>
+  <meta name="description" content="Your Cachly profile and social features: stats, friends and requests, souvenirs, the notification center and API usage.">
+  <link rel="canonical" href="https://www.cachly.com/docs/profile.html">
+  <meta property="og:title" content="Profile &amp; Social — Cachly Documentation">
+  <meta property="og:description" content="Your Cachly profile and social features: stats, friends and requests, souvenirs, the notification center and API usage.">
+  <meta property="og:url" content="https://www.cachly.com/docs/profile.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "Profile & Social",
+   "description": "Your Cachly profile and social features: stats, friends and requests, souvenirs, the notification center and API usage.",
+   "url": "https://www.cachly.com/docs/profile.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Profile & Social",
+     "item": "https://www.cachly.com/docs/profile.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="profile">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; Profile &amp; Social</div>
+        <h1>Profile &amp; Social</h1>
+        <p class="doc-lead">The profile area gathers your geocaching identity &mdash; your stats and finds, your friends, your souvenirs, notifications, and a look at your API usage.</p>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/profile-main.png" alt="Your profile with premium badge, stat rows and the Found Cache Types chart." width="248"><figcaption>Your profile with premium badge, stat rows and the Found Cache Types chart.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/profile-gallery.png" alt="The Gallery collects photos from your logs, grouped by date." width="248"><figcaption>The Gallery collects photos from your logs, grouped by date.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/friends.png" alt="The Friends list shows your geocaching.com friends with their find counts." width="248"><figcaption>The Friends list shows your geocaching.com friends with their find counts.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/usage.png" alt="The Usage screen breaks down storage, database objects and API limits." width="248"><figcaption>The Usage screen breaks down storage, database objects and API limits.</figcaption></figure>
+</div>
+
+        <h2 id="profile">Your profile &amp; stats</h2>
+        <p>Tap your name at the top of the <strong>More</strong> tab to open your <strong>profile</strong> &mdash; your geocaching identity in one screen, pulled from Geocaching.com. Your avatar and username sit at the top, with a <strong>PREMIUM</strong> badge if you hold a premium membership, followed by a <strong>Found Cache Types</strong> chart breaking your finds down by cache type. In between, rows drill into every part of your record:</p>
+        <ul>
+          <li><strong>Finds</strong> &mdash; opens a <strong>map of everything you&rsquo;ve found</strong>, so you can see your caching footprint at a glance.</li>
+          <li><strong>Hides</strong> &mdash; the caches you own.</li>
+          <li><strong>Logs</strong> &mdash; your log history.</li>
+          <li><strong>Trackables</strong> &mdash; the trackables <em>you own</em>, grouped by type (Travel Bug Dog Tags, geocoins and so on) with a count for each.</li>
+          <li><strong>Favorites</strong> &mdash; your favorite points, shown as remaining/awarded.</li>
+          <li><strong>Souvenirs</strong> &mdash; your earned <a href="#souvenirs">souvenirs</a>.</li>
+          <li><strong>Lists</strong> &mdash; your geocaching.com lists.</li>
+          <li><strong>Gallery</strong> &mdash; every photo you&rsquo;ve attached to a log, grouped by date.</li>
+          <li><strong>geocaching.com Profile</strong> and <strong>Project-GC Stats</strong> &mdash; open your full web profile and Project-GC statistics.</li>
+        </ul>
+        <p>From here you can also re-authenticate if your Geocaching.com session expires.</p>
+
+        <h2 id="friends">Friends</h2>
+        <p><span class="ui-path">More &rsaquo; Friends</span> lists your geocaching.com friends with their find counts; tap one to open their profile, and use the <strong>Friends / Requests</strong> switch at the top to review and accept pending friend requests. Because of privacy rules, friends only appear if they&rsquo;ve <strong>authorized sharing</strong> &mdash; both you and each friend must check &ldquo;Allow Authorized Developer applications&hellip;&rdquo; under <a href="https://www.geocaching.com/account/settings/authorizations">geocaching.com &rsaquo; Authorizations</a>. Cachly explains this with a prompt the first time you open Friends, and offers a shortcut to view or manage your authorizations. If you don&rsquo;t see everyone, that authorization is usually why.</p>
+
+        <h2 id="contact">Phone, text or message a cacher</h2>
+        <p>From a user profile, a friend, or a log author, you can <strong>phone</strong>, send a <strong>geocaching.com message</strong>, or <strong>text</strong> them. Phone/text require the cacher&rsquo;s caching name to be stored in the <strong>Company</strong> or <strong>Nickname</strong> field of an iOS contact (matched case-insensitively); this needs Contacts permission. Email works for any profile.</p>
+
+        <h2 id="message-center">Message Center</h2>
+        <p><span class="ui-path">More &rsaquo; Message Center</span> opens geocaching.com&rsquo;s messaging system right inside Cachly, so you can read and reply to messages from other cachers without leaving the app.</p>
+
+        <h2 id="souvenirs">Souvenirs</h2>
+        <p><strong>Souvenirs</strong> are the virtual badges Geocaching.com awards for finds in particular places or during events. Cachly lists the souvenirs you&rsquo;ve earned with the date each was awarded; tap one for its artwork and details.</p>
+
+        <h2 id="notifications">Notification center</h2>
+        <p>The <strong>notification center</strong> collects activity relevant to you in one place.</p>
+
+        <h2 id="dt-grid">D/T Grid</h2>
+        <p><span class="ui-path">More &rsaquo; D/T Grid</span> shows a <strong>9&times;9 Difficulty/Terrain matrix</strong> of your finds. See the dedicated <a href="dt-grid.html">D/T Grid</a> page.</p>
+
+        <h2 id="usage">Usage &amp; storage</h2>
+        <p>If you&rsquo;re ever wondering why Cachly is using so much space &mdash; or how much API allowance you have left &mdash; <span class="ui-path">More &rsaquo; Usage</span> is the answer. It has three parts:</p>
+        <ul>
+          <li><strong>Storage</strong> &mdash; how much space <strong>Cache Images</strong>, <strong>Offline Maps</strong>, the <strong>Database</strong> and <strong>Backups</strong> occupy. The rows are tappable for cleanup: delete all images, delete offline maps, or delete backups to reclaim space.</li>
+          <li><strong>Database Objects</strong> &mdash; counts of what&rsquo;s stored on the device: geocaches, logs, waypoints, trackables, photos, attributes, users and state/county regions.</li>
+          <li><strong>API Limits</strong> &mdash; Geocaching.com limits how many caches apps can request per period, with separate quotas for <strong>lite</strong> (basic) and <strong>full</strong> geocache data. Cachly shows how many of each you have <strong>remaining</strong> and the <strong>time until the count resets</strong> &mdash; useful if you do heavy searching or large downloads and want to pace yourself.</li>
+        </ul>
+
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#8505;</span>
+          <div class="callout-body">If you hit a usage limit, Cachly will let you know; waiting for the limit window to reset restores access. Premium membership generally provides a larger allowance.</div>
+        </div>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

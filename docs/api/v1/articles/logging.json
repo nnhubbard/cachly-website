@@ -1,0 +1,63 @@
+{
+ "id": "logging",
+ "title": "Logging a Find",
+ "section": "Finding & Logging",
+ "url": "logging.html",
+ "lead": "Logging records your visit to a cache. Cachly lets you log a single find quickly, log for several accounts at once, save drafts for later, reuse text templates, attach photos, and award a favorite point.",
+ "sections": [
+  {
+   "anchor": "log-screen",
+   "heading": "The Log Geocache screen",
+   "text": "From a cache’s details , start a log to open the Log Geocache screen. Top to bottom it contains: Send Log Now — a switch controlling whether the log posts immediately or is saved for later . Date and time — tap either to change when the find happened (they default to right now). Log Type — opens the type picker . A status line underneath confirms what will happen: Your log will be sent now , or Your log will be saved and you can send it later from the Pending Logs . A section per signed-in user — each account gets its own Message , Favorite Cache toggle, Save as Draft toggle and Trackables row (see multi-user logging ). The Trackables row selects which of that account’s trackables are dropped or visited with the log."
+  },
+  {
+   "anchor": "log-types",
+   "heading": "Choosing a log type",
+   "text": "Tap Log Type and pick one: Found it — you found the cache. Didn’t find it (DNF) — you looked but came up empty. Write note — a comment without claiming a find. Owner Attention Requested — the cache needs maintenance from its owner. Reviewer Attention Requested — flag a serious problem to a community reviewer. Cachly picks a sensible default type for you: on a webcam cache a Found It becomes Webcam Photo Taken ; on a future event it defaults to Will Attend and on a past one to Attended ; and Owner Maintenance is offered only on caches you own."
+  },
+  {
+   "anchor": "send-now",
+   "heading": "Send now, or save for later",
+   "text": "At the top of the log screen is the Send Log Now switch: On (the default) — the action button reads Send and posts your log to Geocaching.com right away. Off — the button becomes Save and your log is kept as a pending log to upload later. If you tap Send while you’re offline, Cachly notices and offers to save the log as pending instead of failing. Likewise, if you cancel a log you’ve started, it offers to Save as Pending rather than lose your write-up. Editing a pending log reopens this same screen, and pending logs can be submitted or exported in bulk from the Logs tab — see Pending logs ."
+  },
+  {
+   "anchor": "multi-user",
+   "heading": "Multi-user logging PRO",
+   "text": "Cachly can log a single cache under multiple geocaching.com accounts at once — see the dedicated Multi-User Logging page."
+  },
+  {
+   "anchor": "message-editor",
+   "heading": "Writing the message",
+   "text": "Tap Message to open the log editor. A counter tracks your length against the 5,000-character limit, and a Write / Preview switch lets you check how formatting will look before you post. From the editor you can also: Attach photos — the image button offers Take Photo , Choose From Library and Personal Note Photos ; images upload with your log. Insert a template — drop in one of your saved text templates , or jump to Edit Text Templates . A Clear Message Text option starts you over. Insert keywords — pick placeholder keywords from the keywords picker instead of typing them by hand; Cachly replaces them with real values when the log is posted. Draft with AI — the sparkle button opens Cachly Intelligence , which can write a log for you using Apple Intelligence, Claude, ChatGPT or Gemini — you then edit and post it."
+  },
+  {
+   "anchor": "templates",
+   "heading": "Log templates",
+   "text": "If you write similar logs often, save text templates and drop them into a log with one tap. Templates can include keyword placeholders that Cachly fills in (such as the find count or date), so each log still feels personal. Manage them in Settings › Templates or via Edit Text Templates in the message editor. Each template can be given a log type : when you create a log matching that type, the template’s text is inserted automatically — a Found It template for finds, a DNF template for the days that don’t go so well. In multi-user logging, each account’s own templates are applied to its message."
+  },
+  {
+   "anchor": "drafts",
+   "heading": "Drafts vs. pending logs",
+   "text": "Cachly has two ways to hold a log you’re not posting as a finished log — they sound similar but work differently: Drafts (field notes) — turn on Save as Draft and the log is saved to Geocaching.com as a Draft . Drafts sync to the website and across your devices, and you can finish them later in Cachly or on the site. The first time you use it, Cachly explains what a Draft is. Pending logs — turning Send Log Now off (or saving when offline) keeps a finished log on your device , ready to upload. Pending logs upload when you reconnect, and can be edited, bulk-submitted or exported from the Logs tab. See Pending logs ."
+  },
+  {
+   "anchor": "extras",
+   "heading": "Photos, favorites & corrected coordinates",
+   "text": "Photos — attach images to your log from the message editor . Favorite point — if you’ve found it and have points available, turn on Favorite Cache to award one to a great cache. (On certain cache types, such as events, the option is hidden because it doesn’t apply.) Trackables — the Trackables row logs drops and visits for the trackables you’re carrying; auto-visit can handle this automatically. Corrected coordinates — update the cache’s coordinates (for solved puzzles or owner adjustments) as part of the flow. See Waypoints & Coordinates . ⚙ Set your logging defaults — default log type, favorite prompts, draft behavior and more — in Settings › Logs so the compose screen opens the way you like it."
+  }
+ ],
+ "screenshots": [
+  {
+   "file": "log-compose.png",
+   "caption": "The Log Geocache screen with Send Log Now, date and time, Log Type, and a per-user section with Message, Favorite Cache, Save as Draft and Trackables."
+  },
+  {
+   "file": "log-type-picker.png",
+   "caption": "The Log Type picker: Found it, Didn't find it, Write note, Reviewer Attention Requested and Owner Attention Requested."
+  },
+  {
+   "file": "log-message-editor.png",
+   "caption": "The log message editor with its 5,000-character counter and the Cachly Intelligence sparkle button."
+  }
+ ]
+}

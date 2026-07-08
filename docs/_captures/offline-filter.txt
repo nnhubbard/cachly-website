@@ -1,0 +1,7 @@
+220,478  Application  'Cachly'
+220,199  StaticText  'Disable Filters'
+220,264  Heading  'List Filters'
+220,311  StaticText  'Add Filter'
+220,376  Heading  'Filters Template'
+220,423  Button  'Current Template'
+220,479  StaticText  'Save New Template'

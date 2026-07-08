@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ & Troubleshooting — Cachly Documentation</title>
+  <meta name="description" content="Answers to common Cachly questions: login problems, GPS accuracy, missing caches, the geocaching.com API, sending a crash log, and more.">
+  <link rel="canonical" href="https://www.cachly.com/docs/faq.html">
+  <meta property="og:title" content="FAQ &amp; Troubleshooting — Cachly Documentation">
+  <meta property="og:description" content="Answers to common Cachly questions: login problems, GPS accuracy, missing caches, the geocaching.com API, sending a crash log, and more.">
+  <meta property="og:url" content="https://www.cachly.com/docs/faq.html">
+  <meta property="og:site_name" content="Cachly User Guide">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://www.cachly.com/docs/assets/logo.png">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "TechArticle",
+   "headline": "FAQ & Troubleshooting",
+   "description": "Answers to common Cachly questions: login problems, GPS accuracy, missing caches, the geocaching.com API, sending a crash log, and more.",
+   "url": "https://www.cachly.com/docs/faq.html",
+   "inLanguage": "en",
+   "isPartOf": {
+    "@type": "WebSite",
+    "name": "Cachly User Guide",
+    "url": "https://www.cachly.com/docs/"
+   },
+   "about": {
+    "@type": "MobileApplication",
+    "name": "Cachly",
+    "operatingSystem": "iOS",
+    "url": "https://www.cachly.com/"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Docs",
+     "item": "https://www.cachly.com/docs/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "FAQ & Troubleshooting",
+     "item": "https://www.cachly.com/docs/faq.html"
+    }
+   ]
+  }
+ ]
+}
+  </script>
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=3">
+</head>
+<body data-page="faq">
+  <header class="doc-header">
+    <button class="icon-btn menu-toggle" aria-label="Open menu">&#9776;</button>
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt="Cachly logo" width="35" height="28">Cachly<span class="brand-sub">User Guide</span></a>
+    <div class="header-spacer"></div>
+    <button class="search-trigger" aria-label="Search"><span aria-hidden="true">&#128269;</span><span class="search-label">Search the docs</span><span class="kbd-hint">&#8984;K</span></button>
+    <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </header>
+  <div class="scrim" id="scrim"></div>
+  <div class="doc-shell">
+    <aside class="doc-sidebar" id="sidebar"></aside>
+    <main class="doc-content">
+      <article class="doc-article">
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; FAQ &amp; Troubleshooting</div>
+        <h1>FAQ &amp; Troubleshooting</h1>
+        <p class="doc-lead">Answers to the questions cachers ask most often &mdash; from sign-in trouble to GPS accuracy &mdash; drawn from the Cachly help site.</p>
+        <h2 id="about-cachly">About Cachly</h2>
+        <h3>Is Cachly the same as geocaching.com?</h3>
+        <p>No &mdash; Cachly is an official <strong>partner app</strong> of Geocaching.com / Geocaching HQ. It signs you in through the geocaching.com login page and reads data through the official Geocaching API, made possible by Premium memberships.</p>
+        <h3>Is there an Android version?</h3>
+        <p>No. Cachly is iOS-only (iPhone, iPad, iPod touch, Apple Watch) and there are no plans for an Android version.</p>
+        <h3>What is the geocaching.com API?</h3>
+        <p>An API is a defined way for software to communicate. Cachly can only show the data the Geocaching API exposes &mdash; some information on the website isn&rsquo;t available through the API and therefore can&rsquo;t appear in Cachly.</p>
+        <h3>Which version of Cachly do I have?</h3>
+        <p>Tap <span class="ui-path">More &rsaquo; About Cachly</span> and scroll to the bottom &mdash; the version is shown there.</p>
+        <h3>Does Cachly support CarPlay?</h3>
+        <p>Yes &mdash; CarPlay arrived in version 8.1 and is part of <a href="cachly-pro.html">Cachly Pro</a>. See <a href="carplay.html">CarPlay</a>.</p>
+
+        <h2 id="login">Sign-in &amp; account</h2>
+        <h3>I can&rsquo;t log in, but the website works</h3>
+        <p>If your username contains an apostrophe, iOS &ldquo;smart quotes&rdquo; may substitute a curly quote that breaks login. Press &amp; hold the apostrophe key and pick the straight quote, or turn off <span class="ui-path">iOS Settings &rsaquo; General &rsaquo; Keyboard &rsaquo; Smart Punctuation</span>.</p>
+        <h3>&ldquo;Opted-out user&rdquo; error</h3>
+        <p>Geocaching.com has a privacy option that blocks sharing your data with authorized developer apps like Cachly. It must be <strong>unchecked</strong> at <a href="https://www.geocaching.com/account/settings/authorizations#developer">geocaching.com &rsaquo; Authorizations</a>.</p>
+        <h3>I didn&rsquo;t get my confirmation email</h3>
+        <p>Check spam/junk, and confirm you typed your address correctly at sign-up (re-register if not). You can also <a href="https://www.geocaching.com/v/send.aspx">resend the validation email</a>.</p>
+
+        <h2 id="finding">Finding &amp; accuracy</h2>
+        <h3>Why isn&rsquo;t Cachly showing all caches on the Live tab?</h3>
+        <p>A filter is probably active &mdash; the funnel icon is solid and &ldquo;Filtering On&rdquo; shows at the top. Tap the funnel and choose <strong>Reset</strong>. Note that Basic members see a limited set of caches (a geocaching.com restriction &mdash; see <a href="getting-started.html#membership">membership</a>).</p>
+        <h3>Why does my GPS accuracy seem poor?</h3>
+        <p>Cachly uses the highest accuracy level available to apps (the very top level is reserved for turn-by-turn nav apps on power). Compare with Apple/Google Maps &mdash; reported accuracy should be similar. Accuracy depends on your device&rsquo;s GPS and surroundings.</p>
+        <h3>Open geocache links in Safari instead of the Geocaching app</h3>
+        <p>Long-press a geocache link and choose <strong>Open in Safari</strong>; iOS remembers the choice. To revert, repeat and choose Open in &ldquo;Geocaching&rdquo;.</p>
+        <h3>Add a just-published cache from its email</h3>
+        <p>Long-press the link in the publish email, <strong>Copy</strong> it, then paste it into the Live tab search field to open the cache and add it to a list.</p>
+
+        <h2 id="support">Support</h2>
+        <h3>How do I send a crash log?</h3>
+        <p>Open <span class="ui-path">iOS Settings &rsaquo; Privacy &amp; Security &rsaquo; Analytics &amp; Improvements &rsaquo; Analytics Data</span>, find the <strong>Cachly</strong> entry for the relevant time, tap Share, and email it to <a href="mailto:support@cach.ly">support@cach.ly</a>.</p>
+
+        <nav class="page-nav" id="page-nav"></nav>
+        <div class="feedback-box">
+          <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
+          <div class="feedback-actions">
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=bug" target="_blank" rel="noopener">Report a Bug</a>
+            <a class="btn-feedback" href="https://github.com/cachly/issues-tracker/issues/new?labels=enhancement" target="_blank" rel="noopener">Request a Feature</a>
+            <a class="feedback-browse" href="https://github.com/cachly/issues-tracker/issues" target="_blank" rel="noopener">Browse existing issues &rarr;</a>
+          </div>
+        </div>
+        <footer class="doc-footer">Cachly User Guide. Cachly is a product of Zed Said Studio. Geocaching is a trademark of Groundspeak, Inc.</footer>
+      </article>
+    </main>
+    <aside class="doc-toc" id="toc"></aside>
+  </div>
+  <div class="search-overlay" id="search-overlay">
+    <div class="search-box">
+      <div class="search-input-row"><span aria-hidden="true">&#128269;</span><input id="search-input" type="text" placeholder="Search the documentation&hellip;" autocomplete="off" spellcheck="false" aria-label="Search"></div>
+      <div class="search-results" id="search-results"></div>
+      <div class="search-foot"><span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> to navigate</span><span><kbd>&crarr;</kbd> to open</span><span><kbd>esc</kbd> to close</span></div>
+    </div>
+  </div>
+  <script src="assets/docs.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+220,478  Application  'Cachly'
+42,84  Button  'California'
+219,84  Heading  'California'
+112,517  GenericElement  "N 037° 47.150' W 122° 24.385', +/- 16 ft, ↑ 0 ft"
+424,176  Button  'Compass'
+220,536  Image  'Map'
+112,517  GenericElement  "N 037° 47.150' W 122° 24.385', +/- 16 ft, ↑ 0 ft"
+84,857  Link  'Legal'
+165,-8  StaticText  '00:00:00'
+232,-8  StaticText  '0'
+403,732  Button  'Reload Geocaches'
+403,782  Button  'Current location'
+403,832  Button  'Current location'
+220,914  Group  'Tab Bar'

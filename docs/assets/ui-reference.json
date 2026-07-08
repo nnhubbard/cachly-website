@@ -1,0 +1,5517 @@
+[
+ {
+  "platform": "ios",
+  "class": "ZSSAboutCachly",
+  "storyboardID": "ZSSAboutCachly",
+  "title": "About Cachly",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSAdvancedSearchStateCountry",
+  "storyboardID": "ZSSAdvancedSearchStateCountry",
+  "title": "Advanced Search State Country",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Reset Selection",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Cancel Selection",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSAdvancedSearchTemplateCreate",
+  "storyboardID": "ZSSAdvancedSearchTemplateCreate",
+  "title": "Advanced Search Template Create",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Template Name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Create Template",
+    "action": null,
+    "detail": "header"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSAdvancedSearchTemplateList",
+  "storyboardID": "ZSSAdvancedSearchTemplateList",
+  "title": "Advanced Search Template List",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSBackupsList",
+  "storyboardID": "ZSSBackupsList",
+  "title": "Backups List",
+  "titleDerived": true,
+  "area": "sync-backup",
+  "controls": [
+   {
+    "kind": "Menu option",
+    "label": "Create Backup",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete All Backups",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSBasicMemberPrompt",
+  "storyboardID": "ZSSBasicMemberPrompt",
+  "title": "Basic Member Prompt",
+  "titleDerived": true,
+  "area": "cachly-pro",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Learn More",
+    "action": "Action Button2",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Okay",
+    "action": "Action Button1",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Cachly Premium Features",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCounties",
+  "storyboardID": "ZSSCounties",
+  "title": "Counties",
+  "titleDerived": true,
+  "area": "challenge-tools",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Button",
+    "action": "Import",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Button",
+    "action": "Help",
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Import Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Current Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Button",
+    "label": "Import Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCountiesDetail",
+  "storyboardID": "ZSSCountiesDetail",
+  "title": "Counties Detail",
+  "titleDerived": true,
+  "area": "challenge-tools",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCountiesImport",
+  "storyboardID": "ZSSCountiesImport",
+  "title": "Counties Import",
+  "titleDerived": true,
+  "area": "challenge-tools",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCreateGeocache",
+  "storyboardID": "ZSSCreateGeocache",
+  "title": "Create Geocache",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Difficulty Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Terrain Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Cache Name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Cache Code",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Hint",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Placed By Username",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "State",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Country",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Details",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Description",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Coordinates",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Type",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Difficulty",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Terrain",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Size",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Options",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Create Geocache",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Creation",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCreateGeocacheCacheType",
+  "storyboardID": "ZSSCreateGeocacheCacheType",
+  "title": "Create Geocache Cache Type",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCreateGeocacheContainerType",
+  "storyboardID": "ZSSCreateGeocacheContainerType",
+  "title": "Create Geocache Container Type",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSOfflineListCreate",
+  "storyboardID": "ZSSOfflineListCreate",
+  "title": "Create List",
+  "titleDerived": false,
+  "area": "lists",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Offline List",
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "List Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Details",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Options",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "When saving lite cache data, images cannot be downloaded.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Offline List",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Stop Downloading",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSCreateUserWaypoint",
+  "storyboardID": "ZSSCreateUserWaypoint",
+  "title": "Create User Waypoint",
+  "titleDerived": true,
+  "area": "waypoints",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Presets",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Tools",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Create Waypoint",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSDocs",
+  "storyboardID": "ZSSDocs",
+  "title": "Docs",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Article URL",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Article ID",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSDocsArticleViewer",
+  "storyboardID": "ZSSDocsArticleViewer",
+  "title": "Docs Article Viewer",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with Google",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with iTranslate",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSDownloadGeocacheProgress",
+  "storyboardID": "ZSSDownloadGeocacheProgress",
+  "title": "Download Geocache Progress",
+  "titleDerived": true,
+  "area": "lists",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Stop Downloading",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSDownloads",
+  "storyboardID": "ZSSDownloads",
+  "title": "Downloads",
+  "titleDerived": true,
+  "area": "offline-maps",
+  "controls": [
+   {
+    "kind": "Menu option",
+    "label": "Stop",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSEditLog",
+  "storyboardID": "ZSSEditLog",
+  "title": "Edit Log",
+  "titleDerived": true,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Edited Log",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Edited Log",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSEditLogTypes",
+  "storyboardID": "ZSSEditLogTypes",
+  "title": "Edit Log Types",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSExportGPX",
+  "storyboardID": "ZSSExportGPX",
+  "title": "Export GPX",
+  "titleDerived": true,
+  "area": "import-export",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Export Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Caches",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "You can include private data such as personal cache notes and corrected coordinates.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Export",
+    "action": "Make Geocache Request",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilterOfflineLists",
+  "storyboardID": "ZSSFilterOfflineLists",
+  "title": "Filter Offline Lists",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Selections",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilterTemplateCreate",
+  "storyboardID": "ZSSFilterTemplateCreate",
+  "title": "Filter Template Create",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Template Name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilterTemplateList",
+  "storyboardID": "ZSSFilterTemplateList",
+  "title": "Filter Template List",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilterTypeSelection",
+  "storyboardID": "ZSSFilterTypeSelection",
+  "title": "Filter Type Selection",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search for filters",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFiltering",
+  "storyboardID": "ZSSFiltering",
+  "title": "Filtering",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Load Template",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Save As Template",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove Current Template",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringAttributes",
+  "storyboardID": "ZSSFilteringAttributes",
+  "title": "Filtering Attributes",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Selections",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringCacheTypes",
+  "storyboardID": "ZSSFilteringCacheTypes",
+  "title": "Filtering Cache Types",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Selections",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringContainerSize",
+  "storyboardID": "ZSSFilteringContainerSize",
+  "title": "Filtering Container Size",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Selections",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringDetails",
+  "storyboardID": "ZSSFilteringDetails",
+  "title": "Filtering Details",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "0",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Filter",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringGenericListing",
+  "storyboardID": "ZSSFilteringGenericListing",
+  "title": "Filtering Generic Listing",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search for filters",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringHighlightColors",
+  "storyboardID": "ZSSFilteringHighlightColors",
+  "title": "Filtering Highlight Colors",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Selections",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFilteringLogTypes",
+  "storyboardID": "ZSSFilteringLogTypes",
+  "title": "Filtering Log Types",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Selections",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSFriends",
+  "storyboardID": "ZSSFriends",
+  "title": "Friends",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": [
+   {
+    "kind": "Segmented control",
+    "label": "Friends / Requests",
+    "action": "Segmented Control",
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "View Authorizations",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Friend",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Accept Request",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Request",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Manage Authorizations",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSGeocacheAdditionalDetails",
+  "storyboardID": "ZSSGeocacheAdditionalDetails",
+  "title": "Geocache Additional Details",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSGeocacheAttributes",
+  "storyboardID": "ZSSGeocacheAttributes",
+  "title": "Geocache Attributes",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSGeocacheDescriptionDetails",
+  "storyboardID": "ZSSGeocacheDescriptionDetails",
+  "title": "Geocache Description Details",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Segmented control",
+    "label": "Text / Web / Source",
+    "action": "Segmented Control",
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with Google",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with iTranslate",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Print",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Create Waypoint",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Set as Corrected Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigate to Location",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Button",
+    "label": "Done",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSGeocacheDetails",
+  "storyboardID": "ZSSGeocacheDetails",
+  "title": "Geocache Details",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Travel Bugs",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Favorites",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Button",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Log Cache",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Additional Log Options",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Navigate To Cache",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Download Cartridge",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigate to Cache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Change",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "My Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Friends Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add to Calendar",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add to List",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add to County Finds",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Favorite",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove Favorite",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove Watch",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Watch",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove Ignore",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Ignore",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Refresh",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Log a trackable",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit Highlight",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove Highlight",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Highlight",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add Waypoint",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Share",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Export GPX",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Find Caches Near This",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View on geocaching.com",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Load Full Cache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete From All",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove From List",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Send Answers",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Log Geocache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSHighlightEdit",
+  "storyboardID": "ZSSHighlightEdit",
+  "title": "Highlight Edit",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Reset",
+    "action": "Reset Highlights",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Reset",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSHighlightPicker",
+  "storyboardID": "ZSSHighlightPicker",
+  "title": "Highlight Picker",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSHighlightSettings",
+  "storyboardID": "ZSSHighlightSettings",
+  "title": "Highlight Settings",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Section",
+    "label": "Manual Sync",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Highlights can get out of sync for offline lists if those highlights have been removed or changed on another device.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Section",
+    "label": "Remove Highlights",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Restore",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Save all highlighted caches to a list",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Section",
+    "label": "Edit Labels",
+    "action": null,
+    "detail": "header"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSHistory",
+  "storyboardID": "ZSSHistory",
+  "title": "History",
+  "titleDerived": true,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Clear History",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSiCloudUbiquityFiles",
+  "storyboardID": "ZSSiCloudUbiquityFiles",
+  "title": "iCloud Files",
+  "titleDerived": true,
+  "area": "sync-backup",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSImportFromGPX",
+  "storyboardID": "ZSSImportFromGPX",
+  "title": "Import From GPX",
+  "titleDerived": true,
+  "area": "import-export",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Offline List for Importing",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Options",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Images will be downloaded if they are available in the GPX file.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Section",
+    "label": "Personal Notes",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Update to geocaching.com",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Import",
+    "action": "Import G P X",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Update",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Continue",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSImportedFiles",
+  "storyboardID": "ZSSImportedFiles",
+  "title": "Imported Files",
+  "titleDerived": true,
+  "area": "import-export",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSIAPViewController",
+  "storyboardID": "ZSSIAPViewController",
+  "title": "In-App Purchase",
+  "titleDerived": true,
+  "area": "cachly-pro",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSListMembership",
+  "storyboardID": "ZSSListMembership",
+  "title": "List Membership",
+  "titleDerived": true,
+  "area": "lists",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLists",
+  "storyboardID": "ZSSLists",
+  "title": "Lists",
+  "titleDerived": true,
+  "area": "lists",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Options",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Basic Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Full Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSListsCreate",
+  "storyboardID": "ZSSListsCreate",
+  "title": "Lists Create",
+  "titleDerived": true,
+  "area": "lists",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "List Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "List Description",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Title",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Description",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Status",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Create List",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogDraftEdit",
+  "storyboardID": "ZSSLogDraftEdit",
+  "title": "Log Draft Edit",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Sending as a log will change the Draft into a log and will submit to geocaching.com.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Send",
+    "action": "Save Edited Log",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Edited Log",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Edited Log",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogDrafts",
+  "storyboardID": "ZSSLogDrafts",
+  "title": "Log Drafts",
+  "titleDerived": true,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Post Log",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View Geocache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogFiltering",
+  "storyboardID": "ZSSLogFiltering",
+  "title": "Log Filtering",
+  "titleDerived": true,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Save Log Types",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogGeocacheMessage",
+  "storyboardID": "ZSSLogGeocacheMessage",
+  "title": "Log Geocache Message",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Image Picker",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Segmented control",
+    "label": "Write / Preview",
+    "action": "Segmented Control",
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit Text Templates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Clear Message Text",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "No Templates Available",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Choose From Library",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Personal Note Photos",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Take Photo",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogGeocacheTypes",
+  "storyboardID": "ZSSLogGeocacheTypes",
+  "title": "Log Geocache Types",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Log Type",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogKeywordsPicker",
+  "storyboardID": "ZSSLogKeywordsPicker",
+  "title": "Log Keywords Picker",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogTrackable",
+  "storyboardID": "ZSSLogTrackable",
+  "title": "Log Trackable",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Send Now",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Cache Code (GCXXXXX)",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Tracking Code",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Sending the log now will upload the current log to geocaching.com. Turning this option off will save to pending logs.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Section",
+    "label": "You can choose to ROT13 encrypt your log entry. Text within brackets [like this] will not be encrypted.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Send Now",
+    "action": "Create Trackable Log",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Draft",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogin",
+  "storyboardID": "ZSSLogin",
+  "title": "Login",
+  "titleDerived": true,
+  "area": "getting-started",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Login",
+    "action": "Login To Geocaching",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Skip",
+    "action": "Skip Login",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Signup",
+    "action": "Signup For Geocaching",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Need Help",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Continue",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogs",
+  "storyboardID": "ZSSLogs",
+  "title": "Logs",
+  "titleDerived": false,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Log Options",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Create Waypoint",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Set as Corrected Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigate to Location",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "My Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Friends Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add to List",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View User Profile",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View Geocache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Share",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View on geocaching.com",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with Google",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with iTranslate",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Cache Code",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add Images",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Button",
+    "label": "Done",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSLogsSorting",
+  "storyboardID": "ZSSLogsSorting",
+  "title": "Logs Sorting",
+  "titleDerived": true,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSMasterMap",
+  "storyboardID": "ZSSMasterMap",
+  "title": "Map",
+  "titleDerived": true,
+  "area": "map",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Map Tracking Stop Resume",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Map Tracking Start",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Button",
+    "action": "Filters",
+    "detail": null
+   },
+   {
+    "kind": "Segmented control",
+    "label": "Map / List",
+    "action": "Segment",
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Search Offline List",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Finish Sorting",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Location Not Available",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "CarPlay: Pro Offline Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Apple Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Google Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigon",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OsmAnd Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Topo Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "HERE Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Tom Tom",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Tom Tom Go",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Mapy.cz",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Waze",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Guru",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "GPS Navigation - Scout",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Maps.me",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Gaia GPS",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Pocket Earth",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Sygic",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Magic Earth",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Share Location",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Stop",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete From All",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove From List",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View Info",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit Highlight",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Add to List",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View in Adventure Lab",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Cache Code",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Show on Map",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Set as Target",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Create Offline Geocache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Save Location",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigate to Location",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Google Street View",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Tags",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigate to Adventure",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with Google",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with iTranslate",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Offline Map Layer Settings",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Settings",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Missing Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "All Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Filtered Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Visible Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Sort Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Filtered Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Visible Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Basic Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Full Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Highlighted Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Use Full Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Turn Off",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Button",
+    "label": "Compass",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSettingsMapOptions",
+  "storyboardID": "ZSSSettingsMapOptions",
+  "title": "Map Options",
+  "titleDerived": false,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Menu option",
+    "label": "Get Key",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSMapTrackingSettings",
+  "storyboardID": "ZSSMapTrackingSettings",
+  "title": "Map Tracking Settings",
+  "titleDerived": true,
+  "area": "map",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Start",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "End",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Resume",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Pause",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSMBTilesSearchResults",
+  "storyboardID": "ZSSMBTilesSearchResults",
+  "title": "MBTiles Search Results",
+  "titleDerived": true,
+  "area": "offline-maps",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSMore",
+  "storyboardID": "ZSSMore",
+  "title": "More",
+  "titleDerived": true,
+  "area": "interface",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Logout",
+    "action": "Logout User",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Offline Lists",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "County / Region Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "DeLorme Grid Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Contact Support",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Submit Review",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Logout",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Kill Application",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSNotificationCenter",
+  "storyboardID": "ZSSNotificationCenter",
+  "title": "Notification Center",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSOfflineList",
+  "storyboardID": "ZSSOfflineList",
+  "title": "Offline List",
+  "titleDerived": true,
+  "area": "lists",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Options",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "View Lists",
+    "action": "Select Multiple Lists",
+    "detail": null
+   },
+   {
+    "kind": "Segmented control",
+    "label": "Offline / Online",
+    "action": "Segmented Control",
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Offline List Name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Choose Create List Type",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Create New Offline List",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Create List Only",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Title",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Date",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cache Count",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Continue",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Select",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Sort",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View All Offline Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete All Offline Lists",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Clear Current Selection",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Merge",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Move",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Export GPX",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Generate Counties",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Purge Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Keep Last 5 Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Keep Last 10 Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove Caches",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Cache Images",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Share",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Basic Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Full Cache Data",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Selected",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSOfflineListCreateOnly",
+  "storyboardID": "ZSSOfflineListCreateOnly",
+  "title": "Offline List Create Only",
+  "titleDerived": true,
+  "area": "lists",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Car Play",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "List Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Details",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save List",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSOfflineMapLayerPOI",
+  "storyboardID": "ZSSOfflineMapLayerPOI",
+  "title": "Offline Map Layer POI",
+  "titleDerived": true,
+  "area": "offline-maps",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search POI Types",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSOpenSourceAttribution",
+  "storyboardID": "ZSSOpenSourceAttribution",
+  "title": "Open Source Attribution",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSPendingLogs",
+  "storyboardID": "ZSSPendingLogs",
+  "title": "Pending Logs",
+  "titleDerived": true,
+  "area": "logs",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "@@Button Name",
+    "action": "Start Upgrade",
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Bulk Upload",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "End Editing Table View",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "*Dev* Bulk Create Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Select Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Export .txt File",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Selected Pending Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete All Pending Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete All",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View Geocache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Post Log",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "View Cache",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Submit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Button",
+    "label": "Submit All Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Button",
+    "label": "Submit Selected Logs",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSPhotoAttributes",
+  "storyboardID": "ZSSPhotoAttributes",
+  "title": "Photo",
+  "titleDerived": false,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Done With Save",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSPhotoGallery",
+  "storyboardID": "ZSSPhotoGallery",
+  "title": "Photo Gallery",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Menu option",
+    "label": "Download Current Images",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Download More Images",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete All Images",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSPocketQueries",
+  "storyboardID": "ZSSPocketQueries",
+  "title": "Pocket Queries",
+  "titleDerived": true,
+  "area": "import-export",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSPrivacy",
+  "storyboardID": "ZSSPrivacy",
+  "title": "Privacy",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Section",
+    "label": "Cachly",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "geocaching.com",
+    "action": null,
+    "detail": "header"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSProjectWaypoint",
+  "storyboardID": "ZSSProjectWaypoint",
+  "title": "Project Waypoint",
+  "titleDerived": true,
+  "area": "waypoints",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "0",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Projection",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Result",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Scratch Pad",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Save Projected Coordinate",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSProximitySounds",
+  "storyboardID": "ZSSProximitySounds",
+  "title": "Proximity Sounds",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSaveLocation",
+  "storyboardID": "ZSSSaveLocation",
+  "title": "Save Location",
+  "titleDerived": true,
+  "area": "map",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Create Location",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSaveLocationList",
+  "storyboardID": "ZSSSaveLocationList",
+  "title": "Save Location List",
+  "titleDerived": true,
+  "area": "map",
+  "controls": [
+   {
+    "kind": "Menu option",
+    "label": "Share",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSearchHistory",
+  "storyboardID": "ZSSSearchHistory",
+  "title": "Search History",
+  "titleDerived": true,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Clear History",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSAdvancedSearch",
+  "storyboardID": "ZSSAdvancedSearch",
+  "title": "Search Options",
+  "titleDerived": false,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Reset",
+    "action": "Reset To Defaults",
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Button",
+    "action": "Insert",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Date Picker Clear",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Radius Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Cache name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Not hidden by username(s)",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Hidden by username(s)",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Found by username(s)",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Not found by username(s)",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Enter a favorites minimum",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Difficulty",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Terrain",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Search Radius",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Favorites Minimum",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Cache Placed Date",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Cache Published Date",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Limit to State, Province  or Country",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Sorting",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Other",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Templates",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Reset",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSettings",
+  "storyboardID": "ZSSSettings",
+  "title": "Settings",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Add New User",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Save",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Set as Primary",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Text Templates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Auto-Visit Trackables",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSettingsLogTypes",
+  "storyboardID": "ZSSSettingsLogTypes",
+  "title": "Settings Log Types",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSettingsMapOptionCustomURL",
+  "storyboardID": "ZSSSettingsMapOptionCustomURL",
+  "title": "Settings Map Option Custom URL",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Send Now",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Name",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "URL",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Key",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Tile URL Details",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Geometry",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Presets",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Custom U R L",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSettingsTextOption",
+  "storyboardID": "ZSSSettingsTextOption",
+  "title": "Settings Text Option",
+  "titleDerived": true,
+  "area": "settings",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Title",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSolutionChecker",
+  "storyboardID": "ZSSSolutionChecker",
+  "title": "Solution Checker",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Coordinates",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "geocaching.com Solution Checker",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSortTrackables",
+  "storyboardID": "ZSSSortTrackables",
+  "title": "Sort Trackables",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSortCaches",
+  "storyboardID": "ZSSSortCaches",
+  "title": "Sorting",
+  "titleDerived": false,
+  "area": "search",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Sorting Geocaches",
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Sort Geocaches",
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSouvenirDetails",
+  "storyboardID": "ZSSSouvenirDetails",
+  "title": "Souvenir Details",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSSouvenirsList",
+  "storyboardID": "ZSSSouvenirsList",
+  "title": "Souvenirs List",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTBScanner",
+  "storyboardID": "ZSSTBScanner",
+  "title": "TB Scanner",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Exit",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Camera Shutter",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Import Image",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Flash",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Drag Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Try Again",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Create Log",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Save Discover Log",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit Code",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Update",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTextTemplateCreateEdit",
+  "storyboardID": "ZSSTextTemplateCreateEdit",
+  "title": "Text Template Create Edit",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Switch",
+    "label": "Toggle",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Template Name",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Template Log Type",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Choosing a log type will allow for auto-inserting of the template text when you create a log that matches this type.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Text Template",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Modal",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTextTemplateList",
+  "storyboardID": "ZSSTextTemplateList",
+  "title": "Text Template List",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Create Text Template",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done Editing",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Reorder",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTextTemplateLogTypes",
+  "storyboardID": "ZSSTextTemplateLogTypes",
+  "title": "Text Template Log Types",
+  "titleDerived": true,
+  "area": "logging",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Clear",
+    "action": "Clear Log Type",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSThunderforestAPIKey",
+  "storyboardID": "ZSSThunderforestAPIKey",
+  "title": "Thunderforest API Key",
+  "titleDerived": true,
+  "area": "offline-maps",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Key",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Thunderforest Maps",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Open Cycle, Landscape and Outdoors maps from Thunderforest now require a use of a map key.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Section",
+    "label": "Get API Key",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save And Done",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackables",
+  "storyboardID": "ZSSTrackables",
+  "title": "Trackables",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "T B Scan",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Segmented control",
+    "label": "Inventory / Owned",
+    "action": "D Trackables Type",
+    "detail": null
+   },
+   {
+    "kind": "Search bar",
+    "label": "Search",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesAddDetails",
+  "storyboardID": "ZSSTrackablesAddDetails",
+  "title": "Trackables Add Details",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesAdditionalDetails",
+  "storyboardID": "ZSSTrackablesAdditionalDetails",
+  "title": "Trackables Additional Details",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesAutoVisit",
+  "storyboardID": "ZSSTrackablesAutoVisit",
+  "title": "Trackables Auto Visit",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Remove",
+    "action": "Remove Selected Trackables",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Dismiss Self",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Add Trackables",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "End Editing Table View",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Select",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove All",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesDetails",
+  "storyboardID": "ZSSTrackablesDetails",
+  "title": "Trackables Details",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Log Trackable",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "View Travels",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "View on geocaching.com",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesLogType",
+  "storyboardID": "ZSSTrackablesLogType",
+  "title": "Trackables Log Type",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesMyInventory",
+  "storyboardID": "ZSSTrackablesMyInventory",
+  "title": "Trackables My Inventory",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "All Dropped Off",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "All Visited",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Remove All",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesTravelList",
+  "storyboardID": "ZSSTrackablesTravelList",
+  "title": "Trackables Travel List",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackablesTravelListList",
+  "storyboardID": "ZSSTrackablesTravelListList",
+  "title": "Trackables Travel List List",
+  "titleDerived": true,
+  "area": "trackables",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackingActivityList",
+  "storyboardID": "ZSSTrackingActivityList",
+  "title": "Tracking Activity List",
+  "titleDerived": true,
+  "area": "map",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSTrackingSaveActivity",
+  "storyboardID": "ZSSTrackingSaveActivity",
+  "title": "Tracking Save Activity",
+  "titleDerived": true,
+  "area": "map",
+  "controls": [
+   {
+    "kind": "Text field",
+    "label": "Activity Title",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Text field",
+    "label": "Activity Description",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Section",
+    "label": "Details",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Activity Type",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Save Activity",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Discard",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSUpdateCacheNote",
+  "storyboardID": "ZSSUpdateCacheNote",
+  "title": "Update Cache Note",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": [
+   {
+    "kind": "Segmented control",
+    "label": "Edit / Preview",
+    "action": "Segmented Control",
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Cancel Saving",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Save",
+    "action": "Cache Note",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Done",
+    "action": "Done Picker",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Create Waypoint",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Set as Corrected Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Check Solution",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Navigate to Location",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "OK",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Choose from Library",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Take Photo",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSIAPPro",
+  "storyboardID": "ZSSIAPPro",
+  "title": "Upgrade to Cachly Pro",
+  "titleDerived": true,
+  "area": "cachly-pro",
+  "controls": [
+   {
+    "kind": "Bar button",
+    "label": "Restore",
+    "action": "Restore Purchases",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Bar button",
+    "label": "Cancel",
+    "action": "Done",
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSUsage",
+  "storyboardID": "ZSSUsage",
+  "title": "Usage",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": [
+   {
+    "kind": "Section",
+    "label": "Storage",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Database Objects",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "API Limits - Lite Geocaches",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Remaining lite geocaches and time until that number is reset.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Section",
+    "label": "API Limits - Full Geocaches",
+    "action": null,
+    "detail": "header"
+   },
+   {
+    "kind": "Section",
+    "label": "Remaining full geocaches and time until that number is reset.",
+    "action": null,
+    "detail": "footer"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete All Images",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Offline Maps",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete Backups",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSUsageTypes",
+  "storyboardID": "ZSSUsageTypes",
+  "title": "Usage Types",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSUserProfile",
+  "storyboardID": "ZSSUserProfile",
+  "title": "User Profile",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Contact User Text",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Contact User Mail",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Contact User Phone",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Send Request",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Message Center",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Geocaching.com Email",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSUserProfileTrackablesList",
+  "storyboardID": "ZSSUserProfileTrackablesList",
+  "title": "User Profile Trackables List",
+  "titleDerived": true,
+  "area": "profile",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSUsersFavoritedCache",
+  "storyboardID": "ZSSUsersFavoritedCache",
+  "title": "Users Favorited Cache",
+  "titleDerived": true,
+  "area": "geocache-details",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSVectorOfflineFiles2",
+  "storyboardID": "ZSSVectorOfflineFiles2",
+  "title": "Vector Offline Files",
+  "titleDerived": true,
+  "area": "offline-maps",
+  "controls": [
+   {
+    "kind": "Search bar",
+    "label": "Search Offline Maps",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Menu option",
+    "label": "Download",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSVectorOfflineMigration",
+  "storyboardID": "ZSSVectorOfflineMigration",
+  "title": "Vector Offline Migration",
+  "titleDerived": true,
+  "area": "offline-maps",
+  "controls": []
+ },
+ {
+  "platform": "ios",
+  "class": "ZSSWaypoints",
+  "storyboardID": "ZSSWaypoints",
+  "title": "Waypoints",
+  "titleDerived": true,
+  "area": "waypoints",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Cell Options",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Segmented control",
+    "label": "User / Cache",
+    "action": "Segmented Control",
+    "detail": null
+   },
+   {
+    "kind": "Bar button",
+    "label": "Add",
+    "action": "Create Waypoint",
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Edit",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Duplicate",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with Google",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Translate with iTranslate",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Waypoint Text",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Copy Coordinates",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Delete",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   },
+   {
+    "kind": "Menu option",
+    "label": "Cancel",
+    "action": null,
+    "detail": null,
+    "source": "code"
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSActivity",
+  "storyboardID": null,
+  "title": "Activity",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKAttributes",
+  "storyboardID": null,
+  "title": "Attributes",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKMainMenu",
+  "storyboardID": null,
+  "title": "Cachly",
+  "titleDerived": false,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Activity",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Nearby",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Current",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "List",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Saved",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKCompass",
+  "storyboardID": null,
+  "title": "Compass",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSFollowMapFromPhone",
+  "storyboardID": null,
+  "title": "Follow Map From Phone",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKGeocacheDetails",
+  "storyboardID": null,
+  "title": "Geocache Details",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Log Cache",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Options",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Description",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Hint",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Logs",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Note",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Images",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Waypoints",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Attributes",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKGeocacheDetailsOptions",
+  "storyboardID": null,
+  "title": "Geocache Details Options",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "View Map",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Compass",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Save",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKGeocacheList",
+  "storyboardID": null,
+  "title": "Geocache List",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Filter",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "New Search",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKLists",
+  "storyboardID": null,
+  "title": "Lists",
+  "titleDerived": false,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKListsType",
+  "storyboardID": null,
+  "title": "Lists Type",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Offline Lists",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Line Lists",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKLogCache",
+  "storyboardID": null,
+  "title": "Log Cache",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Message",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Text Label",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Send",
+    "action": "Send",
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Send Now",
+    "action": "Send Now",
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Draft",
+    "action": "Draft",
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKLogs",
+  "storyboardID": null,
+  "title": "Logs",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKNavigate",
+  "storyboardID": null,
+  "title": "Navigate",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKPhotos",
+  "storyboardID": null,
+  "title": "Photos",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKSearchOptions",
+  "storyboardID": null,
+  "title": "Search Options",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Cache Size",
+    "action": "Cache Size",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Cache Type",
+    "action": "Cache Type",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Reset",
+    "action": "Reset Options",
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Search",
+    "action": "Search",
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Finds",
+    "action": "Finds",
+    "detail": null
+   },
+   {
+    "kind": "Switch",
+    "label": "Hides",
+    "action": "Hides",
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Difficulty Min Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Difficulty Max Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Terrain Min Slider",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Slider",
+    "label": "Terrain Max Slider",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKSearchOptionsSize",
+  "storyboardID": null,
+  "title": "Search Options Size",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "Micro",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Small",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Regular",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Large",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Other",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Virtual",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Not Chosen",
+    "action": null,
+    "detail": null
+   }
+  ]
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKSearchOptionsType",
+  "storyboardID": null,
+  "title": "Search Options Type",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKTextView",
+  "storyboardID": null,
+  "title": "Text View",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKWaypoints",
+  "storyboardID": null,
+  "title": "Waypoints",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": []
+ },
+ {
+  "platform": "watch",
+  "class": "ZSSWKWaypointsOptions",
+  "storyboardID": null,
+  "title": "Waypoints Options",
+  "titleDerived": true,
+  "area": "apple-watch",
+  "controls": [
+   {
+    "kind": "Button",
+    "label": "View Map",
+    "action": null,
+    "detail": null
+   },
+   {
+    "kind": "Button",
+    "label": "Compass",
+    "action": null,
+    "detail": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,6 @@
+220,478  Application  'Cachly'
+136,105  Button  'Add to List'
+136,167  Button  'All Caches'
+136,209  Button  'Visible Caches'
+136,251  Button  'Highlighted Caches'
+220,478  Button  'Dismiss context menu'

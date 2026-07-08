@@ -1,0 +1,35 @@
+{
+ "id": "offline-maps",
+ "title": "Offline Maps & Downloads",
+ "section": "Cachly Pro",
+ "url": "offline-maps.html",
+ "lead": "Offline maps let the base map render with no connection — the other half of caching off-grid (the first half being offline cache sets). Most offline map capabilities are part of Cachly Pro.",
+ "sections": [
+  {
+   "anchor": "pro-offline-maps",
+   "heading": "Pro Offline Maps PRO",
+   "text": "Cachly Pro’s offline maps are worldwide vector maps built from OpenStreetMap data and optimized for readability. Download them via the map-layers icon or Settings › Cachly Pro › Download Offline Maps . Maps update weekly . Features include: Contours & hillshades as supplementary downloads, switching with your metric/imperial units. Customizable layer visibility — trails, 3D buildings, points of interest — and 3D map rendering. County lines & names for US states and comparable international regions. Trail symbols & colors from OpenStreetMap, plus an optional bold scheme matching UK Ordnance Survey styling."
+  },
+  {
+   "anchor": "offline-search",
+   "heading": "Offline map searching PRO",
+   "text": "When an offline map is active on the Live tab, Cachly can search map features completely offline , within your currently visible screen area — zoom to frame your target region first. Toggle it on under Settings ; enable Allows Partial Words so searching “water” matches waterfall and waterway. For structured point-of-interest queries by OpenStreetMap tag (parking, drinking water, bus stops…), see OSM POI Search ."
+  },
+  {
+   "anchor": "downloading",
+   "heading": "Downloading a region",
+   "text": "Choose a region to download; Cachly fetches it in the background (a background session keeps large downloads going even if you leave the app). The Downloads screen shows progress and manages what you’ve saved. 📶 Download over Wi-Fi before heading out, and pair maps with an offline cache set so both the map and the cache data are on your device."
+  },
+  {
+   "anchor": "custom-tiles",
+   "heading": "Custom tile URLs",
+   "text": "Beyond the built-in sources, Cachly can load tiles from any tile server — specialist commercial maps or free ones (many free servers require your own API key). Open the Map Types panel, scroll to Custom Tile URLs and tap Add Custom Tile URL . On the Tile URL Details screen, give the source a name and enter its URL template in z/x/y format — for example https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png : {z} , {x} , {y} — zoom level and tile coordinates (required). {s} — rotates across the server’s subdomains. {q} or {quadtree} — for servers that address tiles with a quadtree key instead of z/x/y. Under Geometry , enable TMS / Flipped Geometry for servers whose y-axis runs the other way (TMS layout). A Presets section offers ready-made configurations — such as UK OS Maps — so common services need no manual setup. Saved sources appear in the Map Types panel like any other map, and can be edited or removed later. Other formats Cachly handles include MBTiles (with local tile search) and DeLorme PRO ."
+  }
+ ],
+ "screenshots": [
+  {
+   "file": "custom-tile-url-add.png",
+   "caption": "Adding a custom tile source — URL template in z/x/y format, TMS geometry option and presets like UK OS Maps."
+  }
+ ]
+}

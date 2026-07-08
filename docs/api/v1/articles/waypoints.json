@@ -1,0 +1,40 @@
+{
+ "id": "waypoints",
+ "title": "Waypoints & Coordinates",
+ "section": "Finding & Logging",
+ "url": "waypoints.html",
+ "lead": "Waypoints are extra points tied to a cache — parking, trailheads, puzzle stages and your own additions. This page covers entering coordinates, the formats Cachly supports, and projecting a new coordinate from a bearing and distance.",
+ "sections": [
+  {
+   "anchor": "kinds",
+   "heading": "Cache vs. user waypoints",
+   "text": "Cache waypoints come from the listing — parking, trailhead, reference points, and the stages of multi-caches. User waypoints are ones you add yourself: a solved puzzle final, a better parking spot, or where you actually found the container. Add a user waypoint from a cache’s Waypoints section (toggle User / Cache at the top, then tap + ), then enter its coordinates. The ⋯ menu next to any waypoint offers Duplicate , Translate with Google , Copy Waypoint Text and Copy Coordinates ."
+  },
+  {
+   "anchor": "formats",
+   "heading": "Coordinate formats",
+   "text": "The same point can be written several ways. Cachly’s coordinate picker offers five input formats, switchable any time from the ⋯ menu — your choice is remembered for next time: Format Example Notes Degrees Decimal Minutes (DDM) N 45° 54.595’ The geocaching standard, used by Geocaching.com and GPS units. Cachly’s default. Type the degrees, then the decimal minutes (to 1/1000). Decimal Degrees (DD) 45.90992 A single signed number per axis; compact and used by many web mapping tools. Degrees Minutes Seconds (DMS) N 45° 54’ 35.70” Common on traditional maps. Seconds go to 1/100. DDM Picker spinning wheels The classic scroll-wheel entry for degrees, whole minutes and decimal minutes — tactile, no keyboard. Plain Text paste anything One free-text field: paste a coordinate in almost any format (DDM, DMS or DD) and Cachly parses it. The baseline value is shown beneath for comparison, and unreadable text is flagged in red. Your default display format is also set in Settings ."
+  },
+  {
+   "anchor": "entering",
+   "heading": "Entering coordinates",
+   "text": "The picker keeps entry fast and unambiguous. In the standard DDM layout you set the hemisphere (N/S, E/W) with a tap, type the whole degrees , then type the decimal minutes yourself — so the decimal point lands exactly where you mean it. As soon as you change a value from where it started, a red Updated badge appears next to the format label so you can see at a glance that you’ve edited the coordinate. The ⋯ menu offers Reset Coordinates , which returns every field to the value the picker opened with. If you don’t touch anything, saving keeps the original coordinate at full precision — it isn’t round-tripped through the display format. 📋 The picker accepts both a period and a comma as the decimal separator, so it works naturally with locale keyboards. When you paste into Plain Text, Cachly reads the geocaching DDM standard first so a loosely-formatted paste doesn’t get misread."
+  },
+  {
+   "anchor": "projection",
+   "heading": "Coordinate projection",
+   "text": "Many puzzle and multi-caches give you a starting point plus a bearing and distance (“go 120° for 80 m”). Cachly’s projection tool calculates the destination for you. It takes exactly three inputs: A starting coordinate — the current waypoint or your location. A direction in degrees relative to North. A distance with a selectable unit: meters, kilometers, feet or miles. Cachly shows the resulting coordinate so you can review it before tapping Done to apply it as a waypoint. Project Waypoint ────────────────────────── Start N 45 54.595 W 122 29.070 Direction [ 120 ] ° Distance [ 80 ] [ Meters ▾ ] ────────────────────────── Result N 45 54.618 W 122 29.014 [Done] Projection: start point + direction + distance → calculated coordinate."
+  },
+  {
+   "anchor": "save-location",
+   "heading": "Saving a location",
+   "text": "Cachly can save locations — coordinates you want to keep handy (a parking spot, a campsite, a search center). Saved locations can be reused as search centers or starting points for projection."
+  }
+ ],
+ "screenshots": [
+  {
+   "file": "24-waypoints.png",
+   "caption": "A cache’s waypoints, with the User/Cache toggle and each waypoint’s coordinates."
+  }
+ ]
+}

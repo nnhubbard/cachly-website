@@ -1,0 +1,74 @@
+        <h2 id="log-screen">The Log Geocache screen</h2>
+        <p>From a cache&rsquo;s <a href="geocache-details.html">details</a>, start a log to open the <strong>Log Geocache</strong> screen. Top to bottom it contains:</p>
+        <ul>
+          <li><strong>Send Log Now</strong> &mdash; a switch controlling whether the log posts immediately or is <a href="#send-now">saved for later</a>.</li>
+          <li><strong>Date</strong> and <strong>time</strong> &mdash; tap either to change when the find happened (they default to right now).</li>
+          <li><strong>Log Type</strong> &mdash; opens the <a href="#log-types">type picker</a>. A status line underneath confirms what will happen: <em>Your log will be sent now</em>, or <em>Your log will be saved and you can send it later from the Pending Logs</em>.</li>
+          <li><strong>A section per signed-in user</strong> &mdash; each account gets its own <strong>Message</strong>, <strong>Favorite Cache</strong> toggle, <strong>Save as Draft</strong> toggle and <strong>Trackables</strong> row (see <a href="#multi-user">multi-user logging</a>). The Trackables row selects which of that account&rsquo;s <a href="trackables.html">trackables</a> are dropped or visited with the log.</li>
+        </ul>
+
+        <h2 id="log-types">Choosing a log type</h2>
+        <p>Tap <strong>Log Type</strong> and pick one:</p>
+        <ul>
+          <li><strong>Found it</strong> &mdash; you found the cache.</li>
+          <li><strong>Didn&rsquo;t find it</strong> (DNF) &mdash; you looked but came up empty.</li>
+          <li><strong>Write note</strong> &mdash; a comment without claiming a find.</li>
+          <li><strong>Owner Attention Requested</strong> &mdash; the cache needs maintenance from its owner.</li>
+          <li><strong>Reviewer Attention Requested</strong> &mdash; flag a serious problem to a community reviewer.</li>
+        </ul>
+        <p>Cachly picks a sensible default type for you: on a <strong>webcam</strong> cache a Found It becomes <strong>Webcam Photo Taken</strong>; on a <strong>future event</strong> it defaults to <strong>Will Attend</strong> and on a past one to <strong>Attended</strong>; and <strong>Owner Maintenance</strong> is offered only on caches you own.</p>
+
+        <h2 id="send-now">Send now, or save for later</h2>
+        <p>At the top of the log screen is the <strong>Send Log Now</strong> switch:</p>
+        <ul>
+          <li><strong>On</strong> (the default) &mdash; the action button reads <strong>Send</strong> and posts your log to Geocaching.com right away.</li>
+          <li><strong>Off</strong> &mdash; the button becomes <strong>Save</strong> and your log is kept as a <a href="logs.html#pending">pending log</a> to upload later.</li>
+        </ul>
+        <p>If you tap Send while you&rsquo;re offline, Cachly notices and offers to save the log as pending instead of failing. Likewise, if you cancel a log you&rsquo;ve started, it offers to <strong>Save as Pending</strong> rather than lose your write-up. Editing a pending log reopens this same screen, and pending logs can be submitted or exported in bulk from the Logs tab &mdash; see <a href="logs.html#pending">Pending logs</a>.</p>
+
+        <h2 id="multi-user">Multi-user logging <span class="pro-badge">PRO</span></h2>
+        <p>Cachly can log a single cache under <strong>multiple geocaching.com accounts at the same time</strong> &mdash; ideal for couples, families or groups who find together. Add your additional accounts (see <a href="getting-started.html#multiple-accounts">multiple accounts</a>) and they appear as their own sections on the one log screen:</p>
+        <ul>
+          <li><strong>Choose who&rsquo;s logging</strong> &mdash; each additional account has a <strong>checkmark</strong> beside its name; tap to include or exclude that person from this log. Your own account is always logged. Tap an account&rsquo;s row to expand its options.</li>
+          <li><strong>Per-account details</strong> &mdash; every selected account gets its own <strong>message</strong>, <strong>Favorite Cache</strong> toggle, <strong>Save as Draft</strong> toggle and <strong>trackables</strong>, set independently. Each account&rsquo;s own <a href="#templates">text templates</a> are filled in automatically.</li>
+          <li><strong>Shared settings</strong> &mdash; the <strong>date</strong>, <strong>log type</strong> and (when updating) the <strong>coordinates</strong> apply to everyone at once.</li>
+        </ul>
+        <p>Favorite points are a premium-member feature, so the toggle only appears for accounts that are geocaching.com Premium (and it&rsquo;s hidden entirely on event caches, where it doesn&rsquo;t apply). When you tap Send, Cachly submits a separate, real log for each selected account.</p>
+
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#128101;</span>
+          <div class="callout-body">Multi-user logging applies when you <em>create</em> a log. Editing an existing <a href="logs.html#pending">pending log</a> is single-account. Each added account must stay signed in &mdash; if its session expires, re-add it under <span class="ui-path">Settings &rsaquo; Users</span> before logging.</div>
+        </div>
+
+        <h2 id="message-editor">Writing the message</h2>
+        <p>Tap <strong>Message</strong> to open the log editor. A counter tracks your length against the <strong>5,000-character</strong> limit, and a <strong>Write / Preview</strong> switch lets you check how formatting will look before you post. From the editor you can also:</p>
+        <ul>
+          <li><strong>Attach photos</strong> &mdash; the image button offers <strong>Take Photo</strong>, <strong>Choose From Library</strong> and <strong>Personal Note Photos</strong>; images upload with your log.</li>
+          <li><strong>Insert a template</strong> &mdash; drop in one of your saved <a href="#templates">text templates</a>, or jump to <strong>Edit Text Templates</strong>. A <strong>Clear Message Text</strong> option starts you over.</li>
+          <li><strong>Insert keywords</strong> &mdash; pick placeholder keywords from the keywords picker instead of typing them by hand; Cachly replaces them with real values when the log is posted.</li>
+          <li><strong>Draft with AI</strong> &mdash; the <strong>sparkle</strong> button opens <a href="intelligence.html">Cachly Intelligence</a>, which can write a log for you using Apple Intelligence, Claude, ChatGPT or Gemini &mdash; you then edit and post it.</li>
+        </ul>
+
+        <h2 id="templates">Log templates</h2>
+        <p>If you write similar logs often, save <strong>text templates</strong> and drop them into a log with one tap. Templates can include keyword placeholders that Cachly fills in (such as the find count or date), so each log still feels personal. Manage them in <span class="ui-path">Settings &rsaquo; Templates</span> or via <strong>Edit Text Templates</strong> in the message editor.</p>
+        <p>Each template can be given a <strong>log type</strong>: when you create a log matching that type, the template&rsquo;s text is <strong>inserted automatically</strong> &mdash; a Found It template for finds, a DNF template for the days that don&rsquo;t go so well. In multi-user logging, each account&rsquo;s own templates are applied to its message.</p>
+
+        <h2 id="drafts">Drafts vs. pending logs</h2>
+        <p>Cachly has two ways to hold a log you&rsquo;re not posting as a finished log &mdash; they sound similar but work differently:</p>
+        <ul>
+          <li><strong>Drafts</strong> (field notes) &mdash; turn on <strong>Save as Draft</strong> and the log is saved to <strong>Geocaching.com as a Draft</strong>. Drafts sync to the website and across your devices, and you can finish them later in Cachly or on the site. The first time you use it, Cachly explains what a Draft is.</li>
+          <li><strong>Pending logs</strong> &mdash; turning <a href="#send-now">Send Log Now</a> off (or saving when offline) keeps a finished log <strong>on your device</strong>, ready to upload. Pending logs upload when you reconnect, and can be edited, bulk-submitted or exported from the Logs tab. See <a href="logs.html#pending">Pending logs</a>.</li>
+        </ul>
+
+        <h2 id="extras">Photos, favorites &amp; corrected coordinates</h2>
+        <ul>
+          <li><strong>Photos</strong> &mdash; attach images to your log from the <a href="#message-editor">message editor</a>.</li>
+          <li><strong>Favorite point</strong> &mdash; if you&rsquo;ve found it and have points available, turn on <strong>Favorite Cache</strong> to award one to a great cache. (On certain cache types, such as events, the option is hidden because it doesn&rsquo;t apply.)</li>
+          <li><strong>Trackables</strong> &mdash; the Trackables row logs drops and visits for the trackables you&rsquo;re carrying; <a href="trackables.html#auto-visit">auto-visit</a> can handle this automatically.</li>
+          <li><strong>Corrected coordinates</strong> &mdash; update the cache&rsquo;s coordinates (for solved puzzles or owner adjustments) as part of the flow. See <a href="waypoints.html">Waypoints &amp; Coordinates</a>.</li>
+        </ul>
+
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#9881;</span>
+          <div class="callout-body">Set your logging defaults &mdash; default log type, favorite prompts, draft behavior and more &mdash; in <span class="ui-path">Settings &rsaquo; Logs</span> so the compose screen opens the way you like it.</div>
+        </div>

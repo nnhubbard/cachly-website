@@ -1,0 +1,8 @@
+220,478  Application  'Cachly'
+42,84  Button  'GC800FX'
+220,84  Heading  'Attributes'
+220,179  StaticText  'Available at all Times'
+220,235  StaticText  'Stealth Required'
+220,291  StaticText  'Field Puzzle'
+220,347  StaticText  'Tourist Friendly'
+220,914  Group  'Tab Bar'
