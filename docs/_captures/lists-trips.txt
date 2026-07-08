@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-220,222  StaticText  '79, Trip To Seattle, Today at 10:51\u202fAM'
-220,914  Group  'Tab Bar'

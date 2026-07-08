@@ -1,8 +1,0 @@
-220,478  Application  'Cachly'
-220,163  Heading  'Tile URL Details'
-220,342  GenericElement  'The Tile URL should be in z, x, y format. For example http://tile.openstreetmap.org/{z}/{x}/{y}.png. Tile URLs that include quadtree should use {q} or {quadtree} format in order for these to be loaded correctly.'
-220,400  Heading  'Geometry'
-220,447  StaticText  'TMS/Flipped Geometry'
-376,447  CheckBox  'TMS/Flipped Geometry'
-220,512  Heading  'Presets'
-220,559  StaticText  'UK OS Maps'

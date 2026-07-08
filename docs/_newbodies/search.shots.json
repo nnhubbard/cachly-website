@@ -1,8 +1,0 @@
-[
-  ["filters-main.png", "Live Search Filtering &mdash; the Disable Filtering master toggle, name search, exclusion checkboxes and cache types."],
-  ["filters-3.png", "The bottom of the live filter screen &mdash; API Sorting, Other toggles, and the Templates section with Current Template and Save New Template."],
-  ["offline-filter.png", "An offline list&rsquo;s filter screen &mdash; Disable Filters, stackable List Filters and the Filters Template section."],
-  ["offline-filter-types.png", "The Filter Type picker when adding an offline list filter &mdash; dozens of types from Attributes to Distance and beyond."],
-  ["offline-filter-config.png", "Configuring a filter &mdash; type-specific Filter Details with AND/OR logic, plus the Advanced Invert Filter option."],
-  ["counties-regions.png", "Counties / Regions (Pro) tracks county-level finds &mdash; import county data to get started."]
-]

@@ -1,8 +1,0 @@
-220,478  Application  'Cachly'
-220,478  Group  'dismiss popup'
-220,509  Group  'dismiss popup'
-48,629  Button  'Cancel'
-232,629  StaticText  'Cachly Intelligence'
-393,629  Button  'Insert'
-47,680  StaticText  'Preview'
-220,883  Button  'Try Again'

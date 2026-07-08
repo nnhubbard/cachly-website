@@ -1,4 +1,0 @@
-220,478  Application  'Cachly'
-220,163  Heading  'Details'
-220,311  StaticText  'Show in CarPlay'
-370,311  CheckBox  'Show in CarPlay'

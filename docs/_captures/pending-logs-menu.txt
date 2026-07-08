@@ -1,6 +1,0 @@
-220,478  Application  'Cachly'
-303,103  Button  '*Dev* Bulk Create Logs'
-303,155  Button  'Select Logs'
-303,197  Button  'Export .txt File'
-303,249  Button  'Delete All Pending Logs'
-220,478  Button  'Dismiss context menu'

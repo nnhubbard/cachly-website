@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-204,795  StaticText  'San Francisco County'
-220,865  Button  '9 Geocaches'

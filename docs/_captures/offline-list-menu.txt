@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-299,103  Button  'Create Offline Geocache'
-220,478  Button  'Dismiss context menu'

@@ -1,5 +1,0 @@
-220,478  Application  'Cachly'
-42,84  Button  'More'
-219,84  Heading  'Downloads'
-220,478  StaticText  'No downloads available'
-220,914  Group  'Tab Bar'

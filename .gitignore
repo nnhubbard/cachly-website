@@ -2,3 +2,7 @@
 .sass-cache
 _site
 Gemfile.lock
+# Docs build tooling & internal capture data — kept locally, never deployed
+docs/_*
+docs/cachly-capture-notes.json
+docs/assets/ui-reference.json

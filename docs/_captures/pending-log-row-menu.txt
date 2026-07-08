@@ -1,6 +1,0 @@
-220,478  Application  'Cachly'
-291,192  Button  'Post Log'
-291,234  Button  'Edit'
-291,276  Button  'View Geocache'
-291,318  Button  'Delete'
-220,478  Button  'Dismiss context menu'

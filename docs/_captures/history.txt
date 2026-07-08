@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-220,208  Button  'POPOS FIDI, GC800FX'
-220,914  Group  'Tab Bar'

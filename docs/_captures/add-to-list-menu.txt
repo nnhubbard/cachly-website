@@ -1,5 +1,0 @@
-220,478  Application  'Cachly'
-303,93  Button  'Add to List'
-303,156  Button  'Watch'
-303,198  Button  'Ignore'
-220,478  Button  'Dismiss context menu'

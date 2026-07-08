@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-220,163  Heading  'Filter Type'
-220,219  Button  'Filter Type, Choose filter type'

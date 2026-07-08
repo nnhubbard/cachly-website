@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-396,824  Button  'sparkle'
-402,891  StaticText  '0/5000'

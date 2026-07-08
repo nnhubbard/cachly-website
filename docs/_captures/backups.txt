@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-220,478  StaticText  'No backups were found'
-220,914  Group  'Tab Bar'

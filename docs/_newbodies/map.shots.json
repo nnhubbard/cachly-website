@@ -1,7 +1,0 @@
-[
-  ["live-map.png", "The live map with cache pins, favorite-count badges and the right-side tool stack."],
-  ["map-cache-callout.png", "Tapping a pin shows the cache callout &mdash; name, distance, favorite count, D/T, size and GC code."],
-  ["dropped-pin-menu.png", "The dropped-pin menu &mdash; create an offline geocache, save the location, navigate, or copy coordinates."],
-  ["map-layers.png", "The Map Types panel with the Pro Offline Maps download and Apple &amp; Google styles."],
-  ["saved-locations.png", "Saved Locations under More &mdash; each row keeps a named spot with its coordinates."]
-]

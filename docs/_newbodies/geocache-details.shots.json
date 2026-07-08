@@ -1,8 +1,0 @@
-[
-  ["cache-details.png", "The geocache detail screen: header, coordinates and distance, section rows, and the pinned Log Geocache and navigate buttons."],
-  ["cache-details-more-menu.png", "The detail screen's options menu with Refresh, Log a trackable, Highlight, Add Waypoint, Share, Export GPX and more."],
-  ["personal-note-add-image.png", "Attaching a photo to a personal note with the + button; images are stored in iCloud and sync across your devices."],
-  ["corrected-coords-picker.png", "The Corrected Coordinates editor with the Is Corrected toggle, DDM picker, presets and coordinate tools."],
-  ["cache-additional-info.png", "The Additional Information screen listing found dates, county, elevation, status flags, type and date hidden."],
-  ["create-geocache.png", "The Create Offline Geocache editor with details, description and a DDM coordinate picker."]
-]

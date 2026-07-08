@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-303,103  Button  'View on geocaching.com'
-220,478  Button  'Dismiss context menu'

@@ -1,7 +1,0 @@
-220,478  Application  'Cachly'
-177,359  Button  'Create Offline Geocache'
-177,411  Button  'Save Location'
-177,453  Button  'Navigate to Location'
-177,495  Button  'Copy Coordinates'
-177,558  Button  'Remove'
-220,478  Button  'Dismiss context menu'

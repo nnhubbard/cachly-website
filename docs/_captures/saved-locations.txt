@@ -1,4 +1,0 @@
-220,478  Application  'Cachly'
-220,197  StaticText  "Docs Test Location, N 037° 47.350' W 122° 24.975'"
-380,197  Button  '1'
-220,914  Group  'Tab Bar'

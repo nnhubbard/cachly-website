@@ -1,3 +1,0 @@
-220,478  Application  'Cachly'
-392,825  Button  'sparkle'
-220,914  Group  'Tab Bar'

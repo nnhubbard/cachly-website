@@ -1,8 +1,0 @@
-[
-  ["settings-main.png", "The Settings root screen with its twelve categories plus Manage Subscriptions and Restore Purchases."],
-  ["settings-users.png", "The Users category, new in Cachly 8, showing the Primary User account used for searching."],
-  ["settings-general.png", "General settings covering measurement units, rotation lock, TB scanner, power mode and coordinate format."],
-  ["settings-map-options.png", "Map Options & Navigation settings such as cache radius, map rotation and tilt locks, and Fit to Map."],
-  ["settings-caches-waypoints.png", "Caches & Waypoints settings for pin design, favorite points on pins, live-search data and clustering."],
-  ["settings-proximity.png", "Proximity Alert settings with per-context enable toggles, trigger distance and centering options."]
-]

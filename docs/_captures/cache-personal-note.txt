@@ -1,2 +1,0 @@
-220,478  Application  'Cachly'
-402,900  StaticText  '0/2500'

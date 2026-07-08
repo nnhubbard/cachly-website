@@ -1,6 +1,0 @@
-220,478  Application  'Cachly'
-220,199  StaticText  'Found it'
-220,255  StaticText  "Didn't find it"
-220,311  StaticText  'Write note'
-220,367  StaticText  'Reviewer Attention Requested'
-220,423  StaticText  'Owner Attention Requested'

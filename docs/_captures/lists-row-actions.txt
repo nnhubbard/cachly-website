@@ -1,4 +1,0 @@
-220,478  Application  'Cachly'
-123,222  StaticText  '1, Docs Screenshots, Today at 11:25\u202fPM'
-378,222  Button  'Delete'
-220,914  Group  'Tab Bar'

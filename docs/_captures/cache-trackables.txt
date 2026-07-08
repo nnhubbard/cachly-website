@@ -1,4 +1,0 @@
-220,478  Application  'Cachly'
-220,184  Button  'Stella the Starfish 𓇼, Last seen in GCBMH03'
-220,228  Button  'Stella the Starfish 𓇼, Last seen in GCBMH03'
-220,914  Group  'Tab Bar'

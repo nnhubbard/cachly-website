@@ -1,8 +1,0 @@
-220,478  Application  'Cachly'
-220,163  Heading  'Details'
-220,275  StaticText  'Offline Geocaches, 1'
-220,340  Heading  'Options'
-220,387  StaticText  'Download Images'
-370,387  CheckBox  'Download Images'
-220,479  StaticText  'Show in CarPlay'
-370,479  CheckBox  'Show in CarPlay'

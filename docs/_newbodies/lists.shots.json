@@ -1,8 +1,0 @@
-[
-  ["lists-main.png", "The Lists tab on its Offline segment, with the Offline/Online/Trips control and your offline lists."],
-  ["lists-online.png", "The Online segment &mdash; your geocaching.com bookmark lists, including the Ignore List, with cache counts."],
-  ["lists-trips.png", "The Trips segment holds trip lists for planning a route of caches."],
-  ["add-to-list-options.png", "Confirming an Add to List &mdash; how many geocaches will be saved offline, plus Download Images and Show in CarPlay."],
-  ["offline-list-listview.png", "An offline list in List mode &mdash; sortable cache rows with distance, D/T, size and GC code."],
-  ["offline-list-manage-menu.png", "The offline list &hellip; menu &mdash; update caches, download images, highlight, export GPX and more."]
-]
