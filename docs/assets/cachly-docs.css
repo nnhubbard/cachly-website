@@ -694,3 +694,10 @@ figure.shot-wide figcaption {
 }
 .btn-feedback:hover { border-color: var(--accent); color: var(--accent-strong); text-decoration: none; }
 .feedback-browse { font-size: 13.5px; margin-left: 4px; }
+
+/* ---------- Inline SVG icons (replacing emoji) ---------------------- */
+.icon-btn svg { width: 18px; height: 18px; display: block; }
+.search-trigger .search-ico { width: 17px; height: 17px; flex-shrink: 0; }
+.search-input-row .search-ico { width: 18px; height: 18px; color: var(--text-muted); flex-shrink: 0; }
+.callout .callout-icon svg { width: 18px; height: 18px; display: block; }
+.card .card-emoji svg { width: 26px; height: 26px; color: var(--accent); }
