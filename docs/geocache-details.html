@@ -63,7 +63,7 @@
  ]
 }
   </script>
-  <link rel="stylesheet" href="assets/cachly-docs.css?v=4">
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=5">
 </head>
 <body data-page="geocache-details">
   <header class="doc-header">
@@ -103,49 +103,55 @@
 
         <h2 id="cache-types">Cache types &amp; icons</h2>
         <p>Cachly recognizes every geocache type on geocaching.com &mdash; <strong>20 standard types plus Adventure Lab</strong> &mdash; each with its own colored icon on the map and in lists. The full set:</p>
-        <table>
-          <thead><tr><th>Type</th><th>Notes</th></tr></thead>
+        <table class="type-table">
+          <thead><tr><th></th><th>Type</th><th>Notes</th></tr></thead>
           <tbody>
-            <tr><td><strong>Traditional Cache</strong></td><td>A container and log at the posted coordinates.</td></tr>
-            <tr><td><strong>Multi-cache</strong></td><td>Two or more stages leading to the final container.</td></tr>
-            <tr><td><strong>Mystery / Unknown Cache</strong></td><td>Puzzle caches; the posted coordinates are rarely the final. Supports Cachly&rsquo;s <a href="#hint">solution checker</a> and corrected coordinates.</td></tr>
-            <tr><td><strong>Letterbox Hybrid</strong></td><td>A geocache that also contains a letterboxing stamp.</td></tr>
-            <tr><td><strong>Virtual Cache</strong></td><td>No container &mdash; you verify a visit to a location.</td></tr>
-            <tr><td><strong>EarthCache</strong></td><td>A geological lesson at a real-world site.</td></tr>
-            <tr><td><strong>Webcam Cache</strong> <span class="pill">grandfathered</span></td><td>Capture yourself on a public webcam.</td></tr>
-            <tr><td><strong>Wherigo Cache</strong></td><td>Played with a Wherigo cartridge.</td></tr>
-            <tr><td><strong>Event Cache</strong></td><td>A gathering of geocachers at a set time.</td></tr>
-            <tr><td><strong>Cache In Trash Out (CITO) Event</strong></td><td>An environmental cleanup gathering.</td></tr>
-            <tr><td><strong>Mega-Event Cache</strong></td><td>A large event (500+ attendees).</td></tr>
-            <tr><td><strong>Giga-Event Cache</strong></td><td>A very large event (5,000+ attendees).</td></tr>
-            <tr><td><strong>Community Celebration Event</strong></td><td>Groundspeak community celebration gatherings.</td></tr>
-            <tr><td><strong>Geocaching HQ</strong></td><td>The Geocaching HQ location in Seattle.</td></tr>
-            <tr><td><strong>Geocaching Block Party</strong></td><td>The annual HQ block-party event.</td></tr>
-            <tr><td><strong>Geocaching HQ Celebration</strong></td><td>HQ anniversary and milestone celebration events.</td></tr>
-            <tr><td><strong>GPS Adventures Exhibit</strong></td><td>A museum GPS-adventure exhibit.</td></tr>
-            <tr><td><strong>Project A.P.E. Cache</strong> <span class="pill">grandfathered</span></td><td>The remaining caches from the 2001 movie promotion.</td></tr>
-            <tr><td><strong>Locationless (Reverse) Cache</strong> <span class="pill">grandfathered</span></td><td>Find an object matching a description, anywhere.</td></tr>
-            <tr><td><strong>Adventure Lab</strong></td><td>Location-based Adventure Lab experiences.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-traditional.png" alt="Traditional Cache icon"></td><td><strong>Traditional Cache</strong></td><td>A container and log at the posted coordinates.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-multi-cache.png" alt="Multi-cache icon"></td><td><strong>Multi-cache</strong></td><td>Two or more stages leading to the final container.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-mystery.png" alt="Mystery / Unknown Cache icon"></td><td><strong>Mystery / Unknown Cache</strong></td><td>Puzzle caches; the posted coordinates are rarely the final. Supports Cachly&rsquo;s <a href="#hint">solution checker</a> and corrected coordinates.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-letterbox-hybrid.png" alt="Letterbox Hybrid icon"></td><td><strong>Letterbox Hybrid</strong></td><td>A geocache that also contains a letterboxing stamp.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-virtual.png" alt="Virtual Cache icon"></td><td><strong>Virtual Cache</strong></td><td>No container &mdash; you verify a visit to a location.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-earthcache.png" alt="EarthCache icon"></td><td><strong>EarthCache</strong></td><td>A geological lesson at a real-world site.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-webcam.png" alt="Webcam Cache icon"></td><td><strong>Webcam Cache</strong> <span class="pill">grandfathered</span></td><td>Capture yourself on a public webcam.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-wherigo.png" alt="Wherigo Cache icon"></td><td><strong>Wherigo Cache</strong></td><td>Played with a Wherigo cartridge.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-event.png" alt="Event Cache icon"></td><td><strong>Event Cache</strong></td><td>A gathering of geocachers at a set time.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-cito.png" alt="Cache In Trash Out (CITO) Event icon"></td><td><strong>Cache In Trash Out (CITO) Event</strong></td><td>An environmental cleanup gathering.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-mega-event.png" alt="Mega-Event Cache icon"></td><td><strong>Mega-Event Cache</strong></td><td>A large event (500+ attendees).</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-giga-event.png" alt="Giga-Event Cache icon"></td><td><strong>Giga-Event Cache</strong></td><td>A very large event (5,000+ attendees).</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-community-celebration.png" alt="Community Celebration Event icon"></td><td><strong>Community Celebration Event</strong></td><td>Groundspeak community celebration gatherings.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-geocaching-hq.png" alt="Geocaching HQ icon"></td><td><strong>Geocaching HQ</strong></td><td>The Geocaching HQ location in Seattle.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-block-party.png" alt="Geocaching Block Party icon"></td><td><strong>Geocaching Block Party</strong></td><td>The annual HQ block-party event.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-hq-celebration.png" alt="Geocaching HQ Celebration icon"></td><td><strong>Geocaching HQ Celebration</strong></td><td>HQ anniversary and milestone celebration events.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-gps-adventures.png" alt="GPS Adventures Exhibit icon"></td><td><strong>GPS Adventures Exhibit</strong></td><td>A museum GPS-adventure exhibit.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-project-ape.png" alt="Project A.P.E. Cache icon"></td><td><strong>Project A.P.E. Cache</strong> <span class="pill">grandfathered</span></td><td>The remaining caches from the 2001 movie promotion.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-locationless.png" alt="Locationless (Reverse) Cache icon"></td><td><strong>Locationless (Reverse) Cache</strong> <span class="pill">grandfathered</span></td><td>Find an object matching a description, anywhere.</td></tr>
+            <tr><td class="ico-cell"><img loading="lazy" src="assets/icons/cache-type-adventure-lab.png" alt="Adventure Lab icon"></td><td><strong>Adventure Lab</strong></td><td>Location-based Adventure Lab experiences.</td></tr>
           </tbody>
         </table>
         <p>The same type icon appears in your lists and, as an inverted teardrop pin, on the map &mdash; with small decorations layered on to show your progress and each cache&rsquo;s status.</p>
-        <p><strong>In a list</strong>, an icon can show:</p>
-        <ul>
-          <li>a <strong>red triangle</strong> for <a href="#corrected-coordinates">corrected coordinates</a>;</li>
-          <li>a combined marker for a cache you <strong>DNF&rsquo;d that also has corrected coordinates</strong>;</li>
-          <li>a <strong>First to Find (FTF)</strong> badge;</li>
-          <li>a <strong>found-but-not-logged</strong> mark for a find you&rsquo;ve saved as a <a href="logs.html#pending">pending log</a> or draft rather than posting;</li>
-          <li>a <strong>star</strong> for a cache you own.</li>
+        <p><strong>In a list</strong>, an icon can show corrected coordinates, a prior DNF, a First to Find opportunity, a find you haven&rsquo;t logged yet, or a cache you own:</p>
+        <ul class="icon-grid">
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/list-corrected.jpg" alt="Corrected coordinates (red triangle)"></span><span class="cap"><a href="#corrected-coordinates">Corrected coordinates</a> (red triangle)</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/list-dnf-corrected.jpg" alt="Prior DNF with corrected coordinates"></span><span class="cap">Prior DNF with corrected coordinates</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/list-ftf.jpg" alt="First to Find (FTF) available"></span><span class="cap">First to Find (FTF) available</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/list-found-not-logged.png" alt="Found but not logged"></span><span class="cap">Found but not logged</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/list-owned.png" alt="A cache you own"></span><span class="cap">A cache you own</span></li>
         </ul>
-        <p><strong>On the map</strong>, a pin can additionally show:</p>
-        <ul>
-          <li>a <strong>checkmark</strong> for a cache you found, an <strong>X</strong> for your DNF, or a <strong>star</strong> for a cache you own;</li>
-          <li>a <strong>found-but-not-logged</strong> checkmark for a find saved but not yet posted;</li>
-          <li>a <strong>red triangle</strong> for corrected coordinates (also shown on the highlighted, currently-selected pin);</li>
-          <li>an <strong>FTF</strong> badge on first-to-find caches and a <strong>lonely</strong> marker on rarely-found caches &mdash; each requires its indicator to be enabled in <a href="settings.html">Settings</a>;</li>
-          <li>distinct styling for an <strong>event happening soon</strong> and for an <strong>unpublished event</strong>;</li>
-          <li><strong>strikethrough</strong> text for archived, disabled or unpublished caches.</li>
+        <p><strong>On the map</strong>, a pin can additionally show your find/DNF status, ownership, FTF and lonely flags (each toggled in <a href="settings.html">Settings</a>), event timing, and archived or disabled caches:</p>
+        <ul class="icon-grid">
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-found.png" alt="Found by you"></span><span class="cap">Found by you</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-dnf.png" alt="Your DNF (did not find)"></span><span class="cap">Your DNF (did not find)</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-owned.jpg" alt="A cache you own"></span><span class="cap">A cache you own</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-ftf.jpg" alt="FTF available"></span><span class="cap">FTF available (indicator on)</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-lonely.jpg" alt="Lonely cache"></span><span class="cap">Lonely cache (indicator on)</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-event-soon.jpg" alt="Event happening soon"></span><span class="cap">Event happening soon</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-unpublished-event.jpg" alt="Unpublished event"></span><span class="cap">Unpublished event</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-found-not-logged.jpg" alt="Found but not logged"></span><span class="cap">Found but not logged</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-archived-multi.jpg" alt="Archived Multi-cache"></span><span class="cap">Archived Multi-cache</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-highlighted-corrected.jpg" alt="Selected pin with corrected coordinates"></span><span class="cap">Selected pin, corrected coordinates</span></li>
+          <li><span class="swatch"><img loading="lazy" src="assets/icons/pin-archived-mystery.jpg" alt="Archived or disabled cache"></span><span class="cap">Archived / disabled cache</span></li>
         </ul>
+        <p>Disabled and unpublished caches also show a <strong>strikethrough</strong> on the name in list and detail views.</p>
 
         <h2 id="description">Description</h2>
         <p>The full listing description offers three viewing modes, and Cachly remembers your preference:</p>
