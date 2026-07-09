@@ -100,6 +100,7 @@
         <p>The <strong>map options</strong> icon in the map&rsquo;s tool stack opens the <strong>Map Types</strong> panel; long-press it to jump between the last 3 types you used. The panel is organized into sections:</p>
         <ul>
           <li><strong>Pro Offline Maps</strong> <span class="pro-badge">PRO</span> &mdash; a <strong>Download Offline Maps</strong> entry for OpenStreetMap-based vector maps. See <a href="offline-maps.html">Offline Maps</a>.</li>
+          <li><strong>Standard Offline Maps</strong> &mdash; a free OpenStreetMap-based offline option, available alongside the Pro download.</li>
           <li><strong>Apple Maps</strong> &mdash; Standard, Standard Muted, Satellite, Hybrid, Satellite Flyover and Hybrid Flyover.</li>
           <li><strong>Google Maps</strong> &mdash; Standard, Satellite, Hybrid and Terrain.</li>
           <li><strong>Open Maps</strong> &mdash; Open Street and Open Cycle.</li>
@@ -108,10 +109,10 @@
           <li><strong>Ordnance Survey (UK)</strong> &mdash; Street View (see below).</li>
           <li><strong>Custom Tile URLs</strong> &mdash; point Cachly at your own tile server (see <a href="offline-maps.html#custom-tiles">Custom Tile URLs</a>).</li>
         </ul>
-        <p>From the same panel you can download Pro Offline Maps, adjust offline settings (contours, points of interest) or add custom tile URLs. Defaults and per-service API keys are set in <a href="settings.html#map-options">Settings &rsaquo; Map Options &amp; Navigation</a>.</p>
+        <p>From the same panel you can download Pro Offline Maps, adjust offline settings (contours, points of interest, parking) or add custom tile URLs. When an offline map is active, the map-options icon shows a <strong>diagonal line</strong> across it. Defaults and per-service API keys are set in <a href="settings.html#map-options">Settings &rsaquo; Map Options &amp; Navigation</a>.</p>
 
         <h2 id="map-controls">On-map controls</h2>
-        <p>A tool stack sits along the right edge of the live map. From top to bottom: the <strong>compass / re-center</strong> control (appears when the map is rotated &mdash; tap to snap back to north), <strong>Reload Geocaches</strong> (refresh the current area), <strong>Proximity Alert</strong>, the <strong>map options</strong> (layers) icon &mdash; tap to choose a <a href="#map-sources">map type</a>, long-press to jump between your last 3 &mdash; and <strong>Current Location</strong> (recenter / cycle follow modes).</p>
+        <p>A tool stack sits along the right edge of the live map. From top to bottom: the <strong>compass / re-center</strong> control (appears when the map is rotated &mdash; tap to snap back to north), <strong>Reload Geocaches</strong> (refresh the current area), <strong>Proximity Alert</strong>, the <strong>map options</strong> (layers) icon &mdash; tap to choose a <a href="#map-sources">map type</a>, long-press to jump between your last 3 &mdash; and <strong>Current Location</strong> (recenter / cycle follow modes). A <strong>filter</strong> icon toggles the <a href="search.html#advanced-search">live-search filters</a>; it fills solid white when a filter is active (outline when off), and &ldquo;Filtering On&rdquo; appears at the top of the map as a reminder.</p>
         <p><strong>Auto Load Map</strong> <span class="pro-badge">PRO</span> &mdash; long-press the Reload icon (or enable it in <a href="settings.html">Settings &rsaquo; Cachly Pro</a>) and caches load automatically as you pan, no tapping Reload. It needs a sufficient zoom level (the button dims when you&rsquo;re zoomed too far out).</p>
 
         <h2 id="bulk-actions">Bulk actions from the map</h2>
@@ -124,10 +125,11 @@
         <p>It&rsquo;s the fastest way to sweep an area&rsquo;s results into an <a href="lists.html">offline list</a> or a GPX file.</p>
 
         <h2 id="uk-os">UK Ordnance Survey maps</h2>
-        <p>Online <strong>UK OS</strong> maps need a free <strong>Bing Maps</strong> API key (from <a href="https://www.bingmapsportal.com/">bingmapsportal.com</a>, or reuse a GME key). Add it in the map-type chooser via <strong>Add Custom Tile URL &rarr; UK OS Maps</strong> preset, paste the key, Save.</p>
+        <p>Online <strong>UK OS</strong> maps need a free <strong>Bing Maps</strong> API key (from <a href="https://www.bingmapsportal.com/">bingmapsportal.com</a> with Key Type <em>Basic</em> and Application Type <em>Public Website</em>, or reuse a GME key). Add it in the map-type chooser via <strong>Add Custom Tile URL &rarr; UK OS Maps</strong> preset, paste the key, Save.</p>
+        <p>Similarly, <strong>OpenCycleMaps</strong> needs a free <strong>Thunderforest</strong> API key &mdash; sign up at <a href="https://www.thunderforest.com/">thunderforest.com</a>, then paste the key under <span class="ui-path">Settings &rsaquo; Map Options &amp; Navigation &rsaquo; Map API Keys</span>.</p>
 
         <h2 id="current-location">Your location &amp; following</h2>
-        <p>Your position shows as a <strong>pulsing icon</strong> with a red heading indicator; tap it for current coordinates, GPS accuracy and elevation. The follow button (in the right-side tool stack) cycles through follow modes:</p>
+        <p>Your position shows as a <strong>pulsing icon</strong> with a red heading indicator; tap it for current coordinates, GPS accuracy and elevation, plus an action menu to <strong>Save Location</strong>, <strong>Create Offline Geocache</strong> or <strong>Copy Coordinates</strong>. The follow button (in the right-side tool stack) cycles through follow modes:</p>
         <ul>
           <li><strong>No Follow</strong> &mdash; the map stays where you put it.</li>
           <li><strong>Follow</strong> &mdash; the map tracks your location; panning disengages it.</li>
@@ -154,7 +156,7 @@
         </table>
 
         <h2 id="compass">Navigating to a cache</h2>
-        <p>From a cache&rsquo;s details, choose to navigate. The <strong>Navigate to Cache</strong> screen draws a direct line to the target and shows distance, bearing and accuracy alongside a compass arrow &mdash; ideal for the final approach where street maps run out. Related waypoints (parking, trailheads) appear with distinct symbols, and other caches within 5&nbsp;miles are shown. You can switch the target, zoom to fit both you and the cache, peek at <strong>Google Street View</strong> for terrain, or set a <a href="settings.html#proximity">proximity alert</a> that fires even with the screen locked. To drive there, hand off to an external app (Apple Maps, Google Maps, Waze and others); the preferred app is set in <a href="settings.html">Settings</a>.</p>
+        <p>From a cache&rsquo;s details, choose to navigate. The <strong>Navigate to Cache</strong> screen draws a direct line to the target and shows distance, bearing and accuracy alongside a compass arrow &mdash; ideal for the final approach where street maps run out. Related waypoints appear with a distinct symbol per <a href="waypoints.html#waypoint-types">type</a>; a generic waypoint is a plain red pin, and multiples of one type are numbered (P01, P02 and so on). Other caches within 5&nbsp;miles are shown. You can switch the target, zoom to fit both you and the cache, peek at <strong>Google Street View</strong> for terrain (this requires the Google&nbsp;Maps app installed), or set a <a href="settings.html#proximity">proximity alert</a> that fires even with the screen locked. To drive there, hand off to an external app &mdash; Apple Maps, Google Maps, Waze, HERE Maps, TomTom / TomTom Go, Navigon, Sygic, Gaia GPS, Maps.me, Magic Earth, Pocket Earth, Topo Maps, Scout or Guru &mdash; each shown only if it&rsquo;s installed; the preferred app is set in <a href="settings.html">Settings</a>.</p>
 
         <h2 id="searching">Searching the map</h2>
         <p>The search field accepts a place name, one or more <strong>GC codes</strong> (comma-separated), a coord.info URL, raw coordinates, or an OpenStreetMap POI query (<code>q:</code> &mdash; see <a href="osm-poi.html">OSM POI search</a>); recent searches are kept for reuse. The <strong>refresh</strong> button (circular arrows, in the tool stack) loads caches for the current region; three dots on it mean more results are available &mdash; tap again to load them.</p>

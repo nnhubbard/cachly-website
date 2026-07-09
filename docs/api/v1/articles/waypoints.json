@@ -8,7 +8,12 @@
   {
    "anchor": "kinds",
    "heading": "Cache vs. user waypoints",
-   "text": "Cache waypoints come from the listing — parking, trailhead, reference points, and the stages of multi-caches. User waypoints are ones you add yourself: a solved puzzle final, a better parking spot, or where you actually found the container. Add a user waypoint from a cache’s Waypoints section (toggle User / Cache at the top, then tap + ), then enter its coordinates. The ⋯ menu next to any waypoint offers Duplicate , Translate with Google , Copy Waypoint Text and Copy Coordinates ."
+   "text": "Cache waypoints come from the listing — parking, trailhead, reference points, and the stages of multi-caches. User waypoints are ones you add yourself: a solved puzzle final, a better parking spot, or where you actually found the container. Add a user waypoint from a cache’s Waypoints section (toggle User / Cache at the top, then tap + ), then enter its coordinates. Two shortcuts fill them instantly: Current Location uses your GPS position, and Geocache Location copies the cache’s own coordinates as a starting point; the cache’s code is shown for reference. Turn on Is Corrected Coordinate to make the waypoint the cache’s corrected coordinates — the spot Cachly navigates to instead of the posted location; corrected-coordinate waypoints have a fixed title, so the Title field is disabled for them. The ⋯ menu next to any waypoint offers Duplicate , Translate with Google , Copy Waypoint Text and Copy Coordinates ."
+  },
+  {
+   "anchor": "show-all",
+   "heading": "Show all waypoints on the map",
+   "text": "Cachly can show every waypoint of every cache in a list at once. When enabled, tapping a waypoint on the map opens a callout with its details and draws a line back to its parent cache, so you can see at a glance which cache a stage or parking spot belongs to. For live lists this requires full cache data ( Settings › Caches & Waypoints › Full Cache Data ); offline lists already have it, and an Offline Lists Only option can limit the display to offline lists."
   },
   {
    "anchor": "waypoint-types",
@@ -28,7 +33,7 @@
   {
    "anchor": "projection",
    "heading": "Coordinate projection",
-   "text": "Many puzzle and multi-caches give you a starting point plus a bearing and distance (“go 120° for 80 m”). Cachly’s projection tool calculates the destination for you. It takes exactly three inputs: A starting coordinate — the current waypoint or your location. A direction in degrees relative to North. A distance with a selectable unit: meters, kilometers, feet or miles. Cachly shows the resulting coordinate so you can review it before tapping Done to apply it as a waypoint. Project Waypoint ────────────────────────── Start N 45 54.595 W 122 29.070 Direction [ 120 ] ° Distance [ 80 ] [ Meters ▾ ] ────────────────────────── Result N 45 54.618 W 122 29.014 [Done] Projection: start point + direction + distance → calculated coordinate."
+   "text": "Many puzzle and multi-caches give you a starting point plus a bearing and distance (“go 120° for 80 m”). Cachly’s projection tool calculates the destination for you. It takes exactly three inputs: A starting coordinate — the current waypoint, or tap Current Location to project from where you are. A direction in degrees relative to North. A distance with a selectable unit: meters, kilometers, feet or miles. Cachly shows the resulting coordinate so you can review it before tapping Done to apply it as a waypoint. The sheet also has a scratch pad field for pasting the raw bearing-and-distance text from a puzzle; it’s a working area only and isn’t saved with the waypoint. Project Waypoint ────────────────────────── Start N 45 54.595 W 122 29.070 Direction [ 120 ] ° Distance [ 80 ] [ Meters ▾ ] ────────────────────────── Result N 45 54.618 W 122 29.014 [Done] Projection: start point + direction + distance → calculated coordinate."
   },
   {
    "anchor": "save-location",

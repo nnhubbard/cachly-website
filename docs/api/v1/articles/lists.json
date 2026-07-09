@@ -18,7 +18,7 @@
   {
    "anchor": "adding-caches",
    "heading": "Adding caches to a list",
-   "text": "There are two main ways to fill a list: One cache at a time — on a cache’s detail screen , tap the + button and choose Add to List (the same menu offers Watch and Ignore). In bulk from the map — open the map’s … menu, choose Add to List , then pick the scope: All Caches , Visible Caches or Highlighted Caches . Either way, you then pick the destination list and land on a confirmation screen showing how many geocaches will be saved offline, with two options: Download Images (store the caches’ photos too) and Show in CarPlay ."
+   "text": "There are two main ways to fill a list: One cache at a time — on a cache’s detail screen , tap the + button and choose Add to List (the same menu offers Watch and Ignore). In bulk from the map — open the map’s … menu, choose Add to List , then pick the scope: All Caches , Visible Caches or Highlighted Caches . Either way, you then pick the destination list and land on a confirmation screen showing how many geocaches will be saved offline, with two options: Download Images (store the caches’ photos too) and Show in CarPlay . If you get an email notifying you that a new cache has been published, long-press the cache’s link in the email and copy it, then paste the URL into the search field on the Live tab . Cachly loads the cache so you can open its detail screen and Add to List like any other."
   },
   {
    "anchor": "offline",
@@ -28,7 +28,7 @@
   {
    "anchor": "map-and-list-modes",
    "heading": "Map mode and List mode",
-   "text": "Opening an offline list gives you the same two views as the Live tab. Map mode shows the list’s caches as pins with the full map toolset, scoped to just that list. List mode shows a cache-count heading and one row per cache with its distance, D/T, size and GC code. In list mode, the sort button (up/down arrows) opens the same sort sheet as the live cache list: choose Ascending or Descending , then a sort type — Date Found, Date Last Found, Date Placed, Difficulty, Distance, FTF, Favorite Count, Favorite Percentage, Found, GC Code, Highlight Color and more."
+   "text": "Opening an offline list gives you the same two views as the Live tab. Map mode shows the list’s caches as pins with the full map toolset, scoped to just that list. List mode shows a cache-count heading and one row per cache with its distance, D/T, size and GC code. In list mode, the sort button (up/down arrows) opens the same sort sheet as the live cache list: choose Ascending or Descending , then a sort type — Cache Type , Container Size , Date Found, Date Last Found, Date Placed, Difficulty, Distance, FTF, Favorite Count, Favorite Percentage, Found, GC Code, Highlight Color, Highlighted , Name , Premium , Terrain and Trackable Count . Each row can show up to five colored dots summarizing the cache’s recent log activity — green for a Found, gray for a Write Note, red for a DNF and orange for a needs-maintenance log. Long-press any row for quick actions: Highlight, Add to List, Watch, Ignore, Copy Cache Code, Copy Coordinates and Show on Map."
   },
   {
    "anchor": "manage",

@@ -33,7 +33,7 @@
   {
    "anchor": "auto-visit",
    "heading": "Auto-visit",
-   "text": "With auto-visit (enabled in Settings › Trackables ), the trackables you choose from your inventory are automatically marked as visiting the caches you log — so a Travel Bug riding along racks up mileage without per-cache logging. It applies to Found It , Attended and Webcam Photo Taken logs. ⚠ Trackable visit limits. Since October 1, 2025, Geocaching HQ caps trackable visits across all partner apps at 20 per 15 minutes and 600 per 25 hours , and bulk-visit has been discontinued. These limits apply to every app, not just Cachly."
+   "text": "With auto-visit (enabled in Settings › Trackables ), the trackables you choose from your inventory are automatically marked as visiting the caches you log — so a Travel Bug riding along racks up mileage without per-cache logging. It applies to Found It , Attended and Webcam Photo Taken logs. ⚠ Trackable visit limits. Since October 1, 2025, Geocaching HQ caps trackable visits across all partner apps at 20 per 15 minutes and 600 per 25 hours , and bulk-visit has been discontinued — introduced to keep the game stable after some users were visiting hundreds or thousands of trackables per cache. These limits apply to every app, not just Cachly."
   }
  ],
  "screenshots": [

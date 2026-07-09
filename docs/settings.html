@@ -98,7 +98,7 @@
         <p>Everything tied to your <a href="cachly-pro.html">Pro subscription</a> lives here, grouped by feature:</p>
         <ul>
           <li><strong>Cachly Intelligence</strong> &mdash; enable AI features, pick the <strong>AI Provider</strong> (Apple Intelligence, Claude, ChatGPT, Gemini), and edit the <strong>Log Summary</strong>, <strong>Description Summary</strong> and <strong>Log Writing</strong> prompts. See <a href="intelligence.html">Cachly Intelligence</a>.</li>
-          <li><strong>Pro Offline Maps</strong> &mdash; <strong>Download Offline Maps</strong>, <strong>Layer Options</strong>, <strong>Offline Searching</strong> (search map features within the screen bounds) and <strong>Counties &amp; Regions</strong>. See <a href="offline-maps.html">Offline Maps</a>.</li>
+          <li><strong>Pro Offline Maps</strong> &mdash; <strong>Download Offline Maps</strong>, <strong>Layer Options</strong>, <strong>Offline Searching</strong> (search map features within the screen bounds, with <strong>Allow Partial Words</strong> to match on partial words) and <strong>Counties &amp; Regions</strong>, where <strong>Default Country Selection</strong> sets the country used when importing county and region challenge maps. See <a href="offline-maps.html">Offline Maps</a>.</li>
           <li><strong>Automatically Add Finds</strong> &mdash; add finds made in Cachly to your <strong>Counties</strong> and <strong>DeLorme</strong> challenge maps automatically.</li>
           <li><strong>Automatically Load Caches</strong> &mdash; <strong>Use Auto Load Caches</strong> loads new caches as you move around the live map, with toggles for <strong>Adventure Labs</strong> and their <strong>stages</strong>.</li>
           <li><strong>CarPlay</strong> &mdash; microphone and speech-recognition permissions used for <a href="carplay.html">voice logging in the car</a>.</li>
@@ -118,7 +118,7 @@
           <li><strong>Measurement</strong> &mdash; switch between <strong>Metric</strong> and imperial units.</li>
           <li><strong>iPhone Rotation Lock</strong> &mdash; All Orientations, Portrait or Landscape (iPhone only).</li>
           <li><strong>TB Scanner</strong> &mdash; <strong>Automatic Scanning</strong> reads trackable codes without tapping the capture button.</li>
-          <li><strong>Offline Lists</strong> &mdash; allow (or hide) the <strong>Delete All</strong> option.</li>
+          <li><strong>Offline Lists</strong> &mdash; <strong>Allow Delete All Option</strong>, off by default; enable it to show the Delete All action on offline lists (a guard against accidental bulk deletion).</li>
           <li><strong>Power &amp; Battery</strong> &mdash; <strong>High Power Mode</strong> improves GPS accuracy when moving between screens at the cost of battery.</li>
           <li><strong>Default Coordinate Format</strong> &mdash; the format used when copying coordinates: DDM (N&nbsp;47&deg;&nbsp;38.938&rsquo;), decimal degrees, UTM, <strong>Copy Presented Format</strong>, or <strong>Use Coordinate Picker</strong> to choose each time. See <a href="waypoints.html#formats">coordinate formats</a>.</li>
           <li><strong>Sorting</strong> &mdash; <strong>Re-sort on Location Updates</strong> keeps distance-sorted lists in order as you move.</li>
@@ -142,9 +142,9 @@
         <ul>
           <li><strong>Pin Design</strong> &mdash; three pin styles, plus <strong>Show Favorite Points</strong> to display the favorite count on pins above a minimum you set.</li>
           <li><strong>Live Search</strong> &mdash; <strong>Full Cache Data</strong> (description, hint, logs, waypoints, attributes) and how many caches each live-search request loads.</li>
-          <li><strong>Clustering</strong> &mdash; <strong>Use Clustering</strong> with a <strong>Cluster Threshold</strong> and <strong>Max Zoom Level</strong>; reduces memory use when many caches are on the map.</li>
+          <li><strong>Clustering</strong> &mdash; <strong>Use Clustering</strong> with a <strong>Cluster Threshold</strong> and <strong>Max Zoom Level</strong>; reduces memory use when many caches are on the map. <strong>Restore Defaults</strong> resets these clustering values.</li>
           <li><strong>Ignore Corrected Coordinates</strong> &mdash; show caches at their original rather than corrected coordinates.</li>
-          <li><strong>Waypoints</strong> &mdash; <strong>Show All Waypoints</strong> on the map, filterable by type (requires Full Cache Data for live caches).</li>
+          <li><strong>Waypoints</strong> &mdash; <strong>Show All Waypoints</strong> on the map, filterable by type (requires Full Cache Data for live caches), with <strong>Offline Lists Only</strong> to restrict the display to offline lists.</li>
           <li><strong>Lonely Caches</strong> &mdash; mark caches unfound for a set <strong>Number of Days</strong> with a clock icon.</li>
           <li><strong>Did Not Find (DNF)</strong> &mdash; <strong>Clear Pending DNF on Map</strong> and <strong>Show Cache Type on Map</strong> alongside the DNF marker.</li>
           <li><strong>Found But Not Logged</strong> &mdash; <strong>Clear All Checkmarks</strong>, and the <strong>FTF Indicator</strong> that flags caches nobody has found yet.</li>
@@ -158,7 +158,7 @@
         </ul>
 
         <h2 id="templates">Templates</h2>
-        <p>Create reusable <a href="logging.html#templates">text templates</a> for your logs here &mdash; boilerplate like a thank-you line or your team sign-off. Templates can be inserted while writing a log or applied automatically by log type.</p>
+        <p>Turn on <strong>Enable Text Templates</strong> to activate the feature, then create reusable <a href="logging.html#templates">text templates</a> for your logs here &mdash; boilerplate like a thank-you line or your team sign-off. Templates can be inserted while writing a log or applied automatically by log type, and one can be marked the default.</p>
 
         <h2 id="proximity">Proximity Alert</h2>
         <p>Cachly can play an audio alert and post a notification as you near a cache, so your phone can stay pocketed on the approach:</p>
@@ -195,7 +195,7 @@
         </ul>
 
         <h2 id="dark-mode">Dark Mode</h2>
-        <p>By default Cachly follows the iOS appearance. Two toggles let you opt out independently: <strong>Dark Interface Styles</strong> controls whether the app&rsquo;s interface goes dark when iOS is in dark mode, and <strong>Dark Map Styles</strong> does the same for the maps &mdash; so you can keep a light map under a dark interface, or vice versa.</p>
+        <p>By default Cachly follows the iOS appearance. <strong>Dark Interface Style</strong> controls whether the app&rsquo;s interface goes dark when iOS is in dark mode. When it&rsquo;s on, a second toggle, <strong>Dark Map Styles</strong>, appears &mdash; turn it off to keep a light map under a dark interface (Dark Map Styles is only available while Dark Interface Style is enabled).</p>
 
         <nav class="page-nav" id="page-nav"></nav>
         <div class="feedback-box">

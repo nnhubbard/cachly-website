@@ -82,7 +82,7 @@
         <h1>OpenStreetMap POI Search</h1>
         <p class="doc-lead">Find parking, bus stops, viewpoints — any OpenStreetMap point of interest — right on Cachly’s map with a q: query.</p>
         <h2 id="how-it-works">How it works</h2>
-        <p>With Pro Offline Maps enabled, you can search OpenStreetMap points of interest right on the map. Start a search with <code>q:</code> followed by a tag query, e.g. <code>q:amenity=parking</code>, and combine conditions with <code>and</code>/<code>or</code> (<code>q:highway=bus_stop and shelter=yes</code>). Queries use the <a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo/Wizard" target="_blank" rel="noopener">Overpass turbo Wizard syntax</a> &mdash; that page documents the full grammar (comparison operators, wildcards, quoting) and is a handy reference for discovering tag names. Results are limited to the visible map area &mdash; tap a placed icon to inspect its tags, create an offline geocache, or navigate.</p>
+        <p>With Pro Offline Maps enabled, you can search OpenStreetMap points of interest right on the map. Start a search with <code>q:</code> followed by a tag query, e.g. <code>q:amenity=parking</code>, and combine conditions with <code>and</code>/<code>or</code> (<code>q:highway=bus_stop and shelter=yes</code>). Queries use the <a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo/Wizard" target="_blank" rel="noopener">Overpass turbo Wizard syntax</a> &mdash; that page documents the full grammar (comparison operators, wildcards, quoting) and is a handy reference for discovering tag names. Results are limited to the visible map area. If a tag value contains whitespace or another special character, wrap it in quotes &mdash; e.g. <code>q:name="Main Street"</code>. Tapping a placed icon shows the POI&rsquo;s name and coordinates; a three-dot menu offers <strong>View Tags</strong>, <strong>Create Offline Geocache</strong> or <strong>Navigate</strong>.</p>
 
         <h2 id="examples">Example queries</h2>
         <p>These are drawn from the Overpass turbo Wizard documentation, with Cachly&rsquo;s <code>q:</code> prefix added &mdash; try them as-is, then swap in your own tags:</p>
@@ -97,6 +97,8 @@
             <tr><td><code>q:(highway=primary or highway=secondary) and type:way</code></td><td>Primary or secondary roads &mdash; parentheses group conditions, and <code>type:way</code> restricts the element type (<code>node</code>, <code>way</code> or <code>relation</code>).</td></tr>
             <tr><td><code>q:cycleway:opp</code></td><td>A bare word matches partially &mdash; this finds <code>opposite</code>, <code>opposite_track</code>, <code>opposite_lane</code>&hellip;</td></tr>
             <tr><td><code>q:name~"^DB0.*"</code></td><td>Regular expressions with <code>~</code> &mdash; here, names starting with &ldquo;DB0&rdquo;.</td></tr>
+            <tr><td><code>q:amenity=compressed_air or amenity=bicycle_repair_station</code></td><td>Bike repair stations and air pumps &mdash; handy for cyclists on the trail.</td></tr>
+            <tr><td><code>q:waterway=waterfall and height=*</code></td><td>Waterfalls that have a recorded height &mdash; <code>=*</code> matches any value, so it means the tag simply exists.</td></tr>
           </tbody>
         </table>
 

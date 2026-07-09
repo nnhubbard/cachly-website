@@ -23,7 +23,7 @@
   {
    "anchor": "my-finds-gpx",
    "heading": "My Finds GPX",
-   "text": "For Counties/Regions and DeLorme Grid PRO , import a My Finds pocket query GPX (geocaching.com › Premium Tools › Build pocket queries › My Finds) via the Import Data button. After the first import, new finds logged in Cachly auto-register. Note: Adventure Lab finds aren’t included in GPX files."
+   "text": "For Counties/Regions and DeLorme Grid PRO , import a My Finds pocket query GPX (geocaching.com › Premium Tools › Build pocket queries › My Finds) via the Import Data button or the matching option in the … menu. After the first import, new finds logged in Cachly auto-register. Note: Adventure Lab finds aren’t included in GPX files."
   },
   {
    "anchor": "imported-files",

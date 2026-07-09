@@ -13,7 +13,7 @@
   {
    "anchor": "cachly-pro",
    "heading": "Cachly Pro PRO",
-   "text": "Everything tied to your Pro subscription lives here, grouped by feature: Cachly Intelligence — enable AI features, pick the AI Provider (Apple Intelligence, Claude, ChatGPT, Gemini), and edit the Log Summary , Description Summary and Log Writing prompts. See Cachly Intelligence . Pro Offline Maps — Download Offline Maps , Layer Options , Offline Searching (search map features within the screen bounds) and Counties & Regions . See Offline Maps . Automatically Add Finds — add finds made in Cachly to your Counties and DeLorme challenge maps automatically. Automatically Load Caches — Use Auto Load Caches loads new caches as you move around the live map, with toggles for Adventure Labs and their stages . CarPlay — microphone and speech-recognition permissions used for voice logging in the car . Project GC — enter your User Token and User ID (from project-gc.com/User/Settings) to enable Project GC features."
+   "text": "Everything tied to your Pro subscription lives here, grouped by feature: Cachly Intelligence — enable AI features, pick the AI Provider (Apple Intelligence, Claude, ChatGPT, Gemini), and edit the Log Summary , Description Summary and Log Writing prompts. See Cachly Intelligence . Pro Offline Maps — Download Offline Maps , Layer Options , Offline Searching (search map features within the screen bounds, with Allow Partial Words to match on partial words) and Counties & Regions , where Default Country Selection sets the country used when importing county and region challenge maps. See Offline Maps . Automatically Add Finds — add finds made in Cachly to your Counties and DeLorme challenge maps automatically. Automatically Load Caches — Use Auto Load Caches loads new caches as you move around the live map, with toggles for Adventure Labs and their stages . CarPlay — microphone and speech-recognition permissions used for voice logging in the car . Project GC — enter your User Token and User ID (from project-gc.com/User/Settings) to enable Project GC features."
   },
   {
    "anchor": "users",
@@ -23,7 +23,7 @@
   {
    "anchor": "general",
    "heading": "General",
-   "text": "App-wide preferences, from units to power use: Measurement — switch between Metric and imperial units. iPhone Rotation Lock — All Orientations, Portrait or Landscape (iPhone only). TB Scanner — Automatic Scanning reads trackable codes without tapping the capture button. Offline Lists — allow (or hide) the Delete All option. Power & Battery — High Power Mode improves GPS accuracy when moving between screens at the cost of battery. Default Coordinate Format — the format used when copying coordinates: DDM (N 47° 38.938’), decimal degrees, UTM, Copy Presented Format , or Use Coordinate Picker to choose each time. See coordinate formats . Sorting — Re-sort on Location Updates keeps distance-sorted lists in order as you move. Other — Decode Hint (auto-decrypt ROT13 hints) and Delete Offline Upvote Counts ."
+   "text": "App-wide preferences, from units to power use: Measurement — switch between Metric and imperial units. iPhone Rotation Lock — All Orientations, Portrait or Landscape (iPhone only). TB Scanner — Automatic Scanning reads trackable codes without tapping the capture button. Offline Lists — Allow Delete All Option , off by default; enable it to show the Delete All action on offline lists (a guard against accidental bulk deletion). Power & Battery — High Power Mode improves GPS accuracy when moving between screens at the cost of battery. Default Coordinate Format — the format used when copying coordinates: DDM (N 47° 38.938’), decimal degrees, UTM, Copy Presented Format , or Use Coordinate Picker to choose each time. See coordinate formats . Sorting — Re-sort on Location Updates keeps distance-sorted lists in order as you move. Other — Decode Hint (auto-decrypt ROT13 hints) and Delete Offline Upvote Counts ."
   },
   {
    "anchor": "map-options",
@@ -33,7 +33,7 @@
   {
    "anchor": "caches-waypoints",
    "heading": "Caches & Waypoints",
-   "text": "How caches and waypoints look and load: Pin Design — three pin styles, plus Show Favorite Points to display the favorite count on pins above a minimum you set. Live Search — Full Cache Data (description, hint, logs, waypoints, attributes) and how many caches each live-search request loads. Clustering — Use Clustering with a Cluster Threshold and Max Zoom Level ; reduces memory use when many caches are on the map. Ignore Corrected Coordinates — show caches at their original rather than corrected coordinates. Waypoints — Show All Waypoints on the map, filterable by type (requires Full Cache Data for live caches). Lonely Caches — mark caches unfound for a set Number of Days with a clock icon. Did Not Find (DNF) — Clear Pending DNF on Map and Show Cache Type on Map alongside the DNF marker. Found But Not Logged — Clear All Checkmarks , and the FTF Indicator that flags caches nobody has found yet."
+   "text": "How caches and waypoints look and load: Pin Design — three pin styles, plus Show Favorite Points to display the favorite count on pins above a minimum you set. Live Search — Full Cache Data (description, hint, logs, waypoints, attributes) and how many caches each live-search request loads. Clustering — Use Clustering with a Cluster Threshold and Max Zoom Level ; reduces memory use when many caches are on the map. Restore Defaults resets these clustering values. Ignore Corrected Coordinates — show caches at their original rather than corrected coordinates. Waypoints — Show All Waypoints on the map, filterable by type (requires Full Cache Data for live caches), with Offline Lists Only to restrict the display to offline lists. Lonely Caches — mark caches unfound for a set Number of Days with a clock icon. Did Not Find (DNF) — Clear Pending DNF on Map and Show Cache Type on Map alongside the DNF marker. Found But Not Logged — Clear All Checkmarks , and the FTF Indicator that flags caches nobody has found yet."
   },
   {
    "anchor": "logs",
@@ -43,7 +43,7 @@
   {
    "anchor": "templates",
    "heading": "Templates",
-   "text": "Create reusable text templates for your logs here — boilerplate like a thank-you line or your team sign-off. Templates can be inserted while writing a log or applied automatically by log type."
+   "text": "Turn on Enable Text Templates to activate the feature, then create reusable text templates for your logs here — boilerplate like a thank-you line or your team sign-off. Templates can be inserted while writing a log or applied automatically by log type, and one can be marked the default."
   },
   {
    "anchor": "proximity",
@@ -68,7 +68,7 @@
   {
    "anchor": "dark-mode",
    "heading": "Dark Mode",
-   "text": "By default Cachly follows the iOS appearance. Two toggles let you opt out independently: Dark Interface Styles controls whether the app’s interface goes dark when iOS is in dark mode, and Dark Map Styles does the same for the maps — so you can keep a light map under a dark interface, or vice versa."
+   "text": "By default Cachly follows the iOS appearance. Dark Interface Style controls whether the app’s interface goes dark when iOS is in dark mode. When it’s on, a second toggle, Dark Map Styles , appears — turn it off to keep a light map under a dark interface (Dark Map Styles is only available while Dark Interface Style is enabled)."
   }
  ],
  "screenshots": [

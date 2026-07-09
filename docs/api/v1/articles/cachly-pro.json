@@ -23,12 +23,12 @@
   {
    "anchor": "plans",
    "heading": "Plans & pricing",
-   "text": "Billed through your Apple ID, with a 7-day free trial . Representative pricing (your local prices are shown live on the More › Cachly Pro screen): Plan USD GBP EUR Monthly $1.99 £1.59 €1.99 Yearly (saves ~37%) $14.99 £11.99 €12.99 Offline Maps only (yearly) $4.99 £3.99 €4.99 Subscriptions support Family Sharing, and you can upgrade, downgrade or crossgrade through your subscription settings."
+   "text": "Billed through your Apple ID, with a 7-day free trial . Representative pricing (your local prices are shown live on the More › Cachly Pro screen): Plan USD GBP EUR Monthly $1.99 £1.59 €1.99 Yearly (saves ~37%) $14.99 £11.99 €12.99 Offline Maps only (yearly) $4.99 £3.99 €4.99 Subscriptions support Family Sharing, and you can upgrade, downgrade or crossgrade through your subscription settings. Upgrades take effect immediately (Apple prorates a refund for the plan you’re leaving); downgrades take effect at your next renewal date. The Offline Maps only plan includes county and region boundary lines and names, but not the found/unfound shading — that requires a full Cachly Pro subscription."
   },
   {
    "anchor": "restore",
    "heading": "Restoring purchases",
-   "text": "Already subscribed on another device or after reinstalling? Use Restore Purchases in More › Settings to re-activate — it’s tied to your Apple ID, so there’s no separate Cachly login for it. 📱 Subscriptions are managed in iOS Settings › your name › Subscriptions , where you can change plan or cancel. Cachly can’t change billing on your behalf."
+   "text": "Already subscribed on another device or after reinstalling? Use Restore Purchases in More › Settings to re-activate — it’s tied to your Apple ID, so there’s no separate Cachly login for it. If you bought the old Premium Offline Maps before Cachly Pro launched, you keep access to offline maps without a subscription (Cachly 8.0.3 and later). 📱 Subscriptions are managed in iOS Settings › your name › Subscriptions , where you can change plan or cancel. Cachly can’t change billing on your behalf."
   }
  ],
  "screenshots": []

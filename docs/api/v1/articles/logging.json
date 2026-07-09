@@ -13,7 +13,7 @@
   {
    "anchor": "log-types",
    "heading": "Choosing a log type",
-   "text": "Tap Log Type and pick one: Found it — you found the cache. Didn’t find it (DNF) — you looked but came up empty. Write note — a comment without claiming a find. Owner Attention Requested — the cache needs maintenance from its owner. Reviewer Attention Requested — flag a serious problem to a community reviewer. Cachly picks a sensible default type for you: on a webcam cache a Found It becomes Webcam Photo Taken ; on a future event it defaults to Will Attend and on a past one to Attended ; and Owner Maintenance is offered only on caches you own."
+   "text": "Tap Log Type and pick one: Found it — you found the cache. Didn’t find it (DNF) — you looked but came up empty. Write note — a comment without claiming a find. Owner Attention Requested — the cache needs maintenance from its owner. Reviewer Attention Requested — flag a serious problem to a community reviewer. Cachly picks a sensible default type for you: on a webcam cache a Found It becomes Webcam Photo Taken ; on a future event it defaults to Will Attend and on a past one to Attended . On a cache you own , the picker adds owner actions: Owner Maintenance , Enable / Disable Listing , Archive and Update Coordinates ."
   },
   {
    "anchor": "send-now",
@@ -33,7 +33,7 @@
   {
    "anchor": "templates",
    "heading": "Log templates",
-   "text": "If you write similar logs often, save text templates and drop them into a log with one tap. Templates can include keyword placeholders that Cachly fills in (such as the find count or date), so each log still feels personal. Manage them in Settings › Templates or via Edit Text Templates in the message editor. Each template can be given a log type : when you create a log matching that type, the template’s text is inserted automatically — a Found It template for finds, a DNF template for the days that don’t go so well. In multi-user logging, each account’s own templates are applied to its message."
+   "text": "If you write similar logs often, save text templates and drop them into a log with one tap. Templates can include keyword placeholders that Cachly fills in (such as the find count or date), so each log still feels personal. Manage them in Settings › Templates or via Edit Text Templates in the message editor. Each template can be given a log type : when you create a log matching that type, the template’s text is inserted automatically — a Found It template for finds, a DNF template for the days that don’t go so well. You can also tap a template to make it the default — used for any log whose type has no template of its own; the default shows a green checkmark. Swipe left on a template to Edit or Delete it. Turn the whole feature on with Enable Text Templates in Settings › Templates . In multi-user logging, each account’s own templates are applied to its message."
   },
   {
    "anchor": "drafts",
@@ -43,7 +43,7 @@
   {
    "anchor": "extras",
    "heading": "Photos, favorites & corrected coordinates",
-   "text": "Photos — attach images to your log from the message editor . Favorite point — if you’ve found it and have points available, turn on Favorite Cache to award one to a great cache. (On certain cache types, such as events, the option is hidden because it doesn’t apply.) Trackables — the Trackables row logs drops and visits for the trackables you’re carrying; auto-visit can handle this automatically. Corrected coordinates — update the cache’s coordinates (for solved puzzles or owner adjustments) as part of the flow. See Waypoints & Coordinates . ⚙ Set your logging defaults — default log type, favorite prompts, draft behavior and more — in Settings › Logs so the compose screen opens the way you like it."
+   "text": "Photos — attach images to your log from the message editor . Favorite point — if you’ve found it and have points available, turn on Favorite Cache to award one to a great cache. (On certain cache types, such as events, the option is hidden because it doesn’t apply.) Trackables — the Trackables row logs drops and visits for the trackables you’re carrying; give each its own message and photo, use the ⋯ button to Drop All or Visit All , and swipe left to Remove one. Auto-visit can handle visits automatically. Corrected coordinates — update the cache’s coordinates (for solved puzzles or owner adjustments) as part of the flow. See Waypoints & Coordinates . ⚙ Set your logging defaults — default log type, favorite prompts, draft behavior and more — in Settings › Logs so the compose screen opens the way you like it."
   }
  ],
  "screenshots": [
