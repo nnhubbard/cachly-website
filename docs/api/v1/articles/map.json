@@ -66,26 +66,5 @@
    "text": "Choosing Save Location from a dropped pin opens the Save Location screen: give the spot a name and fine-tune its position with the coordinate picker (the same picker used for waypoints, with selectable coordinate formats). Saved spots collect under More › Saved Locations , where each row shows the name and coordinates with a count badge on the list. Each row’s … menu offers Share and Copy Coordinates — handy for trailheads, parking spots or anywhere you’ll want to find again."
   }
  ],
- "screenshots": [
-  {
-   "file": "live-map.png",
-   "caption": "The live map with cache pins, favorite-count badges and the right-side tool stack."
-  },
-  {
-   "file": "map-cache-callout.png",
-   "caption": "Tapping a pin shows the cache callout — name, distance, favorite count, D/T, size and GC code."
-  },
-  {
-   "file": "dropped-pin-menu.png",
-   "caption": "The dropped-pin menu — create an offline geocache, save the location, navigate, or copy coordinates."
-  },
-  {
-   "file": "map-layers.png",
-   "caption": "The Map Types panel with the Pro Offline Maps download and Apple & Google styles."
-  },
-  {
-   "file": "saved-locations.png",
-   "caption": "Saved Locations under More — each row keeps a named spot with its coordinates."
-  }
- ]
+ "screenshots": []
 }
