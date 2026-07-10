@@ -155,7 +155,10 @@
 
       const a = document.createElement("a");
       a.href = "#" + h.id;
-      a.textContent = h.textContent.replace(/#$/, "");
+      // TOC label without the PRO badge or hover anchor
+      const clone = h.cloneNode(true);
+      clone.querySelectorAll(".pro-badge, .anchor").forEach((n) => n.remove());
+      a.textContent = clone.textContent.replace(/#$/, "").trim();
       if (h.tagName === "H3") a.className = "lvl-3";
       nav.appendChild(a);
       links.push({ a, h });
