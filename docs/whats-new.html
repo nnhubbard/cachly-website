@@ -11,11 +11,11 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>What's New in 8.x — Cachly Documentation</title>
-  <meta name="description" content="What's new in Cachly 8.x: Cachly Pro, CarPlay, Counties/Regions, DeLorme Grid, Auto Load Map, multi-user logging, and the 8.0 feature list.">
+  <title>What's New — Cachly Documentation</title>
+  <meta name="description" content="The latest Cachly release notes and full version history, mirrored from cachly.com/whats-new.">
   <link rel="canonical" href="https://www.cachly.com/docs/whats-new.html">
-  <meta property="og:title" content="What&#x27;s New in 8.x — Cachly Documentation">
-  <meta property="og:description" content="What&#x27;s new in Cachly 8.x: Cachly Pro, CarPlay, Counties/Regions, DeLorme Grid, Auto Load Map, multi-user logging, and the 8.0 feature list.">
+  <meta property="og:title" content="What&#x27;s New — Cachly Documentation">
+  <meta property="og:description" content="The latest Cachly release notes and full version history, mirrored from cachly.com/whats-new.">
   <meta property="og:url" content="https://www.cachly.com/docs/whats-new.html">
   <meta property="og:site_name" content="Cachly User Guide">
   <meta property="og:type" content="article">
@@ -27,8 +27,8 @@
  "@graph": [
   {
    "@type": "TechArticle",
-   "headline": "What's New in 8.x",
-   "description": "What's new in Cachly 8.x: Cachly Pro, CarPlay, Counties/Regions, DeLorme Grid, Auto Load Map, multi-user logging, and the 8.0 feature list.",
+   "headline": "What's New",
+   "description": "The latest Cachly release notes and full version history, mirrored from cachly.com/whats-new.",
    "url": "https://www.cachly.com/docs/whats-new.html",
    "inLanguage": "en",
    "isPartOf": {
@@ -55,7 +55,7 @@
     {
      "@type": "ListItem",
      "position": 2,
-     "name": "What’s New in 8.x",
+     "name": "What’s New",
      "item": "https://www.cachly.com/docs/whats-new.html"
     }
    ]
@@ -63,7 +63,7 @@
  ]
 }
   </script>
-  <link rel="stylesheet" href="assets/cachly-docs.css?v=5">
+  <link rel="stylesheet" href="assets/cachly-docs.css?v=6">
 </head>
 <body data-page="whats-new">
   <header class="doc-header">
@@ -78,42 +78,1940 @@
     <aside class="doc-sidebar" id="sidebar"></aside>
     <main class="doc-content">
       <article class="doc-article">
-        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; What&rsquo;s New in 8.x</div>
-        <h1>What&rsquo;s New in 8.x</h1>
-        <p class="doc-lead">Highlights of the Cachly 8.x release line. Many of the headline additions are part of <a href="cachly-pro.html">Cachly Pro</a>.</p>
-        <h2 id="pro">Cachly Pro (8.0+)</h2>
-        <p>Version 8.0 introduced <a href="cachly-pro.html">Cachly Pro</a>, a premium subscription. Its features rolled out across 8.x:</p>
+        <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; What&rsquo;s New</div>
+        <h1>What&rsquo;s New</h1>
+        <p class="doc-lead">The current version of Cachly is 8.1.6, released February 17, 2026. Here&rsquo;s what recent releases added, and what&rsquo;s coming next in Cachly 8.2 and 8.3.</p>
+<h2 id="coming-soon">Coming soon</h2>
+        <p>Two releases are in active development:</p>
         <ul>
-          <li><strong>Pro Offline Maps</strong> &mdash; worldwide OpenStreetMap vector maps with contours, trails and offline search.</li>
-          <li><strong>Counties / Regions</strong> and <strong>DeLorme Grid</strong> &mdash; visual found/not-found tracking by region.</li>
-          <li><strong>Auto Load Map</strong> &mdash; caches load as you pan the live map (long-press the reload icon, or enable in Settings &rsaquo; Cachly Pro).</li>
-          <li><strong>CarPlay</strong> &mdash; added in 8.1. See <a href="carplay.html">CarPlay</a>.</li>
-          <li><strong>Multiple User Logging</strong> &mdash; added in 8.2 (log under several accounts at once).</li>
+            <li><strong>Cachly 8.2</strong> &mdash; <a href="/features/intelligence/">Cachly Intelligence</a> (AI summaries of logs and descriptions, an AI log assistant, and CarPlay voice summaries) and <strong>Multi-User Logging</strong> (log a find under several geocaching.com accounts at once). Both are Cachly Pro features.</li>
+            <li><strong>Cachly 8.3</strong> &mdash; Track Recording &amp; HealthKit integration.</li>
         </ul>
 
-        <h2 id="non-pro">New for everyone</h2>
+        <h2 id="v8-1-6">Cachly 8.1.6 <span class="version-badge">February 17, 2026</span></h2>
+        <p>A maintenance release with bug fixes:</p>
         <ul>
-          <li><strong>Online Drafts</strong> &mdash; view, edit and submit drafts in-app; they sync to geocaching.com and across devices.</li>
-          <li><strong>Rebuilt <a href="waypoints.html#formats">coordinate picker</a></strong> &mdash; five input formats (DDM, DD, DMS, the classic wheel picker and a Plain Text paste field), an &ldquo;Updated&rdquo; badge and one-tap Reset.</li>
-          <li><strong>Highlights in GPX</strong> &mdash; your <a href="search.html#highlights">highlight colors</a> now round-trip through GPX <a href="import-export.html">import and export</a>, and GPX import is much faster.</li>
-          <li><strong>Wherigo download</strong> &mdash; download a cartridge from a Wherigo cache via the &#8943; button (needs the Wherigo app installed).</li>
-          <li><strong>Refreshed interface</strong> &mdash; a modernized look with more rounded corners and fewer hard lines throughout the app.</li>
-          <li><strong>Account deletion</strong>, three coordinate copy formats, a larger profile showing find count plus Favorite Points awarded and available, multi-line custom geocache descriptions, and a built-in &ldquo;What&rsquo;s New&rdquo; feed.</li>
+            <li>Fixed an issue where some cache images were missing their image names.</li>
+            <li>Restored cache titles in Compass view when viewing live caches.</li>
+            <li>Fixed an issue where trackable images were black and not sending.</li>
+            <li>Fixed an iPad layout issue where the Add Photo button and text counter made the log text area appear too small.</li>
         </ul>
 
-        <h2 id="other-8-0">Other 8.0 improvements</h2>
-        <ul>
-          <li><strong>Maps:</strong> toggle trail colors/symbols, share cache location, better place search, Mapy.cz navigation, searchable state/country picker, more proximity-alert sounds (now also selectable in Settings), long-press the funnel to toggle filtering, long-press the map-tile control to switch between your six most recent maps, adjustable live-search radius, Adventure Lab owned/found icons, a grayed-out found smiley on archived caches, indicator for ignored corrected coordinates, a cancel option on reload.</li>
-          <li><strong>Logs:</strong> favorite-heart indicator in My Logs, cache-type icon in place of the avatar, &ldquo;Great story&rdquo;/&ldquo;Helpful&rdquo; shown on your own logs, clearer log-type names for Needs Maintenance and Needs Archived, military-time date keywords, trackable-log keyword support.</li>
-          <li><strong>Offline lists:</strong> county-based filtering, pre-populated county lists, the Generate Counties tool (Pro), and removing caches across multiple lists.</li>
-          <li><strong>Importing:</strong> Dropbox/Google Drive via the Files app, append-to-personal-note option, Groundspeak personal-note support, an option to fetch a smaller GPX&nbsp;.zip when importing a pocket query, and personal-note photos now also saved to your Camera Roll.</li>
-          <li><strong>Apple Watch:</strong> strike-through for archived/disabled caches and infographic complications.</li>
-        </ul>
+        <h2 id="v8-1">Cachly 8.1 &mdash; CarPlay</h2>
+        <p>Cachly 8.1 brought <a href="/features/carplay/">full CarPlay support</a> to Cachly Pro: the complete map (including Pro Offline Maps) on your car&rsquo;s dashboard, cache lists, navigation to caches, and voice-activated logging with speech-to-text. Read the full announcement: <a href="https://cachly.medium.com/cachly-8-1-with-carplay-d162e3742251" target="_blank" rel="noopener">Cachly 8.1 with CarPlay</a> and the follow-up <a href="https://cachly.medium.com/cachly-8-1-carplay-update-437459adc8a2" target="_blank" rel="noopener">CarPlay update</a>.</p>
 
-        <div class="callout note">
-          <span class="callout-icon" aria-hidden="true">&#8505;</span>
-          <div class="callout-body">Cachly Pro is separate from a geocaching.com Premium membership and doesn&rsquo;t change cache-type access or daily cache limits. See the <a href="cachly-pro.html">Cachly Pro</a> page.</div>
-        </div>
+        <h2 id="v8-0">Cachly 8.0 &mdash; Cachly Pro</h2>
+        <p>Cachly 8.0 introduced <a href="/pro/">Cachly Pro</a>, the optional subscription with worldwide offline vector maps (contours, hillshade, trails, POI, 3D buildings), live cache loading, county and region tracking, the DeLorme Grid, and OSM POI search. Read the full announcement: <a href="https://cachly.medium.com/cachly-8-0-4e63b7233940" target="_blank" rel="noopener">Cachly 8.0</a>.</p>
+
+        <h2 id="older">Full version history</h2>
+        <p>The official App Store release notes for every version of Cachly &mdash; all 140 releases, from the current version back to Cachly 1.0.1 in December 2015.</p>
+            <details class="changelog">
+                <summary>Cachly 8.1.6 <span class="changelog-count">February 16, 2026</span></summary>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed an issue where some cache images were missing their image names.</li>
+                    <li>Restored cache titles in Compass view when viewing live caches.</li>
+                    <li>Fixed an issue where trackable images were black and not sending.</li>
+                    <li>Fixed a layout issue on iPad where the Add Photo button and text counter were positioned incorrectly, causing the log text area to appear too small.</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.1.5 <span class="changelog-count">February 12, 2026</span></summary>
+                <p>Fixed an issue with CarPlay's map not showing full screen.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.1.4 <span class="changelog-count">February 6, 2026</span></summary>
+                <h4>Bug fixes</h4>
+                <ul>
+                    <li>State restoration not restoring correctly when returning to Cachly</li>
+                    <li>CarPlay zoom level not being respected then tapping current location button</li>
+                    <li>Photos bar getting hidden under keyboard when adding images to a log</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.1.3 <span class="changelog-count">February 2, 2026</span></summary>
+                <h4>Bug Fixes &amp; Improvements</h4>
+                <ul>
+                    <li>Fixed an issue where the Watch app compass could freeze after the screen turned off.</li>
+                    <li>Resolved a display issue with log text and personal notes when using a hardware keyboard.</li>
+                    <li>Restored the Add (+) button in Offline Lists on smaller devices or when using larger text sizes.</li>
+                    <li>Fixed an issue preventing state restoration dates from being cleared.</li>
+                    <li>Improved GPX importing to ensure all valid files import correctly.</li>
+                </ul>
+                <p>Resolved several CarPlay interface issues, including:</p>
+                <ul>
+                    <li>Fixed an issue where navigating using Apple Maps was giving a "Directions Not Available" error</li>
+                    <li>Fixed an issue where map light or dark mode would not persist after being selected.</li>
+                    <li>Fixed an issue where some Cachly Pro users would repeatedly see the Pro upgrade warning when starting their car.</li>
+                    <li>Favorite count being covered by icons</li>
+                    <li>Corrected custom cache sort order not displaying properly.</li>
+                    <li>Owned but unpublished caches not appearing greyed out like iOS</li>
+                    <li>Saved zoom level not being restored when returning to CarPlay</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.1.2 <span class="changelog-count">January 14, 2026</span></summary>
+                <h4>Features</h4>
+                <ul>
+                    <li>New CarPlay map settings (north-up view, light/dark/auto modes, compass toggle)</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Major memory and stability improvements</li>
+                    <li>Fixed multiple CarPlay UI and map issues</li>
+                    <li>Resolved crashes related to offline maps, pins, and Adventure Lab stages</li>
+                    <li>Fixed Google Maps centering incorrectly when switching map types</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.1.1 <span class="changelog-count">January 6, 2026</span></summary>
+                <p>Fixes in 8.1.1: Improvements &amp; Fixes</p>
+                <ul>
+                    <li>Improved overall memory management for better stability and performance</li>
+                    <li>Fixed an issue where updating offline lists with Google Maps could cause the app to crash</li>
+                    <li>CarPlay now displays a helpful map alert on first launch if a required map is missing</li>
+                </ul>
+                <p>8.1.1 New &amp; Updated Features</p>
+                <ul>
+                    <li>Added a CarPlay option when creating or editing offline lists</li>
+                    <li>Introduced TomTom GO as a new navigation provider for CarPlay</li>
+                    <li>Fixed an issue where event icons were not displaying correctly in CarPlay, ensuring proper icon support across iOS</li>
+                </ul>
+                <p>New CarPlay Support in 8.1: Cachly now includes full CarPlay integration, bringing geocaching to your vehicle's dashboard.</p>
+                <h4>Map &amp; Navigation</h4>
+                <ul>
+                    <li>View nearby geocaches on an interactive map while driving</li>
+                    <li>Navigate to caches using Pro Offline Maps, Apple Maps, Google Maps, or Waze</li>
+                    <li>Create multi-cache routes by selecting multiple geocaches</li>
+                    <li>Two-finger zoom and rotation on supported displays</li>
+                    <li>Cache name labels appear at higher zoom levels</li>
+                    <li>Proximity alerts notify you when approaching a geocache</li>
+                    <li>Navigation automatically resumes when reconnecting to CarPlay</li>
+                </ul>
+                <h4>Voice Logging</h4>
+                <ul>
+                    <li>Log geocaches hands-free using voice recognition</li>
+                    <li>Supports Found It, DNF, Write Note, Attended, Will Attend, and Webcam Photo Taken</li>
+                    <li>Option to skip voice input and use templates only</li>
+                    <li>Review your log message with text-to-speech playback</li>
+                    <li>Respects your iOS app log templates and draft settings</li>
+                </ul>
+                <h4>Trips Integration</h4>
+                <ul>
+                    <li>Browse offline lists (Trips) directly in CarPlay</li>
+                    <li>View up to 1,000 caches per Trip</li>
+                    <li>Custom sorting or sort by distance</li>
+                    <li>Show Trip caches on the map</li>
+                </ul>
+                <h4>Settings &amp; Customization</h4>
+                <ul>
+                    <li>Filter options: exclude finds, exclude hides, sync with iPhone filters</li>
+                    <li>Three pin style options</li>
+                    <li>Default zoom level remembers your preference</li>
+                    <li>Proximity alert filtering for favorited caches only</li>
+                </ul>
+                <p>---</p>
+                <h4>New Features &amp; Fixes</h4>
+                <h4>Logs &amp; Personal Notes</h4>
+                <ul>
+                    <li>Usernames in logs now create clickable links in markdown</li>
+                </ul>
+                <h4>Coordinate Detection</h4>
+                <ul>
+                    <li>Improved coordinate detection for more formats and special characters</li>
+                </ul>
+                <h4>Trackables</h4>
+                <ul>
+                    <li>View user profile of holder and owner in additional info</li>
+                </ul>
+                <h4>Pro Offline Maps</h4>
+                <ul>
+                    <li>Land cover opacity now decreases as you zoom in for better detail visibility</li>
+                    <li>Option to toggle planet landcover and hill shades</li>
+                    <li>Updated styles with additional path and trail types</li>
+                </ul>
+                <h4>Performance &amp; Stability</h4>
+                <ul>
+                    <li>Major memory management improvements reducing high memory usage</li>
+                    <li>Fixed memory leaks causing crashes</li>
+                    <li>Fixed various state restoration crashes</li>
+                    <li>Fixed crashes when leaving app on certain screens</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.1 <span class="changelog-count">November 3, 2025</span></summary>
+                <p>New CarPlay Support: Cachly now includes full CarPlay integration, bringing geocaching to your vehicle's dashboard.</p>
+                <h4>Map &amp; Navigation</h4>
+                <ul>
+                    <li>View nearby geocaches on an interactive map while driving</li>
+                    <li>Navigate to caches using Pro Offline Maps, Apple Maps, Google Maps, or Waze</li>
+                    <li>Create multi-cache routes by selecting multiple geocaches</li>
+                    <li>Two-finger zoom and rotation on supported displays</li>
+                    <li>Cache name labels appear at higher zoom levels</li>
+                    <li>Proximity alerts notify you when approaching a geocache</li>
+                    <li>Navigation automatically resumes when reconnecting to CarPlay</li>
+                </ul>
+                <h4>Voice Logging</h4>
+                <ul>
+                    <li>Log geocaches hands-free using voice recognition</li>
+                    <li>Supports Found It, DNF, Write Note, Attended, Will Attend, and Webcam Photo Taken</li>
+                    <li>Option to skip voice input and use templates only</li>
+                    <li>Review your log message with text-to-speech playback</li>
+                    <li>Respects your iOS app log templates and draft settings</li>
+                </ul>
+                <h4>Trips Integration</h4>
+                <ul>
+                    <li>Browse offline lists (Trips) directly in CarPlay</li>
+                    <li>View up to 1,000 caches per Trip</li>
+                    <li>Custom sorting or sort by distance</li>
+                    <li>Show Trip caches on the map</li>
+                </ul>
+                <h4>Settings &amp; Customization</h4>
+                <ul>
+                    <li>Filter options: exclude finds, exclude hides, sync with iPhone filters</li>
+                    <li>Three pin style options</li>
+                    <li>Default zoom level remembers your preference</li>
+                    <li>Proximity alert filtering for favorited caches only</li>
+                </ul>
+                <p>---</p>
+                <h4>New Features &amp; Fixes</h4>
+                <h4>Logs &amp; Personal Notes</h4>
+                <ul>
+                    <li>Usernames in logs now create clickable links in markdown</li>
+                </ul>
+                <h4>Coordinate Detection</h4>
+                <ul>
+                    <li>Improved coordinate detection for more formats and special characters</li>
+                </ul>
+                <h4>Trackables</h4>
+                <ul>
+                    <li>View user profile of holder and owner in additional info</li>
+                </ul>
+                <h4>Pro Offline Maps</h4>
+                <ul>
+                    <li>Land cover opacity now decreases as you zoom in for better detail visibility</li>
+                    <li>Option to toggle planet landcover and hill shades</li>
+                    <li>Updated styles with additional path and trail types</li>
+                </ul>
+                <h4>Performance &amp; Stability</h4>
+                <ul>
+                    <li>Major memory management improvements reducing high memory usage</li>
+                    <li>Fixed memory leaks causing crashes</li>
+                    <li>Fixed various state restoration crashes</li>
+                    <li>Fixed crashes when leaving app on certain screens</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.16 <span class="changelog-count">October 26, 2025</span></summary>
+                <p>Fixed an issue where trackables were not being dropped correctly when a user thought they were.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.15 <span class="changelog-count">October 15, 2025</span></summary>
+                <p>Fixed an issue in Google Maps on iOS 26 where panning around the map would cause the screen to navigate to the previous screen.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.14 <span class="changelog-count">October 10, 2025</span></summary>
+                <p>This version fixes an issue with submitting trackable visit logs. The issue has now been fixed, but there are limitations to trackable visits in place by Geocaching HQ:</p>
+                <ul>
+                    <li>20 visit logs per 15 minutes</li>
+                    <li>600 visit logs per 25 hours</li>
+                </ul>
+                <p>Please let us know if you have any questions, support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.13 <span class="changelog-count">August 29, 2025</span></summary>
+                <p>Fixed an issue with personal notes on iPad where the notes section was not full screen and the notes images buttons were not visible.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.12 <span class="changelog-count">July 29, 2025</span></summary>
+                <h4>Bug fixes</h4>
+                <ul>
+                    <li>Fixed an issue where personal note was not saved consistently and there was user confusion around how and when it was saving.</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.11 <span class="changelog-count">July 2, 2025</span></summary>
+                <p>Fixed an issue where the found it checkmark was not always showing in offline lists when a log was added to pending logs.</p>
+                <p>If you have any issues please contact support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.10 <span class="changelog-count">June 6, 2025</span></summary>
+                <h4>Bug Fixes</h4>
+                <p>Fixed an issue where caches were showing a found checkmark on pin and callout when they should not</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.9 <span class="changelog-count">June 1, 2025</span></summary>
+                <h4>Features</h4>
+                <ul>
+                    <li>Log Keywords: Added keyword for personal note</li>
+                    <li>Proximity Alert: Additional Sounds added</li>
+                    <li>Personal Note: Save note when leaving app and when exiting screen</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Event time on details screen showed incorrectly</li>
+                    <li>Usernames with special characters will now work in filtering correctly</li>
+                    <li>Coordinate format picker should be turned off by default</li>
+                    <li>Online Drafts: Date/time keywords replacements not taking timezone into account</li>
+                    <li>Online Drafts: Time gets saved incorrectly when editing drafts</li>
+                    <li>Online Drafts: Incorrect draft count after the app got restored</li>
+                    <li>Online Drafts: If user has no drafts tableView header with 0 Drafts is shown</li>
+                    <li>Offline List: Creating waypoints and then refreshing cache duplicate the waypoint</li>
+                    <li>User Profile: Username text needs dark stoke to stand out</li>
+                    <li>GPX Import: Additional check for timezone format needed for missing event</li>
+                    <li>Coordinate detection: Correct special characters used to make an apostrophe (GCAKH58)</li>
+                    <li>Log photo dates need to match logged date</li>
+                    <li>Cache Details: Favorite and trackables boxes stay black after tapping in dark mode</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.8 <span class="changelog-count">December 5, 2024</span></summary>
+                <p>Fixed an issue where the cache radius was shown incorrectly for found caches.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.7 <span class="changelog-count">November 22, 2024</span></summary>
+                <h4>What's New</h4>
+                <h4>Features</h4>
+                <ul>
+                    <li>Pro Offline Maps: Map labels should use localized text based on device language</li>
+                    <li>Watch App: Nearby now shows filter options at top of list</li>
+                    <li>Watch App: Nearby now shows refresh search at top of list</li>
+                    <li>Watch App: Filter options added a reset button</li>
+                    <li>Watch App: Filter for cache added toggle all option</li>
+                    <li>Watch App: Saved caches added a remove all option</li>
+                    <li>Logs: Opted out user logs add the option to view on geocaching.com</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Pending Logs: DNF icon does not persist on map or list view</li>
+                    <li>Pending Logs: Change cache type should reflect the change on the map for found or DNF</li>
+                    <li>Map position not kept when switching maps</li>
+                    <li>Crash when editing an offline cache</li>
+                    <li>Export GPX: Cache type should not use a localized name</li>
+                    <li>Found and owned cache pins have incorrect offset on map</li>
+                    <li>502 error thrown by the API when too many caches are requested along with full cache data</li>
+                    <li>502 error thrown when using full cache data and viewing a user's finds</li>
+                    <li>Pin drag failing in Google Maps</li>
+                    <li>Create offline geocache by tapping current location not adding cache to the map instantly</li>
+                    <li>Tapping current location button sometimes stopped zooming to location</li>
+                    <li>Personal Note: Detected text font size it too small</li>
+                    <li>Regular Users: Personal notes should only be allowed in offline lists</li>
+                    <li>Regular Users: Don't allow loading logs unless full cache has been loaded</li>
+                    <li>DNFs not showing up consistently on the map</li>
+                    <li>Google Maps not showing map scale</li>
+                    <li>Offline List Filtering: Using multiple Or Date Found By Me filters doesn’t work</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.6 <span class="changelog-count">September 3, 2024</span></summary>
+                <h4>What's New</h4>
+                <p>Translation Updates: Slovak, Danish</p>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed: Submitting log as draft was not correctly sending the time zone</li>
+                    <li>Fixed: Pro Offline Maps: Some POI not always showing</li>
+                    <li>Fixed: Pro Offline Maps: Some labels missing larger accessibility text sizes</li>
+                    <li>Fixed: Pro Offline Maps: House number label should be lower priority than POI</li>
+                    <li>Fixed: Pro Offline Maps: Parking POI icon should be lower priority than other POI</li>
+                    <li>Fixed: Online Drafts: Template keywords not converted when sending log on list view</li>
+                    <li>Fixed: Logs: Great Story and Helpful were not showing correctly</li>
+                    <li>Fixed: State Restoration: Offline lists not always restoring the map at the correct position</li>
+                    <li>Fixed: Google Maps: Showing pins on the map should not do a short zoom animation</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.5 <span class="changelog-count">July 10, 2024</span></summary>
+                <ul>
+                    <li>Fixed a timezone issue when logging caches in a timezone different from the cache</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.4 <span class="changelog-count">July 7, 2024</span></summary>
+                <h4>What's New</h4>
+                <ul>
+                    <li>Slovak language</li>
+                    <li>Proximity alert added to Live tab</li>
+                    <li>Proximity alert option to show hint in notification</li>
+                    <li>OsmAnd added to routing providers</li>
+                    <li>Long press on map layers has a new dialog menu</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed: Pending logs displayed date/time not using correct timezone</li>
+                    <li>Fixed: Toggling automatic search would show Pro dialog</li>
+                    <li>Fixed: DeLorme challenges with duplicate pages not crediting both pages</li>
+                    <li>Fixed: iPad bug when trying to download Wherigo cartridge</li>
+                    <li>Fixed: State restoration showing world view when returning to navigate to cache screen</li>
+                    <li>Fixed: State restoration navigate to cache not showing target cache or waypoints</li>
+                    <li>Fixed: Submitting draft using 12-hour time and some timezones giving error</li>
+                    <li>Fixed: Live search filters not working with usernames with special characters</li>
+                    <li>Fixed: Offline Maps POI on/off not always working</li>
+                    <li>Fixed: Counties, loading additional caches would crash</li>
+                    <li>Fixed: User profile image on More tab sometimes squished</li>
+                    <li>Fixed: Friends logs not showing favorited heart</li>
+                    <li>Fixed: Drafts keywords not being replaced when sent</li>
+                    <li>Fixed: Drafts sending with images not submitting images or dismissing screen</li>
+                    <li>Fixed: Using find caches near this option with auto load would crash</li>
+                    <li>Fixed: Counties in Nova Scotia not showing correctly (download new map required)</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+                <p>---------</p>
+                <p>Cachly 8.0 is one of our biggest release to date. It brings some great new features including Pro Offline Maps, Counties, Auto loading Map and much more.</p>
+                <ul>
+                    <li>Updated interface design for modern iOS</li>
+                    <li>Cachly Pro</li>
+                    <li>Pro Offline Maps: Including new features</li>
+                    <li>Counties/Regions</li>
+                    <li>DeLorme Grid</li>
+                    <li>Auto loading map</li>
+                    <li>Online Drafts</li>
+                    <li>Download PQ .zip for faster imports</li>
+                    <li>Wherigo: Option to download</li>
+                    <li>New coordinate format picker</li>
+                    <li>Trackable logs: Keywords now available</li>
+                    <li>Improved place searching</li>
+                    <li>Option to append personal note on GPX import</li>
+                    <li>Proximity Alert: Additional sound options</li>
+                    <li>Apple Watch: Cachly available on infographic style</li>
+                    <li>Live Search Filtering: Set search radius</li>
+                    <li>Live Search Filtering: Provinces</li>
+                    <li>Mapy.cz support</li>
+                    <li>Much much more</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.3 <span class="changelog-count">April 22, 2024</span></summary>
+                <h4>What's New</h4>
+                <p>Change: Users who previously purchased offline maps can now download and use pro maps without a subscription.</p>
+                <ul>
+                    <li>Pro Offline Maps: Fixed an issue where some POIs were missing from maps</li>
+                    <li>Pro Offline Maps: Trail length labels are now hidden if trail is less than 500 meters long. This option is user changeable in Settings.</li>
+                    <li>Pro Offline Maps: Fixed an issue where some trails were not showing at high zoom levels. New maps are currently being generated with the change.</li>
+                    <li>Offline Lists: Fixed an issue where scrolling through a large number of lists was slow.</li>
+                    <li>DeLorme: Fixed WA Page 99</li>
+                    <li>DeLorme: Fixed pages not being sorted correctly</li>
+                    <li>Norwegian localization missing some text</li>
+                    <li>Updated translations for Portuguese and Spanish</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+                <p>---------</p>
+                <p>Cachly 8.0 is one of our biggest release to date. It brings some great new features including Pro Offline Maps, Counties, Auto loading Map and much more.</p>
+                <ul>
+                    <li>Updated interface design for modern iOS</li>
+                    <li>Cachly Pro</li>
+                    <li>Pro Offline Maps: Including new features</li>
+                    <li>Counties/Regions</li>
+                    <li>DeLorme Grid</li>
+                    <li>Auto loading map</li>
+                    <li>Online Drafts</li>
+                    <li>Download PQ .zip for faster imports</li>
+                    <li>Wherigo: Option to download</li>
+                    <li>New coordinate format picker</li>
+                    <li>Trackable logs: Keywords now available</li>
+                    <li>Improved place searching</li>
+                    <li>Option to append personal note on GPX import</li>
+                    <li>Proximity Alert: Additional sound options</li>
+                    <li>Apple Watch: Cachly available on infographic style</li>
+                    <li>Live Search Filtering: Set search radius</li>
+                    <li>Live Search Filtering: Provinces</li>
+                    <li>Mapy.cz support</li>
+                    <li>Much much more</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.2 <span class="changelog-count">April 9, 2024</span></summary>
+                <h4>What's New</h4>
+                <ul>
+                    <li>Counties/Regions/DeLorme: Fixed an issue where finds were not being imported correctly</li>
+                    <li>Online Lists: Tapping load more button would not load additional caches</li>
+                    <li>Map only subscribers will now see Pro maps options in Settings</li>
+                    <li>DeLorme: Fixed an issue where finds on islands would not get marked as found</li>
+                    <li>DeLorme: Added missing TX challenge</li>
+                    <li>DeLorme: WA state accuracy update</li>
+                    <li>Groundspeak Blockparty pin updated to Maroon color for consistency with other event cache types.</li>
+                    <li>Auto Load: Fixed an issue when using one of the follow modes that moving the map would bring you back to your current location.</li>
+                    <li>Counties/Regions: Open Street Map and other custom tile layers now show correctly</li>
+                    <li>Counties/Regions: Jervis Bay in Australian Capital Territory added</li>
+                    <li>Apple Maps: Follow mode now working correctly</li>
+                    <li>Pro Offline Maps: Fixed Australia state abbreviations</li>
+                    <li>Pro Offline Maps: Fixed issue with POI icons/labels showing when they shouldn't</li>
+                    <li>Highlighting: Fixed a crash when you highlight a cache on another device</li>
+                    <li>Subscribe to Cachly Pro option added to More tab</li>
+                    <li>Spanish language translation</li>
+                    <li>Updated french translation</li>
+                </ul>
+                <p>---------</p>
+                <p>Cachly 8.0 is one of our biggest release to date. It brings some great new features including Pro Offline Maps, Counties, Auto loading Map and much more.</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+                <ul>
+                    <li>Updated interface design for modern iOS</li>
+                    <li>Cachly Pro</li>
+                    <li>Pro Offline Maps: Including new features</li>
+                    <li>Counties/Regions</li>
+                    <li>DeLorme Grid</li>
+                    <li>Auto loading map</li>
+                    <li>Online Drafts</li>
+                    <li>Download PQ .zip for faster imports</li>
+                    <li>Wherigo: Option to download</li>
+                    <li>New coordinate format picker</li>
+                    <li>Trackable logs: Keywords now available</li>
+                    <li>Improved place searching</li>
+                    <li>Option to append personal note on GPX import</li>
+                    <li>Proximity Alert: Additional sound options</li>
+                    <li>Apple Watch: Cachly available on infographic style</li>
+                    <li>Live Search Filtering: Set search radius</li>
+                    <li>Live Search Filtering: Provinces</li>
+                    <li>Mapy.cz support</li>
+                    <li>Much much more</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0.1 <span class="changelog-count">April 8, 2024</span></summary>
+                <p>Fixed an issue with downloading of offline maps for some users.</p>
+                <p>If you have any issues please reach out to support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 8.0 <span class="changelog-count">February 26, 2024</span></summary>
+                <p>Cachly 8.0 is one of our biggest release to date. It brings some great new features including Pro Offline Maps, Counties, Live Map and much more.</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+                <ul>
+                    <li>Updated interface design for modern iOS</li>
+                    <li>Cachly Pro</li>
+                    <li>Pro Offline Maps: Including new features</li>
+                    <li>Counties/Regions</li>
+                    <li>DeLorme Grid</li>
+                    <li>Live loading map</li>
+                    <li>Online Drafts</li>
+                    <li>Download PQ .zip for faster imports</li>
+                    <li>Wherigo: Option to download</li>
+                    <li>New coordinate format picker</li>
+                    <li>Trackable logs: Keywords now available</li>
+                    <li>Improved place searching</li>
+                    <li>Option to append personal note on GPX import</li>
+                    <li>Proximity Alert: Additional sound options</li>
+                    <li>Apple Watch: Cachly available on infographic style</li>
+                    <li>Live Search Filtering: Set search radius</li>
+                    <li>Live Search Filtering: Provinces</li>
+                    <li>Mapy.cz support</li>
+                    <li>Much much more</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.1.3 <span class="changelog-count">October 25, 2023</span></summary>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Geocaching API requirements update</li>
+                    <li>Fixed issue in iOS 17 where events could not be added to the iOS calendar</li>
+                    <li>Fixed an issue with the compass not showing circular lines</li>
+                    <li>Fixed various iOS 17 issues</li>
+                    <li>Other misc fixes</li>
+                </ul>
+                <p>Cachly 8.0 is still very much in development and we cannot wait for you to see what we have planned!</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! Or if you have questions or comments please email support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.1.1 <span class="changelog-count">May 10, 2022</span></summary>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed an issue with caches not showing in Live when using Premium Offline Maps.</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! Or if you have questions or comments please email support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.1 <span class="changelog-count">March 22, 2022</span></summary>
+                <h4>New in this version</h4>
+                <p>## Adventure Labs: Stages shown on map ##</p>
+                <p>All Adventure Lab stages can now be loaded for non-sequential labs and the first stage of sequential labs.</p>
+                <p>## Network Debugger ##</p>
+                <p>New option in Help &amp; Settings to share network debug data for help with debugging API issues.</p>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Live Search: Usernames with + not correctly being encoded for the API</li>
+                    <li>Live: Tapping reload button too fast can cause large gaps in the loaded caches</li>
+                    <li>Open Street and other tile based maps should not show Apple Maps POIs</li>
+                    <li>Premium Offline Maps: Sorting of extras with special characters places them in the wrong spot (Germany Baden-Württemberg)</li>
+                    <li>Import GPX: Images in GPX not downloaded</li>
+                    <li>Other misc fixes</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! Or if you have questions or comments please email support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.12 <span class="changelog-count">February 16, 2022</span></summary>
+                <p>This version of Cachly brings one big bug fix.</p>
+                <ul>
+                    <li>Fixed an issue with tiled maps (OS Maps, Open Street, Open Cycle, custom URL) flashing continually when navigating to a cache.</li>
+                </ul>
+                <p>Questions? Email support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.11 <span class="changelog-count">January 26, 2022</span></summary>
+                <p>This version of Cachly brings multiple bug fixes for a better experience. They include:</p>
+                <ul>
+                    <li>Current location red heading indicator not pointing correctly when device is in landscape</li>
+                    <li>Offline Images: Duplicate images are created in the database when loading more images</li>
+                    <li>Personal Note: Update not being made to API when note is removed</li>
+                    <li>Live Filtering Countries: Changed Czech Republic to Czechia</li>
+                    <li>Watch App: Offline Lists not sorting correctly, should be by distance to cache</li>
+                    <li>User Profile: Disclosure indicator doesn't alway show when it should</li>
+                    <li>Offline List: Long press delete option should have delete from all and remove from all options if in multiple lists</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.10 <span class="changelog-count">January 6, 2022</span></summary>
+                <h4>This release fixes the following issues</h4>
+                <ul>
+                    <li>Live filtering using the State or Country option could show invalid URL error.</li>
+                    <li>Searching for GC code of cache already on the map should now select that cache.</li>
+                    <li>List view show on map option wasn't working in Google Maps.</li>
+                </ul>
+                <p>Thanks for using Cachly!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.9 <span class="changelog-count">December 31, 2021</span></summary>
+                <p>This release fixes a bug with caches on the Live map failing to load on the first try, as well as other API requests.</p>
+                <p>Please make sure to leave us a rating for Cachly if you appreciate using it!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.8 <span class="changelog-count">December 27, 2021</span></summary>
+                <p>This release fixes a few issues with geocaches not showing when searching for a GC code as well as dropped pins sometimes not showing. Sorry about those bugs, sometimes they slip through. :(</p>
+                <p>We also had to revert a fix for cache radius circles disappearing at high zoom levels. This will be fixed again in a future update.</p>
+                <p>Thanks for using Cachly!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.7 <span class="changelog-count">December 21, 2021</span></summary>
+                <p>With this version we bring you mostly bug fixes!</p>
+                <h4>Features</h4>
+                <ul>
+                    <li>Trackable Inventory: When adding TB to cache log it should show tracking code in subtitle text</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Settings: Dark mode option sometimes does not allow changing</li>
+                    <li>Draft Log: Spoken text creates strange unicode character</li>
+                    <li>Loading caches sometimes takes two taps to load them</li>
+                    <li>Import GPX causing duplicate logs in certain situations</li>
+                    <li>Premium Offline Maps: Cache Radius Circles get Removed When Switching to Other App Then Returning</li>
+                    <li>Cache radius circles disappear at high zoom levels if panning away from cache pin</li>
+                    <li>GPX Export: &amp; should be replaced with &amp;amp; for all XML data</li>
+                    <li>iOS 15: Tab bar text is sometimes truncated with ...</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.6 <span class="changelog-count">October 31, 2021</span></summary>
+                <h4>Features</h4>
+                <ul>
+                    <li>Live Search Filtering for Adventure Labs now uses the API to exclude owned and completed</li>
+                    <li>Adventure Labs now show completed or owned icons</li>
+                    <li>Tap Cache Type Icon in Cache Details to show user's own logs</li>
+                    <li>Background Image URL now listed in Additional Information</li>
+                    <li>Apple Standard Muted added to map layers</li>
+                    <li>Log Message: Included option to clear log message in ... menu</li>
+                    <li>Added support for additional Apple Watch complications</li>
+                    <li>Watch App: Update home screen to use list view design to better fit text</li>
+                    <li>TB Scanner: Save zoom level and use that default next time scanner is used</li>
+                    <li>Option to skip login when needed</li>
+                </ul>
+                <h4>Fixes</h4>
+                <ul>
+                    <li>Freezing issue with Premium Offline Maps and cache radius circles should now be fixed</li>
+                    <li>Exporting a GPX with &amp; in the title would cause GPX issues</li>
+                    <li>Logged in user sometimes wouldn't correctly show user type</li>
+                    <li>2x tile size working again in iOS 15</li>
+                    <li>Importing GPX from Files app is now more reliable</li>
+                    <li>Personal Notes: Better support for notes saved with poor or no connection</li>
+                    <li>Premium Offline Maps: Navigate to cache red line should not flash when updating location</li>
+                    <li>Import GPX should no longer duplicate logs in certain situations</li>
+                    <li>Logs of small boring fixes</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.5 <span class="changelog-count">September 17, 2021</span></summary>
+                <h4>In this release</h4>
+                <ul>
+                    <li>Premium Offline Maps: Smoother animation when following current location.</li>
+                    <li>Premium Offline Maps: Bug fix for current location indicator sometimes not showing.</li>
+                    <li>General Bug Fixes</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps. Questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.4 <span class="changelog-count">September 10, 2021</span></summary>
+                <h4>In this release</h4>
+                <ul>
+                    <li>Fix for navigating to cache with Google Maps for cache with &amp; in the title</li>
+                    <li>General Bug Fixes</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps. Questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.3 <span class="changelog-count">August 24, 2021</span></summary>
+                <h4>In this release</h4>
+                <ul>
+                    <li>Offline Lists: Updating/Removing corrected coordinates should save immediately and not wait to check for network connection</li>
+                    <li>Remove requirement for iCloud for highlights, auto-visit and live templates but use when available</li>
+                    <li>Fixed bug that was causing Premium Offline Maps to freeze.</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps. Questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.2 <span class="changelog-count">August 12, 2021</span></summary>
+                <h4>In this release</h4>
+                <ul>
+                    <li>Trackable Auto-visit: Remove trackable from auto-visit list if user dropped trackable into a cache</li>
+                    <li>Trackable Inventory: Loading more than 50 trackables is now possible</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps. Questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0.1 <span class="changelog-count">August 10, 2021</span></summary>
+                <h4>In this release</h4>
+                <ul>
+                    <li>Trackable Auto-visit: Only Found It, Attended and Webcam Photo Taken should allow auto-visit.</li>
+                    <li>Cache Description: Dark Mode is no longer used in web view to allow cache owner's original text/html.</li>
+                    <li>Logs: Show favorite heart on all logs including own logs.</li>
+                    <li>Logs Tab: Show cache type icon instead of user avatar.</li>
+                    <li>Trackables: Backdating cache should also update trackable date.</li>
+                    <li>Various other bug fixes.</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps. Questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 7.0 <span class="changelog-count">July 23, 2021</span></summary>
+                <p>Cachly 7.0 is our biggest update yet! It brings some great new features including Dark Mode, Live Search Templates and much more.</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps.</p>
+                <ul>
+                    <li>Dark Mode with Dark Maps</li>
+                    <li>Live Search Filtering Templates</li>
+                    <li>Options to turn off dark mode within Cachly</li>
+                    <li>Show all waypoints of all caches</li>
+                    <li>Geocaching HQ solution checker</li>
+                    <li>Trackables auto-visit list</li>
+                    <li>Apple Watch enhancements: Personal Note, offline lists, logs, photos, attributes, waypoints</li>
+                    <li>Brand new in-app help with search able topics and a help website with same content</li>
+                    <li>Navigate to cache: auto-zoom as you get closer to ground zero</li>
+                    <li>Save Adventure Labs to Offline Lists</li>
+                    <li>Import GPX: option to upload corrected coordinates and personal notes to geocaching.com</li>
+                    <li>Import GPX from Waymarkly</li>
+                    <li>Much much more</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.2.2 <span class="changelog-count">June 7, 2021</span></summary>
+                <p>Your favorite feature is included in this release. Bug fixes!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.2.1 <span class="changelog-count">June 3, 2021</span></summary>
+                <h4>New in this version</h4>
+                <ul>
+                    <li>Set Adventure Lab caches as found: Long press on the map callout or item in list view to see this option.</li>
+                    <li>Filter out Adventure Lab caches that have been marked as found using Live filtering</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! Or if you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.2 <span class="changelog-count">May 27, 2021</span></summary>
+                <h4>New in this version</h4>
+                <p>## Adventure Lab caches! ##</p>
+                <p>Search for Adventure Lab caches at the same time as searching for other caches types.</p>
+                <p>Of course, we also included some bug fixes. :)</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! Or if you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.16 <span class="changelog-count">April 26, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following fixes:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.15 <span class="changelog-count">April 23, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following fixes:</p>
+                <ul>
+                    <li>Coordinate Projection accuracy updates</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.14 <span class="changelog-count">April 19, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following fixes:</p>
+                <ul>
+                    <li>Ability to remove corrected coordinates with no internet connection</li>
+                    <li>Additional fixes for saving waypoints and personal notes when offline</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.13 <span class="changelog-count">April 9, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an issue with importing GPX files from the iOS Files app</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.12 <span class="changelog-count">March 1, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <h4>Features</h4>
+                <p>Live Filtering: Allow Cache placed and published date to be 6 months in future</p>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Find Count Keyword Incorrect Sometimes</li>
+                    <li>Watch App: Saving log to pending logs on device not saving log text</li>
+                    <li>Watch App: Navigate map showing duplicated current location on watchOS 6+</li>
+                    <li>Heading follow mode show map and heading indicator in wrong orientation when device is rotated</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.11 <span class="changelog-count">February 15, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixes for GPX Import and Export of Lab caches</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.10 <span class="changelog-count">January 28, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an issue on the cache details screen where events would show the wrong date and time depending on the timezone</li>
+                    <li>Additional Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.9 <span class="changelog-count">January 24, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an issue where some maps would show map in the middle of the ocean</li>
+                    <li>Additional Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.8 <span class="changelog-count">January 5, 2021</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an issue where Google Maps would show map in the middle of the ocean</li>
+                    <li>Additional Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.7 <span class="changelog-count">December 29, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.6 <span class="changelog-count">December 8, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.5 <span class="changelog-count">November 10, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.4 <span class="changelog-count">October 12, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Live Filtering re-ordering of options</li>
+                    <li>Bug Fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.3 <span class="changelog-count">October 5, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <h4>Features</h4>
+                <ul>
+                    <li>Live Search Filters: Filter by Attributes</li>
+                    <li>Live Search Filters: Filter by Placed Date</li>
+                    <li>Live Search Filters: Not hidden by, hidden by, not found by and found by can all use comma separated list of usernames (max 5)</li>
+                    <li>Trackable Travels: Use new API that can get 1000 locations at a time == fast!</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Live Search Filters: Container Size should show in modal window</li>
+                    <li>Live Search Filters: Cache Type should show in modal window</li>
+                    <li>Live Search Filters: Placed and Published date pickers should not allowing picking before May 3, 2000</li>
+                    <li>Cache Details: Changed hidden by label to placed by</li>
+                    <li>Trackable Details: iOS 14 last seen with text was white</li>
+                    <li>Additional Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.2 <span class="changelog-count">September 30, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <h4>Features</h4>
+                <ul>
+                    <li>Photo pickers now allow choosing multiple photos on iOS 14</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Premium Offline Maps: Annotations jitter and don't stay on their locations when panning decelerates</li>
+                    <li>Watch App: Saving log does not include cache type in pending logs</li>
+                    <li>Photo pickers should use iOS system colors not Cachly green</li>
+                    <li>Live Filtering: Not Found By not working</li>
+                    <li>Additional Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1.1 <span class="changelog-count">September 25, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.1 <span class="changelog-count">September 15, 2020</span></summary>
+                <p>Cachly 6.1 brings some great new features including Proximity Alert, Images Saved to Notes and much more!</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps!</p>
+                <ul>
+                    <li>Proximity Alert</li>
+                    <li>Save images to personal notes and sync with iCloud to other devices</li>
+                    <li>Follow Mode Lock: Long press the current location button to lock the mode</li>
+                    <li>Favorite Percentage</li>
+                    <li>My Logs: Save log caches to an offline list</li>
+                    <li>Remove watch/ignore more easily</li>
+                    <li>Four new HQ attributes</li>
+                    <li>Lots of bug fixes and small changes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0.6 <span class="changelog-count">August 14, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>New geocache attributes</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0.5 <span class="changelog-count">August 6, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0.4 <span class="changelog-count">July 20, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Log Message: Keywords should be more styled to more easily see them</li>
+                    <li>GPX Import: Imported corrected coordinates are now locked and can't be updated/overwritten without unlocking them in settings</li>
+                    <li>Insert Keywords: Date and time options should give an example of the format</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0.3 <span class="changelog-count">July 1, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0.2 <span class="changelog-count">June 30, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Backups are now much faster!</li>
+                    <li>Custom tile URLs have TMS option for flipped geometry</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0.1 <span class="changelog-count">May 25, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Added Locationless cache type to online and offline filtering</li>
+                    <li>Tile based maps now have a 2x zoom option for better readability</li>
+                    <li>Premium Offline Maps: Option to show underground subways</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 6.0 <span class="changelog-count">March 9, 2020</span></summary>
+                <p>Cachly 6.0 brings some great new features including TB scanning, quick map switching, state restoration and much more!</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps!</p>
+                <ul>
+                    <li>Trackable Scanner</li>
+                    <li>Map Type Quick Switcher: Long press to show recently used maps and map layer options</li>
+                    <li>State Restoration</li>
+                    <li>Query Open Street Maps API</li>
+                    <li>Text Templates: Allow trackable log types</li>
+                    <li>Offline Lists: Delete selected lists option</li>
+                    <li>Offline Lists: Delete all lists option</li>
+                    <li>Offline Filtering: In Other List</li>
+                    <li>Offline Filtering: In Selected Lists</li>
+                    <li>Offline Filtering: Cache Log Type</li>
+                    <li>Offline Filtering: Found By Username</li>
+                    <li>Event Time</li>
+                    <li>Export GPX title should have default title text when available</li>
+                    <li>Add Geocaching HQ Celebration Event Types to Live and Offline Filtering</li>
+                    <li>Live Filters Screen Should Not Reset Scroll Position When Showing Again</li>
+                    <li>Cache Description/Hint Source Should Use iOS Accessible Font</li>
+                    <li>Text Templates should be accessible from the Log Message ... button</li>
+                    <li>Live Search Filtering: User buttons to quickly insert current username</li>
+                    <li>History screen should show highlight colors</li>
+                    <li>Map Options: Added ARC GIS Clarity map type</li>
+                    <li>TB Search: Allow coord.info URL to be parsed for TB code</li>
+                    <li>Export GPX: Change cache ID to be numeric to make GPSr units happy on import</li>
+                    <li>DNF Date in Additional Information</li>
+                    <li>Logs: New Share option to share log URL</li>
+                    <li>Online Lists: Share public or shareable list URL</li>
+                    <li>Premium Offline Map Layers: Parking toggle</li>
+                    <li>Tom Tom Go added as a routing provider</li>
+                    <li>History: Search</li>
+                    <li>Premium Offline Map style updates</li>
+                    <li>Lots of bug fixes and small changes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.22 <span class="changelog-count">February 27, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Small bug fixes for setting corrected coordinates from detected text</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.21 <span class="changelog-count">February 10, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Updated list of patrons</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.20 <span class="changelog-count">February 5, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed issue that showed extra navigation line when navigating to cache</li>
+                    <li>Fixed issue where cache radius was sometimes not showing on Apple Maps</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.19 <span class="changelog-count">January 7, 2020</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Addition of Community Celebration Events to live and offline filters</li>
+                    <li>Fixed flashing map bug on navigate to cache screen</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.18 <span class="changelog-count">December 29, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes and iOS 13 updates</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.17 <span class="changelog-count">December 18, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes and iOS 13 updates</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.16 <span class="changelog-count">December 13, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Bug fixes and iOS 13 updates</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.15 <span class="changelog-count">November 18, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an issue with GPX imports having invalid characters.</li>
+                    <li>Fixed an issue with live search options pickers and iPad.</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.14 <span class="changelog-count">November 14, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an iOS 13 issue where some users don't see Cachly as an option when trying to import GPX files.</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.13 <span class="changelog-count">November 7, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Fixed an issue with custom cache creation and setting published date</li>
+                    <li>Fixed a GPX export bug to better support importing into GPSr units</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.12 <span class="changelog-count">November 4, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>iOS 13: Fix issue with log cache button not being updated after saving pending log</li>
+                    <li>iOS 13: Fixed an issue with live filtering DT sliders not working well on iPad</li>
+                    <li>Pocket Queries: Toggling images option isn't saved</li>
+                    <li>Analytics have been added to help the developer with feature popularity and usage. This can be opted out on the Privacy screen.</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.11 <span class="changelog-count">October 28, 2019</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.10 <span class="changelog-count">October 17, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave a review as it really helps!</p>
+                <p>This version includes bug fixes to make your Cachly experience even better.</p>
+                <p>If you have questions or issues please email support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.9 <span class="changelog-count">October 1, 2019</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.8 <span class="changelog-count">September 30, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Apple Watch Series 5 compass support</li>
+                    <li>Apple Watch: Fixed issues with Nearby option</li>
+                    <li>Bug fixes and iOS 13 updates</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.7 <span class="changelog-count">September 22, 2019</span></summary>
+                <p>This update includes the following bug fixes:</p>
+                <ul>
+                    <li>Fixed an issue where localized text would show in English</li>
+                    <li>Fixed an iOS 13 crash when adding an event to your calendar</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.6 <span class="changelog-count">September 16, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Easily add additional logs to caches that already have a pending log and view multiple pending logs for a single cache</li>
+                    <li>Pocket Queries: Allow saving to user selected list or create a new list</li>
+                    <li>Google Maps: Scale view has been added</li>
+                    <li>Trackables: Allow deleting of logs if owner of trackable or log</li>
+                    <li>Highlights: Remove highlights based on color</li>
+                    <li>Highlights: Option to restore caches from highlights to a new list</li>
+                    <li>Export GPX: Option to include/not include waypoints</li>
+                    <li>Link to Project-GC in user profiles</li>
+                    <li>Change language used in Cachly separate from system language (requires latest iOS)</li>
+                    <li>Offline Lists: Option to purge all logs</li>
+                    <li>Offline Lists: Option to purge all but last 5 or 10 logs</li>
+                    <li>Fixed an issue where navigation apps running in the background would cause poor location updates in Cachly</li>
+                    <li>Added Magic Earth to routing providers</li>
+                    <li>Log Defaults: Add Owner Maintenance option</li>
+                    <li>Added a Patrons section under About Cachly!</li>
+                    <li>Many small enhancements and bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.5 <span class="changelog-count">August 14, 2019</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.4 <span class="changelog-count">August 13, 2019</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.3 <span class="changelog-count">August 12, 2019</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.2 <span class="changelog-count">August 5, 2019</span></summary>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps! This update brings the following:</p>
+                <ul>
+                    <li>Trackable travel distance</li>
+                    <li>Log message basic markdown syntax is parsed in real-time</li>
+                    <li>Personal Note text count</li>
+                    <li>Many small enhancements and bug fixes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2.1 <span class="changelog-count">July 23, 2019</span></summary>
+                <ul>
+                    <li>Fixed missing Catalan language text</li>
+                    <li>Corrected Coordinates can now be edited by swiping that row on the cache details screen and choosing Edit</li>
+                    <li>Regular geocaching users can now create Corrected Coordinates</li>
+                    <li>Bug fixes</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.2 <span class="changelog-count">July 17, 2019</span></summary>
+                <p>Cachly 5.2 brings some great new features including viewing multiple Premium Offline Maps at once, Friends return, users who favorited a cache and much more!</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps!</p>
+                <ul>
+                    <li>View multiple Premium Offline Maps at once (tap edit button in map options)</li>
+                    <li>Friends feature returns!</li>
+                    <li>Premium Offline Maps style enhancements</li>
+                    <li>Users who favorited a cache view returns! (tap favorites on cache details)</li>
+                    <li>Premium Offline Maps: World labels now shown for countries, states, oceans, etc</li>
+                    <li>Premium Offline Map Layer Options: Option to turn off county names</li>
+                    <li>Premium Offline Map Layer Options: Option to turn off gate icons (default: off)</li>
+                    <li>Offline Filtering: Has Hint</li>
+                    <li>Offline Filtering: Has Description</li>
+                    <li>Trackable Inventory items should show tracking code not last seen</li>
+                    <li>Pending Logs .txt should use English for log type text</li>
+                    <li>Cache Description: URLs in plain text without HTML should be detected in Source view</li>
+                    <li>Personal Note: URL detection and tapping should be allowed in preview mode</li>
+                    <li>Current location callout should show elevation in meters and feet only</li>
+                    <li>Current location callout should show up arrow icon before elevation to make it easier to understand</li>
+                    <li>Update Geocaching HQ Celebration cache type icon</li>
+                    <li>Lots of bug fixes and small changes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cachl.y, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.1.4 <span class="changelog-count">May 29, 2019</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.1.3 <span class="changelog-count">May 26, 2019</span></summary>
+                <ul>
+                    <li>Trackable Travels returns!</li>
+                    <li>Cache Additional Details: County, State and Country should be moved up higher in list</li>
+                    <li>Exported .txt file shows null for message</li>
+                    <li>Exported .txt file should remove new line characters which break GSAK import</li>
+                    <li>400 error fixes</li>
+                    <li>User Waypoints being removed after adding them then leaving and returning to cache</li>
+                </ul>
+                <p>Please contact support@cach.ly with any questions or issues!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.1.2 <span class="changelog-count">May 22, 2019</span></summary>
+                <h4>Bug fixes</h4>
+                <ul>
+                    <li>Creating and deleting waypoints not working correctly</li>
+                    <li>Waypoints given strange name on creating</li>
+                    <li>Owned cache star still showing for caches that were adopted out</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.1.1 <span class="changelog-count">May 20, 2019</span></summary>
+                <p>Fixes a crash when creating corrected coordinates.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.1 <span class="changelog-count">March 21, 2019</span></summary>
+                <p>Cachly 5.1 brings some great new features including major Premium Offline Map speed enhancements, custom labels for highlight colors, cache find counts and much more.</p>
+                <p>If you love Cachly please make sure to leave us a review on the App Store, it really helps!</p>
+                <ul>
+                    <li>Premium Offline Maps major speed and performance enhancements</li>
+                    <li>Custom labels for cache highlights that sync across devices</li>
+                    <li>Improved location accuracy and battery usage</li>
+                    <li>iPad now supports split screen multi-tasking</li>
+                    <li>Cache details shows cache find count</li>
+                    <li>Offline List filter type searching that includes synonym search</li>
+                    <li>Offline List filter for cache find count</li>
+                    <li>County/Region shown in cache additional information (UK not currently available)</li>
+                    <li>New app icon!</li>
+                    <li>Custom map tile URLs now support inverted-y</li>
+                    <li>Updated waypoint pin design</li>
+                    <li>Trackables now show when marked as missing</li>
+                    <li>Offline cache images, single tap to download image</li>
+                    <li>Lots of bug fixes and small changes</li>
+                </ul>
+                <p>If you have questions or comments please email support@cach.ly, we are happy to help!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.0.4 <span class="changelog-count">March 7, 2019</span></summary>
+                <h4>Additional bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.0.3 <span class="changelog-count">March 1, 2019</span></summary>
+                <p>If you are loving Cachly please make sure to leave a review in the App Store!</p>
+                <ul>
+                    <li>New Catalan translation</li>
+                    <li>Settings option to disable map tilt</li>
+                    <li>Drafts can now upload multiple images</li>
+                    <li>Fixed: Logging a Webcam cache "Webcam Photo Taken" giving API error</li>
+                    <li>Fixed: Log Type Default: Found It default should also set Webcam and Events correctly</li>
+                    <li>Fixed: Live filtering and usernames with special characters</li>
+                    <li>Fixed: Live filtering sometimes not showing all cache sizes</li>
+                    <li>Fixed: Trackable log images not being created</li>
+                    <li>Fixed: Trackable images not uploading</li>
+                    <li>Fixed: Pending bulk log upload not sending images</li>
+                    <li>Fixed: Drafts not sending images</li>
+                    <li>Fixed: Drafts not sending trackable logs</li>
+                    <li>Fixed: Navigate to cache button should be larger and easier to tap</li>
+                    <li>Additional bug fixes</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.0.2 <span class="changelog-count">February 27, 2019</span></summary>
+                <p>If you are loving Cachly 5 please make sure to leave a review in the App Store!</p>
+                <ul>
+                    <li>Drafts can now be sent without log text</li>
+                    <li>Battery saving enhancements, turning off GPS when not needed</li>
+                    <li>Option to Tip the Developer on the More tab</li>
+                    <li>Contour heights are shown more often</li>
+                    <li>Navigate to cache should keep the screen turned on</li>
+                    <li>FTF and date bug has been fixed</li>
+                    <li>Searching for coordinates should not do an automatic search for caches after dropping pin</li>
+                    <li>Acknowledge and thank beta testers in About Cachly</li>
+                    <li>Offline Maps: Update motorway styles in the UK to be blue and stand out more</li>
+                    <li>Offline Maps: Fix for layer options not always updating map</li>
+                    <li>Offline List Filtering: Fixed issue with favorites compound filtering</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.0.1 <span class="changelog-count">February 24, 2019</span></summary>
+                <p>Small bug fixes!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 5.0 <span class="changelog-count">October 4, 2018</span></summary>
+                <p>Cachly 5.0 is finally here! Over 8 months of work have gone into this major update that includes brand new offline maps, exciting new features and a refreshed design.</p>
+                <ul>
+                    <li>Brand new Offline Maps with beautiful new styles, contours, and hillshades</li>
+                    <li>Google Maps</li>
+                    <li>Google Street View</li>
+                    <li>Log upvoting</li>
+                    <li>Lonely caches</li>
+                    <li>Highlight colors with iCloud sync</li>
+                    <li>Sorting and filtering highlight colors</li>
+                    <li>View multiple offline lists at the same time</li>
+                    <li>View all offline caches in database</li>
+                    <li>Live search can load full caches</li>
+                    <li>Log dots shown in list and map callout views</li>
+                    <li>Coordinate detection allows tapping for quick actions</li>
+                    <li>Apple Flyover Maps</li>
+                    <li>Offline list search</li>
+                    <li>Turn off live filtering but keep settings</li>
+                    <li>History syncs across devices</li>
+                    <li>Event caches happening in 24 show special icon</li>
+                    <li>Offline Filtering: date published, hidden year, hidden month, multiple string search, lonely</li>
+                    <li>Visual distinction between Disabled and Archived caches</li>
+                    <li>Premium Offline Map layer customization</li>
+                    <li>Live filtering: show caches with or without notes</li>
+                    <li>Logs now support markdown</li>
+                    <li>Navigating to cache shows other caches in area</li>
+                    <li>Pending log can be viewed from cache details</li>
+                    <li>Easier to add corrected coordinates</li>
+                    <li>Logs: Search field to filter on search terms</li>
+                    <li>Personal logs show log time</li>
+                    <li>Custom map tile URLs</li>
+                    <li>Ordnance Survey maps using custom tile URL</li>
+                    <li>Add cache to watch or ignore list</li>
+                    <li>Logs: Edit log date and time</li>
+                    <li>Earthcache and Virtuals tapping give option to send answers</li>
+                    <li>Printing cache description includes cache info</li>
+                    <li>View your unpublished caches</li>
+                    <li>Message Center for Premium users</li>
+                    <li>Much more!</li>
+                </ul>
+                <p>If you love Cachly please make sure to leave us a review on the App Store!</p>
+                <p>Questions and comments can be sent using the support options in the More tab.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.7 <span class="changelog-count">August 31, 2018</span></summary>
+                <p>Due to recent privacy updates and GDPR regulations some user profile features had to be removed. Current users can still view all previous user profile data.</p>
+                <p>We also fixed some bugs with importing GPX files.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.6 <span class="changelog-count">August 9, 2018</span></summary>
+                <p>Due to recent privacy updates and GDPR regulations we have had to remove the friends feature from Cachly. We are very sorry about these changes.</p>
+                <ul>
+                    <li>Friends have been removed from the More tab</li>
+                    <li>Adding Friends has been removed from user profiles</li>
+                </ul>
+                <p>Searching by username is still supported in the More tab.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.5 <span class="changelog-count">August 2, 2018</span></summary>
+                <p>Fixed a crashing issue with friends.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.4 <span class="changelog-count">August 1, 2018</span></summary>
+                <p>Updates to Cachly friends functionality which now allows for integration of Geocaching friends.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.3 <span class="changelog-count">June 18, 2018</span></summary>
+                <ul>
+                    <li>Fix for pairing Apple Watch with iOS device</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.2 <span class="changelog-count">June 14, 2018</span></summary>
+                <ul>
+                    <li>Apple Watch Cachly Complication for quick access</li>
+                    <li>Fix for pairing Apple Watch with iOS device</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3.1 <span class="changelog-count">June 13, 2018</span></summary>
+                <p>Small fix to make Metaverse links work correctly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.3 <span class="changelog-count">June 1, 2018</span></summary>
+                <p>Cachly 4.3 is here! With this release comes some amazing new features including support for Apple Watch. Here is the full list:</p>
+                <ul>
+                    <li>Apple Watch App</li>
+                    <li>Load caches button has been moved to bottom of map</li>
+                    <li>Filter Live caches moved to filter button</li>
+                    <li>Save multiple caches at a time to online Lists</li>
+                    <li>Offline and Online Lists are now under the Lists tab</li>
+                    <li>Online List enhancements: Create List, Delete List, Edit List, Remove caches from List</li>
+                    <li>Offline List enhancements: Delete visible, add/remove highlight from visible, save to other list</li>
+                    <li>Save online lists</li>
+                    <li>Save user finds, user hides and caches near this to lists</li>
+                    <li>Saving Pocket Queries and Live full caches download much faster</li>
+                    <li>New log keywords: Country, State, Cache Type, Cache Size and Day of week</li>
+                    <li>View which offline lists a cache is part of</li>
+                    <li>Pending Logs txt file is saved in Documents as a backup</li>
+                    <li>Privacy updates</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.2.1 <span class="changelog-count">March 25, 2018</span></summary>
+                <h4>Bug fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.2 <span class="changelog-count">March 15, 2018</span></summary>
+                <p>Cachly 4.2 is here! With this release comes some amazing new features including the ability to edit logs.</p>
+                <h4>Log Enhancements</h4>
+                <ul>
+                    <li>Edit Logs</li>
+                    <li>Delete Logs</li>
+                    <li>Add Photos to Created Logs</li>
+                    <li>Additional legacy cache types added to filters</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.1 <span class="changelog-count">February 15, 2018</span></summary>
+                <p>Cachly 4.1 is here!</p>
+                <h4>Scan Trackables that have QR codes</h4>
+                <p>Trackable Pending Logs has new updated design</p>
+                <p>Trackable Pending Logs now has bulk upload</p>
+                <p>Pending Logs bulk uploading now allows selecting which logs to upload</p>
+                <p>Sync highlighting across devices and Live/Offline</p>
+                <p>Major performance improvements when update offline caches</p>
+                <p>Option to lock your device orientation in Cachly</p>
+                <p>Bug fixes!</p>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.0.1 <span class="changelog-count">February 8, 2018</span></summary>
+                <h4>Dutch translation fixes</h4>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 4.0 <span class="changelog-count">November 22, 2017</span></summary>
+                <p>Cachly 4.0 is here! With this release comes some amazing new features:</p>
+                <ul>
+                    <li>Official iPad support</li>
+                    <li>Landscape support</li>
+                    <li>Filter Templates that can be reused</li>
+                    <li>Create and edit offline caches</li>
+                    <li>Phone or text a friend if you have that username in your iOS contacts</li>
+                    <li>Trackables now have sorting options</li>
+                    <li>New cache type icons!</li>
+                    <li>Offline List sorting options</li>
+                    <li>History items show cache type</li>
+                    <li>Offline cache images now download in the background and are shown on the new Downloads screen</li>
+                    <li>Log text is now selectable</li>
+                    <li>Navigate to Cache screen shows cache name</li>
+                    <li>Higher contrast and larger fonts</li>
+                    <li>Live list view now has a refresh button to load more caches</li>
+                    <li>Tap current location when navigating to a cache allows that to be created as a waypoint</li>
+                    <li>Search options now show what is available for Regular users</li>
+                    <li>Sorting option: Highlighted</li>
+                    <li>Offline List Filters now have the option to invert/reverse the filter</li>
+                    <li>Offline List Filters now allow regex</li>
+                    <li>Offline List Filters for attributes now has a "does not have" option</li>
+                    <li>New Filter type: Has Logs</li>
+                    <li>New Filter type: Has Attributes</li>
+                    <li>Bookmarks are now called Lists</li>
+                    <li>Cache waypoints have more descriptive map icons</li>
+                    <li>Option to highlight all caches in an offline list</li>
+                    <li>Higher resolution attribute icons</li>
+                </ul>
+                <p>We have also made sure to fix a lot of bugs along the way.</p>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 3.1 <span class="changelog-count">October 23, 2017</span></summary>
+                <p>Cachly 3.1 is finally here! With this release comes some amazing new features:</p>
+                <ul>
+                    <li>Multiple log text templates</li>
+                    <li>User logs can be filtered by different log types</li>
+                    <li>Filtering options for Found Date, Downloaded Date, Last Update Date and Last Found Date, Placed Date, Favorited and Distance</li>
+                    <li>Filtering logic for AND/OR</li>
+                    <li>Login can now use your iOS keychain usernames and passwords</li>
+                    <li>Find caches near this cache option</li>
+                    <li>Description and Hint uses fonts based on iOS text accessibility</li>
+                    <li>Option to delete a cache from all offline lists</li>
+                    <li>Option to backup all offline lists in the new Backups section</li>
+                    <li>Download all available images for a cache</li>
+                    <li>Delete offline images for a single cache</li>
+                    <li>Search for caches within map bounds</li>
+                    <li>Offline images are saved in a single location to prevent duplicate downloads</li>
+                    <li>Deleting offline list performance greatly increased</li>
+                    <li>Pending Logs bulk upload will flag logs with errors</li>
+                    <li>Related webpage option is now available on caches that have this</li>
+                    <li>Force touch or long press on list view or map callout to show options including Show cache on map option</li>
+                    <li>Images in the cache description will now be download offline</li>
+                    <li>GPX exports and imports include FTF attribute</li>
+                    <li>Offline lists have the option to update only visible caches</li>
+                    <li>Updates for the iPhone X</li>
+                </ul>
+                <p>We have also fixed over 200 bugs.</p>
+                <p>Questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 3.0.3 <span class="changelog-count">July 14, 2017</span></summary>
+                <p>Cachly 3.0.3 includes the following:</p>
+                <h4>Features</h4>
+                <ul>
+                    <li>FTF indicator! Shows caches that have not been found and are available for an FTF. - Premium feature</li>
+                    <li>New Found and DNF icons</li>
+                    <li>Owned Events can now post an Announcement log</li>
+                    <li>Export GPX options: include GSAK extensions, not include logs, hide personal info</li>
+                    <li>Trackable details refresh by pulling down on screen</li>
+                    <li>Trackables now show distance</li>
+                    <li>Smily and DNF icons also show corrected coordinate indicator</li>
+                    <li>New higher resolution log type icons</li>
+                    <li>Adding event to your calendar also includes coord.info URL</li>
+                    <li>Offline lists now have Export option under their options menu</li>
+                    <li>Lab cache GPX files are now supported!</li>
+                    <li>Pending Logs show more info, including if it is a Draft or is favorited</li>
+                    <li>Exported GPX includes GSAK corrected coordinate data</li>
+                    <li>Dropped pin now includes a "Navigate to" option</li>
+                    <li>Settings option to show current location indicator in front of cache pins</li>
+                </ul>
+                <h4>Bug fixes</h4>
+                <ul>
+                    <li>Bulk log upload was giving trackables incorrect date</li>
+                    <li>Importing GPX with images was not saving images or completing import</li>
+                    <li>Couldn't export and email GPX if name has accents</li>
+                    <li>Corrected coordinate indicator now shows on corner of map pin</li>
+                    <li>Coordinate project field needs to allow more characters for decimal places</li>
+                    <li>Activity indicator was not being hid sometimes when loading offline list</li>
+                    <li>Pocket Query downloads now keeps screen from locking</li>
+                    <li>Trackables not being sent in bulk upload if log was a Draft</li>
+                    <li>Refresh search icon sometimes dissapeared</li>
+                    <li>GPX imports had incorrect log sort order (requires re-import).</li>
+                    <li>Not Authorized error is friendlier with the option to wait to logout</li>
+                    <li>Offline list waypoints need to be sorted in ABC order</li>
+                    <li>Bulk log upload was not sending updated coordinates</li>
+                    <li>Export GPX incorrectly includes original coordinate waypoint</li>
+                    <li>Offline list with clustering now correctly centers on clusters and caches when loading map</li>
+                    <li>Export GPX sometimes had invalid unicode characters</li>
+                    <li>Highlight gets removed from offline cache when adding same cache again</li>
+                    <li>Navigate to Cache screen wasn't letting you tap the cache pin to show options</li>
+                    <li>Waypoints sometimes don't show coordinates on Waypoints list screen</li>
+                </ul>
+                <p>If you have any questions or comments please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 3.0.2 <span class="changelog-count">July 7, 2017</span></summary>
+                <p>We are always trying to make Cachly better and better. If you have any questions or concerns please contact support@cach.ly. Feel free to leave us a review on the App Store if you love Cachly!</p>
+                <h4>In this release</h4>
+                <ul>
+                    <li>Log dates were showing incorrectly</li>
+                    <li>New Offline Lists sometimes don't show caches right away</li>
+                    <li>Bulk log upload shouldn't allow screen to lock</li>
+                    <li>Bulk log upload shouldn't require drafts to have message</li>
+                    <li>Removed blank line above log template text</li>
+                    <li>Elevation needs to be shown in smaller units</li>
+                    <li>Attach log image has new icon</li>
+                    <li>Has Cache Note filter sometimes wasn't working correctly</li>
+                    <li>Found filter needs to take into account found but not logged</li>
+                    <li>.txt file not incrementing finds keyword</li>
+                    <li>Attributes should be sorted</li>
+                    <li>PQ cache attributes sometimes had incorrect state</li>
+                    <li>Translation fixes</li>
+                </ul>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 3.0.1 <span class="changelog-count">June 29, 2017</span></summary>
+                <p>Fixed a performance issue when users had a large amount of offline caches.</p>
+                <p>Please contact support@cach.ly with any questions!</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 3.0 <span class="changelog-count">January 23, 2017</span></summary>
+                <p>Cachly 3.0 is finally here! We are bringing you some very powerful new features as well as some amazing performance enhancements to make offline caching even better. This release has the following:</p>
+                <ul>
+                    <li>Offline List Performance Upgrades: allow for massive lists to be saved (tested over 50k caches) and very fast loading.</li>
+                    <li>Offline List Clustering: This speeds up loading of very large offline lists, but can be turned off and all options changed.</li>
+                    <li>Offline List Filtering: Powerful filtering with the following filter options, Archived, Attributes, Available, Cache Note, Cache Type, Owned, Container Size, Country, DNF, Description, Difficulty, Favorites, Found, GC Code, Has Cache Note, Has Corrected Coordinates, Has Photos, Has Trackables, Has Waypoints, Highlighted, Hint, Is Premium, Log Text, Name, Owner, Placed By, State and Terrain.</li>
+                    <li>Bulk Pending Log Upload!</li>
+                    <li>New Coordinate Parser allows searching of any coordinate format</li>
+                    <li>Current location heading indicator</li>
+                    <li>Search Options: Search by State or Country</li>
+                    <li>Coordinate Projection for Waypoints</li>
+                    <li>Direct text input of coordinates to create waypoints</li>
+                    <li>Usage screen show detailed Cachly disk usage</li>
+                    <li>Option to not automatically search for caches on start</li>
+                    <li>Option to download offline images for a cache</li>
+                    <li>coord.info URLs can be entered into search</li>
+                    <li>Recent logs can use smiley or DNF icons</li>
+                    <li>UTM Coordinates shown in Additional Information</li>
+                    <li>Upside down portrait mode</li>
+                    <li>Option to clear all found checkmarks</li>
+                    <li>Export GPX enhancements</li>
+                    <li>Updated GPX error messages</li>
+                    <li>Field Notes are now Drafts</li>
+                </ul>
+                <p>3.0 includes many other enhancements and fixes we couldn't list them all!</p>
+                <p>If you have questions please contact support@cach.ly. As always, if you love Cachly please consider leaving us a review.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 2.0.3 <span class="changelog-count">January 19, 2017</span></summary>
+                <p>If you love Cachly please consider leaving us a review on the App Store, it really helps us!</p>
+                <ul>
+                    <li>Event dates now show on map callout and list view</li>
+                    <li>Exported GPX files should include attributes</li>
+                    <li>Updating coordinates in a log should default to the current location</li>
+                    <li>Downloading Lite or Full caches should remember previous selection type</li>
+                    <li>Various bug fixes and tweaks</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 2.0.2 <span class="changelog-count">January 3, 2017</span></summary>
+                <p>If you love Cachly please consider leaving us a review on the App Store, it really helps us!</p>
+                <ul>
+                    <li>Settings option to change log date to work correctly when in other time zones</li>
+                    <li>Pending Logs: Option to view cache</li>
+                    <li>Trackables: Option to view on geocaching.com</li>
+                    <li>Cache Details screen: tapping title will copy cache code</li>
+                    <li>Various bug fixes and tweaks</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 2.0.1 <span class="changelog-count">December 5, 2016</span></summary>
+                <p>If you love Cachly please consider leaving us a review on the App Store, it really helps us!</p>
+                <ul>
+                    <li>Offline Lists now have the option to search by various cache attributes</li>
+                    <li>Offline Lists have option to delete all cache images</li>
+                    <li>Offline Lists have option to re-download cache images</li>
+                    <li>Pocket Queries now download images by default (can change in Settings)</li>
+                    <li>Cache description type default is saved</li>
+                    <li>Various bug fixes and tweaks</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 2.0 <span class="changelog-count">September 6, 2016</span></summary>
+                <p>Version 2.0 is finally here! This release is jam packed with brand new features and updates that will take your Geocaching experience to a whole other level.</p>
+                <p>If you love Cachly please consider leaving us a review on the App Store, it really helps us!</p>
+                <h4>NEW FEATURES</h4>
+                <ul>
+                    <li>Offline vector maps: Download full states and countries in very small download sizes. Vector maps use Open Street Maps.</li>
+                    <li>Souvenirs!</li>
+                    <li>Updated User Profile now shows Finds, Hides, Logs, Souvenirs, User Gallery and much more.</li>
+                    <li>Updated map callout, list view and cache details screen with more information such as favorites and trackables.</li>
+                    <li>Personal Cache notes are much more visible</li>
+                    <li>View users who favorited a cache</li>
+                    <li>Pocket Queries download even more cache data including corrected coordinates and cache notes</li>
+                    <li>Refresh caches in an Offline List</li>
+                    <li>Merge Offline Lists</li>
+                    <li>Copy Offline Lists</li>
+                    <li>Rename Offline Lists</li>
+                    <li>Reorder Offline Lists</li>
+                    <li>Distance scale on map</li>
+                    <li>Option to keep caches on the map when loading more caches</li>
+                    <li>Highlight caches</li>
+                    <li>Highlight imported caches from GSAK if user flag is set</li>
+                    <li>Descriptions can show HTML version</li>
+                    <li>Export Pending logs as a .txt file</li>
+                    <li>Option to turn on compass calibration</li>
+                    <li>Option to Delete All Pending Logs</li>
+                    <li>Option to download Lite or Full caches for Offline use</li>
+                    <li>Trackable search by TB code and Tracking code</li>
+                    <li>Number of Pending Logs shows up on app icon</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.7 <span class="changelog-count">August 5, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.6 <span class="changelog-count">July 7, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>New option to save current location or dropped pin, then navigate or share those locations</li>
+                    <li>Added support for Launcher app (e.g. cachly://gccode=gc18 will open that cache page)</li>
+                    <li>Search options, cache published date now shows year</li>
+                    <li>PQ and cache titles now support unicode</li>
+                    <li>Waypoints now have a translate option</li>
+                    <li>Adding an event to your calendar now adds it as a full-day event</li>
+                    <li>Added iTranslate as a translate option</li>
+                    <li>Fixed issue where compass calibration was showing too often</li>
+                    <li>Added help button on login screen</li>
+                    <li>Bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.5 <span class="changelog-count">July 5, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.4 <span class="changelog-count">June 24, 2016</span></summary>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>DNF</li>
+                </ul>
+                <p>Cachly now supports showing all your DNF caches!</p>
+                <ul>
+                    <li>Found Indicator for Field Notes and Pending Logs</li>
+                </ul>
+                <p>Now when you send a Found It log for Field Notes or Pending logs, those will show up with a checkmark!</p>
+                <ul>
+                    <li>Help</li>
+                </ul>
+                <p>New help section has been added to Cachly. Browse and search for questions and features that you want to learn about!</p>
+                <ul>
+                    <li>Ordnance Survey Maps</li>
+                </ul>
+                <p>If you are in the UK you can now turn on the Ordnance Survey map layer!</p>
+                <ul>
+                    <li>Search for Friends</li>
+                </ul>
+                <p>You can now search for friends using their username!</p>
+                <h4>Additional updates</h4>
+                <ul>
+                    <li>HERE Maps routing option</li>
+                    <li>Fixed an issue where you could not logout and then login as another user</li>
+                    <li>PQ, Imported and Offline Lists now allow deleting of caches from details screen as well as list view</li>
+                    <li>Dropped pins can now be turned into Waypoints and targets</li>
+                    <li>New photo browser with many more features</li>
+                    <li>Various fixes and enhancements.</li>
+                </ul>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.3 <span class="changelog-count">June 5, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.2 <span class="changelog-count">June 5, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1.1 <span class="changelog-count">June 2, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Option to download maps only around caches, saving massive amounts of download time for offline tiles.</li>
+                    <li>Maps.me support</li>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.1 <span class="changelog-count">May 6, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Show time since last log</li>
+                    <li>Lock map rotation</li>
+                    <li>Current location callout shows coordinates in realtime</li>
+                    <li>Updated compass design</li>
+                    <li>Save caches to existing offline list</li>
+                    <li>Offline maps now share map tiles</li>
+                    <li>Press and hold on map to drop a pin with location</li>
+                    <li>New search option: Published between dates</li>
+                    <li>Option to save maps only</li>
+                    <li>Many additional bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.9 <span class="changelog-count">May 5, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.8 <span class="changelog-count">April 27, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.7 <span class="changelog-count">March 23, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Fixes a bug that caused freezing during navigation</li>
+                    <li>Download just visible caches to offline list</li>
+                    <li>Personal Notes can be created offline</li>
+                    <li>Waypoints can be created offline</li>
+                    <li>French language support</li>
+                    <li>Polish language support</li>
+                    <li>New navigate button to zoom to target</li>
+                    <li>Addition support for GPX importing from Geocaching Australia and the Open Caching network</li>
+                    <li>Delete cache from offline list</li>
+                    <li>Option to hide log photos</li>
+                    <li>Update coordinates now show in logs</li>
+                    <li>Option to show radius around caches</li>
+                    <li>Tap location to copy current location to clipboard</li>
+                    <li>Login with Facebook</li>
+                    <li>Additional bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.6 <span class="changelog-count">March 9, 2016</span></summary>
+                <p>If you love Cachly please consider leaving a review or updating your review on the App Store. It really helps us out!</p>
+                <p>In this release we have included the following:</p>
+                <ul>
+                    <li>Fixes to compass freezing and location tracking stopping while navigating to cache.</li>
+                    <li>Added ArcGIS Topo as a new map layer</li>
+                    <li>Corrected Coordinate search filters</li>
+                    <li>Additional bug fixes and enhancements</li>
+                </ul>
+                <p>For support please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.5 <span class="changelog-count">March 4, 2016</span></summary>
+                <p>Important bug fixes.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.4 <span class="changelog-count">January 27, 2016</span></summary>
+                <p>If you love using Cachly please consider leaving us a review on the App Store. It really helps us!</p>
+                <p>This newest version of Cachly brings the following features:</p>
+                <ul>
+                    <li>Brand new compass</li>
+                    <li>Corrected Coordinates support</li>
+                    <li>Drop all Trackables option</li>
+                    <li>Support for Markdown in logs</li>
+                    <li>Updated Handoff support</li>
+                    <li>Offline List enhancements</li>
+                    <li>Better handling of large GPX files</li>
+                    <li>Enhanced location tracking on Navigate screen</li>
+                    <li>Events show event date</li>
+                    <li>Add event to calendar</li>
+                    <li>Coordinates shown on Cache details screen</li>
+                    <li>Duplicate cache waypoint</li>
+                    <li>Google Maps</li>
+                </ul>
+                <p>Many additional bug fixes and small enhancements.</p>
+                <p>For support please contact support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.3 <span class="changelog-count">January 20, 2016</span></summary>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+                <p>If you like Cachly please leave us a review on the App Store! It really helps.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.2 <span class="changelog-count">December 16, 2015</span></summary>
+                <p>** Fixes an issue where Regular users get an error saying "Cache Download Limit Has Been Exceeded" **</p>
+                <p>Thanks for using Cachly! We have gotten such a great response so far, and have already taken user feedback to heart and included some new features into this version:</p>
+                <ul>
+                    <li>Translate description, hint and logs to and from any language.</li>
+                    <li>Italian language localization</li>
+                    <li>Import GPX and zip files from iTunes</li>
+                    <li>Additional navigation options added including Navigon, Tom Tom, Waze, Gaia GPS and Pocket Earth</li>
+                    <li>Import from Dropbox supports zip files</li>
+                    <li>Waypoints created within a Pocket Query are now saved within the PQ as well as on the server</li>
+                    <li>Personal Notes created within a Pocket Query are now saved within the PQ as well as on the server</li>
+                    <li>Option to auto-decode hint</li>
+                    <li>Revamped Pocket Queries section</li>
+                    <li>Imported GPX files can now be saved as offline lists</li>
+                    <li>Search Filter: Non-Premium Only</li>
+                    <li>Additional bug fixes and enhancements.</li>
+                </ul>
+                <p>If you love using Cachly, please consider leaving us a review on the App Store. It really does help.</p>
+                <p>Questions or comments, please email support@cach.ly</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0.1 <span class="changelog-count">December 13, 2015</span></summary>
+                <p>Fixed a few issues to make Cachly even better!</p>
+                <ul>
+                    <li>Crash when going to a Trackable.</li>
+                    <li>A few other random crashes</li>
+                </ul>
+                <p>If you have been enjoying Cachly, please let us know and leave us a review in the app store, it really does help.</p>
+                <p>If you have any questions or issues, please contact support@cach.ly.</p>
+            </details>
+            <details class="changelog">
+                <summary>Cachly 1.0 <span class="changelog-count">December 2015</span></summary>
+                <p>The initial App Store release of Cachly.</p>
+            </details>
 
         <nav class="page-nav" id="page-nav"></nav>
         <div class="feedback-box">

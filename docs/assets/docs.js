@@ -69,7 +69,7 @@
       title: "Reference & Help",
       items: [
         { id: "faq", label: "FAQ & Troubleshooting", href: "faq.html" },
-        { id: "whats-new", label: "What's New in 8.x", href: "whats-new.html" },
+        { id: "whats-new", label: "What's New", href: "whats-new.html" },
       ],
     },
   ];

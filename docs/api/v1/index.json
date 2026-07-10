@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "9b373fe2b3",
+ "hash": "b65fe3bf36",
  "articles": [
   {
    "id": "getting-started",
@@ -186,10 +186,10 @@
   },
   {
    "id": "whats-new",
-   "title": "What's New in 8.x",
+   "title": "What's New",
    "section": "Reference & Help",
    "url": "whats-new.html",
-   "lead": "Highlights of the Cachly 8.x release line. Many of the headline additions are part of Cachly Pro."
+   "lead": "The current version of Cachly is 8.1.6, released February 17, 2026. Here’s what recent releases added, and what’s coming next in Cachly 8.2 and 8.3."
   }
  ]
 }
