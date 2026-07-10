@@ -3,12 +3,12 @@
  "title": "iPad",
  "section": "Settings & Platforms",
  "url": "ipad.html",
- "lead": "Cachly adapts to the bigger iPad screen with a sidebar and split views instead of a bottom tab bar — the same features, arranged to take advantage of the space.",
+ "lead": "Cachly runs on iPad with the same interface as on iPhone, taking advantage of the larger screen — and works alongside other apps with iPadOS multitasking.",
  "sections": [
   {
    "anchor": "ipad",
-   "heading": "iPad layout",
-   "text": "On iPad, Cachly uses an adaptive split-view layout : a list or sidebar alongside the map or detail view, so you can see a cache’s details and its position at the same time. It also supports iPadOS multitasking, so you can run Cachly beside another app. 🖥 With iCloud sync on, lists and data you set up on iPad are ready on your iPhone in the field."
+   "heading": "iPad",
+   "text": "On iPad, Cachly gives you all the same features as on iPhone, with the larger screen giving the map, lists and cache details more room to work. It also supports iPadOS multitasking — Split View and Slide Over — so you can run Cachly beside another app such as Safari or Notes. 🖥 With iCloud sync on, lists and data you set up on iPad are ready on your iPhone in the field."
   },
   {
    "anchor": "same-features",

@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "bbd85465b7",
+ "hash": "71f205fc8b",
  "articles": [
   {
    "id": "getting-started",
@@ -175,7 +175,7 @@
    "title": "iPad",
    "section": "Settings & Platforms",
    "url": "ipad.html",
-   "lead": "Cachly adapts to the bigger iPad screen with a sidebar and split views instead of a bottom tab bar — the same features, arranged to take advantage of the space."
+   "lead": "Cachly runs on iPad with the same interface as on iPhone, taking advantage of the larger screen — and works alongside other apps with iPadOS multitasking."
   },
   {
    "id": "faq",
