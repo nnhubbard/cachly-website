@@ -417,6 +417,16 @@ kbd {
   color: var(--text-muted);
 }
 
+/* Compact variant for large icon sets (e.g. map POI icons) */
+.icon-grid-sm {
+  grid-template-columns: repeat(auto-fill, minmax(118px, 1fr));
+  gap: 8px;
+}
+.icon-grid-sm li { gap: 8px; }
+.icon-grid-sm .swatch { width: 44px; height: 44px; border-radius: 8px; }
+.icon-grid-sm .swatch img { max-width: 34px; max-height: 34px; }
+.icon-grid-sm .cap { font-size: 12px; }
+
 /* ---------- What's New: version badges & changelog -------------------- */
 .version-badge {
   display: inline-block;
