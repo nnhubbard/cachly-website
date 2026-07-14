@@ -346,6 +346,22 @@
 
   /* ----- init ---------------------------------------------------------- */
   wireTheme();
+  // Re-scroll to the #hash target after layout settles. Lazy-loaded
+  // screenshots have no reserved height, so the browser's initial jump on a
+  // deep link (e.g. settings.html#dark-mode) lands too high once images above
+  // the target load in and push it down. scrollIntoView() honours the CSS
+  // scroll-padding-top, keeping the fixed-header offset correct.
+  function correctHashScroll(smooth) {
+    if (!location.hash || location.hash === "#") return;
+    var el;
+    try {
+      el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    } catch (e) {
+      el = null;
+    }
+    if (el) el.scrollIntoView({ behavior: smooth ? "smooth" : "auto" });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     buildSidebar();
     buildPageNav();
@@ -353,5 +369,11 @@
     wireDrawer();
     wireSearch();
     document.body.classList.add("docs-ready");
+    correctHashScroll(false);
+  });
+
+  // Fires after images/fonts load — the point at which layout shift is done.
+  window.addEventListener("load", function () {
+    correctHashScroll(false);
   });
 })();
