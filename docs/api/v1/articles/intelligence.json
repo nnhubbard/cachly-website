@@ -23,7 +23,7 @@
   {
    "anchor": "models",
    "heading": "Choosing a model",
-   "text": "Cachly supports multiple AI providers, selectable under Settings › Cachly Pro › AI Provider : Provider Notes Apple Intelligence On-device AI — private and offline-capable. Requires iOS 26 and an iPhone 15 Pro or newer. Claude (Anthropic) Cloud model via the Claude API. ChatGPT (OpenAI) Cloud model via the OpenAI API. Google Gemini Cloud model via Google. ℹ Cloud providers (Claude, ChatGPT, Gemini) send your prompt to that service and may require your own API key or account. Apple Intelligence runs on-device where supported. Choose the option that matches your privacy preference."
+   "text": "Cachly supports multiple AI providers, selectable under Settings › Cachly Pro › AI Provider : Provider Notes Apple Intelligence On-device AI — private and offline-capable. Requires iOS 26 and an iPhone 15 Pro or newer. Claude (Anthropic) Cloud model via the Claude API. ChatGPT (OpenAI) Cloud model via the OpenAI API. Google Gemini Cloud model via Google. ℹ Cloud providers (Claude, ChatGPT, Gemini) send your prompt to that service, and you will need to use your own API key or account. Apple Intelligence runs on-device where supported. Choose the option that matches your privacy preference."
   },
   {
    "anchor": "prompts",
