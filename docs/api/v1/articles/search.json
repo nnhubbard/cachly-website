@@ -43,7 +43,7 @@
   {
    "anchor": "cache-actions",
    "heading": "Cache Actions (Long-Press)",
-   "text": "Long-press a cache in any list or search result for a quick-action menu (with a preview of the cache): Edit Highlight / Remove Highlight — set or clear its color. Add to List — add it to an offline or online list. Watch / Ignore — add to your geocaching.com watch or ignore list. Navigate to Cache and Show on Map . Copy Cache Code / Copy Coordinates . Delete — remove it (offline caches)."
+   "text": "Long-press a cache in any list or search result — or its callout on the map — for a quick-action menu (with a preview of the cache): Edit Highlight / Remove Highlight — set or clear its color. Add to List — add it to an offline or online list. Watch / Ignore — add to your geocaching.com watch or ignore list. Navigate to Cache and Show on Map . Copy Cache Code / Copy Coordinates . Delete — remove it (offline caches)."
   },
   {
    "anchor": "history",

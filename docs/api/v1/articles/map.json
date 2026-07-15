@@ -13,7 +13,7 @@
   {
    "anchor": "cache-callout",
    "heading": "The Cache Callout",
-   "text": "Tapping a pin pops up a callout that summarizes the cache without leaving the map: its name and type icon, distance from you, trackable and favorite counts, difficulty and terrain dots, container size and the GC code. Tap the callout itself to open the full detail screen ; the … button on the callout opens quick cache actions (log, add to list, navigate and so on) without opening details first."
+   "text": "Tapping a pin pops up a callout that summarizes the cache without leaving the map: its name and type icon, distance from you, trackable and favorite counts, difficulty and terrain dots, container size and the GC code. Tap the callout itself to open the full detail screen . 👆 Long-press for quick actions. Long-press the callout — or a row in list view — to open the cache actions menu (log, add to list, navigate and more) without opening the details screen first."
   },
   {
    "anchor": "map-sources",
