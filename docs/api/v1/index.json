@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "54cb7dc33c",
+ "hash": "7d80a5ccd1",
  "articles": [
   {
    "id": "getting-started",
@@ -147,7 +147,7 @@
    "title": "Cachly Intelligence",
    "section": "Cachly Pro",
    "url": "intelligence.html",
-   "lead": "Cachly Intelligence helps you write better logs faster and read caches in any language, using on-device or cloud AI. You stay in control: it drafts, you edit and post."
+   "lead": "Cachly Intelligence helps you write better logs faster and can summarize a cache’s logs and description into a quick read — in any language — using on-device or cloud AI. You stay in control: it drafts, you edit and post."
   },
   {
    "id": "settings",

@@ -28,7 +28,7 @@
   {
    "anchor": "intelligence-summaries",
    "heading": "Cachly Intelligence summaries",
-   "text": "With Cachly Intelligence enabled, the cache details screen gains a sparkle button in the top bar. Tap it and choose Summarize Description or Summarize Logs — Cachly generates a concise AI summary and reads it aloud , so you get the gist of a long description or the latest finder activity without taking your eyes off the road. ✨ The sparkle button appears once Cachly Intelligence is turned on in Settings › Cachly Pro on your iPhone and an AI provider is set up."
+   "text": "With Cachly Intelligence enabled, the cache details screen gains a sparkle button in the top bar. Tap it and choose Summarize Description or Summarize Logs — Cachly generates a concise AI summary and reads it aloud , so you get the gist of a long description or the latest finder activity without taking your eyes off the road. ✨ The sparkle button appears while Cachly Intelligence is enabled (it’s on by default) and an AI provider is set up in Settings › Cachly Pro on your iPhone."
   },
   {
    "anchor": "trips",
