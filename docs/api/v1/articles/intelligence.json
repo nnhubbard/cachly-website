@@ -41,30 +41,5 @@
    "text": "Generated text is always a draft : nothing is posted until you review and submit it. You decide which provider to use, and you can edit or discard any suggestion."
   }
  ],
- "screenshots": [
-  {
-   "file": "intelligence-settings.png",
-   "caption": "Cachly Intelligence settings — the enable toggle, AI Provider, and the three editable prompts."
-  },
-  {
-   "file": "intelligence-ai-provider.png",
-   "caption": "The AI Provider picker: on-device Apple Intelligence, or Claude, ChatGPT and Gemini with your own API key."
-  },
-  {
-   "file": "intelligence-log-summary.png",
-   "caption": "A one-tap summary of a cache’s recent logs, generated on-device."
-  },
-  {
-   "file": "intelligence-description-summary.png",
-   "caption": "The same sparkle button on a description condenses a long listing into a quick read."
-  },
-  {
-   "file": "intelligence-log-writing.png",
-   "caption": "Log writing: describe what you want to say…"
-  },
-  {
-   "file": "intelligence-log-writing-result.png",
-   "caption": "…and Cachly Intelligence drafts the log — Insert it, or Try Again."
-  }
- ]
+ "screenshots": []
 }
