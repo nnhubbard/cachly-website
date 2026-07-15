@@ -8,7 +8,7 @@
   {
    "anchor": "map-and-list",
    "heading": "Map and list",
-   "text": "The Live tab toggles between a map and a list of the same caches. Tap a cache pin (or row) to open its details . Pins are colored and iconed by cache type and status (found, owned, etc.), and you can layer highlights on top to mark caches visually. List rows pack in the essentials — name, distance, difficulty, terrain, size, favorite count and GC code. The sort button (up/down arrows) opens a sheet with a Direction (ascending/descending) and a long list of sort types: Date Found, Date Last Found, Date Placed, Difficulty, Distance, FTF, Favorite Count, Favorite Percentage, Found, GC Code, Highlight Color and more. The same sort sheet is used in offline lists ."
+   "text": "The Live tab toggles between a map and a list of the same caches. On the map, tapping a cache pin shows its callout , which carries all the same information a list row shows; tap the callout to open the cache’s details . In the list, tapping a row opens details directly. Pins are colored and iconed by cache type and status (found, owned, etc.), and you can layer highlights on top to mark caches visually. List rows pack in the essentials — name, distance, difficulty, terrain, size, favorite count and GC code. The sort button (up/down arrows) opens a sheet with a Direction (ascending/descending) and a long list of sort types: Date Found, Date Last Found, Date Placed, Difficulty, Distance, FTF, Favorite Count, Favorite Percentage, Found, GC Code, Highlight Color and more. The same sort sheet is used in offline lists ."
   },
   {
    "anchor": "cache-callout",
