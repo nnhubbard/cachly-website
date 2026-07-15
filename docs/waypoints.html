@@ -85,16 +85,16 @@
 <figure class="shot"><img loading="lazy" src="assets/screenshots/24-waypoints.png" alt="A cache&amp;rsquo;s waypoints, with the User/Cache toggle and each waypoint&amp;rsquo;s coordinates." width="248"><figcaption>A cache&rsquo;s waypoints, with the User/Cache toggle and each waypoint&rsquo;s coordinates.</figcaption></figure>
 </div>
 
-        <h2 id="kinds">Cache vs. user waypoints</h2>
+        <h2 id="kinds">Cache vs. User Waypoints</h2>
         <ul>
           <li><strong>Cache waypoints</strong> come from the listing &mdash; parking, trailhead, reference points, and the stages of multi-caches.</li>
           <li><strong>User waypoints</strong> are ones you add yourself: a solved puzzle final, a better parking spot, or where you actually found the container.</li>
         </ul>
         <p>Add a user waypoint from a cache&rsquo;s <a href="geocache-details.html#waypoints">Waypoints</a> section (toggle <strong>User</strong>/<strong>Cache</strong> at the top, then tap <strong>+</strong>), then enter its coordinates. Two shortcuts fill them instantly: <strong>Current Location</strong> uses your GPS position, and <strong>Geocache Location</strong> copies the cache&rsquo;s own coordinates as a starting point; the cache&rsquo;s code is shown for reference. Turn on <strong>Is Corrected Coordinate</strong> to make the waypoint the cache&rsquo;s <a href="geocache-details.html#corrected-coordinates">corrected coordinates</a> &mdash; the spot Cachly navigates to instead of the posted location; corrected-coordinate waypoints have a fixed title, so the <strong>Title</strong> field is disabled for them. The <strong>&#8943;</strong> menu next to any waypoint offers <strong>Duplicate</strong>, <strong>Translate with Google</strong>, <strong>Copy Waypoint Text</strong> and <strong>Copy Coordinates</strong>.</p>
-        <h2 id="show-all">Show all waypoints on the map</h2>
+        <h2 id="show-all">Show All Waypoints on the Map</h2>
         <p>Cachly can show <strong>every waypoint of every cache</strong> in a list at once. When enabled, tapping a waypoint on the map opens a callout with its details and draws a line back to its parent cache, so you can see at a glance which cache a stage or parking spot belongs to. For live lists this requires full cache data (<span class="ui-path">Settings &rsaquo; Caches &amp; Waypoints &rsaquo; Full Cache Data</span>); offline lists already have it, and an <strong>Offline Lists Only</strong> option can limit the display to offline lists.</p>
 
-        <h2 id="waypoint-types">Waypoint types &amp; pins</h2>
+        <h2 id="waypoint-types">Waypoint Types &amp; Pins</h2>
         <p>Each cache waypoint carries a type that sets its map pin; your own <strong>user waypoints</strong> are shown in <strong>blue</strong> and can be tapped to read their description. When a cache has more than one waypoint of a kind, its pin adds a small bar with the waypoint number &mdash; <strong>P0</strong>, <strong>P1</strong> for multiple parking waypoints, for example.</p>
         <ul class="icon-grid">
           <li><span class="swatch"><img loading="lazy" src="assets/icons/waypoint-parking.png" alt="Parking waypoint"></span><span class="cap">Parking</span></li>
@@ -105,7 +105,7 @@
           <li><span class="swatch"><img loading="lazy" src="assets/icons/waypoint-virtual.png" alt="Virtual stage waypoint"></span><span class="cap">Virtual Stage</span></li>
         </ul>
 
-        <h2 id="formats">Coordinate formats</h2>
+        <h2 id="formats">Coordinate Formats</h2>
         <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/coord-format-menu.png" alt="The coordinate picker with its format menu open" width="248"><figcaption>The coordinate picker&rsquo;s &#8943; menu: five input formats plus Current Location, Copy and Paste.</figcaption></figure>
         <p>The same point can be written several ways. Cachly&rsquo;s coordinate picker offers <strong>five</strong> input formats, switchable any time from the <strong>&#8943;</strong> menu &mdash; your choice is remembered for next time:</p>
         <table>
@@ -120,7 +120,7 @@
         </table>
         <p>Your default display format is also set in <a href="settings.html">Settings</a>.</p>
 
-        <h2 id="entering">Entering coordinates</h2>
+        <h2 id="entering">Entering Coordinates</h2>
         <p>The picker keeps entry fast and unambiguous. In the standard DDM layout you set the hemisphere (N/S, E/W) with a tap, type the whole <strong>degrees</strong>, then type the <strong>decimal minutes</strong> yourself &mdash; so the decimal point lands exactly where you mean it. As soon as you change a value from where it started, a red <strong>Updated</strong> badge appears next to the format label so you can see at a glance that you&rsquo;ve edited the coordinate. The <strong>&#8943;</strong> menu offers <strong>Reset Coordinates</strong>, which returns every field to the value the picker opened with. If you don&rsquo;t touch anything, saving keeps the original coordinate at full precision &mdash; it isn&rsquo;t round-tripped through the display format.</p>
 
         <div class="callout tip">
@@ -128,7 +128,7 @@
           <div class="callout-body">The picker accepts both a period and a comma as the decimal separator, so it works naturally with locale keyboards. When you paste into Plain Text, Cachly reads the geocaching DDM standard first so a loosely-formatted paste doesn&rsquo;t get misread.</div>
         </div>
 
-        <h2 id="projection">Coordinate projection</h2>
+        <h2 id="projection">Coordinate Projection</h2>
         <p>Many puzzle and multi-caches give you a starting point plus a <strong>bearing</strong> and <strong>distance</strong> (&ldquo;go 120&deg; for 80&nbsp;m&rdquo;). Cachly&rsquo;s <strong>projection</strong> tool calculates the destination for you. It takes exactly three inputs:</p>
         <ol>
           <li>A <strong>starting coordinate</strong> &mdash; the current waypoint, or tap <strong>Current Location</strong> to project from where you are.</li>
@@ -150,7 +150,7 @@
           <div class="screen-cap">Projection: start point + direction + distance &rarr; calculated coordinate.</div>
         </div>
 
-        <h2 id="save-location">Saving a location</h2>
+        <h2 id="save-location">Saving a Location</h2>
         <p>Cachly can <strong>save locations</strong> &mdash; coordinates you want to keep handy (a parking spot, a campsite, a search center). Saved locations can be reused as search centers or starting points for projection.</p>
 
         <nav class="page-nav" id="page-nav"></nav>

@@ -12,7 +12,7 @@
   },
   {
    "anchor": "pocket-queries",
-   "heading": "Pocket queries",
+   "heading": "Pocket Queries",
    "text": "Pocket Queries are saved searches you set up on Geocaching.com (a premium-membership feature) that the service runs for you. Cachly can download your ready pocket queries directly and load them in — a fast way to bring a curated set of caches onto your device. ℹ Pocket queries are created and scheduled on Geocaching.com and require premium membership. Cachly downloads the results once they’re generated."
   },
   {
@@ -27,7 +27,7 @@
   },
   {
    "anchor": "imported-files",
-   "heading": "Managing imported files",
+   "heading": "Managing Imported Files",
    "text": "The Imported Files screen lists files you’ve brought in, so you can re-import or remove them. You can also receive GPX files from other apps via the iOS share sheet and open them straight into Cachly."
   }
  ],

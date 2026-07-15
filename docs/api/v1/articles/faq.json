@@ -12,12 +12,12 @@
   },
   {
    "anchor": "login",
-   "heading": "Sign-in & account",
+   "heading": "Sign-In & Account",
    "text": "I can’t log in, but the website works If your username contains an apostrophe, iOS “smart quotes” may substitute a curly quote that breaks login. Press & hold the apostrophe key and pick the straight quote, or turn off iOS Settings › General › Keyboard › Smart Punctuation . “Opted-out user” error Geocaching.com has a privacy option that blocks sharing your data with authorized developer apps like Cachly. It must be unchecked at geocaching.com › Authorizations . I didn’t get my confirmation email Check spam/junk, and confirm you typed your address correctly at sign-up (re-register if not). You can also resend the validation email . Why don’t I see all of my geocaching.com friends? Friends only appear once the “Allow Authorized Developer applications…” checkbox is enabled at geocaching.com › Authorizations . This is required by both people — you must enable it to see your friends, and each friend must enable it before they appear for you (and before you appear for them)."
   },
   {
    "anchor": "finding",
-   "heading": "Finding & accuracy",
+   "heading": "Finding & Accuracy",
    "text": "Why isn’t Cachly showing all caches on the Live tab? A filter is probably active — the funnel icon is solid and “Filtering On” shows at the top. Tap the funnel and choose Reset . Note that Basic members see a limited set of caches (a geocaching.com restriction — see membership ). Why does my GPS accuracy seem poor? Cachly uses the highest accuracy level available to apps (the very top level is reserved for turn-by-turn nav apps on power). Compare with Apple/Google Maps — reported accuracy should be similar. Accuracy depends on your device’s GPS and surroundings. Open geocache links in Safari instead of the Geocaching app Long-press a geocache link and choose Open in Safari ; iOS remembers the choice. To revert, repeat and choose Open in “Geocaching”. If the menu doesn’t offer it, open the link in Safari first, then long-press the GC code at the top-right of the cache page to set the same preference. Add a just-published cache from its email Long-press the link in the publish email, Copy it, then paste it into the Live tab search field to open the cache and add it to a list. Does Cachly have a URL scheme? Yes. Use the cachly:// scheme to open a geocache directly by its code — cachly://gccode=GC18 opens that cache in a new window in Cachly."
   },
   {

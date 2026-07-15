@@ -7,7 +7,7 @@
  "sections": [
   {
    "anchor": "profile",
-   "heading": "Your profile & stats",
+   "heading": "Your Profile & Stats",
    "text": "Tap your name at the top of the More tab to open your profile — your geocaching identity in one screen, pulled from Geocaching.com. Your avatar and banner image sit at the top with your username below, plus a PREMIUM badge if you hold a premium membership, followed by a Found Cache Types chart breaking your finds down by cache type. In between, rows drill into every part of your record: Finds — opens a map of everything you’ve found , so you can see your caching footprint at a glance. Hides — the caches you own. Logs — your log history. Trackables — the trackables you own , grouped by type (Travel Bug Dog Tags, geocoins and so on) with a count for each. Favorites — your favorite points, shown as remaining/awarded. Souvenirs — your earned souvenirs . Lists — your geocaching.com lists. Gallery — every photo you’ve attached to a log, grouped by date. geocaching.com Profile and Project-GC Stats — open your full web profile and Project-GC statistics. From here you can also re-authenticate if your Geocaching.com session expires."
   },
   {
@@ -17,7 +17,7 @@
   },
   {
    "anchor": "contact",
-   "heading": "Phone, text or message a cacher",
+   "heading": "Phone, Text or Message a Cacher",
    "text": "From a user profile, a friend, or a log author, you can phone , send a geocaching.com message , or text them. Phone/text require the cacher’s caching name to be stored in the Company , Nickname or Notes field of an iOS contact (matched case-insensitively); this needs Contacts permission. If the same caching name is found in more than one of your contacts, Cachly lets you pick which one to use. The Email button opens your default mail app when the matched contact has an email address; otherwise it opens the cacher’s geocaching.com contact page."
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "anchor": "notifications",
-   "heading": "Notification center",
+   "heading": "Notification Center",
    "text": "The notification center collects activity relevant to you in one place."
   },
   {
@@ -42,7 +42,7 @@
   },
   {
    "anchor": "usage",
-   "heading": "Usage & storage",
+   "heading": "Usage & Storage",
    "text": "If you’re ever wondering why Cachly is using so much space — or how much API allowance you have left — More › Usage is the answer. It has three parts: Storage — how much space Cache Images , Offline Maps , the Database and Backups occupy. The rows are tappable for cleanup: delete all images, delete offline maps, or delete backups to reclaim space. Database Objects — counts of what’s stored on the device: geocaches, logs, waypoints, trackables, photos, attributes, users and state/county regions. API Limits — Geocaching.com limits how many caches apps can request per period, with separate quotas for lite (basic) and full geocache data. Cachly shows how many of each you have remaining and the time until the count resets — useful if you do heavy searching or large downloads and want to pace yourself. ℹ If you hit a usage limit, Cachly will let you know; waiting for the limit window to reset restores access. Premium membership generally provides a larger allowance."
   }
  ],

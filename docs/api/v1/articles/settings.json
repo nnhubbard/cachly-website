@@ -7,7 +7,7 @@
  "sections": [
   {
    "anchor": "categories",
-   "heading": "How Settings is organized",
+   "heading": "How Settings Is Organized",
    "text": "The Settings root screen lists twelve categories: Cachly Pro , Users , General , Map Options & Navigation , Caches & Waypoints , Logs , Templates , Proximity Alert , Trackables , Highlighting , Imports & Pocket Queries and Dark Mode . Each is covered below. Beneath the categories are Manage Subscriptions (opens your Apple ID subscription management) and Restore Purchases , which re-activates a Cachly Pro subscription after a reinstall or on a new device."
   },
   {

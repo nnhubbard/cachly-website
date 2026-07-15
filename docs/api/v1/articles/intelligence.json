@@ -7,37 +7,37 @@
  "sections": [
   {
    "anchor": "what-it-does",
-   "heading": "What it does",
+   "heading": "What It Does",
    "text": "When you’re logging a find , Cachly Intelligence can draft a log for you — turning a few notes (or just the cache’s context) into a friendly, well-written log you then tweak and submit. It’s designed to fix the TFTC problem — logs that say nothing more than “Thanks For The Cache” — not to post on your behalf. ⭐ Cachly Intelligence is a Cachly Pro feature and is on by default — you can turn it off anytime in Settings › Cachly Pro ."
   },
   {
    "anchor": "setup",
-   "heading": "Setting it up",
+   "heading": "Setting It Up",
    "text": "Cachly Intelligence is on by default , and everything lives at the top of Settings › Cachly Pro , in the Cachly Intelligence section: Enable Cachly Intelligence is already switched on — turn it off here if you’d rather not see the AI features. Tap AI Provider and choose who does the thinking. Apple Intelligence works immediately, entirely on-device. For Claude , ChatGPT or Gemini , tap the provider to add your own API key first — until then the row shows API key not set . Optionally open the three prompt rows below ( Log Summary, Description Summary, Log Writing ) and tailor them to your taste — each is fully editable. While enabled, a sparkle button appears in the places Cachly Intelligence can help: a cache’s description, its logs list, and the log message editor. ⚠️ Apple Intelligence is only available on the iPhone 15 Pro and newer devices (and requires iOS 26). On older iPhones, choose Claude, ChatGPT or Gemini with your own API key instead."
   },
   {
    "anchor": "summaries",
-   "heading": "AI summaries",
+   "heading": "AI Summaries",
    "text": "Beyond drafting logs, Cachly Intelligence can summarize for you. On a cache’s Logs screen and on its description , tap the sparkle button (bottom right): a Cachly Intelligence sheet slides up with a concise summary — how the cache has been doing, common tips from finders, or the gist of a long pirate-themed backstory — without reading a wall of text. 🌐 Summaries translate, too. Caching abroad? Summarize a cache’s German (or French, Japanese…) logs and description and the summary comes back in English — or whatever your device language is . No more pasting logs into a translator to figure out if a cache is findable. In CarPlay , Cachly Intelligence goes hands-free: it can summarize a cache’s logs and description by voice , reading the summary aloud so you get the gist while driving."
   },
   {
    "anchor": "models",
-   "heading": "Choosing a model",
+   "heading": "Choosing a Model",
    "text": "Cachly supports multiple AI providers, selectable under Settings › Cachly Pro › AI Provider : Provider Notes Apple Intelligence On-device AI — private and offline-capable. Requires iOS 26 and an iPhone 15 Pro or newer. Claude (Anthropic) Cloud model via the Claude API. ChatGPT (OpenAI) Cloud model via the OpenAI API. Google Gemini Cloud model via Google. ℹ Cloud providers (Claude, ChatGPT, Gemini) send your prompt to that service, and you will need to use your own API key or account. Apple Intelligence runs on-device where supported. Choose the option that matches your privacy preference."
   },
   {
    "anchor": "prompts",
-   "heading": "Writing prompts & the prompt editor",
+   "heading": "Writing Prompts & the Prompt Editor",
    "text": "Every Cachly Intelligence feature is driven by a prompt you can see and change. Settings › Cachly Pro has three, and all three are fully user-editable : Log Summary Prompt — shapes how a cache’s logs are summarized; the logs are appended to the end of your prompt. Description Summary Prompt — shapes description summaries the same way. Log Writing Prompt — shapes generated logs; the cache’s info and your notes are appended to it. Edit them to match your voice — always mention the trail, keep it short, write in your language — and the AI’s output follows."
   },
   {
    "anchor": "writing-a-log",
-   "heading": "Writing a log with AI",
+   "heading": "Writing a Log with AI",
    "text": "In the log message editor , tap the sparkle button and describe what you want to say ( “Found it quickly, thank the owner, mention the nice park setting” ). Tap Generate and a Preview of the drafted log appears — Insert it into your log, or Try Again for a different draft. Nothing is added until you choose Insert."
   },
   {
    "anchor": "privacy",
-   "heading": "Privacy & control",
+   "heading": "Privacy & Control",
    "text": "Generated text is always a draft : nothing is posted until you review and submit it. You decide which provider to use, and you can edit or discard any suggestion."
   }
  ],

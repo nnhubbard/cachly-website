@@ -7,12 +7,12 @@
  "sections": [
   {
    "anchor": "essentials",
-   "heading": "The essentials",
+   "heading": "The Essentials",
    "text": "The top of the detail screen shows the cache’s identity at a glance: its name and code (GC…), who placed it and when, its type icon, difficulty and terrain ratings and container size . Below that sit the cache’s coordinates with your current distance to it, plus three quick counters: trackables in the cache, the cache’s find/happiness score, and its favorite points . Those header elements are interactive: Tap the favorites count to see the users who awarded the cache a favorite point; if you’ve already found the cache, long-press it to award a favorite point. Tap the placed-by name to open that user’s profile . Tap the cache icon to see your own logs for this cache; long-press the middle finds area for My Logs and Friends Logs . Long-press the cache code in the title bar to copy it. Tap the coordinates to cycle through display formats; long-press them to copy. The rest of the screen is a list of sections — Description , Hint , Logs , Personal Note , Images , Attributes , Waypoints and Trackables (rows show a count where useful, e.g. “Waypoints 6”) — followed by Corrected Coordinates , List Membership (the offline lists this cache belongs to) and Additional Information . Pinned to the bottom are the Log Geocache button and the round navigate button, so logging and navigation are always one tap away."
   },
   {
    "anchor": "cache-types",
-   "heading": "Cache types & icons",
+   "heading": "Cache Types & Icons",
    "text": "Cachly recognizes every geocache type on geocaching.com — 20 standard types plus Adventure Lab — each with its own colored icon on the map and in lists. The full set: Type Notes Traditional Cache A container and log at the posted coordinates. Multi-cache Two or more stages leading to the final container. Mystery / Unknown Cache Puzzle caches; the posted coordinates are rarely the final. Supports Cachly’s solution checker and corrected coordinates. Letterbox Hybrid A geocache that also contains a letterboxing stamp. Virtual Cache No container — you verify a visit to a location. EarthCache A geological lesson at a real-world site. Webcam Cache grandfathered Capture yourself on a public webcam. Wherigo Cache Played with a Wherigo cartridge. Event Cache A gathering of geocachers at a set time. Cache In Trash Out (CITO) Event An environmental cleanup gathering. Mega-Event Cache A large event (500+ attendees). Giga-Event Cache A very large event (5,000+ attendees). Community Celebration Event Groundspeak community celebration gatherings. Geocaching HQ The Geocaching HQ location in Seattle. Geocaching Block Party The annual HQ block-party event. Geocaching HQ Celebration HQ anniversary and milestone celebration events. GPS Adventures Exhibit A museum GPS-adventure exhibit. Project A.P.E. Cache grandfathered The remaining caches from the 2001 movie promotion. Locationless (Reverse) Cache grandfathered Find an object matching a description, anywhere. Adventure Lab Location-based Adventure Lab experiences. The same type icon appears in your lists and, as an inverted teardrop pin, on the map — with small decorations layered on to show your progress and each cache’s status. In a list , an icon can show corrected coordinates, a prior DNF, a First to Find opportunity, a find you haven’t logged yet, or a cache you own: Corrected coordinates (red triangle) Prior DNF with corrected coordinates First to Find (FTF) available Found but not logged A cache you own On the map , a pin can additionally show your find/DNF status, ownership, FTF and lonely flags (each toggled in Settings ), event timing, and archived or disabled caches: Found by you Your DNF (did not find) A cache you own FTF available (indicator on) Lonely cache (indicator on) Event happening soon Unpublished event Found but not logged Archived Multi-cache Selected pin, corrected coordinates Archived / disabled cache Disabled and unpublished caches also show a strikethrough on the name in list and detail views."
   },
   {
@@ -22,12 +22,12 @@
   },
   {
    "anchor": "hint",
-   "heading": "Hints & the solution checker",
+   "heading": "Hints & the Solution Checker",
    "text": "The owner’s hint is stored encrypted (ROT13) and Cachly decrypts it for you only when you open the Hint screen — so you won’t spoil yourself by accident. If a cache has no hint, the row is grayed out on the detail screen. For mystery/puzzle caches, Cachly includes a solution checker that verifies your proposed final coordinates against the listing’s checker, confirming you’ve solved it before you head out."
   },
   {
    "anchor": "logs-photos",
-   "heading": "Recent logs & photos",
+   "heading": "Recent Logs & Photos",
    "text": "Recent logs from other cachers tell you whether the cache is healthy and give hints about the hide. Each entry shows the log type icon and date, the finder’s name with their find count, badges for logs voted Great Story or Helpful , and a photo count when images are attached. The photo gallery shows images attached to the listing and to logs; downloaded caches keep their photos available offline ."
   },
   {
@@ -37,7 +37,7 @@
   },
   {
    "anchor": "personal-notes",
-   "heading": "Personal notes",
+   "heading": "Personal Notes",
    "text": "A personal note stores your own info about a cache — up to 2,500 characters — and the text syncs with your geocaching.com account. Notes found in a GPX file can be kept or merged during import . Cachly detects coordinates you type into a note; tap them for quick actions: Create Waypoint , Set as Corrected Coordinates , Check Solution (for caches with a checker), Copy Coordinates and Navigate . The + button at the bottom left of the note editor attaches photos to the note — take a photo or choose one from your library. This requires iCloud and iCloud Drive to be enabled for Cachly; attached images are stored under the cache’s GC code, so they sync to all of your devices running Cachly and are also available in the iOS Files app in a folder named for that GC code. 📶 Only the note text syncs to geocaching.com. Photo attachments stay within Cachly and iCloud — they are never sent to the website."
   },
   {
@@ -52,12 +52,12 @@
   },
   {
    "anchor": "trackables",
-   "heading": "Trackables in the cache",
+   "heading": "Trackables in the Cache",
    "text": "The Trackables row shows how many Travel Bugs and geocoins are currently in the cache. Open it to see each trackable with where it was last seen ; tap one for its full details. To grab or discover a trackable, use the log flow when you log the cache."
   },
   {
    "anchor": "corrected-coordinates",
-   "heading": "Corrected coordinates",
+   "heading": "Corrected Coordinates",
    "text": "Corrected coordinates mark a cache’s real/final location — common on Mystery, Wherigo and Multi-caches — and sync automatically with geocaching.com . A corrected cache shows a red triangle on its pin and its coordinates in green at the top of the detail screen; by default it’s shown at the corrected spot. To view original locations instead (e.g. for Geo Art), enable Settings › Caches & Waypoints › Ignore Corrected Coordinates (the triangle then shows a question mark) — you can also reach this from the map by long-pressing the layers button and choosing Options . Corrected coordinates can be removed at any time. Tap Corrected Coordinates › Add on the detail screen to open the editor: Is Corrected Coordinate — the toggle that marks the entry as the cache’s corrected location. Coordinate entry — a DDM picker by default; the format menu switches between DDM Picker , Degrees Decimal Minutes , Decimal Degrees , Degrees Minutes Seconds and Plain Text , and offers Current Location , Copy and Paste . The same menu appears in coordinate editors throughout Cachly. Presets — fill in your Current Location or the Geocache Location as a starting point. Tools — Project Coordinate computes a point from a distance and bearing."
   },
   {
@@ -67,17 +67,17 @@
   },
   {
    "anchor": "found-not-logged",
-   "heading": "Found but not logged",
+   "heading": "Found but Not Logged",
    "text": "If you log a find but save it as a pending log or draft rather than posting it, the cache is marked Found but not Logged — a checkmark on the map pin and list icon so you can see at a glance that you’ve found it but haven’t finished the log."
   },
   {
    "anchor": "buttons-menus",
-   "heading": "Buttons & menus",
+   "heading": "Buttons & Menus",
    "text": "Along the bottom of the detail screen, Log Geocache opens the logging flow and the round compass button starts navigation . The top bar has two menus: + — Add to List (save the cache to an offline list ), Watch (add it to your geocaching.com watchlist), Ignore , and Add to County Finds PRO (credit the cache’s county toward your county-finds totals). Items you’ve already applied switch to their Remove counterparts. ⋯ — the actions below. ⋯ menu What it does Refresh Re-download the cache’s data. Log a trackable Log a Travel Bug / geocoin against this cache. Highlight Set (or edit/remove) the cache’s color highlight . Add Waypoint Create a user waypoint (incl. projection). Share Share the cache via the iOS share sheet. Export GPX Export the cache to a GPX file. Find Caches Near This Search for caches around this one. View on geocaching.com Open the listing in the browser. Extra items appear when they apply: Edit / Delete for offline caches (on caches saved in several lists, Delete lets you remove it from this list or from all), Load Full Cache for Basic members (who get lite data by default), Add to Calendar for events, and Download Cartridge for Wherigo caches (opens in the official Wherigo app). Add to Calendar (events only) opens a New Event sheet pre-filled from the listing — the event title, location (its coordinates), all-day start/end dates, the event-page URL and the description as notes. Edit anything you like and tap Add ; Cachly asks for Calendar permission the first time."
   },
   {
    "anchor": "create-offline-geocache",
-   "heading": "Creating an offline geocache",
+   "heading": "Creating an Offline Geocache",
    "text": "Cachly can also create a cache entry from scratch — useful for hides you’re planning, caches from other listing sites, or waypoint-style targets you want to treat as a full cache. Choose Create Offline Geocache from an offline list’s ⋯ menu, or from the menu of a dropped pin to start it at that spot. The new cache is stored in the offline list like any other, so you can navigate to it, add waypoints and log it. The editor covers everything a real listing has: Details — cache name, cache code, who placed it, the Placed Date , and a Found toggle. Description — free-form listing text, plus a hint. Coordinates — the standard DDM picker with the same coordinate-format menu (DDM, Decimal Degrees, DMS, Plain Text, Current Location, Copy, Paste). Type — pick any cache type. Difficulty and Terrain — sliders from 1.0 to 5.0. Size — the container size. Options — Available , Archived and Premium toggles, plus state and country. Tap Save to add the cache to the list; you can Edit it later from its detail screen’s ⋯ menu. This is also how you plan a hide : draft the cache and its coordinates here, then copy the details over to Geocaching.com’s Hide a geocache page when you’re ready to submit it. ⚠ Geocaches can only be created and submitted on Geocaching.com — no mobile app can publish a new cache. Cachly’s Create Offline Geocache is for planning and personal note-taking only. ✅ Ready to record your visit? Everything about logging — including logging for several accounts at once — is on the Logging a Find page."
   }
  ],

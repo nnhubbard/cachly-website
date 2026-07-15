@@ -7,7 +7,7 @@
  "sections": [
   {
    "anchor": "the-grid",
-   "heading": "The grid",
+   "heading": "The Grid",
    "text": "The D/T Statistics grid plots your finds on the 9×9 Difficulty/Terrain matrix — a must for Fizzy-style challenge caches. Below the grid you’ll see your loop progress (percent complete and combinations remaining), total finds, unique D/T combinations out of 81, and your average difficulty and terrain. Tap any cell to search for caches with that D/T combination and fill the gaps."
   }
  ],

@@ -7,32 +7,32 @@
  "sections": [
   {
    "anchor": "overview",
-   "heading": "What the Watch app does",
+   "heading": "What the Watch App Does",
    "text": "The Watch app syncs with your iPhone and focuses on the in-the-field essentials: Nearby caches — a searchable, filterable list of caches around you. Cache details — distance, D/T, size, favorite points, description, hint, logs, attributes, waypoints and photos. Map & compass navigation — distance and direction to the selected cache. Quick logging — log a find (or save a draft) with dictation or Scribble. Lists — browse your offline and online lists. ⌚ For caches in an offline set , the Watch can show details without needing the iPhone to be online."
   },
   {
    "anchor": "home-screen",
-   "heading": "Home screen & complications",
+   "heading": "Home Screen & Complications",
    "text": "Add Cachly as a complication on your watch face for one-tap launching — the green Cachly pin appears right on the face. The app’s home screen offers the ways in: Nearby — loads geocaches around your current location. Current — the cache you’re currently (or were last) viewing on your iPhone. Lists — your offline and online cache lists. Saved — caches stored directly on the watch with the … › Save action (if you haven’t saved any yet, Cachly tells you)."
   },
   {
    "anchor": "nearby",
-   "heading": "Nearby search & filters",
+   "heading": "Nearby Search & Filters",
    "text": "Nearby lists the caches around you as cards showing the cache name and type, GC code, a PREM badge for premium-only caches, distance, favorite points, and the D/T ratings and container size. Search re-runs the search at your current position; Filter narrows the results: Finds / Hides — toggles to include or exclude your finds and your hides. Difficulty & Terrain — minimum and maximum ratings with stepper controls (1.0–5.0). Cache Size — tick the container sizes to include (Micro, Small, Medium, Large…). Cache Type — tick cache types individually or use Toggle All . Reset — back to the defaults."
   },
   {
    "anchor": "cache-details",
-   "heading": "Cache details",
+   "heading": "Cache Details",
    "text": "Tap a cache to open its details: name, GC code, premium status, the date it was placed, distance, favorite points, and its difficulty, terrain and size. Scroll on for the full set of sections — Description , Hint , Logs , Attributes , Waypoints (including your own, like a parking waypoint), Photos and your Personal Note — each opening full-screen for reading on the small display. Below the details, Log Cache starts a log (see logging ), and the … button offers View Map , Compass and Save (store the cache on the watch)."
   },
   {
    "anchor": "navigation",
-   "heading": "Map & compass navigation",
+   "heading": "Map & Compass Navigation",
    "text": "View Map shows the cache and its waypoints as pins around your position, with the remaining distance at the top. Compass gives you a classic navigation dial: distance to go, bearing (e.g. 162° S), and the current GPS accuracy, with a red needle pointing at the cache."
   },
   {
    "anchor": "compass",
-   "heading": "Why the compass needs you to move (older watches)",
+   "heading": "Why the Compass Needs You to Move (Older Watches)",
    "text": "On Apple Watch Series 5 and later , Cachly shows a true compass that updates as you turn, even standing still. Earlier models have no compass sensor , so Cachly derives heading from GPS course — which only works while you’re moving. If your compass won’t update while stationary, that’s the hardware; a Series 5 or newer resolves it."
   },
   {

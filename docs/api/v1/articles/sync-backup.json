@@ -7,17 +7,17 @@
  "sections": [
   {
    "anchor": "icloud-sync",
-   "heading": "iCloud sync",
+   "heading": "iCloud Sync",
    "text": "With iCloud sync enabled, Cachly keeps your data in step across the iPhone and iPad signed into the same Apple ID — so lists, settings and more follow you from device to device."
   },
   {
    "anchor": "backups",
-   "heading": "Backups & restore",
+   "heading": "Backups & Restore",
    "text": "Cachly can create backups of your data to the cloud. The Backups screen lists your backups so you can restore one — invaluable when moving to a new device or recovering after a reinstall. You can browse the underlying iCloud documents from the iCloud files screen."
   },
   {
    "anchor": "database-file",
-   "heading": "Backing up the database file",
+   "heading": "Backing Up the Database File",
    "text": "For a full manual copy, the database file Cachly.sqlite holds all your offline lists and pending logs (but not settings). Grab it two ways: Files app: Browse › On My iPhone › Cachly , long-press Cachly.sqlite and Share (e.g. AirDrop to a computer). Finder / iTunes File Sharing: connect the device, select it, choose File Sharing › Cachly , select Cachly.sqlite and Save. To restore , add your saved Cachly.sqlite back via File Sharing (Add), confirming the overwrite. 💾 Make a backup before a big change — like a major offline-map migration or clearing space — so you can roll back if needed."
   },
   {
