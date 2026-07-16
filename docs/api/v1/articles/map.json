@@ -43,7 +43,7 @@
   {
    "anchor": "view-types",
    "heading": "View Types",
-   "text": "Beyond the default live view, the map can show many different sets of caches. Switch the view type from the map’s controls: View Shows Live Caches near the current map region, fetched on the fly. User’s Found / Hidden Caches you’ve found, or that you own and hid. Bookmarks A bookmark list from your account. Offline Lists Caches saved in an offline set . Favorites Caches with favorite points. Search Results The output of an advanced search . Navigation A route to your selected cache. Trackable Travels The path a trackable has traveled. Counties County boundaries for county challenges PRO . DeLorme Grid DeLorme atlas grid pages for DeLorme challenges PRO ."
+   "text": "Beyond the default live view, the map can show many different sets of caches. These are the map view types: View Shows Live Caches near the current map region, fetched on the fly. User’s Found / Hidden Caches you’ve found, or that you own and hid. Bookmarks A bookmark list from your account. Offline Lists Caches saved in an offline set . Favorites Caches with favorite points. Search Results The output of an advanced search . Navigation A route to your selected cache. Trackable Travels The path a trackable has traveled. Counties County boundaries for county challenges PRO . DeLorme Grid DeLorme atlas grid pages for DeLorme challenges PRO ."
   },
   {
    "anchor": "compass",
