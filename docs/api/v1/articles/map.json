@@ -58,7 +58,7 @@
   {
    "anchor": "dropped-pin",
    "heading": "Dropping a Pin",
-   "text": "Long-press any empty spot on the map to drop a movable pin. Its callout shows the point’s coordinates and elevation , and the … button opens a menu of actions for that spot: Create Offline Geocache — make your own offline cache at the pin, stored in an offline list . Save Location — store the point in your Saved Locations . Navigate to Location — open navigation straight to the pin. Copy Coordinates — copy the point to the clipboard. Remove — clear the pin from the map. While the Navigate screen is showing, the same menu adds Set as Target so you can retarget the compass at the dropped point."
+   "text": "Long-press any empty spot on the map to drop a movable pin. Its callout shows the point’s coordinates and elevation , and the … button opens a menu of actions for that spot: Create Offline Geocache — make your own offline cache at the pin, stored in an offline list . Save Location — store the point in your Saved Locations . Navigate to Location — open navigation straight to the pin. Copy Coordinates — copy the point to the clipboard. Remove — clear the pin from the map. The pin isn’t fixed once dropped — long-press the pin and drag it anywhere on the map to reposition it. While the Navigate screen is showing, the same menu adds Set as Target so you can retarget the compass at the dropped point."
   },
   {
    "anchor": "saved-locations",
