@@ -28,7 +28,7 @@
   {
    "anchor": "bulk-actions",
    "heading": "Bulk Actions from the Map",
-   "text": "The … menu at the top-left of the live map acts on the caches currently loaded, not just one pin. It offers Add to List , Highlight and Export GPX , and each action asks for a scope: All Caches — everything loaded on the map. Visible Caches — only what’s inside the current viewport. Highlighted Caches — only caches with a highlight applied. It’s the fastest way to sweep an area’s results into an offline list or a GPX file."
+   "text": "The … menu at the top-right of the live map acts on the caches currently loaded, not just one pin. It offers Add to List , Highlight and Export GPX , and each action asks for a scope: All Caches — everything loaded on the map. Visible Caches — only what’s inside the current viewport. Highlighted Caches — only caches with a highlight applied. It’s the fastest way to sweep an area’s results into an offline list or a GPX file."
   },
   {
    "anchor": "uk-os",
