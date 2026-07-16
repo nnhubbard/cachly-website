@@ -53,7 +53,7 @@
   {
    "anchor": "searching",
    "heading": "Searching the Map",
-   "text": "The search field accepts a place name, one or more GC codes (comma-separated), a coord.info URL, raw coordinates, or an OpenStreetMap POI query ( q: — see OSM POI search ); recent searches are kept for reuse. The refresh button (circular arrows, in the tool stack) loads caches for the current region; three dots on it mean more results are available — tap again to load them."
+   "text": "The search field accepts a place name, one or more GC codes (comma-separated), a coord.info URL, raw coordinates, or an OpenStreetMap POI query ( q: — see OSM POI search ); recent searches are kept for reuse. The refresh button (circular arrows, in the tool stack) loads caches for the current region; a dot in the middle of it means there are more caches to load — tap again to load them."
   },
   {
    "anchor": "dropped-pin",
