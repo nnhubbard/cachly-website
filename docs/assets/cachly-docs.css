@@ -618,6 +618,10 @@ figure.shot figcaption {
   figure.shot { width: 46%; }
 }
 
+/* Map tool-stack button chips (map.html, On-Map Controls table) */
+td.stack-icons { white-space: nowrap; }
+td.stack-icons img { vertical-align: middle; margin: 2px 6px 2px 0; }
+
 /* Inline article images (e.g. imported help-article screenshots) — kept to a
    consistent, modest size so the page reads like the rest of the docs. */
 figure.article-img { margin: 20px 0; text-align: center; }
