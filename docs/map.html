@@ -114,18 +114,34 @@
         <p><strong>Auto Load Map</strong> <span class="pro-badge">PRO</span> &mdash; long-press the Reload icon (or enable it in <a href="settings.html">Settings &rsaquo; Cachly Pro</a>) and caches load automatically as you pan, no tapping Reload. It needs a sufficient zoom level (the button dims when you&rsquo;re zoomed too far out).</p>
         <p>The stack&rsquo;s buttons and their states:</p>
         <table>
-          <thead><tr><th>Button</th><th>States</th></tr></thead>
+          <thead><tr><th>Icon</th><th>What it does</th></tr></thead>
           <tbody>
-            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/reload.png" alt="Reload Geocaches button" width="44" height="44"><img loading="lazy" src="assets/map-stack/reload-more.png" alt="Reload button with more-caches dot" width="44" height="44"><img loading="lazy" src="assets/map-stack/autoload-play.png" alt="Auto Load play button" width="44" height="44"><img loading="lazy" src="assets/map-stack/autoload-clear.png" alt="Clear loaded geocaches button" width="44" height="44"></td>
-                <td><strong>Reload Geocaches</strong> &mdash; loads the caches in the current area. A dot appears once an area has loaded; tap again to load more. With <a href="auto-load.html">Auto Load</a> <span class="pro-badge">PRO</span> running it becomes a red play button, and an <strong>X</strong> appears at the top of the stack to clear the loaded caches.</td></tr>
-            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/proximity.png" alt="Proximity Alert button" width="44" height="44"><img loading="lazy" src="assets/map-stack/proximity-active.png" alt="Proximity Alert button, active" width="44" height="44"></td>
-                <td><strong><a href="settings.html#proximity">Proximity Alert</a></strong> &mdash; turns red while proximity alerts are active.</td></tr>
-            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/layers.png" alt="Map options button" width="44" height="44"><img loading="lazy" src="assets/map-stack/layers-offline.png" alt="Map options button while an offline map is active" width="44" height="44"></td>
-                <td><strong>Map options</strong> &mdash; opens the <a href="#map-sources">Map Types</a> panel; long-press to jump between your recent types. The icon is slashed while an <a href="offline-maps.html">offline map</a> is the active map type.</td></tr>
-            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/location.png" alt="Current Location button" width="44" height="44"><img loading="lazy" src="assets/map-stack/location-follow.png" alt="Current Location button in follow mode" width="44" height="44"><img loading="lazy" src="assets/map-stack/location-heading.png" alt="Current Location button in follow heading mode" width="44" height="44"></td>
-                <td><strong>Current Location</strong> &mdash; recenters on you and cycles the follow modes: outline (free), filled (follow), heading arrow (follow heading).</td></tr>
-            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/target.png" alt="Navigation Target button" width="44" height="44"><img loading="lazy" src="assets/map-stack/target-location.png" alt="Navigation Target button, centered on target" width="44" height="44"></td>
-                <td><strong>Navigation Target</strong> &mdash; on the <a href="#compass">navigation map</a> only: fits you and the target on screen, or jumps back to the target.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/reload.png" alt="Reload Geocaches button" width="44" height="44"></td>
+                <td><strong>Reload Geocaches</strong> &mdash; loads the caches in the current map area.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/reload-more.png" alt="Reload button with more-caches dot" width="44" height="44"></td>
+                <td><strong>Load more</strong> &mdash; the dot appears once an area has loaded; tap again to load more caches.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/autoload-play.png" alt="Auto Load play button" width="44" height="44"></td>
+                <td><strong><a href="auto-load.html">Auto Load</a></strong> <span class="pro-badge">PRO</span> &mdash; Reload becomes a red play button while Auto Load is running; caches load automatically as you pan.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/autoload-clear.png" alt="Clear loaded geocaches button" width="44" height="44"></td>
+                <td><strong>Clear loaded caches</strong> &mdash; appears at the top of the stack while Auto Load runs; removes the caches it loaded.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/proximity.png" alt="Proximity Alert button" width="44" height="44"></td>
+                <td><strong><a href="settings.html#proximity">Proximity Alert</a></strong> &mdash; alerts you when you get close to a cache.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/proximity-active.png" alt="Proximity Alert button, active" width="44" height="44"></td>
+                <td><strong>Proximity Alert (active)</strong> &mdash; the icon turns red while proximity alerts are on.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/layers.png" alt="Map options button" width="44" height="44"></td>
+                <td><strong>Map options</strong> &mdash; opens the <a href="#map-sources">Map Types</a> panel; long-press to jump between your recent types.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/layers-offline.png" alt="Map options button while an offline map is active" width="44" height="44"></td>
+                <td><strong>Map options (offline map)</strong> &mdash; slashed while an <a href="offline-maps.html">offline map</a> is the active map type.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/location.png" alt="Current Location button" width="44" height="44"></td>
+                <td><strong>Current Location</strong> &mdash; tap to recenter on your location; tap again to cycle the follow modes.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/location-follow.png" alt="Current Location button in follow mode" width="44" height="44"></td>
+                <td><strong>Follow</strong> &mdash; filled while the map follows your position as you move.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/location-heading.png" alt="Current Location button in follow heading mode" width="44" height="44"></td>
+                <td><strong>Follow heading</strong> &mdash; the map also rotates to match the direction you&rsquo;re facing.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/target.png" alt="Navigation Target button" width="44" height="44"></td>
+                <td><strong>Navigation Target</strong> &mdash; on the <a href="#compass">navigation map</a> only; fits you and the target on screen.</td></tr>
+            <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/target-location.png" alt="Navigation Target button, centered on target" width="44" height="44"></td>
+                <td><strong>Back to target</strong> &mdash; jumps the map back to the navigation target.</td></tr>
           </tbody>
         </table>
 
