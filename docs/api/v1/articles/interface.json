@@ -23,8 +23,8 @@
  ],
  "screenshots": [
   {
-   "file": "06-more.png",
-   "caption": "The More tab gathers your profile, pending logs, drafts, history, settings, downloads and more."
+   "file": "tab-bar.png",
+   "caption": "Cachly’s five tabs run along the bottom of the screen — Live, Lists, Logs, Trackables and More."
   }
  ]
 }
