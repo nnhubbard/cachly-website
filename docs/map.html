@@ -186,7 +186,7 @@
         </table>
 
         <h2 id="compass">Navigating to a Cache</h2>
-        <p>From a cache&rsquo;s details, choose to navigate. The <strong>Navigate to Cache</strong> screen draws a direct line to the target and shows distance, bearing and accuracy alongside a compass arrow &mdash; ideal for the final approach where street maps run out. Related waypoints appear with a distinct symbol per <a href="waypoints.html#waypoint-types">type</a>; a generic waypoint is a plain red pin, and multiples of one type are numbered (P01, P02 and so on). Other caches within 5&nbsp;miles are shown. You can switch the target, zoom to fit both you and the cache, peek at <strong>Google Street View</strong> for terrain (this requires the Google&nbsp;Maps app installed), or set a <a href="settings.html#proximity">proximity alert</a> that fires even with the screen locked. To drive there, hand off to an external app &mdash; Apple Maps, Google Maps, Waze, HERE Maps, TomTom / TomTom Go, Navigon, Sygic, Gaia GPS, Maps.me, Magic Earth, Pocket Earth, Topo Maps, Scout or Guru &mdash; each shown only if it&rsquo;s installed.</p>
+        <p>From a cache&rsquo;s details, choose to navigate. The <strong>Navigate to Cache</strong> screen draws a direct line to the target and shows distance, bearing and accuracy alongside a compass arrow &mdash; ideal for the final approach where street maps run out. Related waypoints appear with a distinct symbol per <a href="waypoints.html#waypoint-types">type</a>; a generic waypoint is a plain red pin, and multiples of one type are numbered (P01, P02 and so on). Other caches within 5&nbsp;miles are shown. You can switch the target, zoom to fit both you and the cache, peek at <strong>Google Street View</strong> for terrain (this requires the Google&nbsp;Maps app installed), or set a <a href="settings.html#proximity">proximity alert</a> that fires even with the screen locked. To drive there, hand off to an external app &mdash; see <a href="#routing-apps">routing apps</a> below.</p>
         <p>The <strong>Map / Compass</strong> toggle at the top of the Navigate screen switches to a full-screen <strong>compass</strong>: a red arrow on the compass ring points toward the cache while the centre shows the distance, elevation, bearing and GPS accuracy, with your current and destination coordinates listed at the bottom.</p>
         <div class="shots">
         <figure class="shot" style="width:420px"><img loading="lazy" src="assets/screenshots/navigate-button-crop.png" alt="The circular navigate button next to Log Geocache at the bottom of a cache's details." width="420"><figcaption>The navigate button (circled) sits next to <strong>Log Geocache</strong> at the bottom of a cache&rsquo;s details.</figcaption></figure>
@@ -194,6 +194,50 @@
         <div class="shots">
         <figure class="shot" style="width:440px"><img loading="lazy" src="assets/screenshots/navigate-map-crop.png" alt="The Navigate to Cache map with a direct line drawn from your location to the cache and the distance shown at the top." width="440"><figcaption>The Navigate to Cache map draws a direct line from your location to the cache, with the distance at the top.</figcaption></figure>
         <figure class="shot"><img loading="lazy" src="assets/screenshots/navigate-compass.png" alt="The Compass view of the Navigate screen: a red arrow points toward the cache, with distance, elevation, bearing and accuracy in the centre and current and destination coordinates at the bottom." width="248"><figcaption>The Compass view &mdash; the red arrow points toward the cache, with distance, elevation, bearing and accuracy in the centre.</figcaption></figure>
+        </div>
+
+        <h2 id="routing-apps">Routing Apps &amp; the Navigation Menu</h2>
+        <p>The <strong>navigation</strong> button in the toolbar of the Navigate screen opens a menu in three parts &mdash; actions for the cache you&rsquo;re heading to, the list of routing apps, and sharing:</p>
+        <ul>
+          <li><strong>Cache actions</strong> &mdash; when you&rsquo;re navigating to a real cache, the menu starts with <strong>Log Geocache</strong>, <strong>View Hint</strong> and <strong>View Description</strong>, so you can read the hint or write your log without leaving navigation. Each row appears only when it applies: <strong>Log Geocache</strong> for GC-coded caches (not Adventure Labs), <strong>View Hint</strong> only when the cache has a hint, <strong>View Description</strong> only when it has one. Navigating to a <a href="#dropped-pin">dropped pin</a> shows no cache actions.</li>
+          <li><strong>Routing Options</strong> &mdash; the external apps listed below.</li>
+          <li><strong>Share Location</strong> &mdash; opens the iOS share sheet with the target&rsquo;s name and a <code>https://maps.google.com?q=</code> link to its coordinates.</li>
+        </ul>
+        <p>Cachly asks iOS whether each app is installed and hides the ones that aren&rsquo;t, so the list is usually much shorter than the table below. <strong>Apple Maps</strong> and <strong>Google Maps</strong> are always offered &mdash; if the Google Maps app is missing, Cachly opens Google Maps directions in the browser instead. There is no default routing app to configure; you pick one each time. (CarPlay is the exception &mdash; it remembers the app you chose there; see the <a href="carplay.html#navigation">CarPlay page</a>.)</p>
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#9432;</span>
+          <div class="callout-body">Routing needs your current position for the starting point. Without a GPS fix the menu shows a disabled <strong>Location Not Available</strong> row instead of the app list.</div>
+        </div>
+
+        <h3>URL schemes Cachly uses</h3>
+        <p>Each hand-off is an iOS deep link. Cachly formats coordinates to six decimal places and percent-encodes the cache name (shown as <code>Name (GC code)</code> where a code exists). This is what gets sent:</p>
+        <table>
+          <thead><tr><th>App</th><th>URL scheme</th><th>What Cachly sends</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Pro Offline Maps</strong> on CarPlay <span class="pro-badge">PRO</span></td><td>&mdash;</td><td>No URL &mdash; Cachly navigates on its own <a href="offline-maps.html">offline maps</a>. Listed only while CarPlay is connected.</td></tr>
+            <tr><td><strong>Apple Maps</strong></td><td>&mdash;</td><td>No URL &mdash; opened through iOS&rsquo;s own Maps hand-off with the destination named and driving directions requested. Always available.</td></tr>
+            <tr><td><strong>Google Maps</strong></td><td><code>comgooglemaps://</code></td><td><code>comgooglemaps://?saddr=lat,lon&amp;daddr=name@lat,lon</code>. Falls back to <code>http://maps.google.com/maps?saddr=&hellip;&amp;daddr=&hellip;</code> in the browser when the app isn&rsquo;t installed.</td></tr>
+            <tr><td><strong>Navigon</strong></td><td><code>navigon://</code></td><td><code>navigon://cachly|name||||||lon|lat</code></td></tr>
+            <tr><td><strong>OsmAnd Maps</strong></td><td><code>osmandmaps://</code></td><td><code>osmandmaps://?lat=&amp;lon=&amp;title=</code></td></tr>
+            <tr><td><strong>Topo Maps</strong></td><td><code>topomaps://</code></td><td><code>topomaps://?lat,lon</code></td></tr>
+            <tr><td><strong>HERE WeGo</strong></td><td><code>here-route://</code></td><td>Detected with <code>here-route://</code>, then opened as <code>here-location://lat,lon</code>.</td></tr>
+            <tr><td><strong>TomTom</strong></td><td><code>tomtomhome://</code></td><td><code>tomtomhome://geo:action=show&amp;lat=&amp;long=&amp;name=</code></td></tr>
+            <tr><td><strong>TomTom Go</strong></td><td><code>tomtomgo://</code></td><td><code>tomtomgo://x-callback-url/navigate?destination=lat,lon</code></td></tr>
+            <tr><td><strong>Mapy.cz</strong></td><td><code>szn-mapy://</code></td><td>Detected with <code>szn-mapy://</code>, then opened as the web link <code>https://mapy.cz/zakladni?q=lat,lon</code>.</td></tr>
+            <tr><td><strong>Waze</strong></td><td><code>waze://</code></td><td><code>waze://?ll=lat,lon&amp;navigate=yes</code> &mdash; starts navigation straight away.</td></tr>
+            <tr><td><strong>Guru Maps</strong></td><td><code>galileo://</code></td><td><code>galileo://lat,lon</code></td></tr>
+            <tr><td><strong>GPS Navigation &ndash; Scout</strong></td><td><code>hybridnavigation://</code></td><td><code>hybridnavigation://cmd=mapOverview&amp;latitude=&amp;longitude=&amp;addr1=name&amp;addr2=GC code&amp;addr3=</code></td></tr>
+            <tr><td><strong>Maps.me</strong></td><td><code>mapswithme://</code></td><td><code>mapswithme://map?v=1&amp;ll=&amp;n=name&amp;backurl=cachly://&amp;appname=Cachly</code> &mdash; the <code>backurl</code> gives Maps.me a link back to Cachly.</td></tr>
+            <tr><td><strong>Organic Maps</strong></td><td><code>om://</code></td><td><code>om://route?sll=&amp;saddr=&amp;dll=&amp;daddr=&amp;type=vehicle</code> &mdash; a full route from your position (<em>My Location</em>) to the cache, in driving mode.</td></tr>
+            <tr><td><strong>Gaia GPS</strong></td><td><code>gaiagps://</code></td><td><code>gaiagps://map?lat=&amp;lng=&amp;z=16</code> &mdash; centres the map on the cache at zoom&nbsp;16.</td></tr>
+            <tr><td><strong>Pocket Earth</strong></td><td><code>magikmap://</code></td><td><code>magikmap://?lat=&amp;lon=&amp;name=</code></td></tr>
+            <tr><td><strong>Sygic</strong></td><td><code>com.sygic.aura://</code></td><td><code>com.sygic.aura://coordinate|lon|lat|drive</code></td></tr>
+            <tr><td><strong>Magic Earth</strong></td><td><code>magicearth://</code></td><td><code>magicearth://?drive_to&amp;lat=&amp;lon=</code></td></tr>
+          </tbody>
+        </table>
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128161;</span>
+          <div class="callout-body">Apps differ in what they do with the link. Waze, TomTom Go, Sygic, Magic Earth and Organic Maps begin routing; Gaia GPS, Pocket Earth, OsmAnd, Topo Maps, Guru and Mapy.cz simply show the spot on their map &mdash; useful when you want offline topo detail rather than turn-by-turn.</div>
         </div>
 
         <h2 id="searching">Searching the Map</h2>
