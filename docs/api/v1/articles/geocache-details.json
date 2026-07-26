@@ -28,7 +28,7 @@
   {
    "anchor": "logs-photos",
    "heading": "Recent Logs & Photos",
-   "text": "Recent logs from other cachers tell you whether the cache is healthy and give hints about the hide. Each entry shows the log type icon and date, the finder’s name with their find count, badges for logs voted Great Story or Helpful , and a photo count when images are attached. The photo gallery shows images attached to the listing and to logs; downloaded caches keep their photos available offline ."
+   "text": "Recent logs from other cachers tell you whether the cache is healthy and give hints about the hide. Each entry shows the log type icon and date, the finder’s name with their find count, badges for logs voted Great Story or Helpful , and a photo count when images are attached. The photo gallery shows images attached to the listing and to logs; downloaded caches keep their photos available offline . The cache’s logs screen has three buttons in its top bar — sort , a person menu ( My Logs or Friends Logs on this cache, using your geocaching.com friends ) and filter . Filter opens a Filter By screen listing the geocaching.com log types (Found it, Didn’t find it, Write note, Attended, Will Attend, Reviewer Attention Requested, Owner Attention Requested, Event Announcement, Owner Maintenance, Enable, Disable, Archive); tick as many as you like to show only those. The filter button turns solid while a filter is active, and Clear in the top left removes the selection. It’s the quickest way to see just the DNFs on a cache before deciding to go after it, or to pull up the owner maintenance history."
   },
   {
    "anchor": "images",
@@ -63,7 +63,7 @@
   {
    "anchor": "additional-information",
    "heading": "Additional Information",
-   "text": "The Additional Information screen at the bottom of the details list collects everything else about the cache in one table: your found and DNF dates, the name and code, the owner (as well as who placed it), county , state/region and country , elevation , container size , favorite points , whether the cache is premium , archived or available , its type , difficulty and terrain, the date hidden , the last found date, the cache’s coordinates in decimal, DDM and UTM , and the listing URL . Some fields load on demand: tap Elevation to fetch it, and for offline caches the county is filled in manually (a Cachly Pro offline-list feature) rather than automatically."
+   "text": "The Additional Information screen at the bottom of the details list collects everything else about the cache in one table: your found and DNF dates, the name and code, the owner (as well as who placed it), county , state/region and country , elevation , container size , favorite points , whether the cache is premium , archived or available , its type , difficulty and terrain, the date hidden , the date published (when the reviewer released the listing — often later than the hidden date, and the date that matters for FTF races and “new caches” challenges), the last found date, the cache’s coordinates in decimal, DDM and UTM , and the listing URL . Some fields load on demand: tap Elevation to fetch it, and for offline caches the county is filled in manually (a Cachly Pro offline-list feature) rather than automatically."
   },
   {
    "anchor": "found-not-logged",
