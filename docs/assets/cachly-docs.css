@@ -107,7 +107,7 @@ a:hover { text-decoration: underline; }
 }
 .doc-header .brand:hover { text-decoration: none; }
 .brand-logo {
-  height: 28px;
+  height: 36px;
   width: auto;
   display: block;
 }
@@ -809,7 +809,8 @@ figure.shot-wide figcaption {
   .search-trigger { min-width: 0; }
   .search-trigger .search-label, .search-trigger .kbd-hint { display: none; }
   .search-trigger { width: 38px; padding: 0; justify-content: center; }
-  .brand-sub { display: none; }
+  /* Now the only wordmark in the header, so it stays visible on narrow screens. */
+  .brand-sub { font-size: 12px; padding-left: 8px; }
 
   .doc-sidebar {
     position: fixed;
