@@ -24,7 +24,8 @@
  "screenshots": [
   {
    "file": "tab-bar.png",
-   "caption": "Cachly’s five tabs run along the bottom of the screen — Live, Lists, Logs, Trackables and More."
+   "caption": "Cachly’s five tabs run along the bottom of the screen — Live, Lists, Logs, Trackables and More.",
+   "anchor": "tabs"
   }
  ]
 }

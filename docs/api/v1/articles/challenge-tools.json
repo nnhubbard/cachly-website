@@ -19,19 +19,23 @@
  "screenshots": [
   {
    "file": "counties-regions.png",
-   "caption": "Counties / Regions (Pro): per-state progress toward finding a cache in every county."
+   "caption": "Counties / Regions (Pro): per-state progress toward finding a cache in every county.",
+   "anchor": "counties"
   },
   {
    "file": "counties-map.png",
-   "caption": "View All shows the state map with found counties in green and missing ones in red."
+   "caption": "View All shows the state map with found counties in green and missing ones in red.",
+   "anchor": "counties"
   },
   {
    "file": "counties-detail.png",
-   "caption": "Tapping a green county opens its panel with the geocaches you found there."
+   "caption": "Tapping a green county opens its panel with the geocaches you found there.",
+   "anchor": "counties"
   },
   {
    "file": "delorme-map.png",
-   "caption": "The DeLorme Grid draws atlas pages over the state — tap a green page to see your finds there."
+   "caption": "The DeLorme Grid draws atlas pages over the state — tap a green page to see your finds there.",
+   "anchor": "delorme-grid"
   }
  ]
 }

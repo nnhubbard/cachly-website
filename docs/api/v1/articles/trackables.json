@@ -39,11 +39,13 @@
  "screenshots": [
   {
    "file": "31-trackables.png",
-   "caption": "The Trackables tab — your inventory of Travel Bugs and geocoins (Inventory/Owned toggle, TB scanner)."
+   "caption": "The Trackables tab — your inventory of Travel Bugs and geocoins (Inventory/Owned toggle, TB scanner).",
+   "anchor": "inventory-owned"
   },
   {
    "file": "41-trackable-detail.png",
-   "caption": "A trackable’s detail screen, with Description, Goal, Logs, Images and a Log Trackable button."
+   "caption": "A trackable’s detail screen, with Description, Goal, Logs, Images and a Log Trackable button.",
+   "anchor": "trackable-detail"
   }
  ]
 }

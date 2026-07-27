@@ -19,19 +19,23 @@
  "screenshots": [
   {
    "file": "settings-users.png",
-   "caption": "Settings › Users — the Primary User, additional users for logging, and the Multi-User Logging toggle."
+   "caption": "Settings › Users — the Primary User, additional users for logging, and the Multi-User Logging toggle.",
+   "anchor": "setup"
   },
   {
-   "file": "settings-users-menu.png",
-   "caption": "Each user’s menu: Set as Primary, Text Templates, Auto-Visit Trackables, Delete."
+   "file": "settings-users-menu-crop.png",
+   "caption": "Each user’s menu: Set as Primary, Text Templates, Auto-Visit Trackables, Delete.",
+   "anchor": "setup"
   },
   {
    "file": "log-compose-multi-2.png",
-   "caption": "The log screen with an Other Users section listing every added account."
+   "caption": "The log screen with an Other Users section listing every added account.",
+   "anchor": "how-it-works"
   },
   {
    "file": "log-compose-multi-expanded.png",
-   "caption": "Expanding a user reveals their own Message, Favorite Cache, Save as Draft and Trackables."
+   "caption": "Expanding a user reveals their own Message, Favorite Cache, Save as Draft and Trackables.",
+   "anchor": "how-it-works"
   }
  ]
 }

@@ -44,7 +44,8 @@
  "screenshots": [
   {
    "file": "24-waypoints.png",
-   "caption": "A cache’s waypoints, with the User/Cache toggle and each waypoint’s coordinates."
+   "caption": "A cache’s waypoints, with the User/Cache toggle and each waypoint’s coordinates.",
+   "anchor": "kinds"
   }
  ]
 }

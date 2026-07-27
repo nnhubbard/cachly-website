@@ -29,7 +29,8 @@
  "screenshots": [
   {
    "file": "01-login.png",
-   "caption": "The login screen — sign in with your geocaching.com account, sign up, or skip to explore."
+   "caption": "The login screen — sign in with your geocaching.com account, sign up, or skip to explore.",
+   "anchor": "signing-in"
   }
  ]
 }

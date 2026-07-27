@@ -44,23 +44,28 @@
  "screenshots": [
   {
    "file": "logs-main.png",
-   "caption": "The Logs tab: your logs in chronological order with type, date, badges and photo counts."
+   "caption": "The Logs tab: your logs in chronological order with type, date, badges and photo counts.",
+   "anchor": "logs-tab"
   },
   {
-   "file": "pending-geocache-logs.png",
-   "caption": "Pending Geocache Logs holding a saved log that is ready to upload."
+   "file": "pending-geocache-logs-crop.png",
+   "caption": "Pending Geocache Logs holding a saved log that is ready to upload.",
+   "anchor": "pending"
   },
   {
-   "file": "pending-logs-menu.png",
-   "caption": "The Pending Logs menu with Select Logs, Export .txt File and Delete All Pending Logs."
-  },
-  {
-   "file": "pending-log-row-menu.png",
-   "caption": "A pending log's menu: Post Log, Edit, View Geocache and Delete."
+   "file": "pending-log-row-menu-crop.png",
+   "caption": "A pending log's menu: Post Log, Edit, View Geocache and Delete.",
+   "anchor": "pending"
   },
   {
    "file": "pending-log-detail.png",
-   "caption": "Editing a pending log reopens the full compose screen with date, type, message and options."
+   "caption": "Editing a pending log reopens the full compose screen with date, type, message and options.",
+   "anchor": "pending"
+  },
+  {
+   "file": "pending-logs-menu-crop.png",
+   "caption": "The Pending Logs menu with Select Logs, Export .txt File and Delete All Pending Logs.",
+   "anchor": "pending-menu"
   }
  ]
 }

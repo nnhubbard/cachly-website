@@ -54,27 +54,33 @@
  "screenshots": [
   {
    "file": "filters-main.png",
-   "caption": "Live Search Filtering — the Disable Filtering master toggle, name search, exclusion checkboxes and cache types."
+   "caption": "Live Search Filtering — the Disable Filtering master toggle, name search, exclusion checkboxes and cache types.",
+   "anchor": "advanced-search"
   },
   {
    "file": "filters-3.png",
-   "caption": "The bottom of the live filter screen — API Sorting, Other toggles, and the Templates section with Current Template and Save New Template."
+   "caption": "The bottom of the live filter screen — API Sorting, Other toggles, and the Templates section with Current Template and Save New Template.",
+   "anchor": "advanced-search"
   },
   {
    "file": "offline-filter.png",
-   "caption": "An offline list’s filter screen — Disable Filters, stackable List Filters and the Filters Template section."
+   "caption": "An offline list’s filter screen — Disable Filters, stackable List Filters and the Filters Template section.",
+   "anchor": "offline-filters"
   },
   {
    "file": "offline-filter-types.png",
-   "caption": "The Filter Type picker when adding an offline list filter — dozens of types from Attributes to Distance and beyond."
+   "caption": "The Filter Type picker when adding an offline list filter — dozens of types from Attributes to Distance and beyond.",
+   "anchor": "offline-filters"
   },
   {
    "file": "offline-filter-config.png",
-   "caption": "Configuring a filter — type-specific Filter Details with AND/OR logic, plus the Advanced Invert Filter option."
+   "caption": "Configuring a filter — type-specific Filter Details with AND/OR logic, plus the Advanced Invert Filter option.",
+   "anchor": "offline-filters"
   },
   {
    "file": "search-template-list.png",
-   "caption": "Search templates save a whole live-filter configuration for reuse."
+   "caption": "Search templates save a whole live-filter configuration for reuse.",
+   "anchor": "templates"
   }
  ]
 }

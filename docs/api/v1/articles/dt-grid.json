@@ -14,7 +14,8 @@
  "screenshots": [
   {
    "file": "dt-grid.png",
-   "caption": "The D/T grid: your finds across all 81 Difficulty/Terrain combinations."
+   "caption": "The D/T grid: your finds across all 81 Difficulty/Terrain combinations.",
+   "anchor": "the-grid"
   }
  ]
 }

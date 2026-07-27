@@ -84,27 +84,33 @@
  "screenshots": [
   {
    "file": "cache-details.png",
-   "caption": "The geocache detail screen: header, coordinates and distance, section rows, and the pinned Log Geocache and navigate buttons."
-  },
-  {
-   "file": "cache-details-more-menu.png",
-   "caption": "The detail screen's options menu with Refresh, Log a trackable, Highlight, Add Waypoint, Share, Export GPX and more."
+   "caption": "The geocache detail screen: header, coordinates and distance, section rows, and the pinned Log Geocache and navigate buttons.",
+   "anchor": "essentials"
   },
   {
    "file": "personal-note-add-image.png",
-   "caption": "Attaching a photo to a personal note with the + button; images are stored in iCloud and sync across your devices."
+   "caption": "Attaching a photo to a personal note with the + button; images are stored in iCloud and sync across your devices.",
+   "anchor": "personal-notes"
   },
   {
    "file": "corrected-coords-picker.png",
-   "caption": "The Corrected Coordinates editor with the Is Corrected toggle, DDM picker, presets and coordinate tools."
+   "caption": "The Corrected Coordinates editor with the Is Corrected toggle, DDM picker, presets and coordinate tools.",
+   "anchor": "corrected-coordinates"
   },
   {
    "file": "cache-additional-info.png",
-   "caption": "The Additional Information screen listing found dates, county, elevation, status flags, type and date hidden."
+   "caption": "The Additional Information screen listing found dates, county, elevation, status flags, type and date hidden.",
+   "anchor": "additional-information"
+  },
+  {
+   "file": "cache-details-more-menu-crop.png",
+   "caption": "The detail screen's options menu with Refresh, Log a trackable, Highlight, Add Waypoint, Share, Export GPX and more.",
+   "anchor": "buttons-menus"
   },
   {
    "file": "create-geocache.png",
-   "caption": "The Create Offline Geocache editor with details, description and a DDM coordinate picker."
+   "caption": "The Create Offline Geocache editor with details, description and a DDM coordinate picker.",
+   "anchor": "create-offline-geocache"
   }
  ]
 }

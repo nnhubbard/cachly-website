@@ -49,27 +49,33 @@
  "screenshots": [
   {
    "file": "lists-main.png",
-   "caption": "The Lists tab on its Offline segment, with the Offline/Online/Trips control and your offline lists."
+   "caption": "The Lists tab on its Offline segment, with the Offline/Online/Trips control and your offline lists.",
+   "anchor": "kinds-of-lists"
   },
   {
    "file": "lists-online.png",
-   "caption": "The Online segment — your geocaching.com bookmark lists, including the Ignore List, with cache counts."
+   "caption": "The Online segment — your geocaching.com bookmark lists, including the Ignore List, with cache counts.",
+   "anchor": "kinds-of-lists"
   },
   {
-   "file": "lists-trips.png",
-   "caption": "The Trips segment holds trip lists for planning a route of caches."
+   "file": "lists-trips-crop.png",
+   "caption": "The Trips segment holds trip lists for planning a route of caches.",
+   "anchor": "kinds-of-lists"
   },
   {
-   "file": "add-to-list-options.png",
-   "caption": "Confirming an Add to List — how many geocaches will be saved offline, plus Download Images and Show in CarPlay."
+   "file": "add-to-list-options-crop.png",
+   "caption": "Confirming an Add to List — how many geocaches will be saved offline, plus Download Images and Show in CarPlay.",
+   "anchor": "adding-caches"
   },
   {
    "file": "offline-list-listview.png",
-   "caption": "An offline list in List mode — sortable cache rows with distance, D/T, size and GC code."
+   "caption": "An offline list in List mode — sortable cache rows with distance, D/T, size and GC code.",
+   "anchor": "map-and-list-modes"
   },
   {
-   "file": "offline-list-manage-menu.png",
-   "caption": "The offline list … menu — update caches, download images, highlight, export GPX and more."
+   "file": "offline-list-manage-menu-crop.png",
+   "caption": "The offline list … menu — update caches, download images, highlight, export GPX and more.",
+   "anchor": "manage"
   }
  ]
 }

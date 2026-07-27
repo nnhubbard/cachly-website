@@ -49,19 +49,23 @@
  "screenshots": [
   {
    "file": "profile-main.png",
-   "caption": "Your profile with premium badge, stat rows and the Found Cache Types chart."
+   "caption": "Your profile with premium badge, stat rows and the Found Cache Types chart.",
+   "anchor": "profile"
   },
   {
    "file": "profile-gallery.png",
-   "caption": "The Gallery collects photos from your logs, grouped by date."
+   "caption": "The Gallery collects photos from your logs, grouped by date.",
+   "anchor": "profile"
   },
   {
    "file": "friends.png",
-   "caption": "The Friends list shows your geocaching.com friends with their find counts."
+   "caption": "The Friends list shows your geocaching.com friends with their find counts.",
+   "anchor": "friends"
   },
   {
    "file": "usage.png",
-   "caption": "The Usage screen breaks down storage, database objects and API limits."
+   "caption": "The Usage screen breaks down storage, database objects and API limits.",
+   "anchor": "usage"
   }
  ]
 }

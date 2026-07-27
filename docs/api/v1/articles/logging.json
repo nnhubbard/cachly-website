@@ -49,15 +49,18 @@
  "screenshots": [
   {
    "file": "log-compose.png",
-   "caption": "The Log Geocache screen with Send Log Now, date and time, Log Type, and a per-user section with Message, Favorite Cache, Save as Draft and Trackables."
+   "caption": "The Log Geocache screen with Send Log Now, date and time, Log Type, and a per-user section with Message, Favorite Cache, Save as Draft and Trackables.",
+   "anchor": "log-screen"
   },
   {
-   "file": "log-type-picker.png",
-   "caption": "The Log Type picker: Found it, Didn't find it, Write note, Reviewer Attention Requested and Owner Attention Requested."
+   "file": "log-type-picker-crop.png",
+   "caption": "The Log Type picker: Found it, Didn't find it, Write note, Reviewer Attention Requested and Owner Attention Requested.",
+   "anchor": "log-types"
   },
   {
    "file": "log-message-editor.png",
-   "caption": "The log message editor with its 5,000-character counter and the Cachly Intelligence sparkle button."
+   "caption": "The log message editor with its 5,000-character counter and the Cachly Intelligence sparkle button.",
+   "anchor": "message-editor"
   }
  ]
 }

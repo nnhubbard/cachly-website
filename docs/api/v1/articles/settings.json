@@ -74,27 +74,33 @@
  "screenshots": [
   {
    "file": "settings-main.png",
-   "caption": "The Settings root screen with its twelve categories plus Manage Subscriptions and Restore Purchases."
+   "caption": "The Settings root screen with its twelve categories plus Manage Subscriptions and Restore Purchases.",
+   "anchor": "categories"
   },
   {
    "file": "settings-users.png",
-   "caption": "The Users category, new in Cachly 8, showing the Primary User account used for searching."
+   "caption": "The Users category, new in Cachly 8, showing the Primary User account used for searching.",
+   "anchor": "users"
   },
   {
    "file": "settings-general.png",
-   "caption": "General settings covering measurement units, rotation lock, TB scanner, power mode and coordinate format."
+   "caption": "General settings covering measurement units, rotation lock, TB scanner, power mode and coordinate format.",
+   "anchor": "general"
   },
   {
    "file": "settings-map-options.png",
-   "caption": "Map Options & Navigation settings such as cache radius, map rotation and tilt locks, and Fit to Map."
+   "caption": "Map Options & Navigation settings such as cache radius, map rotation and tilt locks, and Fit to Map.",
+   "anchor": "map-options"
   },
   {
    "file": "settings-caches-waypoints.png",
-   "caption": "Caches & Waypoints settings for pin design, favorite points on pins, live-search data and clustering."
+   "caption": "Caches & Waypoints settings for pin design, favorite points on pins, live-search data and clustering.",
+   "anchor": "caches-waypoints"
   },
   {
    "file": "settings-proximity.png",
-   "caption": "Proximity Alert settings with per-context enable toggles, trigger distance and centering options."
+   "caption": "Proximity Alert settings with per-context enable toggles, trigger distance and centering options.",
+   "anchor": "proximity"
   }
  ]
 }
