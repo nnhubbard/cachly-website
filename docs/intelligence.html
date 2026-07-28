@@ -12,10 +12,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cachly Intelligence — Cachly Documentation</title>
-  <meta name="description" content="Cachly Intelligence: AI summaries of a cache's logs and description, plus AI-assisted log writing with Apple Intelligence, Claude, ChatGPT and Google Gemini, with writing prompts, a prompt editor and a model picker.">
+  <meta name="description" content="Cachly Intelligence: AI summaries of a cache's logs and description, plus AI-assisted log writing with Apple Intelligence, Claude, ChatGPT, Google Gemini and Mistral AI, with writing prompts, a prompt editor and a model picker.">
   <link rel="canonical" href="https://www.cachly.com/docs/intelligence.html">
   <meta property="og:title" content="Cachly Intelligence — Cachly Documentation">
-  <meta property="og:description" content="Cachly Intelligence: AI summaries of a cache&#x27;s logs and description, plus AI-assisted log writing with Apple Intelligence, Claude, ChatGPT and Google Gemini, with writing prompts, a prompt editor and a model picker.">
+  <meta property="og:description" content="Cachly Intelligence: AI summaries of a cache&#x27;s logs and description, plus AI-assisted log writing with Apple Intelligence, Claude, ChatGPT, Google Gemini and Mistral AI, with writing prompts, a prompt editor and a model picker.">
   <meta property="og:url" content="https://www.cachly.com/docs/intelligence.html">
   <meta property="og:site_name" content="Cachly User Guide">
   <meta property="og:type" content="article">
@@ -28,7 +28,7 @@
   {
    "@type": "TechArticle",
    "headline": "Cachly Intelligence",
-   "description": "Cachly Intelligence: AI summaries of a cache's logs and description, plus AI-assisted log writing with Apple Intelligence, Claude, ChatGPT and Google Gemini, with writing prompts, a prompt editor and a model picker.",
+   "description": "Cachly Intelligence: AI summaries of a cache's logs and description, plus AI-assisted log writing with Apple Intelligence, Claude, ChatGPT, Google Gemini and Mistral AI, with writing prompts, a prompt editor and a model picker.",
    "url": "https://www.cachly.com/docs/intelligence.html",
    "inLanguage": "en",
    "isPartOf": {
@@ -94,14 +94,14 @@
         <p>Cachly Intelligence is <strong>on by default</strong>, and everything lives at the top of <span class="ui-path">Settings &rsaquo; Cachly Pro</span>, in the <strong>Cachly Intelligence</strong> section:</p>
         <ol>
           <li><strong>Enable Cachly Intelligence</strong> is already switched on &mdash; turn it off here if you&rsquo;d rather not see the AI features.</li>
-          <li>Tap <strong>AI Provider</strong> and choose who does the thinking. <strong>Apple Intelligence</strong> works immediately, entirely on-device. For <strong>Claude</strong>, <strong>ChatGPT</strong> or <strong>Gemini</strong>, tap the provider to add your own API key first &mdash; until then the row shows <em>API key not set</em>.</li>
+          <li>Tap <strong>AI Provider</strong> and choose who does the thinking. <strong>Apple Intelligence</strong> works immediately, entirely on-device. For <strong>Claude</strong>, <strong>ChatGPT</strong>, <strong>Gemini</strong> or <strong>Mistral&nbsp;AI</strong>, tap the provider to add your own API key first &mdash; until then the row shows <em>API key not set</em>.</li>
           <li>Optionally open the three prompt rows below (<a href="#prompts">Log Summary, Description Summary, Log Writing</a>) and tailor them to your taste &mdash; each is fully editable.</li>
         </ol>
         <p>While enabled, a <strong>sparkle</strong> button appears in the places Cachly Intelligence can help: a cache&rsquo;s description, its logs list, and the log message editor.</p>
 
         <div class="callout danger">
           <span class="callout-icon" aria-hidden="true">&#9888;&#65039;</span>
-          <div class="callout-body"><strong>Apple Intelligence is only available on the iPhone&nbsp;15&nbsp;Pro and newer devices</strong> (and requires iOS&nbsp;26). On older iPhones, choose Claude, ChatGPT or Gemini with your own API key instead.</div>
+          <div class="callout-body"><strong>Apple Intelligence is only available on the iPhone&nbsp;15&nbsp;Pro and newer devices</strong> (and requires iOS&nbsp;26). On older iPhones, choose Claude, ChatGPT, Gemini or Mistral&nbsp;AI with your own API key instead.</div>
         </div>
 
         <h2 id="summaries">AI Summaries</h2>
@@ -118,21 +118,24 @@
         <p>In <a href="carplay.html">CarPlay</a>, Cachly Intelligence goes hands-free: it can summarize a cache&rsquo;s logs and description <strong>by voice</strong>, reading the summary aloud so you get the gist while driving.</p>
 
         <h2 id="models">Choosing a Model</h2>
-        <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/intelligence-ai-provider-crop.png" alt="The AI Provider picker: on-device Apple Intelligence, or Claude, ChatGPT and Gemini with your own API key." width="248"><figcaption>The AI Provider picker: on-device Apple Intelligence, or Claude, ChatGPT and Gemini with your own API key.</figcaption></figure>
+        <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/intelligence-ai-provider-crop.png" alt="The AI Provider picker with Mistral AI selected, showing its API Key and Model rows below the provider list." width="248"><figcaption>The AI Provider picker &mdash; on-device Apple Intelligence, or Claude, ChatGPT, Gemini and Mistral&nbsp;AI with your own API key. The selected cloud provider gets its own API Key and Model rows.</figcaption></figure>
         <p>Cachly supports multiple AI providers, selectable under <span class="ui-path">Settings &rsaquo; Cachly Pro &rsaquo; AI Provider</span>:</p>
         <table>
-          <thead><tr><th>Provider</th><th>Notes</th></tr></thead>
+          <thead><tr><th>Provider</th><th>Notes</th><th>API key from</th></tr></thead>
           <tbody>
-            <tr><td><strong>Apple Intelligence</strong></td><td>On-device AI &mdash; private and offline-capable. Requires iOS 26 and an iPhone 15&nbsp;Pro or newer.</td></tr>
-            <tr><td><strong>Claude</strong> (Anthropic)</td><td>Cloud model via the Claude API.</td></tr>
-            <tr><td><strong>ChatGPT</strong> (OpenAI)</td><td>Cloud model via the OpenAI API.</td></tr>
-            <tr><td><strong>Google Gemini</strong></td><td>Cloud model via Google.</td></tr>
+            <tr><td><strong>Apple Intelligence</strong></td><td>On-device AI &mdash; private and offline-capable. Requires iOS 26 and an iPhone 15&nbsp;Pro or newer.</td><td>No key needed</td></tr>
+            <tr><td><strong>Claude</strong> (Anthropic)</td><td>Cloud model via the Claude API.</td><td>console.anthropic.com</td></tr>
+            <tr><td><strong>ChatGPT</strong> (OpenAI)</td><td>Cloud model via the OpenAI API.</td><td>platform.openai.com</td></tr>
+            <tr><td><strong>Google Gemini</strong></td><td>Cloud model via Google.</td><td>aistudio.google.com</td></tr>
+            <tr><td><strong>Mistral&nbsp;AI</strong></td><td>Cloud model via the Mistral&nbsp;AI API.</td><td>console.mistral.ai</td></tr>
           </tbody>
         </table>
 
+        <p>Choosing a cloud provider adds a second section below the list, headed with that provider&rsquo;s name and holding two rows: <strong>API Key</strong>, where you paste the key from the console above, and <strong>Model</strong>. The model list is <strong>fetched live from the provider</strong>, so new releases appear without waiting for a Cachly update &mdash; leave it on <strong>Default</strong> and Cachly uses a sensible current model for you.</p>
+
         <div class="callout note">
           <span class="callout-icon" aria-hidden="true">&#8505;</span>
-          <div class="callout-body">Cloud providers (Claude, ChatGPT, Gemini) send your prompt to that service, and you will need to use your own API key or account. Apple Intelligence runs on-device where supported. Choose the option that matches your privacy preference.</div>
+          <div class="callout-body">Cloud providers (Claude, ChatGPT, Gemini, Mistral&nbsp;AI) send your prompt to that service, and you will need to use your own API key or account. Apple Intelligence runs on-device where supported. Choose the option that matches your privacy preference.</div>
         </div>
 
         <h2 id="prompts">Writing Prompts &amp; the Prompt Editor</h2>
