@@ -16,5 +16,6 @@
    "text": "The capabilities described throughout this guide — the map , logging , search , offline maps and more — are all present on iPad, just laid out for the larger display."
   }
  ],
- "screenshots": []
+ "screenshots": [],
+ "html": "<p class=\"lead\">Cachly runs on iPad with the same interface as on iPhone, taking advantage of the larger screen &mdash; and works alongside other apps with iPadOS multitasking.</p>\n        <h2 id=\"ipad\">iPad</h2>\n        <p>On iPad, Cachly gives you all the same features as on iPhone, with the larger screen giving the map, lists and cache details more room to work. It also supports iPadOS multitasking &mdash; Split View and Slide Over &mdash; so you can run Cachly beside another app such as Safari or Notes.</p>\n\n        <div class=\"callout tip\">\n          <span class=\"callout-icon\" aria-hidden=\"true\">&#128421;</span>\n          <div class=\"callout-body\">With <a href=\"sync-backup.html#icloud-sync\">iCloud sync</a> on, lists and data you set up on iPad are ready on your iPhone in the field.</div>\n        </div>\n\n        <h2 id=\"same-features\">Everything Else Is the Same</h2>\n        <p>The capabilities described throughout this guide &mdash; <a href=\"map.html\">the map</a>, <a href=\"logging.html\">logging</a>, <a href=\"search.html\">search</a>, <a href=\"offline-maps.html\">offline maps</a> and more &mdash; are all present on iPad, just laid out for the larger display.</p>\n"
 }

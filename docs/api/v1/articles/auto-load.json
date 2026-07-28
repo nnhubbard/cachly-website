@@ -11,5 +11,6 @@
    "text": "Normally the Live map loads caches when you tap the refresh button in the tool stack . With Auto Load enabled, Cachly requests caches automatically whenever you move the map to a new area, so browsing a region feels continuous. ℹ Every load counts against your geocaching.com API limits like a manual refresh does — Cachly loads lite cache data to keep usage light, but if you pan across a continent, expect it to add up."
   }
  ],
- "screenshots": []
+ "screenshots": [],
+ "html": "<p class=\"lead\">With Auto Load, the live map fills itself: pan or zoom and Cachly fetches the caches for the new area — no need to tap refresh.</p>\n        <h2 id=\"how-it-works\">How It Works</h2>\n        <p>Normally the Live map loads caches when you tap the <strong>refresh</strong> button in the <a href=\"map.html#map-controls\">tool stack</a>. With <strong>Auto Load</strong> enabled, Cachly requests caches automatically whenever you move the map to a new area, so browsing a region feels continuous.</p>\n\n        <div class=\"callout note\">\n          <span class=\"callout-icon\" aria-hidden=\"true\">&#8505;</span>\n          <div class=\"callout-body\">Every load counts against your geocaching.com <a href=\"profile.html#usage\">API limits</a> like a manual refresh does &mdash; Cachly loads lite cache data to keep usage light, but if you pan across a continent, expect it to add up.</div>\n        </div>\n"
 }
