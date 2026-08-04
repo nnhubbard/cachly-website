@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "49757abf59",
+ "hash": "3f1f13d66b",
  "articles": [
   {
    "id": "getting-started",
@@ -70,7 +70,7 @@
    "title": "Logs, Drafts & History",
    "section": "Finding & Logging",
    "url": "logs.html",
-   "lead": "The Logs tab is mission control for everything you’ve written: logs waiting to upload, ones that hit an error, your saved drafts, and your full logging history."
+   "lead": "The Logs tab holds the logs you’ve already written. The queues around it — logs waiting to upload, ones that hit an error, your saved drafts and the caches you’ve recently viewed — live under the More tab. This page covers all of them."
   },
   {
    "id": "waypoints",
