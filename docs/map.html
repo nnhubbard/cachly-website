@@ -107,17 +107,17 @@
           <li><strong>Ordnance Survey (UK)</strong> &mdash; Street View (see below).</li>
           <li><strong>Custom Tile URLs</strong> &mdash; point Cachly at your own tile server (see <a href="offline-maps.html#custom-tiles">Custom Tile URLs</a>).</li>
         </ul>
-        <p>From the same panel you can download Pro Offline Maps, adjust offline settings (contours, points of interest, parking) or add custom tile URLs. When an offline map is active, the map-options icon shows a <strong>diagonal line</strong> across it. Defaults and per-service API keys are set in <a href="settings.html#map-options">Settings &rsaquo; Map Options &amp; Navigation</a>.</p>
+        <p>From the same panel you can download Pro Offline Maps or add custom tile URLs. When an offline map is active, the map-options icon shows a <strong>diagonal line</strong> across it. Defaults and per-service API keys are set in <a href="settings.html#map-options">Settings &rsaquo; Map Options &amp; Navigation</a>.</p>
 
         <h2 id="map-controls">On-Map Controls</h2>
-        <p>A tool stack sits along the right edge of the live map &mdash; top to bottom: <strong>Reload Geocaches</strong>, <strong>Proximity Alert</strong>, <strong>map options</strong> and <strong>Current Location</strong> &mdash; plus a <strong>compass / re-center</strong> control that appears when the map is rotated (tap it to snap back to north). A <strong>filter</strong> icon toggles the <a href="search.html#advanced-search">live-search filters</a>; it fills solid white when a filter is active (outline when off), and &ldquo;Filtering On&rdquo; appears at the top of the map as a reminder.</p>
+        <p>A tool stack sits along the right edge of the live map &mdash; top to bottom: <strong>Reload Geocaches</strong>, <strong>Proximity Alert</strong>, <strong>map options</strong> and <strong>Current Location</strong> &mdash; plus a <strong>compass / re-center</strong> control that appears when the map is rotated (tap it to snap back to north). A <strong>filter</strong> icon toggles the <a href="search.html#advanced-search">live-search filters</a>; it fills solid black when a filter is active (outline when off), and &ldquo;Filtering On&rdquo; appears at the top of the map as a reminder.</p>
         <p><strong>Auto Load Map</strong> <span class="pro-badge">PRO</span> &mdash; long-press the Reload icon (or enable it in <a href="settings.html">Settings &rsaquo; Cachly Pro</a>) and caches load automatically as you pan, no tapping Reload. It needs a sufficient zoom level (the button dims when you&rsquo;re zoomed too far out).</p>
         <p>The stack&rsquo;s buttons and their states:</p>
         <table>
           <thead><tr><th>Icon</th><th>What it does</th></tr></thead>
           <tbody>
             <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/reload.png" alt="Reload Geocaches button" width="44" height="44"></td>
-                <td><strong>Reload Geocaches</strong> &mdash; loads the caches in the current map area.</td></tr>
+                <td><strong>Reload Geocaches</strong> &mdash; loads caches around the map center, within the search radius set in the <a href="search.html#advanced-search">live-search filters</a> (100&nbsp;mi by default).</td></tr>
             <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/reload-more.png" alt="Reload button with more-caches dot" width="44" height="44"></td>
                 <td><strong>Load more</strong> &mdash; the dot appears once an area has loaded; tap again to load more caches.</td></tr>
             <tr><td class="stack-icons"><img loading="lazy" src="assets/map-stack/autoload-play.png" alt="Auto Load play button" width="44" height="44"></td>
@@ -186,11 +186,11 @@
         </table>
 
         <h2 id="adventure-labs">Adventure Labs on the Live Map</h2>
-        <p>The live map loads <strong>Adventure Labs</strong> alongside regular geocaches. Parent Adventures appear the moment they load, then their individual <strong>stages</strong> fill in automatically and replace the parent pin. Stages of a sequential Adventure are numbered in play order, and every stage offers <strong>View Information</strong> &mdash; Cachly fetches the stage description on demand. When stages aren&rsquo;t showing, tapping a parent Adventure&rsquo;s pin loads that Adventure&rsquo;s stages onto the map.</p>
-        <p>What loads is controlled in two places: the <a href="search.html#advanced-search">live search filters</a> include <strong>Adventure Lab</strong> among the cache types plus an <strong>Exclude Adventures Stages</strong> checkbox, and with <a href="auto-load.html">Auto Load</a> <span class="pro-badge">PRO</span> the <strong>Show Adventure Labs</strong> and <strong>Show Adventure Labs Stages</strong> switches under <a href="settings.html#cachly-pro">Settings &rsaquo; Cachly Pro</a> apply.</p>
+        <p>The live map loads <strong>Adventure Labs</strong> alongside regular geocaches. Parent Adventures appear the moment they load, then their individual <strong>stages</strong> fill in automatically. Every stage offers <strong>View Information</strong> &mdash; Cachly fetches the stage description on demand. When stages aren&rsquo;t showing, tapping a parent Adventure&rsquo;s pin loads that Adventure&rsquo;s stages onto the map.</p>
+        <p>What loads is controlled in two places: the <a href="search.html#advanced-search">live search filters</a> include <strong>Adventure Lab</strong> among the cache types plus an <strong>Exclude Adventures Stages</strong> switch, and with <a href="auto-load.html">Auto Load</a> <span class="pro-badge">PRO</span> the <strong>Show Adventure Labs</strong> and <strong>Show Adventure Labs Stages</strong> switches under <a href="settings.html#cachly-pro">Settings &rsaquo; Cachly Pro</a> apply.</p>
         <div class="callout note">
           <span class="callout-icon" aria-hidden="true">&#8505;</span>
-          <div class="callout-body">Loading individual lab stages requires a geocaching.com Premium membership &mdash; basic members see parent Adventures only.</div>
+          <div class="callout-body">Loading any Adventure Labs requires a geocaching.com Premium membership.</div>
         </div>
 
         <h2 id="compass">Navigating to a Cache</h2>
