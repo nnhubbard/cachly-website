@@ -213,6 +213,32 @@
                     <h3>CarPlay</h3>
                     <p>Use Cachly including offline maps and lists right in the dashboard of your car.</p>
                 </div>
+                <!-- Cachly Intelligence -->
+                <div class="feature-card">
+                    <span class="pro-tag">Pro</span>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"></path>
+                            <path d="M19 15l.7 2.3L22 18l-2.3.7L19 21l-.7-2.3L16 18l2.3-.7z"></path>
+                        </svg>
+                    </div>
+                    <h3>Cachly Intelligence</h3>
+                    <p>AI summaries of logs and descriptions, a log-writing assistant, and CarPlay voice summaries &mdash; on-device with Apple Intelligence or with your own Claude, ChatGPT, Gemini or Mistral key.</p>
+                </div>
+                <!-- Multi-User Logging -->
+                <div class="feature-card">
+                    <span class="pro-tag">Pro</span>
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Multi-User Logging</h3>
+                    <p>Log one find for your whole group at once, posted to each geocaching.com account with its own templates and auto-visit trackables.</p>
+                </div>
                 <!-- Counties & Regions -->
                 <div class="feature-card">
                     <span class="pro-tag">Pro</span>
@@ -240,6 +266,21 @@
                     </div>
                     <h3>DeLorme Grid</h3>
                     <p>Built-in tracker for each state with a challenge.</p>
+                </div>
+                <!-- D/T Grid -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="3" y1="15" x2="21" y2="15"></line>
+                            <line x1="9" y1="3" x2="9" y2="21"></line>
+                            <line x1="15" y1="3" x2="15" y2="21"></line>
+                            <rect x="9" y="9" width="6" height="6" fill="currentColor" stroke="none"></rect>
+                        </svg>
+                    </div>
+                    <h3>D/T Grid</h3>
+                    <p>Track your Difficulty/Terrain matrix, see which combinations you&rsquo;re missing, and load matching caches as you move the map.</p>
                 </div>
                 <!-- Search the Globe -->
                 <div class="feature-card">
@@ -379,7 +420,7 @@
                         </svg>
                     </div>
                     <h3>Adventure Labs</h3>
-                    <p>Loading of Adventure Labs and stages with full integration with the official app.</p>
+                    <p>Adventures and their stages load right on the live map, numbered in order, with full integration with the official app.</p>
                 </div>
                 <!-- Personal Notes -->
                 <div class="feature-card">
@@ -393,7 +434,7 @@
                         </svg>
                     </div>
                     <h3>Personal Notes</h3>
-                    <p>Add personal notes and images to caches, synced with geocaching.com.</p>
+                    <p>Add personal notes and images to caches, with Markdown formatting, synced with geocaching.com.</p>
                 </div>
             </div>
             <div class="features-more">
@@ -429,27 +470,40 @@
                         <li>Full cache details</li>
                         <li>HTML description rendering</li>
                         <li>Encrypted hints with ROT13 decoding</li>
-                        <li>Personal cache notes (synced)</li>
+                        <li>Personal cache notes (synced, Markdown)</li>
                         <li>Corrected coordinates support</li>
+                        <li>D/T Grid tracker with gap finder</li>
+                        <li>Coordinate Picker: DD, DDM, DMS, UTM or plain text</li>
                         <li>Solution checker verification</li>
                         <li>Add to favorites/watch/ignore lists</li>
                         <li>Bookmark list management</li>
                         <li>Pocket Query import</li>
                         <li>Adventure Lab support</li>
                         <li>View earned souvenirs</li>
-						<li>Trackables</li>
-						<li>Waypoints and projetion</li>
+                        <li>Will Attend count &amp; published date</li>
+                        <li>Cache background image in Images</li>
+                        <li>Trackables</li>
+                        <li>Waypoints and projection</li>
+                        <li>Set any waypoint as corrected coordinates</li>
+                        <li>Import waypoint coordinates into notes</li>
                     </ul>
                 </div>
                 <div class="modal-section">
                     <h3>Logging &amp; Field Notes</h3>
                     <ul class="feature-list">
                         <li>All log types supported</li>
+                        <li>Multi-User Logging (Pro)</li>
+                        <li>AI log-writing assistant (Pro)</li>
                         <li>Photo attachments (multiple per log)</li>
-                        <li>Custom text templates</li>
-						<li>Custom keywords</li>
+                        <li>Custom text templates (per user)</li>
+                        <li>Custom keywords</li>
+                        <li>Filter &amp; search within cache logs</li>
+                        <li>Log from the Navigate screen</li>
+                        <li>Copy Personal Note into log</li>
+                        <li>Jump from a log photo to its log</li>
                         <li>Field note mode (save for later)</li>
                         <li>Draft saving and editing</li>
+                        <li>Pending Logs: error reporting &amp; duplicate checking</li>
                         <li>Log upvoting support</li>
                         <li>Edit and delete own logs</li>
                         <li>Found But Not Logged tracking</li>
@@ -478,10 +532,13 @@
                         <li>OpenStreetMap &amp; OpenCycleMap</li>
                         <li>Custom tile URL support</li>
                         <li>Cache clustering</li>
+                        <li>Multiple cache pin styles</li>
+                        <li>Favorite counts on pins</li>
+                        <li>Adventure Lab stages on the live map</li>
                         <li>FTF indicators</li>
                         <li>Waypoint display</li>
                         <li>Compass navigation</li>
-                        <li>Turn-by-turn via 15+ nav apps</li>
+                        <li>Turn-by-turn via 15+ nav apps (incl. Organic Maps)</li>
                         <li>Proximity alerts with audio</li>
                     </ul>
                 </div>
@@ -489,7 +546,8 @@
                     <h3>Offline Capabilities</h3>
                     <ul class="feature-list">
                         <li>Unlimited offline lists</li>
-                        <li>Full GPX import/export</li>
+                        <li>Full GPX import/export (10&times; faster import)</li>
+                        <li>Highlight colors in GPX import/export</li>
                         <li>GSAK extensions support</li>
                         <li>Full cache details offline</li>
                         <li>Cache images offline</li>
@@ -498,6 +556,7 @@
                         <li>Region-based map downloads</li>
                         <li>Offline map searching</li>
                         <li>Offline list backups</li>
+                        <li>100,000+ highlights synced via iCloud</li>
                     </ul>
                 </div>
                 <div class="modal-section">
@@ -509,12 +568,15 @@
                         <li>Filter by cache type &amp; size</li>
                         <li>Filter by difficulty/terrain</li>
                         <li>Filter by all attributes</li>
-                        <li>Date-based filters</li>
-                        <li>Save filter templates</li>
+                        <li>Date-based filters &amp; date ranges</li>
+                        <li>Hide past events / last-log DNF filters</li>
+                        <li>Adventure Type filter (parents or stages)</li>
+                        <li>Save, reorder &amp; sort filter templates</li>
                         <li>Quick exclude filters</li>
                         <li>Regex search support</li>
                         <li>Map bounds search</li>
                         <li>Radius search</li>
+                        <li>Online list visibility indicators</li>
                     </ul>
                 </div>
                 <div class="modal-section">
@@ -525,13 +587,30 @@
                         <li>POI &amp; trail layers</li>
                         <li>County/state boundaries</li>
                         <li>3D buildings layer</li>
+                        <li>Local place names option</li>
+                        <li>Offline map search with quick toggle</li>
+                        <li>OSM POI search</li>
                         <li>Live cache auto-loading</li>
                         <li>County/region tracking</li>
                         <li>DeLorme Grid (US)</li>
-						<li>Live cache loading</li>
+                        <li>Cachly Intelligence</li>
+                        <li>Multi-User Logging</li>
                         <li>Full CarPlay support</li>
                         <li>Voice-activated logging</li>
                         <li>7-day free trial</li>
+                    </ul>
+                </div>
+                <div class="modal-section">
+                    <h3>Cachly Intelligence (Pro)</h3>
+                    <ul class="feature-list">
+                        <li>One-tap log summaries</li>
+                        <li>Description summaries</li>
+                        <li>AI log-writing assistant</li>
+                        <li>Choose the language it writes in</li>
+                        <li>Editable writing prompts</li>
+                        <li>CarPlay voice summaries</li>
+                        <li>On-device Apple Intelligence</li>
+                        <li>Claude, ChatGPT, Gemini or Mistral with your key</li>
                     </ul>
                 </div>
                 <div class="modal-section">
@@ -545,6 +624,7 @@
                         <li>Speech-to-text composition</li>
                         <li>6 log types supported</li>
                         <li>Log templates support</li>
+                        <li>AI voice summaries (Pro)</li>
                         <li>Light/Dark/Auto map styles</li>
                     </ul>
                 </div>
@@ -565,23 +645,28 @@
                     <h3>Integrations</h3>
                     <ul class="feature-list">
                         <li>15+ navigation apps</li>
+                        <li>Apple Maps &amp; Siri suggestions for recent caches</li>
+                        <li>Open geocaching.com links from the clipboard</li>
                         <li>Dropbox, Google Drive, iCloud</li>
                         <li>Wherigo launch support</li>
                         <li>Translation services</li>
                         <li>cachly:// support</li>
                         <li>Share sheet integration</li>
+                        <li>Built-in Help with online documentation</li>
                     </ul>
                 </div>
                 <div class="modal-section">
                     <h3>Customization</h3>
                     <ul class="feature-list">
                         <li>Metric/Imperial units</li>
-                        <li>4 coordinate formats</li>
+                        <li>DD, DDM, DMS &amp; UTM coordinate formats</li>
+                        <li>Multiple cache pin styles</li>
                         <li>Custom log templates</li>
                         <li>Highlight colors (synced)</li>
                         <li>Custom alert sounds</li>
-                        <li>Dark mode support</li>
-                        <li>17 languages supported</li>
+                        <li>Dark mode with dark maps</li>
+                        <li>iOS 26 Liquid Glass design</li>
+                        <li>18 languages supported</li>
                     </ul>
                 </div>
                 <div class="modal-section">

@@ -2108,6 +2108,12 @@ ul {
 .feature-card:nth-child(13) { animation-delay: 0.65s; }
 .feature-card:nth-child(14) { animation-delay: 0.7s; }
 .feature-card:nth-child(15) { animation-delay: 0.75s; }
+.feature-card:nth-child(16) { animation-delay: 0.80s; }
+.feature-card:nth-child(17) { animation-delay: 0.85s; }
+.feature-card:nth-child(18) { animation-delay: 0.90s; }
+.feature-card:nth-child(19) { animation-delay: 0.95s; }
+.feature-card:nth-child(20) { animation-delay: 1.00s; }
+.feature-card:nth-child(21) { animation-delay: 1.05s; }
 
 /* Parallax scroll effect enhancement */
 @supports (transform: translateZ(0)) {
