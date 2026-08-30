@@ -84,16 +84,22 @@
         <h2 id="essentials">The Essentials</h2>
 <div class="shots">
 <figure class="shot"><img loading="lazy" src="assets/screenshots/cache-details.png" alt="The geocache detail screen: header, coordinates and distance, section rows, and the pinned Log Geocache and navigate buttons." width="248"><figcaption>The geocache detail screen: header, coordinates and distance, section rows, and the pinned Log Geocache and navigate buttons.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/cache-details-event.png" alt="An event cache: the header shows the event date and time, and the counters add Attended and Will Attend totals beside trackables and favorites." width="248"><figcaption>An event cache: the header shows the event date and time, and the counters add Attended and Will Attend totals beside trackables and favorites.</figcaption></figure>
 </div>
         <p>The top of the detail screen shows the cache&rsquo;s identity at a glance: its <strong>name</strong> and code (GC&hellip;), who placed it and when, its type icon, <strong>difficulty</strong> and <strong>terrain</strong> ratings and container <strong>size</strong>. Below that sit the cache&rsquo;s <strong>coordinates</strong> with your current <strong>distance</strong> to it, plus three quick counters: <strong>trackables</strong> in the cache, the cache&rsquo;s find/happiness score, and its <strong>favorite points</strong>. On an <strong>event</strong> cache the counters read a little differently: the middle one counts the people who have logged <strong>Attended</strong>, and a fourth counter sits right beside it with the number who have logged <strong>Will Attend</strong> &mdash; a quick read on how big the turnout is likely to be.</p>
-        <p>Those header elements are interactive:</p>
-        <ul>
-          <li>Tap the <strong>favorites count</strong> to see the users who awarded the cache a favorite point; if you&rsquo;ve already found the cache, long-press it to award a favorite point.</li>
-          <li>Tap the <strong>placed-by name</strong> to open that user&rsquo;s <a href="profile.html">profile</a>.</li>
-          <li>Tap the <strong>cache icon</strong> to see your own logs for this cache; long-press the middle finds area for <strong>My Logs</strong> and <strong>Friends Logs</strong>.</li>
-          <li>Long-press the <strong>cache code</strong> in the title bar to copy it.</li>
-          <li>Tap the <strong>coordinates</strong> to cycle through display formats; long-press them to copy.</li>
-        </ul>
+        <div class="callout tip" style="background:var(--accent-soft)">
+          <span class="callout-icon" aria-hidden="true">&#128070;</span>
+          <div class="callout-body">
+            <div class="callout-title">Those header elements are interactive</div>
+            <ul>
+              <li>Tap the <strong>favorites count</strong> to see the users who awarded the cache a favorite point; if you&rsquo;ve already found the cache, long-press it to award a favorite point.</li>
+              <li>Tap the <strong>placed-by name</strong> to open that user&rsquo;s <a href="profile.html">profile</a>.</li>
+              <li>Tap the <strong>cache icon</strong> to see your own logs for this cache; long-press the middle finds area for <strong>My Logs</strong> and <strong>Friends Logs</strong>.</li>
+              <li>Long-press the <strong>cache code</strong> in the title bar to copy it.</li>
+              <li>Tap the <strong>coordinates</strong> to cycle through display formats; long-press them to copy.</li>
+            </ul>
+          </div>
+        </div>
         <p>The rest of the screen is a list of sections &mdash; <strong>Description</strong>, <strong>Hint</strong>, <strong>Logs</strong>, <strong>Personal Note</strong>, <strong>Images</strong>, <strong>Attributes</strong>, <strong>Waypoints</strong> and <strong>Trackables</strong> (rows show a count where useful, e.g. &ldquo;Waypoints&nbsp;6&rdquo;) &mdash; followed by <strong>Corrected Coordinates</strong>, <strong>List Membership</strong> (the offline lists this cache belongs to) and <strong>Additional Information</strong>. Pinned to the bottom are the <strong>Log Geocache</strong> button and the round <strong>navigate</strong> button, so logging and navigation are always one tap away.</p>
         <p>Viewing a cache also hands its name and location to iOS as a suggestion, so recently viewed caches can surface in <strong>Spotlight search</strong>, <strong>Siri Suggestions</strong> and <strong>Apple Maps</strong> &mdash; tap one to jump straight back to the cache in Cachly.</p>
 
@@ -159,7 +165,7 @@
         <p>The options menu adds <strong>Translate with Google</strong> and print, and the <strong>sparkle</strong> button summarizes a long description with <a href="intelligence.html">Cachly Intelligence</a>. Coordinates found in the description are tappable for quick actions such as Create Waypoint, Set as Corrected Coordinates, Copy Coordinates and Navigate.</p>
 
         <h2 id="hint">Hints &amp; the Solution Checker</h2>
-        <p>The owner&rsquo;s <strong>hint</strong> is stored encrypted (ROT13) and Cachly decrypts it for you only when you open the Hint screen &mdash; so you won&rsquo;t spoil yourself by accident. If a cache has no hint, the row is grayed out on the detail screen. For mystery/puzzle caches, Cachly includes a <strong>solution checker</strong> that verifies your proposed final coordinates against the listing&rsquo;s checker, confirming you&rsquo;ve solved it before you head out.</p>
+        <p>The owner&rsquo;s <strong>hint</strong> is stored encrypted (ROT13) and Cachly decrypts it for you only when you open the Hint screen &mdash; so you won&rsquo;t spoil yourself by accident. If a cache has no hint, the row is grayed out on the detail screen. For mystery/puzzle caches, Cachly includes a <strong>solution checker</strong> that verifies your proposed final coordinates, confirming you&rsquo;ve solved it before you head out. Cachly uses <strong>Geocaching HQ&rsquo;s official checker</strong> &mdash; the same one built into the cache&rsquo;s geocaching.com listing &mdash; <em>not</em> a third-party checker such as Project-GC or Certitude. The <strong>Check Solution</strong> button appears at the bottom of the Description screen only on caches whose owner has set up the geocaching.com checker; caches that rely solely on a third-party checker don&rsquo;t show it.</p>
 
         <h2 id="logs-photos">Recent Logs &amp; Photos</h2>
         <p>Recent <strong>logs</strong> from other cachers tell you whether the cache is healthy and give hints about the hide. Each entry shows the log type icon and date, the finder&rsquo;s name with their find count, badges for logs voted <strong>Great Story</strong> or <strong>Helpful</strong>, and a photo count when images are attached. The <strong>photo gallery</strong> shows images attached to the listing and to logs; downloaded caches keep their photos available <a href="offline-maps.html">offline</a>.</p>
@@ -224,27 +230,39 @@
 
         <h2 id="buttons-menus">Buttons &amp; Menus</h2>
 <div class="shots">
-<figure class="shot"><img loading="lazy" src="assets/screenshots/cache-details-more-menu-crop.png" alt="The detail screen&#x27;s options menu with Refresh, Log a trackable, Highlight, Add Waypoint, Share, Export GPX and more." width="248"><figcaption>The detail screen's options menu with Refresh, Log a trackable, Highlight, Add Waypoint, Share, Export GPX and more.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/cache-details-plus-menu-crop.png" alt="The + menu: Add to List, Add Waypoint, Highlight, Watch and Ignore, plus Add to Calendar, Add to County Finds and Favorite when they apply." width="248"><figcaption>The + menu: Add to List, Add Waypoint, Highlight, Watch and Ignore, plus Add to Calendar, Add to County Finds and Favorite when they apply.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/cache-details-more-menu-crop.png" alt="The ⋯ menu: Refresh, Log a trackable and Export GPX; Find Caches Near This and View on geocaching.com; and Share at the end." width="248"><figcaption>The ⋯ menu: Refresh, Log a trackable and Export GPX; Find Caches Near This and View on geocaching.com; and Share at the end.</figcaption></figure>
 </div>
-        <p>Along the bottom of the detail screen, <strong>Log Geocache</strong> opens the <a href="logging.html">logging</a> flow and the round <strong>compass</strong> button starts <a href="map.html#compass">navigation</a>. The top bar has two menus:</p>
-        <ul>
-          <li><strong>+</strong> &mdash; <strong>Add to List</strong> (save the cache to an <a href="lists.html#offline">offline list</a>), <strong>Watch</strong> (add it to your geocaching.com watchlist), <strong>Ignore</strong>, and <strong>Add to County Finds</strong> <span class="pro-badge">PRO</span> (credit the cache&rsquo;s county toward your <a href="challenge-tools.html#counties">county-finds</a> totals). Items you&rsquo;ve already applied switch to their Remove counterparts.</li>
-          <li><strong>&#8943;</strong> &mdash; the actions below.</li>
-        </ul>
+        <p>A floating bar along the bottom of the detail screen holds the two buttons you use most. <strong>Log Geocache</strong> opens the <a href="logging.html">logging</a> flow; once you&rsquo;ve logged the cache the button switches to a checkmark with <strong>Found</strong> (or <strong>Attended</strong> for events) and the date. If you have unsent <a href="logs.html#pending">pending logs</a> for this cache, a small options button appears at the right end of Log Geocache &mdash; tap it for a <strong>View Pending Logs</strong> menu listing each one (tagged with the account name when you <a href="multi-user-logging.html">log for several users</a>). The round <strong>compass</strong> button starts <a href="map.html#compass">navigation</a>; on a Wherigo cache it opens a menu instead, with <strong>Download Cartridge</strong> (opens in the official Wherigo app) and <strong>Navigate to Cache</strong>.</p>
+        <p>The top bar has two menus. The <strong>+</strong> menu is for things you add or apply to the cache; items you&rsquo;ve already applied switch to their <strong>Remove</strong> counterparts:</p>
+        <table>
+          <thead><tr><th>+ menu</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td>Add to Calendar</td><td>Events only &mdash; creates a calendar entry for the event (see below).</td></tr>
+            <tr><td>Add to List</td><td>Save the cache to an <a href="lists.html#offline">offline list</a>.</td></tr>
+            <tr><td>Add Waypoint</td><td>Create a user <a href="waypoints.html">waypoint</a> (incl. projection). Premium members see it on every cache; Basic members on offline caches.</td></tr>
+            <tr><td>Highlight</td><td>Set the cache&rsquo;s <a href="search.html#highlights">color highlight</a>. On a highlighted cache this becomes <strong>Edit Highlight</strong> and <strong>Remove Highlight</strong>.</td></tr>
+            <tr><td>Add to County Finds <span class="pro-badge">PRO</span></td><td>Credit a found cache&rsquo;s county toward your <a href="challenge-tools.html#counties">county-finds</a> totals (countries with county data only).</td></tr>
+            <tr><td>Favorite</td><td>Award the cache a favorite point (Premium members, found caches, not events). <strong>Remove Favorite</strong> takes it back.</td></tr>
+            <tr><td>Watch</td><td>Add the cache to your geocaching.com watchlist (not shown on caches you own).</td></tr>
+            <tr><td>Ignore</td><td>Add the cache to your geocaching.com ignore list (not shown on caches you own).</td></tr>
+          </tbody>
+        </table>
+        <p>The <strong>&#8943;</strong> menu holds everything else, in three groups:</p>
         <table>
           <thead><tr><th>&#8943; menu</th><th>What it does</th></tr></thead>
           <tbody>
             <tr><td>Refresh</td><td>Re-download the cache&rsquo;s data.</td></tr>
             <tr><td>Log a trackable</td><td>Log a Travel Bug / geocoin against this cache.</td></tr>
-            <tr><td>Highlight</td><td>Set (or edit/remove) the cache&rsquo;s <a href="search.html#highlights">color highlight</a>.</td></tr>
-            <tr><td>Add Waypoint</td><td>Create a user <a href="waypoints.html">waypoint</a> (incl. projection).</td></tr>
-            <tr><td>Share</td><td>Share the cache via the iOS share sheet.</td></tr>
             <tr><td>Export GPX</td><td>Export the cache to a <a href="import-export.html">GPX</a> file.</td></tr>
             <tr><td>Find Caches Near This</td><td>Search for caches around this one.</td></tr>
             <tr><td>View on geocaching.com</td><td>Open the listing in the browser.</td></tr>
+            <tr><td>Load Full Cache</td><td>Basic members only &mdash; fetch the full listing instead of the lite data Basic members get by default.</td></tr>
+            <tr><td>Edit</td><td>Offline caches only &mdash; edit the cache&rsquo;s details.</td></tr>
+            <tr><td>Delete</td><td>Offline caches and caches in online lists. On a cache saved in several offline lists, Delete opens a submenu with <strong>Remove From List</strong> (this list only) and <strong>Delete From All</strong>.</td></tr>
+            <tr><td>Share</td><td>Share the cache via the iOS share sheet.</td></tr>
           </tbody>
         </table>
-        <p>Extra items appear when they apply: <strong>Edit</strong> / <strong>Delete</strong> for offline caches (on caches saved in several lists, Delete lets you remove it from this list or from all), <strong>Load Full Cache</strong> for Basic members (who get lite data by default), <strong>Add to Calendar</strong> for events, and <strong>Download Cartridge</strong> for Wherigo caches (opens in the official Wherigo app).</p>
         <p><strong>Add to Calendar</strong> (events only) opens a New Event sheet pre-filled from the listing &mdash; the event title, location (its coordinates), all-day start/end dates, the event-page URL and the description as notes. Edit anything you like and tap <strong>Add</strong>; Cachly asks for Calendar permission the first time.</p>
 
         <h2 id="create-offline-geocache">Creating an Offline Geocache</h2>
