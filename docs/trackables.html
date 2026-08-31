@@ -131,7 +131,31 @@
         </ul>
 
         <h2 id="auto-visit">Auto-Visit</h2>
-        <p>With <strong>auto-visit</strong> (enabled in <a href="settings.html">Settings &rsaquo; Trackables</a>), the trackables you choose from your inventory are automatically marked as visiting the caches you log &mdash; so a Travel Bug riding along racks up mileage without per-cache logging. It applies to <strong>Found It</strong>, <strong>Attended</strong> and <strong>Webcam Photo Taken</strong> logs.</p>
+        <p>With <strong>auto-visit</strong>, the trackables you choose from your inventory are automatically marked as visiting every cache you log &mdash; so a Travel Bug riding along racks up mileage without you logging it at each cache. It applies to <strong>Found It</strong>, <strong>Attended</strong> and <strong>Webcam Photo Taken</strong> logs only; other log types never generate visits.</p>
+
+        <h3 id="auto-visit-setup">Setting it up</h3>
+        <ol>
+          <li>Go to <span class="ui-path">More &rsaquo; Settings &rsaquo; Trackables</span> and turn on <strong>Enable Auto-Visit</strong>.</li>
+          <li>Tap <strong>Auto-Visit Trackables</strong> to open the Auto-Visit list. It starts empty (&ldquo;No trackables added for auto-visiting&rdquo;).</li>
+          <li>Tap <strong>+</strong> to open your inventory. Tap a trackable to add a checkmark, tap again to remove it; the toggle button at the top-left selects or deselects your whole inventory at once. Tap <strong>Done</strong> when finished.</li>
+        </ol>
+        <p>The <strong>Auto-Visit Trackables</strong> row in Settings shows how many trackables are currently on the list. Only trackables you are holding can be added &mdash; the picker is your <a href="#inventory-owned">Inventory</a>, not the trackables you own.</p>
+
+        <h3 id="auto-visit-managing">Managing the list</h3>
+        <p>The <strong>&#8943;</strong> button on the Auto-Visit screen offers <strong>Select</strong> &mdash; tick several trackables, then tap <strong>Remove</strong> &mdash; and <strong>Remove All</strong>, which clears the list after a confirmation. Cachly also keeps the list tidy on its own:</p>
+        <ul>
+          <li><strong>Dropping</strong> a trackable into a cache removes it from the list, since it is no longer travelling with you.</li>
+          <li>If geocaching.com <strong>rejects</strong> a visit because the trackable is no longer in your inventory (for example someone else grabbed it), it is removed. Temporary failures &mdash; being offline, an expired sign-in, a rate limit &mdash; leave the list alone.</li>
+          <li>Each time you open the Auto-Visit screen while online, Cachly checks the list against your current inventory and drops anything you are no longer holding.</li>
+        </ul>
+
+        <h3 id="auto-visit-logging">What happens when you log</h3>
+        <p>Choose <strong>Found It</strong>, <strong>Attended</strong> or <strong>Webcam Photo Taken</strong> on the <a href="logging.html#log-screen">Log Geocache</a> screen and every auto-visit trackable is added to that log&rsquo;s <strong>Trackables</strong> row as a <em>Visited</em> log. Switch to any other log type and they are taken off again. They behave like trackables you added by hand: swipe one away to skip it for this cache, or give it its own message and photo. Trackables already attached to the log are not duplicated.</p>
+
+        <div class="callout pro">
+          <span class="callout-icon" aria-hidden="true">&#11088;</span>
+          <div class="callout-body"><strong>Multiple accounts.</strong> With <a href="multi-user-logging.html">Multi-User Logging</a>, each account keeps its own auto-visit list &mdash; edit it from that user&rsquo;s <strong>&hellip;</strong> menu under <span class="ui-path">Settings &rsaquo; Users</span>. When you log, every enabled account gets its own trackables attached.</div>
+        </div>
 
         <div class="callout warning">
           <span class="callout-icon" aria-hidden="true">&#9888;</span>
