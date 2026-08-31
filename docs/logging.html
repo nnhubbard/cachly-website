@@ -12,10 +12,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Logging a Find — Cachly Documentation</title>
-  <meta name="description" content="How to log a geocache in Cachly: log types, multi-user logging, drafts and field notes, templates, favorite points, photos and corrected coordinates.">
+  <meta name="description" content="How to log a geocache in Cachly: log types, multi-user logging, drafts and pending logs, text templates and keywords, favorite points, photos and trackables.">
   <link rel="canonical" href="https://www.cachly.com/docs/logging.html">
   <meta property="og:title" content="Logging a Find — Cachly Documentation">
-  <meta property="og:description" content="How to log a geocache in Cachly: log types, multi-user logging, drafts and field notes, templates, favorite points, photos and corrected coordinates.">
+  <meta property="og:description" content="How to log a geocache in Cachly: log types, multi-user logging, drafts and pending logs, text templates and keywords, favorite points, photos and trackables.">
   <meta property="og:url" content="https://www.cachly.com/docs/logging.html">
   <meta property="og:site_name" content="Cachly User Guide">
   <meta property="og:type" content="article">
@@ -28,7 +28,7 @@
   {
    "@type": "TechArticle",
    "headline": "Logging a Find",
-   "description": "How to log a geocache in Cachly: log types, multi-user logging, drafts and field notes, templates, favorite points, photos and corrected coordinates.",
+   "description": "How to log a geocache in Cachly: log types, multi-user logging, drafts and pending logs, text templates and keywords, favorite points, photos and trackables.",
    "url": "https://www.cachly.com/docs/logging.html",
    "inLanguage": "en",
    "isPartOf": {
@@ -97,15 +97,23 @@
 <div class="shots">
 <figure class="shot"><img loading="lazy" src="assets/screenshots/log-type-picker-crop.png" alt="The Log Type picker: Found it, Didn&#x27;t find it, Write note, Reviewer Attention Requested and Owner Attention Requested." width="248"><figcaption>The Log Type picker: Found it, Didn't find it, Write note, Reviewer Attention Requested and Owner Attention Requested.</figcaption></figure>
 </div>
-        <p>Tap <strong>Log Type</strong> and pick one:</p>
+        <p>Tap <strong>Log Type</strong> to pick one. The list depends on the kind of cache and on whether you <strong>own</strong> it &mdash; Cachly only offers the types geocaching.com will accept, so you never see a Found It on your own cache or a DNF on an event. For a cache someone else owns:</p>
         <ul>
-          <li><strong>Found it</strong> &mdash; you found the cache.</li>
+          <li><strong>Found it</strong> &mdash; you found the cache. On a <strong>webcam</strong> cache this reads <strong>Webcam Photo Taken</strong> instead.</li>
           <li><strong>Didn&rsquo;t find it</strong> (DNF) &mdash; you looked but came up empty.</li>
           <li><strong>Write note</strong> &mdash; a comment without claiming a find.</li>
-          <li><strong>Owner Attention Requested</strong> &mdash; the cache needs maintenance from its owner.</li>
           <li><strong>Reviewer Attention Requested</strong> &mdash; flag a serious problem to a community reviewer.</li>
+          <li><strong>Owner Attention Requested</strong> &mdash; the cache needs maintenance from its owner.</li>
         </ul>
-        <p>Cachly picks a sensible default type for you: on a <strong>webcam</strong> cache a Found It becomes <strong>Webcam Photo Taken</strong>; on a <strong>future event</strong> it defaults to <strong>Will Attend</strong> and on a past one to <strong>Attended</strong>. On a cache you <strong>own</strong>, the picker adds owner actions: <strong>Owner Maintenance</strong>, <strong>Enable</strong>/<strong>Disable Listing</strong>, <strong>Archive</strong> and <strong>Update Coordinates</strong>.</p>
+        <p>On an <strong>event</strong> (including CITO, Mega, Giga and Community Celebration events) the find types are replaced by <strong>Attended</strong> and <strong>Will Attend</strong>, and Owner Attention Requested is dropped; Cachly defaults to <strong>Will Attend</strong> for a future event and <strong>Attended</strong> for a past one.</p>
+        <p>On a cache <strong>you own</strong>, Found it and Didn&rsquo;t find it disappear (you can&rsquo;t find your own cache) and the owner log types appear instead &mdash; all of them work offline, so you can queue owner logs as <a href="#send-now">pending logs</a> too:</p>
+        <ul>
+          <li><strong>Owner Maintenance</strong> &mdash; you&rsquo;ve visited and fixed the cache (clears a needs-maintenance flag). On an event you own this is <strong>Event Announcement</strong> instead.</li>
+          <li><strong>Disable</strong> &mdash; temporarily disable the listing. If the cache is already disabled you get <strong>Enable</strong> and <strong>Post Reviewer Note</strong> instead.</li>
+          <li><strong>Archive</strong> &mdash; permanently retire the listing.</li>
+          <li><strong>Update Coordinates</strong> &mdash; move the cache; Cachly also moves it locally once the log is sent.</li>
+        </ul>
+        <p>Write note and Reviewer Attention Requested (plus Owner Attention Requested on non-events) stay available to owners as well.</p>
 
         <h2 id="send-now">Send Now, or Save for Later</h2>
         <p>At the top of the log screen is the <strong>Send Log Now</strong> switch:</p>
@@ -130,27 +138,70 @@
           <li><strong>Attach photos</strong> &mdash; the image button offers <strong>Take Photo</strong>, <strong>Choose From Library</strong> and <strong>Personal Note Photos</strong>; images upload with your log.</li>
           <li><strong>Insert a template</strong> &mdash; drop in one of your saved <a href="#templates">text templates</a>, or jump to <strong>Edit Text Templates</strong>. A <strong>Clear Message Text</strong> option starts you over.</li>
           <li><strong>Insert your personal note</strong> &mdash; if the cache has a <a href="geocache-details.html#personal-notes">personal note</a>, the same &#8943; menu offers <strong>Insert Personal Note</strong>, which drops the note&rsquo;s text in at the cursor so you can edit it into your log &mdash; handy when the note already tells the story of the hunt.</li>
-          <li><strong>Insert keywords</strong> &mdash; pick placeholder keywords from the keywords picker instead of typing them by hand; Cachly replaces them with real values when the log is posted.</li>
+          <li><strong>Insert keywords</strong> &mdash; pick a placeholder from the <strong>Keywords</strong> picker instead of typing it by hand; Cachly replaces it with the real value when the log is posted (see <a href="#keywords">the full list</a> below).</li>
           <li><strong>Draft with AI</strong> &mdash; the <strong>sparkle</strong> button opens <a href="intelligence.html">Cachly Intelligence</a>, which can write a log for you using Apple Intelligence, Claude, ChatGPT, Gemini or Mistral &mdash; you then edit and post it.</li>
         </ul>
 
+        <h3 id="keywords">Log keywords</h3>
+        <p>Keywords are placeholders written as <code>*|name|*</code>. Type them or insert them from the <strong>Keywords</strong> picker in the message editor, and put them in your <a href="#templates">text templates</a> so every log fills in the details automatically. They&rsquo;re replaced when the log is sent, so a pending log picks up the values current at that moment. Dates and times follow your device&rsquo;s language and region settings and use the log&rsquo;s date, not today&rsquo;s.</p>
+        <div style="overflow-x:auto">
+        <table>
+          <thead><tr><th>Keyword</th><th>Example</th><th>Becomes</th></tr></thead>
+          <tbody>
+            <tr><th colspan="3">You</th></tr>
+            <tr><td><code>*|username|*</code></td><td>MrCachly</td><td>Your geocaching.com username.</td></tr>
+            <tr><td><code>*|find_count|*</code></td><td>1234</td><td>Your find count <em>including this log</em> when it&rsquo;s a Found it, Attended or Webcam Photo Taken, plus any Found it <a href="#drafts">Drafts</a> waiting on geocaching.com &mdash; so &ldquo;Find #1234!&rdquo; comes out right.</td></tr>
+            <tr><td><code>*|find_count_no_drafts|*</code></td><td>1230</td><td>The same count, but ignoring unfinished Drafts.</td></tr>
+            <tr><td><code>*|hide_count|*</code></td><td>12</td><td>The number of caches you own.</td></tr>
+            <tr><th colspan="3">The cache</th></tr>
+            <tr><td><code>*|cache_name|*</code></td><td>POPOS FIDI</td><td>The cache&rsquo;s name.</td></tr>
+            <tr><td><code>*|cache_code|*</code></td><td>GC9P6V5</td><td>The GC code.</td></tr>
+            <tr><td><code>*|owner_name|*</code></td><td>t4dpac</td><td>The cache owner&rsquo;s username.</td></tr>
+            <tr><td><code>*|cache_type|*</code></td><td>Traditional Cache</td><td>The <a href="geocache-details.html#cache-types">cache type</a>.</td></tr>
+            <tr><td><code>*|cache_size|*</code></td><td>Micro</td><td>The container size.</td></tr>
+            <tr><td><code>*|cache_difficulty|*</code></td><td>2.5</td><td>The difficulty rating.</td></tr>
+            <tr><td><code>*|cache_terrain|*</code></td><td>1.5</td><td>The terrain rating.</td></tr>
+            <tr><td><code>*|cache_state|*</code></td><td>California</td><td>The state, province or region.</td></tr>
+            <tr><td><code>*|cache_country|*</code></td><td>United States</td><td>The country.</td></tr>
+            <tr><td><code>*|personal_note|*</code></td><td>Parked at the trailhead lot</td><td>The text of your <a href="geocache-details.html#personal-notes">personal note</a> for the cache.</td></tr>
+            <tr><th colspan="3">The trackable <span class="pill">trackable logs only</span></th></tr>
+            <tr><td><code>*|trackable_name|*</code></td><td>Wandering Wombat</td><td>The trackable&rsquo;s name.</td></tr>
+            <tr><td><code>*|trackable_type_name|*</code></td><td>Travel Bug Dog Tag</td><td>Its type.</td></tr>
+            <tr><td><code>*|trackable_owner_name|*</code></td><td>GeoJane</td><td>Its current holder.</td></tr>
+            <tr><td><code>*|trackable_original_name|*</code></td><td>BugMaker</td><td>Its original owner.</td></tr>
+            <tr><td><code>*|trackable_country|*</code></td><td>Australia</td><td>The country it started in.</td></tr>
+            <tr><td><code>*|trackable_travel_mi|*</code></td><td>2,481</td><td>Distance traveled in miles.</td></tr>
+            <tr><td><code>*|trackable_travel_km|*</code></td><td>3,993</td><td>Distance traveled in kilometers.</td></tr>
+            <tr><th colspan="3">Date &amp; time of the log</th></tr>
+            <tr><td><code>*|date_short|*</code></td><td>8/30/26</td><td>Short date.</td></tr>
+            <tr><td><code>*|date_medium|*</code></td><td>Aug 30, 2026</td><td>Medium date.</td></tr>
+            <tr><td><code>*|date_long|*</code></td><td>August 30, 2026</td><td>Long date.</td></tr>
+            <tr><td><code>*|week_day|*</code></td><td>Sunday</td><td>The day of the week.</td></tr>
+            <tr><td><code>*|time_short|*</code></td><td>3:33 PM</td><td>Short time.</td></tr>
+            <tr><td><code>*|time_medium|*</code></td><td>3:33:07 PM</td><td>Time with seconds.</td></tr>
+            <tr><td><code>*|time_long|*</code></td><td>3:33:07 PM PDT</td><td>Time with seconds and time zone.</td></tr>
+            <tr><td><code>*|time_24h|*</code></td><td>15:33</td><td>24-hour time.</td></tr>
+          </tbody>
+        </table>
+        </div>
+        <p>The picker only lists keywords that make sense where you are &mdash; trackable keywords appear when logging a trackable, cache keywords when logging a cache. A keyword that has no value (a cache with no personal note, say) is simply removed from the text. Separately from keywords, any <strong>@username</strong> you type becomes a link to that cacher&rsquo;s geocaching.com profile when the log is posted.</p>
+
         <h2 id="templates">Log Templates</h2>
         <p>If you write similar logs often, save <strong>text templates</strong> and drop them into a log with one tap. Templates can include keyword placeholders that Cachly fills in (such as the find count or date), so each log still feels personal. Manage them in <span class="ui-path">Settings &rsaquo; Templates</span> or via <strong>Edit Text Templates</strong> in the message editor.</p>
-        <p>Each template can be given a <strong>log type</strong>: when you create a log matching that type, the template&rsquo;s text is <strong>inserted automatically</strong> &mdash; a Found It template for finds, a DNF template for the days that don&rsquo;t go so well. You can also tap a template to make it the <strong>default</strong> &mdash; used for any log whose type has no template of its own; the default shows a green checkmark. Swipe left on a template to <strong>Edit</strong> or <strong>Delete</strong> it. Turn the whole feature on with <strong>Enable Text Templates</strong> in <span class="ui-path">Settings &rsaquo; Templates</span>. In multi-user logging, each account&rsquo;s own templates are applied to its message.</p>
+        <p>Each template can be given a <strong>log type</strong>: when you create a log matching that type, the template&rsquo;s text is <strong>inserted automatically</strong> &mdash; a Found It template for finds, a DNF template for the days that don&rsquo;t go so well. You can also tap a template to make it the <strong>default</strong> &mdash; used for any log whose type has no template of its own; the default shows a green checkmark. Tap the <strong>&#8943;</strong> button at the right of a template row for its menu: <strong>Edit</strong> the text and log type, <strong>Set as Default</strong> (or <strong>Remove as Default</strong> on the current default), <strong>Reorder</strong> the list, and <strong>Delete</strong>. Turn the whole feature on with <strong>Enable Text Templates</strong> in <span class="ui-path">Settings &rsaquo; Templates</span>. In multi-user logging, each account&rsquo;s own templates are applied to its message.</p>
 
         <h2 id="drafts">Drafts vs. Pending Logs</h2>
         <p>Cachly has two ways to hold a log you&rsquo;re not posting as a finished log &mdash; they sound similar but work differently:</p>
         <ul>
           <li><strong>Drafts</strong> (field notes) &mdash; turn on <strong>Save as Draft</strong> and the log is saved to <strong>Geocaching.com as a Draft</strong>. Drafts sync to the website and across your devices, and you can finish them later in Cachly or on the site. The first time you use it, Cachly explains what a Draft is.</li>
-          <li><strong>Pending logs</strong> &mdash; turning <a href="#send-now">Send Log Now</a> off (or saving when offline) keeps a finished log <strong>on your device</strong>, ready to upload. Pending logs upload when you reconnect, and can be edited, bulk-submitted or exported from <span class="ui-path">More &rsaquo; Pending Geocache Logs</span>. See <a href="logs.html#pending">Pending logs</a>.</li>
+          <li><strong>Pending logs</strong> &mdash; turning <a href="#send-now">Send Log Now</a> off (or saving when offline) keeps a finished log <strong>on your device</strong>. Pending logs are <strong>never sent automatically</strong> &mdash; not even when you reconnect; they wait until you choose to send them, individually or in bulk. They can be edited, submitted or exported from <span class="ui-path">More &rsaquo; Pending Geocache Logs</span>. See <a href="logs.html#pending">Pending logs</a>.</li>
         </ul>
 
-        <h2 id="extras">Photos, Favorites &amp; Corrected Coordinates</h2>
+        <h2 id="extras">Photos, Favorites &amp; Trackables</h2>
         <ul>
           <li><strong>Photos</strong> &mdash; attach images to your log from the <a href="#message-editor">message editor</a>.</li>
           <li><strong>Favorite point</strong> &mdash; if you&rsquo;ve found it and have points available, turn on <strong>Favorite Cache</strong> to award one to a great cache. (On certain cache types, such as events, the option is hidden because it doesn&rsquo;t apply.)</li>
           <li><strong>Trackables</strong> &mdash; the Trackables row logs drops and visits for the trackables you&rsquo;re carrying; give each its own message and photo, use the &#8943; button to <strong>Drop All</strong> or <strong>Visit All</strong>, and swipe left to <strong>Remove</strong> one. <a href="trackables.html#auto-visit">Auto-visit</a> can handle visits automatically.</li>
-          <li><strong>Corrected coordinates</strong> &mdash; update the cache&rsquo;s coordinates (for solved puzzles or owner adjustments) as part of the flow. See <a href="waypoints.html">Waypoints &amp; Coordinates</a>.</li>
         </ul>
 
         <div class="callout tip">
