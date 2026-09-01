@@ -117,6 +117,24 @@
 
         <p>In <a href="carplay.html">CarPlay</a>, Cachly Intelligence goes hands-free: it can summarize a cache&rsquo;s logs and description <strong>by voice</strong>, reading the summary aloud so you get the gist while driving.</p>
 
+        <h2 id="how-much-it-reads">How Much the AI Reads</h2>
+        <p>Summaries work from a deliberate slice of the cache, not everything ever written about it:</p>
+        <ul>
+          <li><strong>Log summaries</strong> read the logs already loaded on the cache&rsquo;s Logs screen, <strong>newest first, up to 20 logs</strong>. Empty and low-effort logs (a bare &ldquo;TFTC&rdquo;) are skipped so they don&rsquo;t use up the AI&rsquo;s reading budget, and each log goes in with its date, log type, and the author&rsquo;s name and find count &mdash; that&rsquo;s how the summary can weigh a 10,000-find veteran&rsquo;s DNF differently from a newcomer&rsquo;s.</li>
+          <li><strong>Description summaries</strong> read the listing text with the formatting stripped, up to the first 5,000 characters.</li>
+        </ul>
+        <p>How much of each log fits depends on where the AI runs. On-device <strong>Apple Intelligence</strong> has a small context window (roughly 4,000 tokens, shared between what it reads and what it writes), so Cachly keeps each log to its first 600 characters and about 8,000 characters of log text in total. <strong>Cloud providers</strong> (Claude, ChatGPT, Gemini, Mistral) have far larger context windows and get a much bigger budget:</p>
+        <table>
+          <thead><tr><th></th><th>Apple Intelligence (on-device)</th><th>Cloud providers</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Logs considered</strong></td><td>Up to 20, newest first</td><td>Up to 20, newest first</td></tr>
+            <tr><td><strong>Each log</strong></td><td>First 600 characters</td><td>First 2,000 characters</td></tr>
+            <tr><td><strong>Total log text</strong></td><td>&asymp;8,000 characters</td><td>&asymp;60,000 characters</td></tr>
+            <tr><td><strong>Description</strong></td><td>First 5,000 characters</td><td>First 5,000 characters</td></tr>
+          </tbody>
+        </table>
+        <p>If the budget fills before 20 logs are in, Cachly stops there &mdash; newer logs always win. The same limits apply to voice summaries in <a href="carplay.html">CarPlay</a>. Replies themselves are kept short by design: summaries aim for about three sentences.</p>
+
         <h2 id="models">Choosing a Model</h2>
         <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/intelligence-ai-provider-crop.png" alt="The AI Provider picker with Mistral selected, showing its API Key and Model rows below the provider list." width="248"><figcaption>The AI Provider picker &mdash; on-device Apple Intelligence, or Claude, ChatGPT, Gemini and Mistral with your own API key. The selected cloud provider gets its own API Key and Model rows.</figcaption></figure>
         <p>Cachly supports multiple AI providers, selectable under <span class="ui-path">Settings &rsaquo; Cachly Pro &rsaquo; AI Provider</span>:</p>
