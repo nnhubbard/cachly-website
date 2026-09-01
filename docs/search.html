@@ -86,7 +86,7 @@
 <figure class="shot"><img loading="lazy" src="assets/screenshots/filters-main.png" alt="Live Search Filtering &amp;mdash; the Disable Filtering master toggle, name search, exclusion checkboxes and cache types." width="248"><figcaption>Live Search Filtering &mdash; the Disable Filtering master toggle, name search, exclusion checkboxes and cache types.</figcaption></figure>
 <figure class="shot"><img loading="lazy" src="assets/screenshots/filters-3.png" alt="The bottom of the live filter screen &amp;mdash; API Sorting, Other toggles, and the Templates section with Current Template and Save New Template." width="248"><figcaption>The bottom of the live filter screen &mdash; API Sorting, Other toggles, and the Templates section with Current Template and Save New Template.</figcaption></figure>
 </div>
-        <p>The search field on the Live tab accepts a <strong>location</strong>, <strong>GC codes</strong> or <strong>coordinates</strong>, and the clock icon beside it re-runs a recent search (see <a href="#history">search history</a>). Results can be shown on the <a href="map.html#view-types">map</a> or as a list, sorted (see <a href="#sorting">below</a>), and saved to a <a href="lists.html">list</a> or <a href="lists.html#offline">offline list</a>.</p>
+        <p>The search field on the Live tab accepts a <strong>location</strong>, <strong>GC codes</strong> or <strong>coordinates</strong>, and the clock icon beside it opens your <a href="#history">search history</a>. Results can be shown on the <a href="map.html#view-types">map</a> or as a list, sorted (see <a href="#sorting">below</a>), and saved to a <a href="lists.html">list</a> or <a href="lists.html#offline">offline list</a>.</p>
         <p>Tapping the <strong>filter</strong> button on the Live tab opens <strong>Live Search Filtering</strong>, which refines what the geocaching.com API returns. Live filtering is <strong>off by default</strong> &mdash; until you turn it on, the API returns unfiltered results. At the top, a <strong>Disable Filtering</strong> master toggle switches the whole system on or off without changing your individual options &mdash; handy for a quick unfiltered look. The options:</p>
         <ul>
           <li><strong>Search by Cache Name</strong> &mdash; find caches by name within a 100-mile (160&nbsp;km) radius of the map center.</li>
@@ -96,15 +96,16 @@
           <li><strong>Difficulty</strong> and <strong>Terrain</strong> &mdash; range sliders from 1.0 to 5.0.</li>
           <li><strong>Search Radius</strong> &mdash; how far from the search point to look.</li>
           <li><strong>Favorites Minimum</strong> &mdash; only caches with at least this many favorite points.</li>
-          <li><strong>Cache Placed Date</strong> and <strong>Cache Published Date</strong> &mdash; start and end date ranges. The Cache Published range is limited to a 30-day span.</li>
+          <li><strong>Cache Placed Date</strong> and <strong>Cache Published Date</strong> &mdash; start and end date ranges.</li>
           <li><strong>Sorting</strong> &mdash; how the API returns results (Cache Name, Difficulty, Distance, Favorites, Found Date, Placed Date, Size or Terrain, ascending or descending; the default is distance ascending). This is separate from <a href="#sorting">list sorting</a>.</li>
-          <li><strong>Other</strong> &mdash; Enabled Only, Exclude Enabled, Premium Only, Exclude Premium, Has Cache Note, Exclude Cache Note, <strong>Use Map Bounds in Search</strong> (limit results to the visible screen area) and Ignore Map Location.</li>
+          <li><strong>Other</strong> &mdash; Enabled Only, Exclude Enabled, Premium Only, Exclude Premium, Has Cache Note, Exclude Cache Note, <strong>Use Map Bounds in Search</strong> (limit results to the visible screen area) and <strong>Ignore Map Location</strong> (see the note below).</li>
           <li><strong>Limit to State, Province or Country</strong> &mdash; restrict results geographically with the States/Provinces and Country pickers.</li>
         </ul>
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#128205;</span>
+          <div class="callout-body"><strong>Ignore Map Location</strong> finds caches that aren&rsquo;t in the visible map area at all. Normally a live search is anchored to the map, so a filter such as <em>hidden by</em> a particular user only returns that user&rsquo;s hides near you &mdash; but their caches might be scattered all over the world. Turn on Ignore Map Location and pick a <strong>Sorting</strong> that isn&rsquo;t distance-based (Cache Name, for example) and the search returns matching caches regardless of where you are. Distance sorting can&rsquo;t be combined with this option; Cachly asks you to choose a different sort type.</div>
+        </div>
         <p>A <strong>Templates</strong> section at the bottom shows the <strong>Current Template</strong> and offers <strong>Save New Template</strong> &mdash; a search template saves the entire filter configuration above so you can reapply it in one tap (see <a href="#templates">templates</a>). The <span class="ui-path">Reset</span> button returns everything to defaults.</p>
-
-        <h2 id="filtering">Filtering</h2>
-        <p>Where search <em>fetches</em> caches, <strong>filtering</strong> narrows what you&rsquo;re already looking at &mdash; live map results, a list, or an <a href="lists.html#offline">offline list</a>. Filters apply in real time, and the filter icon shows solid when constraints are active. Live search filtering (above) and <a href="#offline-filters">offline list filters</a> are two separate systems with their own options and templates.</p>
 
         <h2 id="filter-types">How Offline Filters Match</h2>
         <p>Offline filtering is far more extensive than live search. Each filter belongs to a kind that sets how you configure it and how a cache is matched:</p>
@@ -206,7 +207,8 @@
 
         <h2 id="templates">Filter &amp; Search Templates</h2>
 <div class="shots">
-<figure class="shot"><img loading="lazy" src="assets/screenshots/search-template-list.png" alt="Search templates save a whole live-filter configuration for reuse." width="248"><figcaption>Search templates save a whole live-filter configuration for reuse.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/search-template-list-crop.png" alt="Live search Templates &amp;mdash; tap a saved template to apply it (the checkmark shows the current one), or Remove Current Template; Edit reorders and sorts." width="248"><figcaption>Live search Templates &mdash; tap a saved template to apply it (the checkmark shows the current one), or Remove Current Template; Edit reorders and sorts.</figcaption></figure>
+<figure class="shot"><img loading="lazy" src="assets/screenshots/offline-filter-templates-crop.png" alt="An offline list&amp;rsquo;s Filter Templates, each showing how many filters it holds; Clear removes the applied template." width="248"><figcaption>An offline list&rsquo;s Filter Templates, each showing how many filters it holds; Clear removes the applied template.</figcaption></figure>
 </div>
         <p>Both filtering systems let you save your configuration as a reusable <strong>template</strong> and apply or clear it in one tap &mdash; no reconfiguring each time. In each case the Templates section shows the <strong>Current Template</strong> (tap to load a saved one) and <strong>Save New Template</strong> (name and save the current setup). The two kinds are separate, and they behave differently when it comes to syncing:</p>
         <ul>
@@ -224,6 +226,7 @@
         <h2 id="cache-actions">Cache Actions (Long-Press)</h2>
         <p>Long-press a cache in any list or search result &mdash; or its <a href="map.html#cache-callout">callout on the map</a> &mdash; for a quick-action menu (with a preview of the cache):</p>
         <ul>
+          <li><strong>Log Geocache</strong> &mdash; open the <a href="logging.html">log compose screen</a> for this cache. Shown in its own section at the top for caches you haven&rsquo;t found yet (Adventure Lab stages use their own Found action instead).</li>
           <li><strong>Edit Highlight</strong> / <strong>Remove Highlight</strong> &mdash; set or clear its color.</li>
           <li><strong>Add to List</strong> &mdash; add it to an offline or online list.</li>
           <li><strong>Watch</strong> / <strong>Ignore</strong> &mdash; add to your geocaching.com watch or ignore list.</li>
@@ -233,7 +236,6 @@
         </ul>
 
         <h2 id="history">Search History</h2>
-        <figure class="shot" style="float:right;margin:0 0 12px 18px"><img loading="lazy" src="assets/screenshots/search-history.png" alt="The search history list with recent coordinate and GC-code searches" width="248"><figcaption>Recent searches &mdash; tap any entry to run it again.</figcaption></figure>
         <p>Cachly remembers recent searches so you can re-run one without rebuilding it &mdash; tap the clock icon next to the Live tab&rsquo;s search field to pick from your history, or clear it from the same screen.</p>
 
         <nav class="page-nav" id="page-nav"></nav>
