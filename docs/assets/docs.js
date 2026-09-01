@@ -31,7 +31,7 @@
     {
       title: "Organize & Search",
       items: [
-        { id: "lists", label: "Lists & Offline Sets", href: "lists.html" },
+        { id: "lists", label: "Lists & Offline Lists", href: "lists.html" },
         { id: "search", label: "Search & Filters", href: "search.html" },
         { id: "dt-grid", label: "D/T Grid", href: "dt-grid.html" },
         { id: "profile", label: "Profile & Social", href: "profile.html" },

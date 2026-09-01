@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "dc3f32c6c8",
+ "hash": "207c7855ad",
  "articles": [
   {
    "id": "getting-started",
@@ -88,10 +88,10 @@
   },
   {
    "id": "lists",
-   "title": "Lists & Offline Sets",
+   "title": "Lists & Offline Lists",
    "section": "Organize & Search",
    "url": "lists.html",
-   "lead": "Lists keep caches organized; offline sets take it further by downloading caches (and their photos) to your device so you can cache with no signal."
+   "lead": "Lists keep caches organized; offline lists take it further by downloading caches (and their photos) to your device so you can cache with no signal."
   },
   {
    "id": "search",
