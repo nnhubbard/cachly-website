@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "0e8991b72d",
+ "hash": "38851910c7",
  "articles": [
   {
    "id": "getting-started",
@@ -101,11 +101,11 @@
    "lead": "Cachly’s search and filtering tools let you zero in on exactly the caches you want — by difficulty, terrain, type, attributes and location — and save those criteria for reuse."
   },
   {
-   "id": "challenge-tools",
-   "title": "Challenge Tools",
+   "id": "counties-regions-delorme",
+   "title": "Counties/Regions & DeLorme",
    "section": "Cachly Pro",
-   "url": "challenge-tools.html",
-   "lead": "Chasing challenge caches? Cachly tracks your progress county by county and DeLorme page by page — with maps that show exactly where you still need a find."
+   "url": "counties-regions-delorme.html",
+   "lead": "Cachly tracks your progress county by county and DeLorme page by page — with maps that show exactly where you still need a find."
   },
   {
    "id": "dt-grid",

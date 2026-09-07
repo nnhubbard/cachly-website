@@ -42,7 +42,7 @@
       items: [
         { id: "cachly-pro", label: "Pro Overview", href: "cachly-pro.html", pro: true },
         { id: "offline-maps", label: "Offline Maps & Downloads", href: "offline-maps.html", pro: true },
-        { id: "challenge-tools", label: "Challenge Tools", href: "challenge-tools.html", pro: true },
+        { id: "counties-regions-delorme", label: "Counties/Regions & DeLorme", href: "counties-regions-delorme.html", pro: true },
         { id: "multi-user-logging", label: "Multi-User Logging", href: "multi-user-logging.html", pro: true },
         { id: "auto-load", label: "Auto Load Live Map", href: "auto-load.html", pro: true },
         { id: "osm-poi", label: "OSM POI Search", href: "osm-poi.html", pro: true },
