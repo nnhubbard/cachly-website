@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "1bb694905a",
+ "hash": "09055dd5ed",
  "articles": [
   {
    "id": "getting-started",
@@ -119,7 +119,7 @@
    "title": "Profile & Social",
    "section": "Organize & Search",
    "url": "profile.html",
-   "lead": "The profile area gathers your geocaching identity — your stats and finds, your friends, your souvenirs, notifications, and a look at your API usage."
+   "lead": "The profile area gathers your geocaching identity — your stats and finds, your friends, your souvenirs, messages, and a look at your storage and API usage."
   },
   {
    "id": "offline-maps",
