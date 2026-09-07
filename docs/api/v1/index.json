@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "09055dd5ed",
+ "hash": "0e8991b72d",
  "articles": [
   {
    "id": "getting-started",
@@ -126,7 +126,7 @@
    "title": "Offline Maps & Downloads",
    "section": "Cachly Pro",
    "url": "offline-maps.html",
-   "lead": "Offline maps let the base map render with no connection — the other half of caching off-grid (the first half being offline cache sets). Most offline map capabilities are part of Cachly Pro."
+   "lead": "Offline maps let the base map render with no connection — the other half of caching off-grid (the first half being offline lists). Most offline map capabilities are part of Cachly Pro."
   },
   {
    "id": "import-export",
