@@ -82,11 +82,49 @@
         <h1>Auto Load Live Map</h1>
         <p class="doc-lead">With Auto Load, the live map fills itself: pan or zoom and Cachly fetches the caches for the new area — no need to tap refresh.</p>
         <h2 id="how-it-works">How It Works</h2>
-        <p>Normally the Live map loads caches when you tap the <strong>refresh</strong> button in the <a href="map.html#map-controls">tool stack</a>. With <strong>Auto Load</strong> enabled, Cachly requests caches automatically whenever you move the map to a new area, so browsing a region feels continuous.</p>
+        <p>Normally the Live map loads caches only when you tap <strong>Reload Geocaches</strong> in the <a href="map.html#map-controls">tool stack</a>. With <strong>Auto Load</strong> on, Cachly watches the map instead: pan or zoom, pause for a moment, and it requests the caches for the area you&rsquo;re now looking at. Browsing a region becomes continuous &mdash; drag along a trail or across town and the pins keep filling in without another tap.</p>
+        <p>Auto Load is a <span class="pro-badge">PRO</span> feature and works on the Live map. It is not used on the <a href="dt-grid.html">D/T Grid</a> or <a href="counties-regions-delorme.html">Counties</a> maps.</p>
+
+        <h2 id="turning-it-on">Turning It On</h2>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/settings-auto-load.png" alt="Settings &amp;rsaquo; Cachly Pro &amp;mdash; Use Auto Load Caches, with the Show Adventure Labs rows that appear only while it is on." width="248"><figcaption>Settings &rsaquo; Cachly Pro &mdash; Use Auto Load Caches, with the Show Adventure Labs rows that appear only while it is on.</figcaption></figure>
+</div>
+        <p>Go to <span class="ui-path">More &rsaquo; Settings &rsaquo; Cachly Pro</span> and, under <strong>Automatically Load Caches</strong>, switch on <strong>Use Auto Load Caches</strong>. Two extra rows appear only while it is on:</p>
+        <ul>
+          <li><strong>Show Adventure Labs</strong> &mdash; include Adventure Lab caches in what auto-loads. Adventure Labs require a geocaching.com Premium membership (see <a href="map.html#adventure-labs">Adventure Labs on the map</a>).</li>
+          <li><strong>Show Adventure Labs Stages</strong> &mdash; load the individual stages of each Adventure as well as the parent. Turning off Show Adventure Labs turns this off too.</li>
+        </ul>
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128161;</span>
+          <div class="callout-body"><strong>Shortcut:</strong> long-press the <strong>Reload Geocaches</strong> button on the Live map to flip Auto Load without leaving the map. A brief <em>Auto-Load On</em> or <em>Auto-Load Off</em> message confirms the change; turning it on clears the map and loads the current area straight away.</div>
+        </div>
+
+        <h2 id="toolbar-icon">The Toolbar Icon</h2>
+<div class="shots">
+<figure class="shot" style="width:220px"><img loading="lazy" src="assets/screenshots/auto-load-toolbar-states.png" alt="The top tool-stack button, left to right: Auto Load off (refresh arrows), on (red play button) and loading (spinner). The X clear button stays visible while Auto Load is on." width="220"><figcaption>The top tool-stack button, left to right: Auto Load off (refresh arrows), on (red play button) and loading (spinner). The X clear button stays visible while Auto Load is on.</figcaption></figure>
+</div>
+        <p>You can always tell whether Auto Load is running from the top button of the tool stack. With Auto Load off it is the usual black <strong>refresh</strong> (circular arrows) icon. With Auto Load on it becomes a <strong>red play button</strong>, and while a load is in progress the play button is replaced by a <strong>spinner</strong> until the caches arrive. The <strong>X</strong> (clear map) button also stays visible above the stack the whole time Auto Load is on, so you can empty the map whenever you like.</p>
+        <p>While Auto Load is on, <em>tapping</em> the play button does nothing &mdash; loading is automatic &mdash; and long-pressing it turns Auto Load back off. If the map is zoomed out too far for a load (see below), the button dims to half strength as a hint to zoom in.</p>
+
+        <h2 id="when-it-loads">When Caches Load</h2>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/auto-load-map.jpg" alt="The Live map with Auto Load on &amp;mdash; caches fill in as you pan, and the red play button shows it is active." width="248"><figcaption>The Live map with Auto Load on &mdash; caches fill in as you pan, and the red play button shows it is active.</figcaption></figure>
+</div>
+        <p>Auto Load doesn&rsquo;t fire on every pixel of movement. A load happens when all of the following are true:</p>
+        <ul>
+          <li><strong>You&rsquo;re zoomed in far enough.</strong> The map must be at <strong>zoom level 12 or closer</strong> &mdash; roughly a view ten miles (15 km) across or smaller. Zoomed out beyond that, nothing loads and the play button dims; zoom back in and it resumes.</li>
+          <li><strong>The map has settled.</strong> Cachly waits <strong>0.8 seconds</strong> after your finger leaves the screen before requesting, so a long drag makes one request at the end rather than a stream of them along the way.</li>
+          <li><strong>The view actually changed.</strong> Either the zoom level changed, or the map center moved by more than about <strong>a quarter of the screen</strong> since the last load. Small nudges don&rsquo;t trigger anything, and a request never starts while another is still running.</li>
+        </ul>
+        <p>Each request covers the <strong>visible map area</strong> &mdash; your <a href="search.html#advanced-search">search radius</a> setting is not used while Auto Load is on &mdash; and asks for the number of caches set by <strong>Number of Caches</strong> under <span class="ui-path">Settings &rsaquo; Caches &amp; Waypoints &rsaquo; Live Search</span> (50 by default). Caches already on screen are excluded from the request so the new results are genuinely new, and the map is never cleared or re-zoomed by an auto-load: pins accumulate as you explore (the <strong>Clear Map On Refresh</strong> setting doesn&rsquo;t apply here). Auto Load fetches <strong>lite</strong> cache data unless you have turned on <strong>Full Cache Data</strong> in the same Live Search settings, which is noticeably slower.</p>
+        <p>Your <a href="search.html#advanced-search">live search filters</a> still apply, and the <em>Filtering On</em> banner still shows when they&rsquo;re active. Change a filter while Auto Load is on and Cachly clears the map and immediately reloads the visible area with the new criteria.</p>
+
+        <h2 id="carplay">Auto Load in CarPlay</h2>
+        <p><a href="carplay.html">CarPlay</a> <strong>always</strong> auto-loads on its Live map, whether or not the setting above is on. The rules are the same in spirit: the car map must be at zoom level 12 or closer (otherwise a <em>Zoom in to load</em> notice appears over the map), Cachly waits 0.8 seconds after the map stops moving, and a new load happens once the view has shifted by roughly 40% of the screen. Caches already shown are skipped, and CarPlay always loads lite data.</p>
 
         <div class="callout note">
           <span class="callout-icon" aria-hidden="true">&#8505;</span>
-          <div class="callout-body">Every load counts against your geocaching.com <a href="profile.html#usage">API limits</a> like a manual refresh does &mdash; Cachly loads lite cache data to keep usage light, but if you pan across a continent, expect it to add up.</div>
+          <div class="callout-body">Every automatic load counts against your geocaching.com <a href="profile.html#usage">API limits</a> just like a manual refresh does. Cachly loads lite cache data and skips caches it already has to keep usage light.</div>
         </div>
 
         <nav class="page-nav" id="page-nav"></nav>
