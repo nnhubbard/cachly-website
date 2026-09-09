@@ -82,6 +82,9 @@
         <h1>OpenStreetMap POI Search</h1>
         <p class="doc-lead">Find parking, trailheads, restrooms, viewpoints — any OpenStreetMap point of interest — right on Cachly’s map with a q: query, online or offline.</p>
         <h2 id="how-it-works">How It Works</h2>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/osm-poi-waterfalls.jpg" alt="A q:waterway=waterfall query drops a pin on every waterfall in the visible area; tapping one shows its name and coordinates." width="248"><figcaption>A q:waterway=waterfall query drops a pin on every waterfall in the visible area; tapping one shows its name and coordinates.</figcaption></figure>
+</div>
         <p>Geocaching is as much about the places around a cache as the cache itself &mdash; where to park, where the trail starts, whether there&rsquo;s a restroom or a picnic table nearby. With a <a href="offline-maps.html">Pro Offline Map</a> selected as your map source, the Live map&rsquo;s search field can query <strong>OpenStreetMap points of interest</strong> directly. Type <code>q:</code> followed by an OpenStreetMap tag expression, for example <code>q:amenity=parking</code>, and tap <strong>Search</strong> on the keyboard. Cachly searches the <strong>visible map area</strong>, reports how many results it found, and drops a pin for each one with the matching map icon (a P for parking, a picnic table, a viewpoint&hellip;).</p>
         <p>Queries use the <a href="https://wiki.openstreetmap.org/wiki/Overpass_turbo/Wizard" target="_blank" rel="noopener">Overpass turbo Wizard syntax</a>. In short:</p>
         <table>
@@ -103,6 +106,9 @@
         </div>
 
         <h2 id="poi-details">Viewing a POI</h2>
+<div class="shots">
+<figure class="shot"><img loading="lazy" src="assets/screenshots/osm-poi-toilets.jpg" alt="A q:amenity=toilets result: the callout shows the feature icon, its name or type and its coordinates, with the &amp;#8943; button for Tags, Create Offline Geocache, Navigate and Remove." width="248"><figcaption>A q:amenity=toilets result: the callout shows the feature icon, its name or type and its coordinates, with the &#8943; button for Tags, Create Offline Geocache, Navigate and Remove.</figcaption></figure>
+</div>
         <p>Tap a result pin to open its <strong>callout</strong>: the feature&rsquo;s icon, its name (or its feature type when it has no name) and its coordinates. The <strong>&#8943;</strong> button on the callout opens a menu:</p>
         <ul>
           <li><strong>Tags</strong> &mdash; opens a screen listing every OpenStreetMap tag on the feature as key and value pairs: opening hours, website, phone, fee, surface, wheelchair access, operator&hellip; whatever the mappers recorded. Long-press a row to copy its value.</li>
@@ -132,6 +138,7 @@
             <tr><td><code>q:man_made=survey_point</code></td><td>Survey markers &mdash; the benchmarks many cachers still hunt.</td></tr>
             <tr><td><code>q:bridge=* and type:way</code></td><td>Bridges, pinned at their midpoint &mdash; a favorite hiding place.</td></tr>
             <tr><td><code>q:name~"Park" and type:node</code></td><td>Named points with &ldquo;Park&rdquo; in the name; <code>~</code> is a regular-expression match.</td></tr>
+            <tr><td><code>q:waterway=waterfall</code></td><td>Waterfalls &mdash; scenic cache spots and worth the detour on their own.</td></tr>
             <tr><td><code>q:amenity=cafe</code></td><td>Coffee for afterward.</td></tr>
           </tbody>
         </table>
