@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "83a316fc02",
+ "hash": "a0e0459c69",
  "articles": [
   {
    "id": "getting-started",
@@ -133,7 +133,7 @@
    "title": "Import & Export",
    "section": "Offline & Data",
    "url": "import-export.html",
-   "lead": "Cachly speaks GPX, the standard geocaching exchange format, and integrates pocket queries — so you can bring caches in from other tools and take your data with you."
+   "lead": "Cachly supports importing and exporting GPX files, the standard geocaching exchange format, and integrates pocket queries — so you can bring caches in from other tools and take your data with you."
   },
   {
    "id": "sync-backup",
