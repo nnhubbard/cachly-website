@@ -82,7 +82,21 @@
         <h1>Sync &amp; Backup</h1>
         <p class="doc-lead">Cachly can sync your data across your devices and back it up to the cloud, so a new phone or a reinstall doesn&rsquo;t mean starting over.</p>
         <h2 id="icloud-sync">iCloud Sync</h2>
-        <p>With <strong>iCloud sync</strong> enabled, Cachly keeps your data in step across the iPhone and iPad signed into the same Apple&nbsp;ID &mdash; so lists, settings and more follow you from device to device.</p>
+        <p>Cachly uses iCloud for a specific, small set of data. When iCloud is turned on for Cachly (in the iOS <span class="ui-path">Settings &rsaquo; [your name] &rsaquo; iCloud</span> app list), these sync between your iPhone and iPad through the iCloud key-value store:</p>
+        <ul>
+          <li><strong>Highlights</strong> &mdash; which caches you&rsquo;ve <a href="search.html#highlights">highlighted</a> and in which color, plus your custom highlight color labels.</li>
+          <li><strong>Search history</strong> &mdash; the recent terms behind the clock icon in the map search field.</li>
+          <li><strong>Recently viewed caches</strong> &mdash; the history of cache pages you&rsquo;ve opened.</li>
+          <li><strong>Filter &amp; search templates</strong> &mdash; your saved <a href="search.html#templates">live search templates</a> (the template currently selected on each device stays local).</li>
+          <li><strong>Auto-Visit trackables</strong> &mdash; the trackables you&rsquo;ve marked to <a href="trackables.html#auto-visit">visit automatically</a>, kept per geocaching.com account.</li>
+          <li><strong>Adventure Lab finds</strong> &mdash; which Adventure Labs you&rsquo;ve marked as found.</li>
+        </ul>
+        <p>Photos attached to <a href="geocache-details.html#personal-notes">personal notes</a> are stored separately in <strong>iCloud Drive</strong>, so they need iCloud Drive enabled as well as iCloud for Cachly.</p>
+        <p>Everything else stays on the device: <strong>offline lists</strong> and the caches in them, <strong>pending logs</strong> and drafts, found-but-not-logged checkmarks, <strong>settings</strong>, <strong>text templates</strong> and <strong>offline maps</strong> are not synced. To move those to another device, use a <a href="#backups">backup</a> or the <a href="#database-file">database file</a>.</p>
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#8505;</span>
+          <div class="callout-body">Highlights live in iCloud, so if iCloud is off for Cachly they won&rsquo;t be saved or synced and Cachly warns you. If they ever look out of date on one device, use <strong>Manually Sync Highlights</strong> under <a href="settings.html#highlighting">Settings &rsaquo; Highlighting</a>. iCloud imposes a size limit on this kind of data; if you ever hit it, new highlights still save on the current device but stop syncing.</div>
+        </div>
 
         <h2 id="backups">Backups &amp; Restore</h2>
         <p>Cachly can create <strong>backups</strong> of your data to the cloud. The <strong>Backups</strong> screen lists your backups so you can restore one &mdash; invaluable when moving to a new device or recovering after a reinstall. You can browse the underlying iCloud documents from the <strong>iCloud files</strong> screen.</p>
