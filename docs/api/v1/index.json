@@ -1,6 +1,6 @@
 {
  "version": 1,
- "hash": "38851910c7",
+ "hash": "07403ac6dc",
  "articles": [
   {
    "id": "getting-started",
@@ -42,7 +42,7 @@
    "title": "OSM POI Search",
    "section": "Cachly Pro",
    "url": "osm-poi.html",
-   "lead": "Find parking, bus stops, viewpoints — any OpenStreetMap point of interest — right on Cachly’s map with a q: query."
+   "lead": "Find parking, trailheads, restrooms, viewpoints — any OpenStreetMap point of interest — right on Cachly’s map with a q: query, online or offline."
   },
   {
    "id": "map",
