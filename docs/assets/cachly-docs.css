@@ -539,6 +539,9 @@ details.changelog p {
   border-bottom-color: var(--border-strong);
 }
 .doc-content tr:last-child td { border-bottom: none; }
+.doc-content td ul.cell-list { margin: 0; padding-left: 18px; }
+.doc-content td ul.cell-list li { margin: 0 0 6px; }
+.doc-content td ul.cell-list li:last-child { margin-bottom: 0; }
 .doc-content table { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
 
 /* ---------- Cards (home) ---------------------------------------------- */
