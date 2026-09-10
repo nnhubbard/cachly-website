@@ -212,6 +212,102 @@
     });
   }
 
+  /* ----- Translate (Google Translate) --------------------------------- */
+  // Languages Cachly itself is localized into (Xcode knownRegions), using
+  // Google Translate language codes.  English is listed first as the way back
+  // to the original page.
+  const LANGS = [
+    ["en", "English", "Original"],
+    ["ca", "Català", "Catalan"],
+    ["cs", "Čeština", "Czech"],
+    ["da", "Dansk", "Danish"],
+    ["de", "Deutsch", "German"],
+    ["es", "Español", "Spanish"],
+    ["fr", "Français", "French"],
+    ["is", "Íslenska", "Icelandic"],
+    ["it", "Italiano", "Italian"],
+    ["nl", "Nederlands", "Dutch"],
+    ["no", "Norsk", "Norwegian"],
+    ["pl", "Polski", "Polish"],
+    ["pt-PT", "Português", "Portuguese"],
+    ["sk", "Slovenčina", "Slovak"],
+    ["sv", "Svenska", "Swedish"],
+    ["ja", "日本語", "Japanese"],
+    ["ko", "한국어", "Korean"],
+  ];
+  function wireTranslate() {
+    const wrap = document.querySelector(".translate-wrap");
+    const btn = wrap && wrap.querySelector(".translate-toggle");
+    if (!wrap || !btn) return;
+
+    // Always translate the canonical public URL so this works from the
+    // translate.goog proxy too (and doesn't nest proxies).
+    const canon = document.querySelector('link[rel="canonical"]');
+    let original;
+    try { original = new URL(canon ? canon.href : location.href); } catch (e) { original = new URL(location.href); }
+    if (location.hash) original.hash = location.hash;
+
+    // Language we're currently being shown in, if we're on the proxy.
+    const params = new URLSearchParams(location.search);
+    const current = location.hostname.endsWith(".translate.goog") ? (params.get("_x_tr_tl") || "") : "en";
+
+    function urlFor(code) {
+      if (code === "en") return original.href;
+      // Google's proxy form: www.cachly.com -> www-cachly-com.translate.goog
+      if (original.protocol === "https:" && original.hostname !== "localhost") {
+        const host = original.hostname.replace(/-/g, "--").replace(/\./g, "-") + ".translate.goog";
+        const u = new URL(original.href);
+        u.hostname = host;
+        u.searchParams.set("_x_tr_sl", "en");
+        u.searchParams.set("_x_tr_tl", code);
+        u.searchParams.set("_x_tr_hl", "en");
+        u.searchParams.set("_x_tr_pto", "wapp");
+        return u.href;
+      }
+      return "https://translate.google.com/translate?sl=en&tl=" + encodeURIComponent(code) + "&u=" + encodeURIComponent(original.href);
+    }
+
+    const pop = el("div", "translate-pop");
+    pop.setAttribute("role", "menu");
+    pop.hidden = true;
+    pop.appendChild(el("div", "translate-pop-title", "Translate this page"));
+    LANGS.forEach(([code, native, english]) => {
+      const a = el("a", "translate-item" + (code === current ? " is-current" : ""));
+      a.href = urlFor(code);
+      a.setAttribute("role", "menuitem");
+      a.setAttribute("lang", code);
+      a.appendChild(el("span", "translate-native", native));
+      const en = el("span", "translate-en", english);
+      en.setAttribute("lang", "en");
+      a.appendChild(en);
+      pop.appendChild(a);
+    });
+    pop.appendChild(el("div", "translate-foot", "Powered by Google Translate"));
+    wrap.appendChild(pop);
+
+    const setOpen = (open) => {
+      pop.hidden = !open;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      if (open) {
+        const first = pop.querySelector(".translate-item.is-current") || pop.querySelector(".translate-item");
+        if (first) first.focus();
+      }
+    };
+    btn.addEventListener("click", (e) => { e.stopPropagation(); setOpen(pop.hidden); });
+    document.addEventListener("click", (e) => { if (!pop.hidden && !wrap.contains(e.target)) setOpen(false); });
+    document.addEventListener("keydown", (e) => {
+      if (pop.hidden) return;
+      if (e.key === "Escape") { setOpen(false); btn.focus(); return; }
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        const items = Array.from(pop.querySelectorAll(".translate-item"));
+        const i = items.indexOf(document.activeElement);
+        const n = e.key === "ArrowDown" ? (i + 1) % items.length : (i - 1 + items.length) % items.length;
+        items[n].focus();
+        e.preventDefault();
+      }
+    });
+  }
+
   /* ----- Search -------------------------------------------------------- */
   function wireSearch() {
     const overlay = document.getElementById("search-overlay");
@@ -367,6 +463,7 @@
     buildPageNav();
     buildTOC();
     wireDrawer();
+    wireTranslate();
     wireSearch();
     document.body.classList.add("docs-ready");
     correctHashScroll(false);
