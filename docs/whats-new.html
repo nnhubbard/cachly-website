@@ -83,11 +83,32 @@
       <article class="doc-article">
         <div class="breadcrumb"><a href="index.html">Docs</a> &rsaquo; What&rsquo;s New</div>
         <h1>What&rsquo;s New</h1>
-        <p class="doc-lead">The current version of Cachly is 8.2.3, released September 11, 2026. Here&rsquo;s what&rsquo;s new, what earlier releases brought, and what&rsquo;s coming next in Cachly 8.3.</p>
+        <p class="doc-lead">The current version of Cachly is 8.2.4, released September 24, 2026. Here&rsquo;s what&rsquo;s new, what earlier releases brought, and what&rsquo;s coming next in Cachly 8.3.</p>
 <h2 id="coming-soon">Coming Soon</h2>
         <p>Next up for Cachly:</p>
         <ul>
             <li><strong>Cachly 8.3</strong> &mdash; Track Recording &amp; HealthKit integration.</li>
+        </ul>
+
+        <h2 id="v8-2-4">Cachly 8.2.4 <span class="version-badge">September 24, 2026</span></h2>
+        <p>A maintenance release with a new offline list description field and a round of bug fixes.</p>
+        <h3>New</h3>
+        <ul>
+            <li>Offline lists now have a description field.</li>
+        </ul>
+        <h3>Fixes</h3>
+        <ul>
+            <li>Fixed a crash on launch when updating a large database.</li>
+            <li>The Filter By screen for logs now offers every log type.</li>
+            <li>Cachly Intelligence now inserts generated log text at the cursor instead of appending it to the end.</li>
+            <li>Uploading corrected coordinates from a GPX import now resumes after the API limit countdown instead of showing Download Failed.</li>
+            <li>A personal note longer than 2,500 characters is now truncated during a GPX import instead of stopping the whole upload.</li>
+            <li>The email subject is no longer blank when sharing a Pending Logs .txt file in Apple Mail.</li>
+            <li>Proximity alerts for non-target caches now play the short default sound.</li>
+            <li>Multi-User keywords for other users no longer use the primary user&rsquo;s info.</li>
+            <li>The Google Maps scale bar is no longer hidden behind the tab bar on iOS 26.</li>
+            <li>Fixed the status bar showing black text instead of white.</li>
+            <li>Updated translations.</li>
         </ul>
 
         <h2 id="v8-2-3">Cachly 8.2.3 <span class="version-badge">September 11, 2026</span></h2>
@@ -173,7 +194,28 @@
         <p>Cachly 8.0 introduced <a href="/pro/">Cachly Pro</a>, the optional subscription with worldwide offline vector maps (contours, hillshade, trails, POI, 3D buildings), live cache loading, county and region tracking, the DeLorme Grid, and OSM POI search. Read the full announcement: <a href="https://cachly.medium.com/cachly-8-0-4e63b7233940" target="_blank" rel="noopener">Cachly 8.0</a>.</p>
 
         <h2 id="older">Full Version History</h2>
-        <p>The official App Store release notes for every version of Cachly &mdash; all 145 releases, back to Cachly 1.0.1 in December 2015.</p>
+        <p>The official App Store release notes for every version of Cachly &mdash; all 146 releases, back to Cachly 1.0.1 in December 2015.</p>
+            <details class="changelog">
+                <summary>Cachly 8.2.4 <span class="changelog-count">September 24, 2026</span></summary>
+                <h4>New</h4>
+                <ul>
+                    <li>Offline Lists: Added a description field to offline lists</li>
+                </ul>
+                <h4>Bug Fixes</h4>
+                <ul>
+                    <li>Fixed a crash on launch when updating a large database</li>
+                    <li>Logs: The Filter By screen now offers every log type</li>
+                    <li>Cachly Intelligence: Generated log text is now inserted at the cursor instead of appended to the end</li>
+                    <li>Import GPX: Uploading corrected coordinates now resumes after the API limit countdown instead of showing Download Failed</li>
+                    <li>Import GPX: A personal note longer than 2,500 characters is now truncated instead of stopping the whole upload</li>
+                    <li>Pending Logs: The email subject is no longer blank when sharing a .txt file in Apple Mail</li>
+                    <li>Proximity Alerts: Non-target caches now play the short default sound</li>
+                    <li>Multi-User: Keywords for other users no longer use the primary user&rsquo;s info</li>
+                    <li>Google Maps: The scale bar is no longer hidden behind the tab bar on iOS 26</li>
+                    <li>Fixed the status bar showing black text instead of white</li>
+                    <li>Updated translations</li>
+                </ul>
+            </details>
             <details class="changelog">
                 <summary>Cachly 8.2.3 <span class="changelog-count">September 11, 2026</span></summary>
                 <h4>Bug Fixes</h4>
