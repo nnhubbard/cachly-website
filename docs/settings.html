@@ -88,7 +88,7 @@
 <div class="shots">
 <figure class="shot"><img loading="lazy" src="assets/screenshots/settings-main.png" alt="The Settings root screen with its twelve categories plus Manage Subscriptions and Restore Purchases." width="248"><figcaption>The Settings root screen with its twelve categories plus Manage Subscriptions and Restore Purchases.</figcaption></figure>
 </div>
-        <p>The Settings root screen lists twelve categories: <strong>Cachly Pro</strong>, <strong>Users</strong>, <strong>General</strong>, <strong>Map Options &amp; Navigation</strong>, <strong>Caches &amp; Waypoints</strong>, <strong>Logs</strong>, <strong>Templates</strong>, <strong>Proximity Alert</strong>, <strong>Trackables</strong>, <strong>Highlighting</strong>, <strong>Imports &amp; Pocket Queries</strong> and <strong>Dark Mode</strong>. Each is covered below.</p>
+        <p>The Settings root screen lists thirteen categories: <strong>Cachly Pro</strong>, <strong>Users</strong>, <strong>General</strong>, <strong>Map Options &amp; Navigation</strong>, <strong>Caches &amp; Waypoints</strong>, <strong>Logs</strong>, <strong>Templates</strong>, <strong>Proximity Alert</strong>, <strong>Trackables</strong>, <strong>Highlighting</strong>, <strong>Imports &amp; Pocket Queries</strong>, <strong>Project-GC</strong> and <strong>Dark Mode</strong>. Each is covered below.</p>
         <p>Beneath the categories are <strong>Manage Subscriptions</strong> (opens your Apple&nbsp;ID subscription management) and <strong>Restore Purchases</strong>, which re-activates a <a href="cachly-pro.html#restore">Cachly Pro</a> subscription after a reinstall or on a new device.</p>
         <p>Below those is <strong>Remove State Restoration Data</strong>. Cachly remembers which screens you had open &mdash; the cache, list or search you were looking at &mdash; so it can put you back there when you relaunch. If the app keeps reopening to a screen you don&rsquo;t want, or something goes wrong on launch, tap this row and confirm <strong>Remove</strong> to clear that saved state; the next launch starts fresh on the main tabs. Your caches, lists, logs and settings are not affected.</p>
 
@@ -206,6 +206,13 @@
           <li><strong>GSAK</strong> &mdash; <strong>User Flag Sets Highlight</strong> highlights caches whose GSAK user flag is set.</li>
           <li><strong>Adventure Lab</strong> &mdash; <strong>Show Import Icon</strong> distinguishes imported Adventure Labs from API-loaded ones.</li>
           <li><strong>Pocket Queries</strong> &mdash; <strong>Import Using Full Data</strong> brings in personal notes and corrected coordinates; turn it off for a faster GPX-only import.</li>
+        </ul>
+
+        <h2 id="project-gc">Project-GC</h2>
+        <p>Credentials and options for the <a href="geocache-details.html#project-gc-checker">Project-GC Challenge Checker</a>, which runs a challenge cache&rsquo;s checker from its Description screen. Project-GC integration requires a <strong>Project-GC Plus</strong> membership.</p>
+        <ul>
+          <li><strong>User ID</strong> and <strong>Access Token</strong> &mdash; copy both from your account page at <a href="https://project-gc.com/User/Settings" target="_blank" rel="noopener">project-gc.com/User/Settings</a> (the link in the section footer opens it). The user ID is a number; the token is the long string shown on that page. Cachly quietly checks the connection after each one is entered and warns you with <strong>Project-GC Plus Required</strong> if the account has no Plus membership. Once both are saved, <strong>Verify Connection</strong> tests them again on demand and <strong>Remove Credentials</strong> deletes them.</li>
+          <li><strong>Challenge Checker</strong> &mdash; <strong>Example Log</strong> (on by default) asks the checker to also return an example log to post when you qualify; checkers finish sooner without it, so turn it off if you will not use it. <strong>Add Corrected Coordinates</strong> (off by default) sets a cache&rsquo;s posted coordinates as its corrected coordinates when the checker says you qualify, so the cache shows as solved; if the cache has a Final Location waypoint you choose which coordinates to use. Only the posted coordinates are used &mdash; the description is not checked for other coordinates.</li>
         </ul>
 
         <h2 id="dark-mode">Dark Mode</h2>
