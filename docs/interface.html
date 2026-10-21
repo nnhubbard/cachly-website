@@ -137,6 +137,31 @@
         <h2 id="adaptive">iPad</h2>
         <p>On iPad, Cachly runs full-screen with the same interface as on iPhone, giving the map, lists and cache details more room, and it works alongside other apps with iPadOS multitasking. See <a href="ipad.html">iPad</a>.</p>
 
+        <h2 id="url-scheme">Opening Cachly from Other Apps (URL Scheme)</h2>
+        <p>Cachly registers the <code>cachly://</code> URL scheme, so any app that can open a link &mdash; Shortcuts, Notes, Reminders, a spreadsheet, an NFC-tag automation, a launcher app or another geocaching tool &mdash; can launch Cachly or jump straight to a specific cache.</p>
+        <table>
+          <thead><tr><th>URL</th><th>What it does</th></tr></thead>
+          <tbody>
+            <tr><td><code>cachly://</code></td><td>Opens Cachly (or brings it to the front) exactly where you left it. Nothing else happens.</td></tr>
+            <tr><td><code>cachly://gccode=GC18</code></td><td>Opens the cache page for that GC code as a card over whatever is on screen. Replace <code>GC18</code> with any GC code; case doesn&rsquo;t matter.</td></tr>
+          </tbody>
+        </table>
+        <p>When you open a cache this way, Cachly first looks for it in your <a href="lists.html">offline lists</a>. If it finds a saved copy, that copy opens instantly and works without a connection. Otherwise Cachly fetches the cache live from geocaching.com, so you need to be online and the GC code has to exist. Swipe the card down or tap <strong>Done</strong> to return to where you were.</p>
+        <div class="callout note">
+          <span class="callout-icon" aria-hidden="true">&#9432;</span>
+          <div class="callout-body">You must be signed in to geocaching.com for the <code>gccode</code> link to work; before sign-in, any <code>cachly://</code> link simply opens the app. Only GC codes are accepted &mdash; Adventure Lab and other non-GC identifiers are ignored. Any other parameters in the URL are ignored too.</div>
+        </div>
+        <h3>Example: a Shortcut that opens a cache</h3>
+        <ol>
+          <li>In the <strong>Shortcuts</strong> app, create a new shortcut and add the <strong>Open URLs</strong> action.</li>
+          <li>Enter <code>cachly://gccode=</code> followed by the GC code (or an <strong>Ask Each Time</strong> variable so the shortcut prompts you for the code).</li>
+          <li>Run it from the Shortcuts widget, Siri, the Action button, or an NFC tag automation. A tag on your geocaching bag could open the cache you&rsquo;re currently working on.</li>
+        </ol>
+        <div class="callout tip">
+          <span class="callout-icon" aria-hidden="true">&#128161;</span>
+          <div class="callout-body">You don&rsquo;t need the URL scheme for ordinary geocaching.com or coord.info links: copy one and Cachly offers to open the cache the next time it comes to the front (see <a href="settings.html#general">Detect Geocache Links</a>), or paste it into the Live tab <a href="search.html">search field</a>. The <code>cachly://</code> scheme is for automation, where there is no web link to copy.</div>
+        </div>
+
         <nav class="page-nav" id="page-nav"></nav>
         <div class="feedback-box">
           <div class="feedback-text"><strong>Spotted a problem, or have an idea?</strong> Bug reports and feature requests are tracked on GitHub.</div>
