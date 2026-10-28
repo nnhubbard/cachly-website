@@ -164,7 +164,7 @@
         <h2 id="logs">Logs</h2>
         <p>Defaults for <a href="logging.html">writing logs</a>:</p>
         <ul>
-          <li><strong>Logging Defaults</strong> &mdash; choose whether new logs default to <strong>Send Log Now</strong> or <strong>Save as Draft</strong>, and set the default <strong>Log Type</strong>.</li>
+          <li><strong>Logging Defaults</strong> &mdash; choose whether new logs default to <strong>Send Log Now</strong> or <strong>Save as Draft</strong>, set the default <strong>Log Type</strong>, and edit the <strong>Photo Description</strong> that every photo attached to a log gets when you don&rsquo;t write your own. Clear the text to attach photos with no description, or tap <strong>Reset</strong> to restore the standard &ldquo;Log photo uploaded using Cachly&rdquo;.</li>
           <li><strong>Display</strong> &mdash; <strong>Recent Logs Use Smilies</strong> shows smiley/frown icons instead of colored dots in cache details.</li>
         </ul>
 
@@ -175,14 +175,20 @@
 <div class="shots">
 <figure class="shot"><img loading="lazy" src="assets/screenshots/settings-proximity.png" alt="Proximity Alert settings with per-context enable toggles, trigger distance and centering options." width="248"><figcaption>Proximity Alert settings with per-context enable toggles, trigger distance and centering options.</figcaption></figure>
 </div>
-        <p>Cachly can play an audio alert and post a notification as you near a cache, so your phone can stay pocketed on the approach:</p>
+        <p>Cachly posts a notification with a sound as you come within the alert distance of a cache, so your phone can stay pocketed on the approach. It works on three screens, each with its own switch: the <strong>Live</strong> tab, an <strong>Offline List</strong> map, and the <strong>Navigate to Cache</strong> screen. While the alert is on, the proximity button on the map turns red and a circle shows the alert radius. Each cache alerts once; it can alert again after you move at least twice the alert distance away from it. Mystery caches without corrected coordinates are skipped unless they are the cache you are navigating to.</p>
         <ul>
           <li><strong>Enable Proximity Alert</strong> &mdash; separately for the <strong>Live</strong> tab, <strong>Offline Lists</strong> and <strong>Navigate to Cache</strong>.</li>
           <li><strong>Proximity Distance</strong> &mdash; the trigger radius (in feet).</li>
-          <li><strong>Proximity Centering</strong> &mdash; center the radius on your <strong>Current User Location</strong> or the <strong>Current Target</strong> (used when navigating to a cache).</li>
-          <li><strong>Options</strong> &mdash; <strong>Include My Finds</strong>, <strong>Include My Hides</strong>, <strong>Hint in Notification</strong>, and <strong>Notify For All Caches</strong> (alert for nearby caches, not just the target).</li>
-          <li><strong>Notification Sound</strong> &mdash; pick the alert sound.</li>
+          <li><strong>Proximity Centering</strong> &mdash; center the radius on your <strong>Current User Location</strong> or the <strong>Current Target</strong> (used when navigating to a cache). Centering on the target alerts only for the target.</li>
+          <li><strong>Options</strong> &mdash; <strong>Include My Finds</strong>, <strong>Include My Hides</strong>, <strong>Hint in Notification</strong>, and <strong>Notify For All Caches</strong>. The last one applies when navigating: on, you are also told about other caches you pass; off, only the target alerts. The Live tab and Offline List maps always alert for every cache.</li>
+          <li><strong>Notification Sound</strong> &mdash; pick the sound for the target alert (see below). <strong>Default</strong> is Cachly&rsquo;s own beeping tone, not the iOS notification sound.</li>
           <li><strong>Show in Map Toolbar</strong> &mdash; turn this off to remove the <a href="map.html#map-controls">Proximity Alert button</a> from the toolbar on every map. Alerts still fire as configured above; the button is only a shortcut to this screen.</li>
+        </ul>
+        <h3 id="proximity-sounds">Which sound plays</h3>
+        <p>Two sounds are used, so you can tell the two kinds of alert apart without looking at the phone:</p>
+        <ul>
+          <li><strong>Your chosen sound</strong> plays only when you reach the cache or waypoint you are navigating to on the Navigate to Cache screen. Its notification says <strong>Target</strong>.</li>
+          <li><strong>The short iOS notification sound</strong> plays for everything else: a cache you pass while navigating, and every cache on the Live tab or an Offline List map, where there is no target.</li>
         </ul>
         <div class="callout tip">
           <span class="callout-icon" aria-hidden="true">&#128276;</span>
