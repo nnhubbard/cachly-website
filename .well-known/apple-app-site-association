@@ -2,17 +2,73 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["363P2XP5Q3.com.zedsaid.geocaching", "W5MUA6S7P7.com.zedsaid.geocaching"],
+        "appIDs": [
+          "363P2XP5Q3.com.zedsaid.geocaching",
+          "W5MUA6S7P7.com.zedsaid.geocaching"
+        ],
         "components": [
           {
             "/": "/",
-            "?": { "gccode": "?*" },
-            "comment": "Homepage with ?gccode=GC... opens that cache in Cachly"
+            "?": {
+              "gccode": "?*"
+            },
+            "comment": "Homepage with ?gccode= opens that cache in Cachly"
           },
           {
             "/": "/",
-            "?": { "query": "?*" },
-            "comment": "Homepage with ?query=... runs that search in Cachly"
+            "?": {
+              "tbcode": "?*"
+            },
+            "comment": "Homepage with ?tbcode= opens that trackable in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "user": "?*"
+            },
+            "comment": "Homepage with ?user= opens that user's profile in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "list": "?*"
+            },
+            "comment": "Homepage with ?list= opens that bookmark or shared list in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "search": "?*"
+            },
+            "comment": "Homepage with ?search= runs that search on the Live tab in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "query": "?*"
+            },
+            "comment": "Homepage with ?query= alias of search in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "coordinates": "?*"
+            },
+            "comment": "Homepage with ?coordinates= searches at those coordinates (lat,lon) in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "coords": "?*"
+            },
+            "comment": "Homepage with ?coords= alias of coordinates in Cachly"
+          },
+          {
+            "/": "/",
+            "?": {
+              "ll": "?*"
+            },
+            "comment": "Homepage with ?ll= alias of coordinates in Cachly"
           }
         ]
       }
