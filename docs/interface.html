@@ -137,23 +137,20 @@
         <h2 id="adaptive">iPad</h2>
         <p>On iPad, Cachly runs full-screen with the same interface as on iPhone, giving the map, lists and cache details more room, and it works alongside other apps with iPadOS multitasking. See <a href="ipad.html">iPad</a>.</p>
 
-        <h2 id="url-scheme">Opening Cachly from Other Apps and Links</h2>
-        <p>Cachly registers the <code>cachly://</code> URL scheme, so any app that can open a link &mdash; Shortcuts, Notes, Reminders, a spreadsheet, an NFC-tag automation, a launcher app or another geocaching tool &mdash; can launch Cachly, jump straight to a specific cache, or run a search. Ordinary web links to <code>www.cachly.com</code> that carry the same parameters open Cachly too, which makes them safe to share: a friend without Cachly simply lands on the website.</p>
+        <h2 id="url-scheme">Opening Cachly from Other Apps (URL Scheme)</h2>
+        <p>Cachly registers the <code>cachly://</code> URL scheme, so any app that can open a link &mdash; Shortcuts, Notes, Reminders, a spreadsheet, an NFC-tag automation, a launcher app or another geocaching tool &mdash; can launch Cachly or jump straight to a specific cache.</p>
         <table>
           <thead><tr><th>URL</th><th>What it does</th></tr></thead>
           <tbody>
             <tr><td><code>cachly://</code></td><td>Opens Cachly (or brings it to the front) exactly where you left it. Nothing else happens.</td></tr>
-            <tr><td><code>cachly://gccode=GC18</code><br><code>https://www.cachly.com/?gccode=GC18</code></td><td>Opens the cache page for that GC code as a card over whatever is on screen. Replace <code>GC18</code> with any GC code; case doesn&rsquo;t matter.</td></tr>
-            <tr><td><code>cachly://query=Golden%20Gate%20Park</code><br><code>https://www.cachly.com/?query=Golden%20Gate%20Park</code></td><td>Switches to the Search tab and runs the text through the map&rsquo;s search bar, exactly as if you had typed it &mdash; a place name, an address, coordinates, a GC code, a comma-separated list of GC codes or a <code>q:</code> query all work. Spaces must be written as <code>%20</code>.</td></tr>
+            <tr><td><code>cachly://gccode=GC18</code></td><td>Opens the cache page for that GC code as a card over whatever is on screen. Replace <code>GC18</code> with any GC code; case doesn&rsquo;t matter.</td></tr>
           </tbody>
         </table>
         <p>When you open a cache this way, Cachly first looks for it in your <a href="lists.html">offline lists</a>. If it finds a saved copy, that copy opens instantly and works without a connection. Otherwise Cachly fetches the cache live from geocaching.com, so you need to be online and the GC code has to exist. Swipe the card down or tap <strong>Done</strong> to return to where you were.</p>
         <div class="callout note">
           <span class="callout-icon" aria-hidden="true">&#9432;</span>
-          <div class="callout-body">You must be signed in to geocaching.com for these links to do anything; before sign-in they simply open the app. Only GC codes are accepted for <code>gccode</code> &mdash; Adventure Lab and other non-GC identifiers are ignored. Any other parameters in the URL are ignored too.</div>
+          <div class="callout-body">You must be signed in to geocaching.com for the <code>gccode</code> link to work; before sign-in, any <code>cachly://</code> link simply opens the app. Only GC codes are accepted &mdash; Adventure Lab and other non-GC identifiers are ignored. Any other parameters in the URL are ignored too.</div>
         </div>
-        <h3>How web links behave</h3>
-        <p>A <code>www.cachly.com</code> link opens in Cachly only when it is <em>tapped</em> in another app &mdash; Messages, Mail, Notes, a forum post, a calendar entry &mdash; and only when it includes <code>gccode</code> or <code>query</code>. Plain <code>https://www.cachly.com</code> always opens the website. Typing the address into Safari, or tapping the link while you are already browsing cachly.com, also stays in Safari; in that case touch and hold the link and choose <strong>Open in Cachly</strong>. iOS remembers that choice for future links.</p>
         <h3>Example: a Shortcut that opens a cache</h3>
         <ol>
           <li>In the <strong>Shortcuts</strong> app, create a new shortcut and add the <strong>Open URLs</strong> action.</li>
