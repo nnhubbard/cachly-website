@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["W5MUA6S7P7.com.zedsaid.geocaching"],
+        "components": [
+          {
+            "/": "/",
+            "?": { "gccode": "*" },
+            "comment": "Homepage with ?gccode=GC... opens that cache in Cachly"
+          },
+          {
+            "/": "/",
+            "?": { "query": "*" },
+            "comment": "Homepage with ?query=... runs that search in Cachly"
+          }
+        ]
+      }
+    ]
+  }
+}
