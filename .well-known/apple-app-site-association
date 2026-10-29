@@ -6,12 +6,12 @@
         "components": [
           {
             "/": "/",
-            "?": { "gccode": "*" },
+            "?": { "gccode": "?*" },
             "comment": "Homepage with ?gccode=GC... opens that cache in Cachly"
           },
           {
             "/": "/",
-            "?": { "query": "*" },
+            "?": { "query": "?*" },
             "comment": "Homepage with ?query=... runs that search in Cachly"
           }
         ]
